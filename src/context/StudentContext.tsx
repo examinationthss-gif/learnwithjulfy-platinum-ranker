@@ -29,6 +29,8 @@ import {
 import { XP_RULES, getLevel, getLevelProgress } from "@/lib/xpEngine";
 import { Badge, BADGE_MAP } from "@/lib/badgeEngine";
 
+import { useAuth } from "./AuthContext";
+
 interface StudentState {
   profile: StudentProfile | null;
   totalXP: number;
@@ -82,6 +84,7 @@ function loadState(): StudentState {
 }
 
 export function StudentProvider({ children }: { children: React.ReactNode }) {
+  const { syncLocalToCloud } = useAuth();
   const [state, setState] = useState<StudentState>(() => ({
     profile: null,
     totalXP: 0,
@@ -140,13 +143,15 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
     const lang = typeof window !== "undefined" ? localStorage.getItem(STORAGE_KEYS.LANGUAGE) : null;
     if (lang === "as") awardBadge("bilingual_scholar");
     refreshStats();
-  }, [refreshStats]);
+    syncLocalToCloud();
+  }, [refreshStats, syncLocalToCloud]);
 
   const awardXP = useCallback((action: keyof typeof XP_RULES, meta?: string) => {
     const xp = XP_RULES[action];
     addXPEntry({ action, xp, date: new Date().toISOString(), meta });
     refreshStats();
-  }, [refreshStats]);
+    syncLocalToCloud();
+  }, [refreshStats, syncLocalToCloud]);
 
   const checkAndAwardBadges = useCallback(() => {
     const currentStats = {
@@ -219,10 +224,11 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
         ...loadState(),
         recentlyEarnedBadge: BADGE_MAP[latestNewBadge!],
       }));
+      syncLocalToCloud();
     } else {
       refreshStats();
     }
-  }, [refreshStats]);
+  }, [refreshStats, syncLocalToCloud]);
 
   const dismissBadgeToast = useCallback(() => {
     setState((prev) => ({ ...prev, recentlyEarnedBadge: null }));
