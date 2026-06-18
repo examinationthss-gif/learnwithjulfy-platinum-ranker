@@ -11,6 +11,9 @@ export default function SignupPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
+  const [mobile, setMobile] = useState("");
+  const [school, setSchool] = useState("");
+  const [district, setDistrict] = useState("Kamrup");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -32,11 +35,14 @@ export default function SignupPage() {
       if (signupError) throw signupError;
 
       if (data?.user) {
-        // Upsert default profile configurations
+        // Upsert default profile configurations with mobile, school, district
         await supabase.from("profiles").upsert({
           id: data.user.id,
           name: name,
           avatar: "🎓",
+          mobile: mobile,
+          school: school,
+          district: district,
         });
 
         // Navigate to dashboard onboarding
@@ -86,6 +92,47 @@ export default function SignupPage() {
                 placeholder="Nayanmoni Nath"
               />
             </div>
+          </div>
+
+          <div>
+            <label className="block text-xs font-bold text-muted-foreground uppercase mb-1">Mobile Number</label>
+            <div className="relative">
+              <input
+                type="tel"
+                required
+                value={mobile}
+                onChange={(e) => setMobile(e.target.value)}
+                className="w-full rounded-xl border border-border bg-transparent py-2.5 px-3 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                placeholder="9876543210"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label className="block text-xs font-bold text-muted-foreground uppercase mb-1">School Name</label>
+            <div className="relative">
+              <input
+                type="text"
+                required
+                value={school}
+                onChange={(e) => setSchool(e.target.value)}
+                className="w-full rounded-xl border border-border bg-transparent py-2.5 px-3 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                placeholder="Guwahati Senior Secondary School"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label className="block text-xs font-bold text-muted-foreground uppercase mb-1">District</label>
+            <select
+              value={district}
+              onChange={(e) => setDistrict(e.target.value)}
+              className="w-full rounded-xl border border-border bg-transparent py-2.5 px-3 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-indigo-500 bg-card"
+            >
+              {["Kamrup", "Jorhat", "Dibrugarh", "Nagaon", "Cachar", "Sonitpur", "Sivasagar"].map((d) => (
+                <option key={d} value={d} className="bg-card text-foreground">{d}</option>
+              ))}
+            </select>
           </div>
 
           <div>

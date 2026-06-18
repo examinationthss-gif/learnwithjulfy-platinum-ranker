@@ -51,6 +51,9 @@ export interface StudentProfile {
   avatar: string; // emoji
   joinDate: string; // ISO date string
   hasOnboarded: boolean;
+  mobile?: string;
+  school?: string;
+  district?: string;
 }
 
 export function getStudentProfile(): StudentProfile | null {

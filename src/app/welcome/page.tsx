@@ -18,9 +18,12 @@ const AVATARS = [
   { emoji: "🦁", label: "Brave" },
 ];
 
+import { useAuth } from "@/context/AuthContext";
+
 export default function WelcomePage() {
   const router = useRouter();
   const { profile, createProfile } = useStudent();
+  const { user } = useAuth();
   const [name, setName] = useState("");
   const [selectedAvatar, setSelectedAvatar] = useState("🎓");
   const [mounted, setMounted] = useState(false);
@@ -29,7 +32,10 @@ export default function WelcomePage() {
 
   useEffect(() => {
     setMounted(true);
-  }, []);
+    if (user?.user_metadata?.display_name) {
+      setName(user.user_metadata.display_name);
+    }
+  }, [user]);
 
   useEffect(() => {
     if (mounted && profile?.hasOnboarded) {

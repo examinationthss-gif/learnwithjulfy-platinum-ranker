@@ -6,6 +6,8 @@ import { useStudent } from "@/context/StudentContext";
 import { getLevelColor, getLevelTitle } from "@/lib/xpEngine";
 import { Trophy, Medal, Star, Flame, ArrowLeft } from "lucide-react";
 
+import { supabase } from "@/lib/supabaseClient";
+
 interface LeaderboardEntry {
   rank: number;
   name: string;
@@ -14,28 +16,68 @@ interface LeaderboardEntry {
   xp: number;
   streak: number;
   badgesCount: number;
+  school?: string;
+  district?: string;
   isCurrentUser?: boolean;
 }
-
-const SIMULATED_LEADERS: LeaderboardEntry[] = [
-  { rank: 1, name: "Jahnvi Bezbaruah", avatar: "🎓", level: 18, xp: 1780, streak: 42, badgesCount: 19 },
-  { rank: 2, name: "Pranjal Saikia", avatar: "🌟", level: 16, xp: 1540, streak: 35, badgesCount: 16 },
-  { rank: 3, name: "Ananya Kalita", avatar: "🧠", level: 15, xp: 1420, streak: 28, badgesCount: 14 },
-  { rank: 4, name: "Bhaskar Baruah", avatar: "⚡", level: 14, xp: 1390, streak: 21, badgesCount: 12 },
-  { rank: 5, name: "Rimpi Gogoi", avatar: "📖", level: 12, xp: 1150, streak: 18, badgesCount: 10 },
-  { rank: 6, name: "Nayanmoni Nath", avatar: "🎨", level: 11, xp: 1020, streak: 14, badgesCount: 9 },
-  { rank: 7, name: "Chayanika Dutta", avatar: "🏹", level: 9, xp: 880, streak: 9, badgesCount: 7 },
-  { rank: 8, name: "Deepjyoti Bora", avatar: "🎯", level: 8, xp: 750, streak: 6, badgesCount: 6 },
-];
 
 export default function LeaderboardPage() {
   const { profile, totalXP, level, currentStreak, unlockedBadges } = useStudent();
   const [mounted, setMounted] = useState(false);
   const [tab, setTab] = useState<"weekly" | "monthly" | "unit">("weekly");
   const [unitFilter, setUnitFilter] = useState("unit1");
+  const [students, setStudents] = useState<LeaderboardEntry[]>([]);
 
   useEffect(() => {
     setMounted(true);
+    
+    // Query live student profiles rankings from Supabase
+    const fetchRankings = async () => {
+      try {
+        const { data, error } = await supabase
+          .from("profiles")
+          .select("name, avatar, mobile, school, district, created_at, student_stats(xp_log, badge_collection)")
+          .limit(20);
+
+        if (data && !error) {
+          interface ProfileRaw {
+            name: string;
+            avatar?: string;
+            school?: string;
+            district?: string;
+            student_stats?: { xp_log?: { xp?: number }[]; badge_collection?: Record<string, string> }[];
+          }
+
+          const loaded: LeaderboardEntry[] = (data as unknown as ProfileRaw[]).map((d, idx: number) => {
+            const xpLog = d.student_stats?.[0]?.xp_log || [];
+            const badges = d.student_stats?.[0]?.badge_collection || {};
+            const xpVal = xpLog.reduce((s: number, e) => s + (e.xp || 0), 0);
+            
+            return {
+              rank: idx + 1,
+              name: d.name,
+              avatar: d.avatar || "🎓",
+              level: Math.max(1, Math.floor(xpVal / 100)),
+              xp: xpVal,
+              streak: 3, // default simulation metrics
+              badgesCount: Object.keys(badges).length,
+              school: d.school || "AHSEC Academy",
+              district: d.district || "Assam",
+            };
+          });
+
+          // Sort by XP descending
+          loaded.sort((a, b) => b.xp - a.xp);
+          // Reassign rank
+          const ranked = loaded.map((s, idx) => ({ ...s, rank: idx + 1 }));
+          setStudents(ranked);
+        }
+      } catch (err) {
+        console.warn("Failed to fetch live database student records, serving offline mocks.", err);
+      }
+    };
+
+    fetchRankings();
   }, []);
 
   if (!mounted || !profile) {
@@ -48,24 +90,33 @@ export default function LeaderboardPage() {
 
   // Construct currentUser entry
   const userEntry: LeaderboardEntry = {
-    rank: 0, // calculated dynamically below
+    rank: 0,
     name: `${profile.name} (You)`,
     avatar: profile.avatar,
     level: level,
     xp: totalXP,
     streak: currentStreak,
     badgesCount: unlockedBadges.length,
+    school: profile.school || "Your School",
+    district: profile.district || "Your District",
     isCurrentUser: true,
   };
 
   // Merge, sort, and re-rank
-  let leaderboardList = [...SIMULATED_LEADERS];
-  const userIndex = leaderboardList.findIndex((item) => item.xp < userEntry.xp);
-  if (userIndex === -1) {
-    // Put at end
-    leaderboardList.push(userEntry);
-  } else {
-    leaderboardList.splice(userIndex, 0, userEntry);
+  let leaderboardList = students.length > 0 ? [...students] : [
+    { rank: 1, name: "Jahnvi Bezbaruah", avatar: "🎓", level: 18, xp: 1780, streak: 42, badgesCount: 19, school: "Cotton University", district: "Kamrup" },
+    { rank: 2, name: "Pranjal Saikia", avatar: "🌟", level: 16, xp: 1540, streak: 35, badgesCount: 16, school: "Jorhat Govt Boys school", district: "Jorhat" },
+    { rank: 3, name: "Ananya Kalita", avatar: "🧠", level: 15, xp: 1420, streak: 28, badgesCount: 14, school: "Salt Brook Academy", district: "Dibrugarh" },
+  ];
+
+  const currentUserExists = leaderboardList.some(e => e.isCurrentUser || e.name.includes(profile.name));
+  if (!currentUserExists) {
+    const userIndex = leaderboardList.findIndex((item) => item.xp < userEntry.xp);
+    if (userIndex === -1) {
+      leaderboardList.push(userEntry);
+    } else {
+      leaderboardList.splice(userIndex, 0, userEntry);
+    }
   }
 
   // Assign ranks
@@ -217,6 +268,12 @@ export default function LeaderboardPage() {
                           <Flame className="h-3 w-3 text-orange-500" />
                           <span>{entry.streak} day streak</span>
                         </div>
+                        {entry.school && (
+                          <>
+                            <span>•</span>
+                            <span className="truncate max-w-[120px] sm:max-w-none">{entry.school} ({entry.district})</span>
+                          </>
+                        )}
                       </div>
                     </div>
                   </div>

@@ -84,7 +84,7 @@ function loadState(): StudentState {
 }
 
 export function StudentProvider({ children }: { children: React.ReactNode }) {
-  const { syncLocalToCloud } = useAuth();
+  const { user, syncLocalToCloud } = useAuth();
   const [state, setState] = useState<StudentState>(() => ({
     profile: null,
     totalXP: 0,
@@ -131,11 +131,16 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const createProfile = useCallback((name: string, avatar: string) => {
+    // Attempt to pull mobile, school, and district metadata from Supabase user session data
+    const meta = user?.user_metadata || {};
     const profile: StudentProfile = {
       name,
       avatar,
       joinDate: new Date().toISOString(),
       hasOnboarded: true,
+      mobile: meta.mobile || "",
+      school: meta.school || "",
+      district: meta.district || "",
     };
     setStudentProfile(profile);
     markTodayActive();
@@ -144,7 +149,7 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
     if (lang === "as") awardBadge("bilingual_scholar");
     refreshStats();
     syncLocalToCloud();
-  }, [refreshStats, syncLocalToCloud]);
+  }, [refreshStats, syncLocalToCloud, user]);
 
   const awardXP = useCallback((action: keyof typeof XP_RULES, meta?: string) => {
     const xp = XP_RULES[action];

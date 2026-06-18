@@ -72,6 +72,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           id: user.id,
           name: profile.name,
           avatar: profile.avatar,
+          mobile: profile.mobile,
+          school: profile.school,
+          district: profile.district,
           updated_at: new Date().toISOString(),
         });
       }
@@ -121,6 +124,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         safeSet(STORAGE_KEYS.STUDENT_PROFILE, {
           name: profileData.name,
           avatar: profileData.avatar,
+          mobile: profileData.mobile || "",
+          school: profileData.school || "",
+          district: profileData.district || "",
           joinDate: profileData.created_at || new Date().toISOString(),
           hasOnboarded: true,
         });
