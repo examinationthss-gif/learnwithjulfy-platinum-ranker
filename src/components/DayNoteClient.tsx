@@ -8,6 +8,7 @@ import {
   Target, Lightbulb, Zap, CheckCircle2, Tv, Play 
 } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import { useStudent } from "@/context/StudentContext";
 import { videoClassesData } from "@/data/videoClasses";
 
 interface MCQ {
@@ -60,6 +61,7 @@ export default function DayNoteClient({
   unitTitleAs,
 }: DayNoteClientProps) {
   const { language, t, formatNumber } = useLanguage();
+  const { awardXP, checkAndAwardBadges } = useStudent();
   const [mounted, setMounted] = useState(false);
   const [activeTab, setActiveTab] = useState("notes");
 
@@ -137,9 +139,15 @@ export default function DayNoteClient({
   }, [unitId, dayId, dayNumber, language, unitNumberKey, formatNumber, dayVideo]);
 
   const toggleVideoWatched = (videoId: string) => {
-    const nextWatched = { ...watchedVideos, [videoId]: !watchedVideos[videoId] };
+    const wasWatched = watchedVideos[videoId];
+    const nextWatched = { ...watchedVideos, [videoId]: !wasWatched };
     setWatchedVideos(nextWatched);
     localStorage.setItem("julfy-watched-videos", JSON.stringify(nextWatched));
+    // Award XP for first-time watch
+    if (!wasWatched) {
+      awardXP("WATCH_VIDEO", videoId);
+      checkAndAwardBadges();
+    }
   };
 
   const toggleDayCompletion = () => {
@@ -158,6 +166,22 @@ export default function DayNoteClient({
     setCompleted(nextVal);
     completions[key] = nextVal;
     localStorage.setItem("julfy-completed-days", JSON.stringify(completions));
+
+    // Award XP & check badges when marking complete
+    if (nextVal) {
+      awardXP("COMPLETE_DAY_NOTES", key);
+      // Check if unit is now complete (all 20 days)
+      const unitDays = Object.entries(completions).filter(([k, v]) => v && k.startsWith(unitId)).length;
+      if (unitDays >= 20) {
+        awardXP("COMPLETE_UNIT", unitId);
+      }
+      // Check if all units complete (140 days)
+      const totalDone = Object.values(completions).filter(Boolean).length;
+      if (totalDone >= 140) {
+        awardXP("COMPLETE_ALL_UNITS");
+      }
+      checkAndAwardBadges();
+    }
   };
 
   const handleSelectMCQ = (qId: number, optIdx: number) => {

@@ -94,3 +94,39 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* XP Progress bar animation */
+@keyframes xpFill {
+  from { width: 0; }
+  to { width: var(--xp-width, 0%); }
+}
+
+/* Badge card hover glow */
+.badge-card-unlocked:hover {
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+}
+
+/* Print styles for Certificate */
+@media print {
+  .print\:hidden {
+    display: none !important;
+  }
+  .print\:rounded-none {
+    border-radius: 0 !important;
+  }
+  .print\:px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .print\:py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .print\:max-w-none {
+    max-width: none !important;
+  }
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

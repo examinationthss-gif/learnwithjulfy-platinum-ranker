@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Play, Tv, Timer, Info, CheckCircle2 } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import { useStudent } from "@/context/StudentContext";
 import { videoClassesData, VideoClass } from "@/data/videoClasses";
 
 interface UnitConfig {
@@ -25,6 +26,7 @@ const unitsList: UnitConfig[] = [
 
 export default function VideosClient() {
   const { language, formatNumber } = useLanguage();
+  const { awardXP, checkAndAwardBadges } = useStudent();
   const [activeUnit, setActiveUnit] = useState<string>("unit1");
   const [activeVideo, setActiveVideo] = useState<VideoClass | null>(null);
   const [mounted, setMounted] = useState(false);
@@ -55,9 +57,15 @@ export default function VideosClient() {
   }, []);
 
   const toggleVideoWatched = (videoId: string) => {
-    const nextWatched = { ...watchedVideos, [videoId]: !watchedVideos[videoId] };
+    const wasWatched = watchedVideos[videoId];
+    const nextWatched = { ...watchedVideos, [videoId]: !wasWatched };
     setWatchedVideos(nextWatched);
     localStorage.setItem("julfy-watched-videos", JSON.stringify(nextWatched));
+    // Award XP on first watch
+    if (!wasWatched) {
+      awardXP("WATCH_VIDEO", videoId);
+      checkAndAwardBadges();
+    }
   };
 
   const handleSelectVideo = (video: VideoClass) => {

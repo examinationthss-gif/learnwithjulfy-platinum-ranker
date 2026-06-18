@@ -3,8 +3,10 @@ import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { LanguageProvider } from "@/context/LanguageContext";
+import { StudentProvider } from "@/context/StudentContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BadgeToast from "@/components/BadgeToast";
 
 // Configure premium fonts
 const inter = Inter({
@@ -66,9 +68,12 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <LanguageProvider>
-            <Navbar />
-            <main className="flex-grow">{children}</main>
-            <Footer />
+            <StudentProvider>
+              <Navbar />
+              <main className="flex-grow">{children}</main>
+              <Footer />
+              <BadgeToast />
+            </StudentProvider>
           </LanguageProvider>
         </ThemeProvider>
       </body>
