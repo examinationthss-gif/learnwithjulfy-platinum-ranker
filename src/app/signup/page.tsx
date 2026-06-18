@@ -49,8 +49,15 @@ export default function SignupPage() {
         router.push("/welcome");
       }
     } catch (err) {
-      const message = err instanceof Error ? err.message : "Failed to create account. Please check your data.";
-      setError(message);
+      console.error("[Signup Error Audit]: Detailed signup exception:", err);
+      let message = "Failed to create account. Please check your data.";
+      if (err instanceof Error) {
+        message = err.message;
+      } else if (err && typeof err === 'object') {
+        const errorObj = err as Record<string, unknown>;
+        message = (errorObj.message as string) || JSON.stringify(err);
+      }
+      setError(`${message} (Technical details: ${JSON.stringify(err)})`);
     } finally {
       setLoading(false);
     }
