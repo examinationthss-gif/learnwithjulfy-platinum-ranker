@@ -61,7 +61,10 @@ export default function Navbar() {
     { name: t("mcqBank"), href: "/mcq" },
     { name: t("videoClasses"), href: "/videos" },
     { name: t("tests"), href: "/tests" },
-    ...(hasProfile ? [{ name: "Dashboard", href: "/dashboard" }] : []),
+    ...(hasProfile ? [
+      { name: "Dashboard", href: "/dashboard" },
+      { name: "Leaderboard", href: "/leaderboard" }
+    ] : []),
     { name: t("about"), href: "/about" },
   ];
 

@@ -156,6 +156,7 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
     };
     const mcqStats = getMCQStats();
     const totalCorrect = Object.values(mcqStats).reduce((s, e) => s + e.correct, 0);
+    const totalSolved = Object.values(mcqStats).reduce((s, e) => s + e.total, 0);
     const completedDays = safeGet<Record<string, boolean>>(STORAGE_KEYS.COMPLETED_DAYS, {});
 
     const badgesToCheck: [string, boolean][] = [
@@ -170,25 +171,44 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
       ["week_warrior", currentStats.currentStreak >= 7],
       ["month_master", currentStats.currentStreak >= 30],
       ["bilingual_scholar", typeof window !== "undefined" && localStorage.getItem(STORAGE_KEYS.LANGUAGE) === "as"],
+      ["platinum_elite", currentStats.completedDaysCount >= 140],
+
+      // Streaks
+      ["streak_5", currentStats.currentStreak >= 5],
+      ["streak_10", currentStats.currentStreak >= 10],
+      ["streak_15", currentStats.currentStreak >= 15],
+      ["streak_20", currentStats.currentStreak >= 20],
+      ["streak_50", currentStats.currentStreak >= 50],
+      ["streak_100", currentStats.currentStreak >= 100],
+
+      // MCQs
+      ["mcq_10", totalSolved >= 10],
+      ["mcq_50", totalSolved >= 50],
+      ["mcq_100", totalSolved >= 100],
+      ["mcq_300", totalSolved >= 300],
+      ["mcq_500", totalSolved >= 500],
+
+      // Videos
+      ["video_10", currentStats.watchedVideosCount >= 10],
+      ["video_all", currentStats.watchedVideosCount >= 10], // simulator assumes 10 watched is all
     ];
 
-    // Check unit completion
+    // Check unit completions
     for (let u = 1; u <= 7; u++) {
       const unitKey = `unit${u}`;
       const unitDays = Object.entries(completedDays).filter(
         ([key, val]) => val && key.startsWith(unitKey)
       ).length;
-      if (unitDays >= 20 && !hasBadge("unit_champion")) {
+      
+      if (unitDays >= 20) {
+        badgesToCheck.push([`unit_${u}_master`, true]);
         badgesToCheck.push(["unit_champion", true]);
       }
     }
 
-    // Check platinum elite (all 140 days)
-    badgesToCheck.push(["platinum_elite", currentStats.completedDaysCount >= 140]);
-
     let latestNewBadge: string | null = null;
     for (const [id, condition] of badgesToCheck) {
-      if (condition && !hasBadge(id)) {
+      if (condition && BADGE_MAP[id] && !hasBadge(id)) {
         awardBadge(id);
         latestNewBadge = id;
       }

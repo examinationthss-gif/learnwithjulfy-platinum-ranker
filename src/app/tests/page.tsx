@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { Download, Timer, Play, Pause, RotateCcw, AlertTriangle, CheckCircle2, Trophy, HelpCircle, XCircle } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import { useStudent } from "@/context/StudentContext";
 import { testsQuestions, TestQuestion } from "@/data/testsQuestions";
 
 interface TestPaper {
@@ -164,6 +165,8 @@ export default function TestsPage() {
     };
   }, [timerRunning, timeLeft, language, evaluateExam]);
 
+  const { awardXP } = useStudent();
+
   const startTimerConsole = (paper: TestPaper) => {
     // Check if another exam is running
     if (activeTimerPaper && activeTimerPaper.id !== paper.id) {
@@ -175,6 +178,9 @@ export default function TestsPage() {
       if (!confirmChange) return;
     }
     
+    // Award mock test XP points
+    awardXP("TAKE_TIMED_TEST", `Mock Test ID: ${paper.id}`);
+
     setActiveTimerPaper(paper);
     setTimeLeft(paper.timeLimitMinutes * 60);
     setTimerRunning(true);

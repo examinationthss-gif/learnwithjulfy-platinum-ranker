@@ -13,6 +13,7 @@ import {
 } from "@/lib/localStorage";
 import { getLevelTitle, getLevelColor } from "@/lib/xpEngine";
 import { BADGE_MAP, getRarityColor } from "@/lib/badgeEngine";
+import { getIntelligenceReport, getPredictedBoardReport, getStudyPlanner } from "@/lib/intelligenceEngine";
 import {
   BookOpen,
   Brain,
@@ -44,51 +45,6 @@ function getGreeting(): string {
   if (h < 12) return "Good morning";
   if (h < 17) return "Good afternoon";
   return "Good evening";
-}
-
-function getInsights(params: {
-  completedDaysCount: number;
-  currentStreak: number;
-  overallMCQAccuracy: number;
-  mcqStats: Record<string, { correct: number; total: number }>;
-  watchedVideosCount: number;
-}) {
-  const insights: { icon: string; text: string; color: string }[] = [];
-
-  if (params.currentStreak >= 3) {
-    insights.push({ icon: "🔥", text: `You're on a ${params.currentStreak}-day streak! Keep it going!`, color: "text-orange-500" });
-  }
-  if (params.completedDaysCount < 140) {
-    const remaining = 140 - params.completedDaysCount;
-    insights.push({ icon: "📅", text: `${remaining} days left to complete the full course.`, color: "text-blue-500" });
-  }
-
-  // Find weakest unit
-  let weakestUnit: string | null = null;
-  let weakestAccuracy = 100;
-  for (const [unit, stat] of Object.entries(params.mcqStats)) {
-    if (stat.total >= 5) {
-      const acc = Math.round((stat.correct / stat.total) * 100);
-      if (acc < weakestAccuracy) {
-        weakestAccuracy = acc;
-        weakestUnit = unit;
-      }
-    }
-  }
-  if (weakestUnit && weakestAccuracy < 70) {
-    const uIndex = parseInt(weakestUnit.replace("unit", "")) - 1;
-    insights.push({ icon: "🧠", text: `Weak spot: ${UNITS[uIndex]?.name} (${weakestAccuracy}% MCQ accuracy). Review it!`, color: "text-purple-500" });
-  }
-
-  if (params.overallMCQAccuracy >= 80) {
-    insights.push({ icon: "⭐", text: `Excellent! Your MCQ accuracy is ${params.overallMCQAccuracy}% — board ready!`, color: "text-yellow-500" });
-  }
-
-  if (insights.length === 0) {
-    insights.push({ icon: "💡", text: "Start studying to get personalized AI insights here!", color: "text-indigo-500" });
-  }
-
-  return insights.slice(0, 3);
 }
 
 export default function DashboardPage() {
@@ -142,9 +98,13 @@ export default function DashboardPage() {
   const greeting = getGreeting();
   const totalMCQAttempts = Object.values(mcqStats).reduce((s, e) => s + e.total, 0);
   const totalCorrect = Object.values(mcqStats).reduce((s, e) => s + e.correct, 0);
-  const recentBadges = unlockedBadges.slice(-3).reverse();
-  const insights = getInsights({ completedDaysCount, currentStreak, overallMCQAccuracy, mcqStats, watchedVideosCount });
+  const recentBadges = unlockedBadges.slice(-4).reverse();
   const overallProgress = Math.round((completedDaysCount / 140) * 100);
+
+  // Load intelligence engine metrics
+  const intelligence = getIntelligenceReport();
+  const predictions = getPredictedBoardReport();
+  const planner = getStudyPlanner();
 
   return (
     <div className="min-h-screen bg-background">
@@ -154,7 +114,7 @@ export default function DashboardPage() {
         <div className="absolute top-0 right-0 h-64 w-64 rounded-full bg-purple-500/20 blur-3xl" />
         <div className="absolute bottom-0 left-0 h-48 w-48 rounded-full bg-indigo-500/20 blur-3xl" />
         
-        <div className="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="relative mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
             {/* Left: Greeting */}
             <div className="flex items-center gap-4">
@@ -163,7 +123,12 @@ export default function DashboardPage() {
               </div>
               <div>
                 <p className="text-sm text-white/70 font-medium">{greeting} 👋</p>
-                <h1 className="text-2xl font-bold font-heading">{profile.name}!</h1>
+                <div className="flex items-center gap-2">
+                  <h1 className="text-2xl font-bold font-heading">{profile.name}!</h1>
+                  <Link href="/profile" className="text-xs bg-white/10 hover:bg-white/20 px-2 py-0.5 rounded border border-white/10 transition-colors text-white font-semibold">
+                    View Profile
+                  </Link>
+                </div>
                 <p className="text-sm text-white/60 mt-0.5">
                   Level {level} • {getLevelTitle(level)}
                 </p>
@@ -172,6 +137,12 @@ export default function DashboardPage() {
 
             {/* Right: Streak + XP */}
             <div className="flex items-center gap-4 sm:gap-6">
+              {/* Leaderboard CTA */}
+              <Link href="/leaderboard" className="flex items-center gap-1.5 bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-2.5 rounded-xl font-bold text-xs shadow-md transition-all">
+                <Trophy className="h-4 w-4" />
+                <span>Leaderboard</span>
+              </Link>
+
               {/* Streak */}
               <div className="flex flex-col items-center gap-1 bg-white/10 backdrop-blur-sm rounded-2xl px-5 py-3 border border-white/20">
                 <div className="flex items-center gap-1.5">
@@ -203,6 +174,161 @@ export default function DashboardPage() {
 
       {/* Main Content */}
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 space-y-8">
+
+        {/* Prediction Engine Readiness Panel */}
+        <div className="rounded-3xl border border-border bg-card p-6 shadow-sm">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+            <div className="flex-1 min-w-0">
+              <span className="text-[10px] font-bold text-indigo-500 uppercase tracking-widest bg-indigo-500/10 px-2.5 py-1 rounded-full">
+                AHSEC Board Readiness predictor
+              </span>
+              <h2 className="text-xl font-bold text-foreground mt-3">Syllabus Score Forecast</h2>
+              <p className="text-sm text-muted-foreground mt-1">
+                AI estimates score values dynamically based on topic progress, streak consistency, and quiz performance.
+              </p>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
+                <div>
+                  <p className="text-xs text-muted-foreground font-medium">Predicted Board Grade</p>
+                  <p className="text-3xl font-extrabold text-indigo-600 dark:text-indigo-400 mt-1">{predictions.predictedScore} <span className="text-xs text-muted-foreground font-semibold">/100</span></p>
+                </div>
+                <div>
+                  <p className="text-xs text-muted-foreground font-medium">Readiness Level</p>
+                  <p className={`text-sm font-bold mt-2.5 inline-block px-2.5 py-0.5 rounded-lg ${
+                    predictions.readinessLevel === "Board Ready" ? "bg-emerald-500/10 text-emerald-500" :
+                    predictions.readinessLevel === "High" ? "bg-blue-500/10 text-blue-500" : "bg-amber-500/10 text-amber-500"
+                  }`}>{predictions.readinessLevel}</p>
+                </div>
+                <div>
+                  <p className="text-xs text-muted-foreground font-medium">Exam Countdown</p>
+                  <p className="text-lg font-bold text-foreground mt-2 flex items-center gap-1">
+                    <Calendar className="h-4 w-4 text-indigo-500" />
+                    <span>{planner.examCountdownDays} Days Remaining</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Score circular Dial indicator */}
+            <div className="relative h-32 w-32 shrink-0">
+              <svg className="h-full w-full" viewBox="0 0 36 36">
+                <path
+                  className="text-muted stroke-current"
+                  strokeWidth="3"
+                  fill="none"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path
+                  className="text-indigo-600 dark:text-indigo-400 stroke-current"
+                  strokeDasharray={`${predictions.predictedScore}, 100`}
+                  strokeWidth="3.2"
+                  strokeLinecap="round"
+                  fill="none"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+              </svg>
+              <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
+                <span className="text-2xl font-black text-foreground">{predictions.predictedScore}%</span>
+                <span className="text-[9px] uppercase tracking-wider text-muted-foreground">Prepared</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Risk Alerts segment */}
+          {predictions.riskAlerts.length > 0 && (
+            <div className="mt-6 border-t border-border pt-4">
+              <p className="text-xs font-bold text-red-500 uppercase tracking-wider mb-2.5">Syllabus risk alerts</p>
+              <div className="grid sm:grid-cols-3 gap-3">
+                {predictions.riskAlerts.map((alert, idx) => (
+                  <div key={idx} className="bg-red-500/5 border border-red-500/10 p-3 rounded-xl">
+                    <p className="text-xs font-bold text-red-500">Unit ID: {alert.unitId.toUpperCase()}</p>
+                    <p className="text-[11px] text-muted-foreground mt-0.5">{alert.reason}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Personalized Study Planner & SVG Progress charts */}
+        <div className="grid lg:grid-cols-3 gap-6">
+          {/* Smart daily planner */}
+          <div className="lg:col-span-2 rounded-2xl border border-border bg-card p-6">
+            <h3 className="text-base font-bold text-foreground mb-4">Personalized Study Planner</h3>
+            {planner.missedSessionRecovery && (
+              <div className="mb-4 bg-orange-500/10 border border-orange-500/20 text-orange-600 dark:text-orange-400 p-3 rounded-xl text-xs font-medium">
+                {planner.missedSessionRecovery}
+              </div>
+            )}
+            <div className="space-y-3">
+              {planner.dailyGoals.map((task) => (
+                <div key={task.id} className="flex items-center justify-between p-3.5 rounded-xl bg-muted/30 border border-border hover:bg-muted/50 transition-all">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">
+                      {task.type === "read" ? "📖" : task.type === "mcq" ? "🧠" : task.type === "video" ? "🎥" : "📊"}
+                    </span>
+                    <div>
+                      <p className="text-sm font-semibold text-foreground">{task.title}</p>
+                      <p className="text-xs text-muted-foreground">{task.subtitle}</p>
+                    </div>
+                  </div>
+                  <Link href={task.href} className="text-xs font-bold bg-indigo-600 hover:bg-indigo-700 text-white px-3.5 py-1.5 rounded-lg shadow-sm transition-colors">
+                    Start
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* SVG Learning Velocity Chart */}
+          <div className="rounded-2xl border border-border bg-card p-6 flex flex-col justify-between">
+            <div>
+              <h3 className="text-base font-bold text-foreground mb-1">Weekly Learning Velocity</h3>
+              <p className="text-xs text-muted-foreground mb-4">Completed day units per week</p>
+            </div>
+            
+            {/* SVG Visual line graph */}
+            <div className="h-28 w-full bg-muted/20 rounded-xl relative p-2">
+              <svg className="h-full w-full" viewBox="0 0 100 30" preserveAspectRatio="none">
+                <path
+                  d="M0,25 Q20,15 40,22 T80,10 T100,5"
+                  fill="none"
+                  stroke="rgba(99, 102, 241, 0.4)"
+                  strokeWidth="1.5"
+                />
+                <path
+                  d="M0,25 Q20,15 40,22 T80,10 T100,5"
+                  fill="none"
+                  stroke="rgb(99, 102, 241)"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                />
+                {/* Dots at graph changes */}
+                <circle cx="0" cy="25" r="1.5" fill="rgb(168, 85, 247)" />
+                <circle cx="40" cy="22" r="1.5" fill="rgb(168, 85, 247)" />
+                <circle cx="80" cy="10" r="1.5" fill="rgb(168, 85, 247)" />
+                <circle cx="100" cy="5" r="1.8" fill="rgb(234, 179, 8)" />
+              </svg>
+              <div className="absolute bottom-1.5 left-2 right-2 flex justify-between text-[8px] font-bold text-muted-foreground">
+                <span>Week 1</span>
+                <span>Week 2</span>
+                <span>Week 3</span>
+                <span>Active</span>
+              </div>
+            </div>
+
+            <div className="mt-4 grid grid-cols-2 gap-4 text-center">
+              <div className="bg-muted/40 p-2.5 rounded-xl">
+                <p className="text-lg font-black text-foreground">{intelligence.totalStudyHours}h</p>
+                <p className="text-[10px] text-muted-foreground mt-0.5">Study Hours</p>
+              </div>
+              <div className="bg-muted/40 p-2.5 rounded-xl">
+                <p className="text-lg font-black text-foreground">~{intelligence.learningVelocity} Days</p>
+                <p className="text-[10px] text-muted-foreground mt-0.5">Weekly velocity</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Stat Cards Row */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -442,10 +568,10 @@ export default function DashboardPage() {
               <h2 className="text-base font-bold text-foreground">AI Study Insights</h2>
             </div>
             <div className="space-y-3">
-              {insights.map((insight, i) => (
+              {predictions.improvementTips.map((tip, i) => (
                 <div key={i} className="flex items-start gap-3 rounded-xl bg-muted/40 p-3">
-                  <span className="text-xl shrink-0">{insight.icon}</span>
-                  <p className="text-xs leading-relaxed text-foreground">{insight.text}</p>
+                  <span className="text-xl shrink-0">💡</span>
+                  <p className="text-xs leading-relaxed text-foreground">{tip}</p>
                 </div>
               ))}
             </div>
