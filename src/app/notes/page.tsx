@@ -2,11 +2,10 @@
 
 import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
-import { CheckCircle, Circle, Search, BookOpenCheck, Play, CheckSquare, RotateCcw, FileText, Tv, Clock } from "lucide-react";
+import { CheckCircle, Circle, Search, Clock, ChevronDown, ChevronUp, Sparkles } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import Fuse from "fuse.js";
 import searchIndex from "@/data/searchIndex.json";
-import { videoClassesData } from "@/data/videoClasses";
 
 interface SearchItem {
   unitId: string;
@@ -107,19 +106,11 @@ const baseUnits: Unit[] = [
 
 export default function NotesPage() {
   const { t, language, formatNumber } = useLanguage();
-  const [activeUnit, setActiveUnit] = useState<string>(baseUnits[0].id);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<SearchItem[]>([]);
   const [completedDays, setCompletedDays] = useState<Record<string, boolean>>({});
+  const [expandedUnits, setExpandedUnits] = useState<Record<string, boolean>>({ unit1: true });
   const [mounted, setMounted] = useState(false);
-  const [unitViewMode, setUnitViewMode] = useState<"notes" | "videos">("notes");
-  const [playingVideoId, setPlayingVideoId] = useState<string | null>(null);
-
-  // Reset tab and active video player on unit changes
-  useEffect(() => {
-    setUnitViewMode("notes");
-    setPlayingVideoId(null);
-  }, [activeUnit]);
 
   // Resume states
   const [lastDayUrl, setLastDayUrl] = useState("/notes/unit1/day1");
@@ -144,6 +135,13 @@ export default function NotesPage() {
     if (savedLabel) setLastDayLabel(savedLabel);
   }, []);
 
+  const toggleUnitExpand = (unitId: string) => {
+    setExpandedUnits(prev => ({
+      ...prev,
+      [unitId]: !prev[unitId]
+    }));
+  };
+
   const toggleDayCompletion = (unitId: string, day: number) => {
     const key = `${unitId}-day${day}`;
     const updated = {
@@ -154,34 +152,8 @@ export default function NotesPage() {
     localStorage.setItem("julfy-completed-days", JSON.stringify(updated));
   };
 
-  // Find next uncompleted day in sequence
-  const getNextUncompleted = () => {
-    for (const unit of baseUnits) {
-      for (let d = 1; d <= 20; d++) {
-        const key = `${unit.id}-day${d}`;
-        if (!completedDays[key]) {
-          const uLabel = language === "en" ? `Unit ${unit.numberKey}` : `গোট ${formatNumber(unit.numberKey)}`;
-          const dLabel = language === "en" ? `Day ${d}` : `দিন ${formatNumber(d)}`;
-          return {
-            url: `/notes/${unit.id}/day${d}`,
-            label: `${uLabel} &bull; ${dLabel}`,
-            unitId: unit.id,
-            day: d
-          };
-        }
-      }
-    }
-    return {
-      url: "/notes/unit1/day1",
-      label: language === "en" ? "Unit 1 & Day 1" : "গোট ১ & দিন ১",
-      unitId: "unit1",
-      day: 1
-    };
-  };
 
-  const nextUncompleted = getNextUncompleted();
-  const todaysMcqUrl = `${nextUncompleted.url}?tab=mcq`;
-  const takeTestUrl = `${nextUncompleted.url}?tab=test`;
+
 
   // Initialize Fuse.js client-side
   const fuse = useMemo(() => {
@@ -216,409 +188,244 @@ export default function NotesPage() {
       if (completedDays[`${unitId}-day${d}`]) completedCount++;
     }
     const pct = Math.round((completedCount / 20) * 100);
-    const filledBlocks = Math.round(pct / 10);
-    const emptyBlocks = 10 - filledBlocks;
-    const bar = "█".repeat(filledBlocks) + "░".repeat(emptyBlocks);
-    
-    return { bar, pct };
+    return { completedCount, pct };
   };
 
-  const units = baseUnits.map((u) => {
-    const { bar, pct } = getUnitProgress(u.id);
-    return {
-      id: u.id,
-      number: language === "en" ? `Unit ${u.numberKey}` : `গোট ${formatNumber(u.numberKey)}`,
-      title: language === "en" ? u.enTitle : u.asTitle,
-      description: language === "en" ? u.enDescription : u.asDescription,
-      topics: language === "en" ? u.enTopics : u.asTopics,
-      bar,
-      pct
-    };
-  });
-
-  const currentUnit = units.find((u) => u.id === activeUnit) || units[0];
+  if (!mounted) return null;
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 space-y-10 animate-fade-in">
+    <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 space-y-10 animate-fade-in font-sans">
       
-      {/* Top Section: Header & Keyword Jump Search */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        
-        {/* Left/Main Header */}
-        <div className="lg:col-span-8 space-y-4">
-          <div className="space-y-1">
-            <h1 className="font-heading text-3xl font-extrabold tracking-tight sm:text-4xl text-foreground">
+      {/* Search Header Banner */}
+      <div className="bg-gradient-to-tr from-slate-900 via-indigo-950 to-slate-900 rounded-3xl border border-indigo-500/10 p-6 md:p-10 shadow-2xl relative overflow-hidden text-slate-100">
+        <div className="absolute top-0 right-0 h-48 w-48 rounded-full bg-indigo-500/10 blur-3xl" />
+        <div className="relative z-10 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+          <div className="md:col-span-8 space-y-4 text-center md:text-left">
+            <span className="text-[10px] font-black uppercase tracking-widest text-indigo-400 bg-indigo-500/10 px-3 py-1 rounded-full">
+              Syllabus Curriculum Course Roadmap
+            </span>
+            <h1 className="text-3xl font-extrabold font-heading text-white">
               {t("notesHeader")}
             </h1>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-xs text-slate-350 max-w-xl font-sans leading-relaxed">
               {t("notesSub")}
             </p>
           </div>
 
-          {/* Search Upgraded Widget */}
-          <div className="relative w-full max-w-xl">
+          {/* Search Box */}
+          <div className="md:col-span-4 relative">
             <div className="relative">
-              <Search className="absolute left-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
+              <Search className="absolute left-3 top-2.5 h-4 w-4 text-slate-500" />
               <input
                 type="text"
-                placeholder={language === "en" ? "Search: Mudaliar Commission, Learning, Memory, Statistics..." : "সন্ধান কৰক: মুডালিয়াৰ আয়োগ, শিকন, স্মৃতি, পৰিসংখ্যা..."}
                 value={searchQuery}
                 onChange={(e) => handleSearch(e.target.value)}
-                className="w-full rounded-2xl border border-border bg-card py-3 pl-11 pr-4 text-sm text-foreground focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 shadow-sm"
+                placeholder={t("searchPlaceholder")}
+                className="w-full pl-9 pr-4 py-2.5 rounded-xl bg-slate-950/80 border border-slate-800 text-xs placeholder:text-slate-500 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500/40 transition-all font-medium font-sans"
               />
             </div>
 
-            {/* Jump Dropdown Suggestions */}
+            {/* Auto-suggest list */}
             {searchResults.length > 0 && (
-              <div className="absolute left-0 right-0 mt-2 z-50 rounded-2xl border border-border bg-card shadow-lg max-h-60 overflow-y-auto">
-                {searchResults.map((item) => (
+              <div className="absolute top-12 left-0 right-0 z-20 rounded-xl border border-slate-800 bg-slate-950 p-2 shadow-2xl space-y-1 font-sans">
+                {searchResults.map((item, idx) => (
                   <Link
-                    key={`${item.unitId}-${item.dayId}`}
+                    key={idx}
                     href={`/notes/${item.unitId}/${item.dayId}`}
-                    className="block p-4 border-b border-border last:border-0 hover:bg-muted/60 transition-colors"
+                    className="block p-2 hover:bg-slate-900 rounded-lg text-left transition-colors"
                   >
-                    <div className="flex items-center justify-between">
-                      <span className="text-[10px] font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded">
-                        {language === "en" ? item.categoryEn : item.categoryAs}
-                      </span>
-                      <span className="text-[10px] text-muted-foreground">
-                        {language === "en" ? "Jump to lesson →" : "পাঠলৈ যাওক →"}
-                      </span>
-                    </div>
-                    <div className="mt-1.5 text-sm font-semibold text-foreground">
+                    <p className="text-xs font-bold text-white line-clamp-1">
                       {language === "en" ? item.enTitle : item.asTitle}
-                    </div>
+                    </p>
+                    <p className="text-[10px] text-indigo-400 mt-0.5 uppercase tracking-wider font-semibold font-mono">
+                      {item.unitId.toUpperCase()} &bull; {item.dayId.toUpperCase()}
+                    </p>
                   </Link>
                 ))}
               </div>
             )}
           </div>
         </div>
-
-        {/* Right Column: Quick Actions Panel */}
-        <div className="lg:col-span-4">
-          <div className="rounded-3xl border border-border bg-card p-6 shadow-sm space-y-4">
-            <h2 className="font-heading text-sm font-bold text-foreground uppercase tracking-widest flex items-center gap-2 border-b border-border/80 pb-3 mb-2">
-              {t("quickActions")}
-            </h2>
-            
-            <div className="grid grid-cols-1 gap-2.5">
-              {/* Continue Learning */}
-              <Link
-                href={nextUncompleted.url}
-                className="flex items-center justify-between p-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white transition-colors text-left"
-              >
-                <div className="flex flex-col">
-                  <span className="text-xs font-bold">{t("continueLearning")}</span>
-                  <span className="text-[10px] opacity-80" dangerouslySetInnerHTML={{ __html: nextUncompleted.label }} />
-                </div>
-                <Play className="h-4.5 w-4.5 fill-current shrink-0 ml-2" />
-              </Link>
-
-              {/* Resume Last Visited Day */}
-              {mounted && lastDayLabel && (
-                <Link
-                  href={lastDayUrl}
-                  className="flex items-center justify-between p-3 rounded-xl border border-border hover:bg-muted transition-colors text-left"
-                >
-                  <div className="flex flex-col">
-                    <span className="text-xs font-bold text-foreground">{t("resumeLastDay")}</span>
-                    <span className="text-[10px] text-muted-foreground">{lastDayLabel}</span>
-                  </div>
-                  <RotateCcw className="h-4.5 w-4.5 text-indigo-500 shrink-0 ml-2" />
-                </Link>
-              )}
-
-              {/* Today's MCQ */}
-              <Link
-                href={todaysMcqUrl}
-                className="flex items-center justify-between p-3 rounded-xl border border-border hover:bg-muted transition-colors text-left"
-              >
-                <div className="flex flex-col">
-                  <span className="text-xs font-bold text-foreground">{t("todaysMCQ")}</span>
-                  <span className="text-[10px] text-muted-foreground">
-                    {language === "en" ? `Practice for Day ${nextUncompleted.day}` : `দিন ${formatNumber(nextUncompleted.day)} ৰ বাবে কুইজ`}
-                  </span>
-                </div>
-                <CheckSquare className="h-4.5 w-4.5 text-emerald-500 shrink-0 ml-2" />
-              </Link>
-
-              {/* Take Test */}
-              <Link
-                href={takeTestUrl}
-                className="flex items-center justify-between p-3 rounded-xl border border-border hover:bg-muted transition-colors text-left"
-              >
-                <div className="flex flex-col">
-                  <span className="text-xs font-bold text-foreground">{t("takeTest")}</span>
-                  <span className="text-[10px] text-muted-foreground">
-                    {language === "en" ? `Test for Day ${nextUncompleted.day}` : `দিন ${formatNumber(nextUncompleted.day)} ৰ পৰীক্ষা`}
-                  </span>
-                </div>
-                <FileText className="h-4.5 w-4.5 text-amber-500 shrink-0 ml-2" />
-              </Link>
-            </div>
-          </div>
-        </div>
-
       </div>
 
-      {/* Main Grid: Units List vs Timelines */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        
-        {/* Left Column: Units list with visual progress bar */}
-        <div className="lg:col-span-4 space-y-4">
-          <h2 className="font-heading text-lg font-bold text-foreground mb-2 px-1">
-            {t("courseUnits")}
-          </h2>
-          
-          <div className="space-y-3 max-h-[60vh] overflow-y-auto pr-2">
-            {units.map((unit) => {
-              const isActive = unit.id === activeUnit;
-              return (
-                <button
-                  key={unit.id}
-                  onClick={() => setActiveUnit(unit.id)}
-                  className={`w-full text-left p-4 rounded-2xl border transition-all duration-200 ${
-                    isActive
-                      ? "border-indigo-500 bg-indigo-50/50 dark:bg-indigo-950/20 shadow-sm"
-                      : "border-border bg-card hover:bg-muted"
-                  }`}
-                >
-                  <div className="flex justify-between items-start">
-                    <span className="text-xs font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-400">
-                      {unit.number}
-                    </span>
-                    <span className="text-[10px] font-bold text-indigo-500 dark:text-indigo-400">
-                      {formatNumber(unit.pct)}%
-                    </span>
-                  </div>
-                  
-                  <h3 className="mt-1 font-bold text-sm text-foreground line-clamp-1">
-                    {unit.title}
-                  </h3>
+      {/* Resume learning action strip */}
+      {lastDayLabel && (
+        <div className="flex flex-col sm:flex-row items-center justify-between p-5 rounded-2xl bg-indigo-600/5 border border-indigo-500/10 gap-4">
+          <div className="flex items-center gap-3 text-center sm:text-left">
+            <span className="text-xl">📖</span>
+            <div>
+              <p className="text-xs text-muted-foreground font-medium">Continue your learning journey</p>
+              <p className="text-sm font-bold text-foreground mt-0.5">{lastDayLabel}</p>
+            </div>
+          </div>
+          <Link
+            href={lastDayUrl}
+            className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-all text-center flex items-center justify-center gap-2 shadow-md shadow-indigo-600/10 hover:shadow-indigo-600/20"
+          >
+            <Sparkles className="h-4 w-4" />
+            <span>Resume Lesson</span>
+          </Link>
+        </div>
+      )}
 
-                  {/* Progress Bar Rendering */}
-                  <div className="mt-2 text-[10px] font-mono tracking-widest text-indigo-600 dark:text-indigo-400">
-                    {unit.bar}
+      {/* Course Accordion list (Udemy style curriculum) */}
+      <div className="space-y-6">
+        <h2 className="text-lg font-bold text-foreground border-b border-border pb-3 flex items-center gap-2">
+          <span>📚 Course Curriculum</span>
+          <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-0.5 rounded-full">
+            7 Units &bull; 140 Lessons
+          </span>
+        </h2>
+
+        <div className="space-y-4">
+          {baseUnits.map((unit) => {
+            const isExpanded = expandedUnits[unit.id];
+            const { completedCount, pct } = getUnitProgress(unit.id);
+            const unitTitle = language === "en" ? unit.enTitle : unit.asTitle;
+            const unitDesc = language === "en" ? unit.enDescription : unit.asDescription;
+            const unitTopics = language === "en" ? unit.enTopics : unit.asTopics;
+
+            return (
+              <div
+                key={unit.id}
+                className="bg-card border border-border rounded-2xl overflow-hidden shadow-sm hover:border-indigo-500/20 transition-all"
+              >
+                {/* Header Acc Trigger */}
+                <button
+                  onClick={() => toggleUnitExpand(unit.id)}
+                  className="w-full p-6 text-left flex items-start justify-between gap-6 hover:bg-muted/10 transition-colors"
+                >
+                  <div className="flex-1 space-y-3 min-w-0">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="text-[10px] font-black uppercase tracking-widest text-indigo-600 dark:text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded">
+                        Unit {unit.numberKey}
+                      </span>
+                      <span className="text-xs text-muted-foreground font-semibold">
+                        {completedCount} / 20 Completed
+                      </span>
+                    </div>
+
+                    <h3 className="text-base font-bold text-foreground tracking-tight line-clamp-1">
+                      {unitTitle}
+                    </h3>
+
+                    <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed font-sans">
+                      {unitDesc}
+                    </p>
+
+                    {/* Udemy Style Course Completion Bar */}
+                    <div className="flex items-center gap-3">
+                      <div className="flex-1 bg-muted rounded-full h-1.5 overflow-hidden">
+                        <div
+                          className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 transition-all duration-500"
+                          style={{ width: `${pct}%` }}
+                        />
+                      </div>
+                      <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400 w-8 text-right shrink-0">
+                        {pct}%
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="shrink-0 mt-1 flex h-8 w-8 items-center justify-center rounded-lg border border-border bg-background text-muted-foreground">
+                    {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
                   </div>
                 </button>
-              );
-            })}
-          </div>
-        </div>
 
-        {/* Right Column: Daily timeline roadmap */}
-        <div className="lg:col-span-8 space-y-6">
-          <div className="rounded-3xl border border-border bg-card p-6 md:p-8 shadow-sm">
-            
-            {/* Active Unit Header */}
-            <div className="border-b border-border pb-6 mb-6">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
-                {language === "en" ? "Active Syllabus Plan" : "সক্ৰিয় পাঠ্যক্ৰম পৰিকল্পনা"} &bull; {currentUnit.number}
-              </span>
-              <h2 className="font-heading mt-2 text-2xl font-bold text-foreground">
-                {currentUnit.title}
-              </h2>
-              <p className="mt-2 text-xs text-muted-foreground leading-relaxed">
-                {currentUnit.description}
-              </p>
-            </div>
-
-            {/* Tab Controls: Study Notes vs Video Classes */}
-            <div className="flex border-b border-border gap-4 pb-2 mb-6">
-              <button
-                onClick={() => setUnitViewMode("notes")}
-                className={`pb-2 text-sm font-semibold border-b-2 transition-all ${
-                  unitViewMode === "notes"
-                    ? "border-indigo-600 text-indigo-600 dark:border-indigo-400 dark:text-indigo-400"
-                    : "border-transparent text-muted-foreground hover:text-foreground"
-                }`}
-              >
-                📘 {language === "en" ? "Study Notes (Day 1–20)" : "পাঠ্য টোকা (দিন ১-২০)"}
-              </button>
-              <button
-                onClick={() => setUnitViewMode("videos")}
-                className={`pb-2 text-sm font-semibold border-b-2 transition-all ${
-                  unitViewMode === "videos"
-                    ? "border-indigo-600 text-indigo-600 dark:border-indigo-400 dark:text-indigo-400"
-                    : "border-transparent text-muted-foreground hover:text-foreground"
-                }`}
-              >
-                🎥 {language === "en" ? "Video Classes" : "ভিডিঅ' ক্লাছসমূহ"}
-              </button>
-            </div>
-
-            {/* Conditionally render Notes Timeline OR Video Classes */}
-            {unitViewMode === "notes" ? (
-              <div className="space-y-6">
-                <h3 className="font-heading text-base font-bold text-foreground flex items-center gap-2">
-                  <BookOpenCheck className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
-                  {t("roadmapTitle")}
-                </h3>
-
-                <div className="space-y-4">
-                  {Array.from({ length: 20 }, (_, i) => {
-                    const day = i + 1;
-                    const dayKey = `${currentUnit.id}-day${day}`;
-                    const isDone = !!completedDays[dayKey];
-
-                    // Status Icon Mapping
-                    let statusSymbol = <Circle className="h-5 w-5 text-muted-foreground/60 shrink-0" />;
-                    if (isDone) {
-                      statusSymbol = <CheckCircle className="h-5 w-5 text-emerald-500 fill-emerald-500/10 shrink-0" />;
-                    }
-
-                    const getMockDayTitle = (d: number) => {
-                      const idx = (d - 1) % currentUnit.topics.length;
-                      return `${currentUnit.topics[idx]} - Part ${formatNumber(Math.ceil(d / currentUnit.topics.length))}`;
-                    };
-
-                    return (
-                      <div
-                        key={day}
-                        className="flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-2xl border border-border bg-card/40 hover:border-indigo-500/20 transition-all gap-4"
-                      >
-                        {/* Day Left side: status & title */}
-                        <div className="flex items-center gap-3">
-                          {mounted ? (
-                            <button
-                              onClick={() => toggleDayCompletion(currentUnit.id, day)}
-                              aria-label={`Mark Day ${day} as completed`}
-                            >
-                              {statusSymbol}
-                            </button>
-                          ) : (
-                            <Circle className="h-5 w-5 text-muted-foreground/60 shrink-0" />
-                          )}
-
-                          <div className="flex flex-col">
-                            <span className="text-xs font-bold text-foreground">
-                              {t("dayBadge")} {formatNumber(day)}
-                            </span>
-                            <span className="text-[11px] text-muted-foreground line-clamp-1 max-w-[280px]">
-                              {getMockDayTitle(day)}
-                            </span>
-                          </div>
-                        </div>
-
-                        {/* Day Actions panel - Inline buttons */}
-                        <div className="flex flex-wrap items-center gap-2">
-                          {/* Notes */}
-                          <Link
-                            href={`/notes/${currentUnit.id}/day${day}?tab=notes`}
-                            className="px-2.5 py-1.5 rounded-lg bg-muted text-[10px] font-bold text-foreground hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-500 transition-colors"
-                          >
-                            {language === "en" ? "[Notes]" : "[টোকা]"}
-                          </Link>
-                          {/* MCQ Practice */}
-                          <Link
-                            href={`/notes/${currentUnit.id}/day${day}?tab=mcq`}
-                            className="px-2.5 py-1.5 rounded-lg bg-muted text-[10px] font-bold text-foreground hover:bg-emerald-600 hover:text-white dark:hover:bg-emerald-500 transition-colors"
-                          >
-                            {language === "en" ? "[MCQ Practice]" : "[MCQ অনুশীলন]"}
-                          </Link>
-                          {/* Revision */}
-                          <Link
-                            href={`/notes/${currentUnit.id}/day${day}?tab=revision`}
-                            className="px-2.5 py-1.5 rounded-lg bg-muted text-[10px] font-bold text-foreground hover:bg-rose-600 hover:text-white dark:hover:bg-rose-500 transition-colors"
-                          >
-                            {language === "en" ? "[Revision]" : "[পুনৰীক্ষণ]"}
-                          </Link>
-                          {/* Test */}
-                          <Link
-                            href={`/notes/${currentUnit.id}/day${day}?tab=test`}
-                            className="px-2.5 py-1.5 rounded-lg bg-muted text-[10px] font-bold text-foreground hover:bg-amber-600 hover:text-white dark:hover:bg-amber-500 transition-colors"
-                          >
-                            {language === "en" ? "[Test]" : "[পৰীক্ষা]"}
-                          </Link>
-                        </div>
-
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            ) : (
-              <div className="space-y-6 animate-fade-in">
-                <h3 className="font-heading text-base font-bold text-foreground flex items-center gap-2 border-b border-border/60 pb-3">
-                  <Tv className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
-                  <span>
-                    {language === "en" ? "Unit Video Classes" : "গোটৰ ভিডিঅ' ক্লাছসমূহ"}
-                  </span>
-                </h3>
-
-                <div className="grid grid-cols-1 gap-4">
-                  {(videoClassesData[currentUnit.id] || []).map((video) => {
-                    const isPlaying = playingVideoId === video.id;
-                    const getEmbedUrl = (v: typeof video) => {
-                      if (v.isPlaylist) {
-                        return `https://www.youtube.com/embed/videoseries?list=${v.youtubeId}&autoplay=0`;
-                      }
-                      return `https://www.youtube.com/embed/${v.youtubeId}?autoplay=0&rel=0`;
-                    };
-
-                    return (
-                      <div key={video.id} className="p-5 rounded-2xl border border-border bg-card/60 space-y-4">
-                        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                          <div>
-                            <h4 className="font-heading text-sm font-bold text-foreground">
-                              {language === "en" ? video.titleEn : video.titleAs}
-                            </h4>
-                            <p className="text-xs text-muted-foreground mt-1 line-clamp-2 leading-relaxed font-sans">
-                              {language === "en" ? video.descriptionEn : video.descriptionAs}
-                            </p>
-                          </div>
-                          <div className="flex items-center gap-2 shrink-0 self-start sm:self-center">
-                            <span className="text-[10px] font-semibold bg-muted text-muted-foreground px-2.5 py-1.5 rounded-xl flex items-center gap-1 font-sans">
-                              <Clock className="h-3.5 w-3.5" />
-                              {language === "en" ? video.durationEn : video.durationAs}
-                            </span>
-                            <button
-                              onClick={() => setPlayingVideoId(isPlaying ? null : video.id)}
-                              className="rounded-xl bg-indigo-600 text-white dark:bg-indigo-500 text-xs font-bold px-3 py-1.5 hover:opacity-95 flex items-center gap-1.5"
-                            >
-                              <Play className="h-3.5 w-3.5 fill-current" />
-                              <span>{isPlaying ? (language === "en" ? "Close" : "বন্ধ কৰক") : (language === "en" ? "Watch" : "ভিডিঅ' চাওক")}</span>
-                            </button>
-                          </div>
-                        </div>
-
-                        {isPlaying && (
-                          <div className="relative aspect-video w-full rounded-2xl overflow-hidden bg-black border border-border mt-4 animate-fade-in">
-                            <iframe
-                              src={getEmbedUrl(video)}
-                              title={language === "en" ? video.titleEn : video.titleAs}
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowFullScreen
-                              className="absolute inset-0 h-full w-full border-0"
-                            />
-                          </div>
-                        )}
-                      </div>
-                    );
-                  })}
-
-                  {(!videoClassesData[currentUnit.id] || videoClassesData[currentUnit.id].length === 0) && (
-                    <div className="text-center py-10 border border-dashed border-border bg-muted/10 rounded-2xl space-y-2">
-                      <Tv className="h-8 w-8 text-muted-foreground/60 mx-auto" />
-                      <h4 className="font-heading text-sm font-bold text-foreground">
-                        {language === "en" ? "Videos Coming Soon" : "ভিডিঅ'সমূহ অতি সোনকালে উপলব্ধ হ'ব"}
-                      </h4>
-                      <p className="text-xs text-muted-foreground max-w-xs mx-auto leading-relaxed">
-                        {language === "en"
-                          ? "Chapter videos are being prepared and will be released soon."
-                          : "এই অধ্যায়ৰ ভিডিঅ'সমূহ প্ৰস্তুত কৰা হৈ আছে আৰু অতি সোনকালে যোগ কৰা হ'ব।"}
-                      </p>
+                {/* Days Curriculum List */}
+                {isExpanded && (
+                  <div className="border-t border-border bg-muted/10 divide-y divide-border/80">
+                    
+                    {/* Curriculum Topics summary tags */}
+                    <div className="px-6 py-4 flex flex-wrap gap-1.5 border-b border-border/80 bg-muted/20 font-sans">
+                      {unitTopics.map((topic, index) => (
+                        <span key={index} className="text-[10px] font-bold px-2 py-1 rounded bg-background border border-border/60 text-muted-foreground">
+                          📌 {topic}
+                        </span>
+                      ))}
                     </div>
-                  )}
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
 
+                    {/* 20 Days list */}
+                    {Array.from({ length: 20 }, (_, i) => {
+                      const day = i + 1;
+                      const dayId = `day${day}`;
+                      const key = `${unit.id}-${dayId}`;
+                      const isDone = completedDays[key];
+
+                      return (
+                        <div
+                          key={day}
+                          className="px-6 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-muted/20 transition-all"
+                        >
+                          <div className="flex items-start gap-3 flex-1 min-w-0">
+                            {/* Done check trigger */}
+                            <button
+                              onClick={() => toggleDayCompletion(unit.id, day)}
+                              className="shrink-0 mt-0.5 text-muted-foreground hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+                              title={isDone ? "Mark Uncompleted" : "Mark Completed"}
+                            >
+                              {isDone ? (
+                                <CheckCircle className="h-5 w-5 text-emerald-500 fill-emerald-500/10" />
+                              ) : (
+                                <Circle className="h-5 w-5 border-2 rounded-full border-muted-foreground" />
+                              )}
+                            </button>
+                            
+                            <div className="min-w-0">
+                              <p className="text-xs font-black text-indigo-600 dark:text-indigo-400 uppercase tracking-widest font-mono">
+                                Lesson Day {day}
+                              </p>
+                              <Link
+                                href={`/notes/${unit.id}/${dayId}`}
+                                className="text-sm font-semibold text-foreground hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors mt-0.5 block"
+                              >
+                                {language === "en" ? `Day ${day} Core Curriculum Module` : `দিন ${formatNumber(day)} ৰ ৰোডমেপ বিষয়সূচী`}
+                              </Link>
+                              <span className="text-[10px] text-muted-foreground font-sans inline-flex items-center gap-1 mt-1">
+                                <Clock className="h-3 w-3" />
+                                15 mins study time
+                              </span>
+                            </div>
+                          </div>
+
+                          {/* Quick Learning Tabs Link */}
+                          <div className="flex flex-wrap items-center gap-2 self-start sm:self-center">
+                            <Link
+                              href={`/notes/${unit.id}/${dayId}?tab=notes`}
+                              className="px-3 py-1.5 rounded-xl border border-border text-[10px] font-bold bg-background text-foreground hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-500 transition-colors"
+                            >
+                              📖 Study
+                            </Link>
+                            <Link
+                              href={`/notes/${unit.id}/${dayId}?tab=mcq`}
+                              className="px-3 py-1.5 rounded-xl border border-border text-[10px] font-bold bg-background text-foreground hover:bg-emerald-600 hover:text-white dark:hover:bg-emerald-500 transition-colors"
+                            >
+                              🧠 MCQ Quiz
+                            </Link>
+                            <Link
+                              href={`/notes/${unit.id}/${dayId}?tab=revision`}
+                              className="px-3 py-1.5 rounded-xl border border-border text-[10px] font-bold bg-background text-foreground hover:bg-rose-600 hover:text-white dark:hover:bg-rose-500 transition-colors"
+                            >
+                              ⚡ Revision
+                            </Link>
+                            <Link
+                              href={`/notes/${unit.id}/${dayId}?tab=test`}
+                              className="px-3 py-1.5 rounded-xl border border-border text-[10px] font-bold bg-background text-foreground hover:bg-amber-600 hover:text-white dark:hover:bg-amber-500 transition-colors"
+                            >
+                              📋 Test
+                            </Link>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
-      
+
     </div>
   );
 }

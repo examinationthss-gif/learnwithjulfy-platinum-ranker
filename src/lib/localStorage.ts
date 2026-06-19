@@ -54,6 +54,7 @@ export interface StudentProfile {
   mobile?: string;
   school?: string;
   district?: string;
+  rollNumber?: string;
 }
 
 export function getStudentProfile(): StudentProfile | null {

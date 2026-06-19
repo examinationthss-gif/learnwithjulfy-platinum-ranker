@@ -4,18 +4,18 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
-import { Sun, Moon, Menu, X, GraduationCap, Languages, Search, Zap } from "lucide-react";
+import { Sun, Moon, Menu, X, GraduationCap, Languages, Search } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { useStudent } from "@/context/StudentContext";
-import { getLevelColor } from "@/lib/xpEngine";
 import { awardBadge, hasBadge } from "@/lib/localStorage";
 import GlobalSearch from "@/components/GlobalSearch";
+import WelcomeModal from "@/components/WelcomeModal";
 
 export default function Navbar() {
   const pathname = usePathname();
   const { theme, setTheme } = useTheme();
   const { language, setLanguage, t } = useLanguage();
-  const { profile, level, levelProgress, totalXP, checkAndAwardBadges, refreshStats } = useStudent();
+  const { profile, level, totalXP, checkAndAwardBadges, refreshStats } = useStudent();
 
   const [mounted, setMounted] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -117,29 +117,26 @@ export default function Navbar() {
               <kbd className="hidden sm:inline-flex items-center rounded border border-border px-1.5 py-0.5 text-[10px] font-bold">⌘K</kbd>
             </button>
 
-            {/* Student XP Widget (when logged in) */}
+            {/* Premium Student Profile Navbar Display */}
             {mounted && hasProfile && (
-              <Link
-                href="/dashboard"
-                className="hidden sm:flex items-center gap-2 rounded-lg border border-border bg-muted/30 px-2.5 py-1.5 hover:bg-muted/50 transition-colors"
-                title={`Level ${level} • ${totalXP} XP`}
-              >
-                <div className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-gradient-to-br ${getLevelColor(level)} text-xs`}>
-                  {profile.avatar}
-                </div>
-                <div className="flex flex-col">
-                  <div className="flex items-center gap-1">
-                    <Zap className="h-3 w-3 text-yellow-500" />
-                    <span className="text-[10px] font-bold text-foreground">{totalXP} XP</span>
+              <div className="hidden sm:flex items-center gap-3">
+                <Link
+                  href="/profile"
+                  className="flex items-center gap-2 bg-muted/40 border border-border px-3 py-1.5 rounded-xl hover:bg-muted/80 transition-all cursor-pointer font-sans"
+                >
+                  <span className="text-sm shrink-0">👤</span>
+                  <div className="flex flex-col text-left">
+                    <span className="text-xs font-bold text-foreground line-clamp-1">{profile.name}</span>
+                    <span className="text-[9px] text-muted-foreground font-semibold -mt-0.5">
+                      Roll: {profile.rollNumber || "N/A"} &bull; {profile.school || "AHSEC Academy"}
+                    </span>
                   </div>
-                  <div className="h-1 w-12 rounded-full bg-muted overflow-hidden">
-                    <div
-                      className="h-full rounded-full bg-gradient-to-r from-yellow-400 to-amber-400 transition-all duration-500"
-                      style={{ width: `${levelProgress.progressPercent}%` }}
-                    />
-                  </div>
+                </Link>
+
+                <div className="flex items-center gap-1.5 bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 px-2.5 py-1.5 rounded-xl text-[10px] font-bold">
+                  Lv.{level}
                 </div>
-              </Link>
+              </div>
             )}
 
             {/* Language Toggle */}
@@ -232,6 +229,9 @@ export default function Navbar() {
 
       {/* Global Search Overlay */}
       <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
+
+      {/* Onboarding Dialog Modal */}
+      <WelcomeModal onOnboarded={refreshStats} />
     </>
   );
 }

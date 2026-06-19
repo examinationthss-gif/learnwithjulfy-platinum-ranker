@@ -10,9 +10,7 @@ import React, {
 import {
   StudentProfile,
   getStudentProfile,
-  setStudentProfile,
   getTotalXP,
-  addXPEntry,
   getCompletedDaysCount,
   getWatchedVideosCount,
   getOverallMCQAccuracy,
@@ -28,6 +26,8 @@ import {
 } from "@/lib/localStorage";
 import { XP_RULES, getLevel, getLevelProgress } from "@/lib/xpEngine";
 import { Badge, BADGE_MAP } from "@/lib/badgeEngine";
+import { StudentService } from "@/lib/services/studentService";
+import { ProgressService } from "@/lib/services/progressService";
 
 interface StudentState {
   profile: StudentProfile | null;
@@ -44,7 +44,7 @@ interface StudentState {
 }
 
 interface StudentContextType extends StudentState {
-  createProfile: (name: string, avatar: string) => void;
+  createProfile: (name: string, avatar: string, rollNumber?: string, school?: string) => void;
   awardXP: (action: keyof typeof XP_RULES, meta?: string) => void;
   checkAndAwardBadges: () => void;
   refreshStats: () => void;
@@ -115,7 +115,7 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
 
     // Award daily streak XP on first visit of the day
     if (isFirstVisitToday) {
-      addXPEntry({ action: "DAILY_LOGIN_STREAK", xp: XP_RULES.DAILY_LOGIN_STREAK, date: new Date().toISOString() });
+      ProgressService.awardXP("DAILY_LOGIN_STREAK");
     }
 
     // Check night owl badge
@@ -128,17 +128,13 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
-  const createProfile = useCallback((name: string, avatar: string) => {
-    const profile: StudentProfile = {
+  const createProfile = useCallback((name: string, avatar: string, rollNumber?: string, school?: string) => {
+    StudentService.saveProfile({
       name,
       avatar,
-      joinDate: new Date().toISOString(),
-      hasOnboarded: true,
-      mobile: "",
-      school: "",
-      district: "",
-    };
-    setStudentProfile(profile);
+      rollNumber,
+      school
+    });
     markTodayActive();
     // Award bilingual badge if language is Assamese
     const lang = typeof window !== "undefined" ? localStorage.getItem(STORAGE_KEYS.LANGUAGE) : null;
@@ -148,8 +144,7 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
   }, [refreshStats, syncLocalToCloud]);
 
   const awardXP = useCallback((action: keyof typeof XP_RULES, meta?: string) => {
-    const xp = XP_RULES[action];
-    addXPEntry({ action, xp, date: new Date().toISOString(), meta });
+    ProgressService.awardXP(action, meta);
     refreshStats();
     syncLocalToCloud();
   }, [refreshStats, syncLocalToCloud]);
