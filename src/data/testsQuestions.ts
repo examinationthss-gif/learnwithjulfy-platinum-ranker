@@ -12,111 +12,111 @@ export interface TestQuestion {
 export const testsQuestions: Record<number, TestQuestion[]> = {
   // Test Paper 1: Unit I & II Diagnostic Test Paper
   1: [
-    {
-        "id": 1,
-        "qEn": "In which year was the Secondary Education Commission appointed?",
-        "qAs": "মাধ্যমমক মিক্ষা আয াগ ককান বছৰত মনযুক্ত কৰা হৈমছল ?",
-        "optsEn": [
-            "1948",
-            "1952",
-            "1964",
-            "1986"
-        ],
-        "optsAs": [
-            "১৯৪৮",
-            "১৯৫২",
-            "১৯৬৪",
-            "১৯৮৬"
-        ],
-        "correct": 1,
-        "expEn": "The Secondary Education Commission was appointed by the Government of India in 1952.",
-        "expAs": "ভাৰত চৰকাযৰ ১৯৫২ চনত মাধ্যমমক মিক্ষা আয াগ মনযুক্ত কমৰমছল।"
-    },
-    {
-        "id": 2,
-        "qEn": "Who was the Chairman of the Secondary Education Commission?",
-        "qAs": "মাধ্যমমক মিক্ষা আয াগৰ সভাপমত ককান আমছল ?",
-        "optsEn": [
-            "D. S. Kothari",
-            "A. Lakshmanaswami Mudaliar",
-            "J. P. Naik",
-            "Zakir Hussain"
-        ],
-        "optsAs": [
-            "মি. এছ. ককাঠাৰী",
-            "এ. লক্ষ্মণস্বামী মুদামল াৰ",
-            "কে. মপ. না ক",
-            "োমকৰ হু যছইন"
-        ],
-        "correct": 1,
-        "expEn": "The Commission was chaired by Dr. A. Lakshmanaswami Mudaliar.",
-        "expAs": "ি° এ. লক্ষ্মণস্বামী মুদামল াৰ এই আয াগৰ সভাপমত আমছল।"
-    },
-    {
-        "id": 3,
-        "qEn": "Which defect of secondary education was strongly criticized by the Mudaliar Commission?",
-        "qAs": "মুদামল াৰ আয াযগ মাধ্যমমক মিক্ষাৰ ককান ত্ৰু টিয াক তীব্ৰভাযে সমাযলাচনা কমৰমছল ?",
-        "optsEn": [
-            "Excessive practical work",
-            "Bookish and examination-oriented education",
-            "Excessive sports activities",
-            "Lack of libraries"
-        ],
-        "optsAs": [
-            "অতযামধ্ক বযেৈামৰক কাম",
-            "পুমথগত আৰু পৰীক্ষাযকমিক মিক্ষা",
-            "অতযামধ্ক ক্ৰ ীডা কাযযসূচী",
-            "পুমথভঁৰালৰ অভাে"
-        ],
-        "correct": 1,
-        "expEn": "The Commission believed that education had become too book-centered and examination-driven.",
-        "expAs": "আয াগৰ মযত মিক্ষা অতযামধ্ক পুমথগত আৰু পৰীক্ষামুখী হৈ পমৰমছল।"
-    },
-    {
-        "id": 4,
-        "qEn": "According to the Mudaliar Commission, the curriculum of secondary education failed mainly because it—",
-        "qAs": "মুদামল াৰ আয াগৰ মযত মাধ্যমমক মিক্ষাৰ পাঠযক্ৰমৰ মুখয ত্ৰু টি মক আমছল ?",
-        "optsEn": [
-            "Was too vocational",
-            "Ignored individual differences and practical needs",
-            "Focused excessively on arts",
-            "Included too many co-curricular activities"
-        ],
-        "optsAs": [
-            "অতযামধ্ ক বৃমিমূলক আমছল",
-            "বযমক্তগত পাথযকয আৰু বযেৈামৰক প্ৰ য ােন উযপক্ষা কমৰমছল",
-            "কলা মবষ ত অতযামধ্ক গু ৰুত্ব মদমছল",
-            "সৈ-পাঠযক্ৰম কাযযসূচী কবমছ আমছল"
-        ],
-        "correct": 1,
-        "expEn": "The Commission felt that the curriculum did not adequately address students' varied interests, abilities and\npractical life needs.",
-        "expAs": "আয াগৰ মযত পাঠযক্ৰযম মিক্ষাথীৰ মভন্ন আগ্ৰৈ , সামথযয আৰু েীেনমুখী প্ৰ য ােনসমূৈ যযথষ্ট গু ৰুত্ব মদ া নামছল।"
-    },
-    {
-        "id": 5,
-        "qEn": "A school evaluates students only through annual written examinations. According to the Mudaliar\nCommission, what is the major drawback of this practice?",
-        "qAs": "এখন বিদ্যালয়ে কেৱল িাবষিে বলবখত পৰীক্ষাৰ জবৰ়েযত বিক্ষাৰ্থীৰ মূলযা়েন েৰা হ়ে। মুদ্াবল়োৰ আয়োগৰ মযত ই়োৰ মুখয অসুবিধা বে?",
-        "optsEn": [
-            "It increases vocational efficiency",
-            "It ignores all-round development",
-            "It promotes co-curricular activities",
-            "It improves guidance services"
-        ],
-        "optsAs": [
-            "ই িৃবিমূলে দ্ক্ষ তা িৃবি েযৰ",
-            "ই বিক্ষাৰ্থীৰ সিিাঙ্গীন বিোি উযপক্ষা েযৰ",
-            "ই সহ-পাঠ্যক্ৰম োৰ্িসূচী উন্নত েযৰ",
-            "ই বনযদ্িিনা কসৱা উন্নত েযৰ"
-        ],
-        "correct": 1,
-        "expEn": "The Commission criticized examination-centered education because it neglected students' overall\ndevelopment and practical abilities.",
-        "expAs": "আয়োযগ পৰীক্ষাযেবিে বিক্ষাৰ সমাযলাচনা েবৰবিল, োৰণ ই়োত বিক্ষাৰ্থীৰ সিিাঙ্গীন বিোি আৰু িযৱহাবৰে দ্ক্ষ তা উযপবক্ষত হহবিল।"
-    }
-],
+        {
+            "id": 1,
+            "qEn": "In which year was the Secondary Education Commission appointed?",
+            "qAs": "মাধ্যমিক শিক্ষা আয়াগ কোন বছৰত নিযুক্ত কৰা হৈছিল ?",
+            "optsEn": [
+                "1948",
+                "1952",
+                "1964",
+                "1986"
+            ],
+            "optsAs": [
+                "১৯৪৮",
+                "১৯৫২",
+                "১৯৬৪",
+                "১৯৮৬"
+            ],
+            "correct": 1,
+            "expEn": "The Secondary Education Commission was appointed by the Government of India in 1952.",
+            "expAs": "ভাৰত চৰকাৰে ১৯৫২ চনত মাধ্যমিক শিক্ষা আয়াগ নিযুক্ত কৰিছিল।"
+        },
+        {
+            "id": 2,
+            "qEn": "Who was the Chairman of the Secondary Education Commission?",
+            "qAs": "মাধ্যমিক শিক্ষা আয়াগৰ সভাপতি কোন আছিল ?",
+            "optsEn": [
+                "D. S. Kothari",
+                "A. Lakshmanaswami Mudaliar",
+                "J. P. Naik",
+                "Zakir Hussain"
+            ],
+            "optsAs": [
+                "ডি. এছ. ককাঠাৰী",
+                "এ. লক্ষ্ণিস্বামী মুদামলাৰ",
+                "কে. পি. না ক",
+                "জাকিৰ হু যছইন"
+            ],
+            "correct": 1,
+            "expEn": "The Commission was chaired by Dr. A. Lakshmanaswami Mudaliar.",
+            "expAs": "ড° এ. লক্ষ্ণিস্বামী মুদামলাৰ এই আয়াগৰ সভাপতি আছিল।"
+        },
+        {
+            "id": 3,
+            "qEn": "Why was the Secondary Education Commission appointed?",
+            "qAs": "মাধ্যমিক শিক্ষা আয়াগ কি নিযুক্ত কৰা হৈছিল ?",
+            "optsEn": [
+                "To reform higher education",
+                "To examine and improve secondary education",
+                "To establish universities",
+                "To regulate primary schools"
+            ],
+            "optsAs": [
+                "উচ্চ শিক্ষাৰ সংস্কাৰৰ বাযব",
+                "মাধ্যমিক শিক্ষা পৰ্যালোচনা আৰু উন্ন নৰ বাযব",
+                "বিশ্ববিদযালস্থ াপনৰ বাযব",
+                "প্ৰ াথমিক বিদযাল মন ন্ত্ৰ ণৰ বাযব"
+            ],
+            "correct": 1,
+            "expEn": "The Commission was formed to study the problems of secondary education and suggest reforms.",
+            "expAs": "মাধ্যমিক শিক্ষাৰ সসিযা অধ্য ন কমৰ উন্ন নৰ পৰামিয দিবলল এই আয়াগ গঠন কৰা হৈছিল।"
+        },
+        {
+            "id": 4,
+            "qEn": "Which educational level was directly studied by the Mudaliar Commission?",
+            "qAs": "মুদামলাৰ আয়াযগ প্ৰ তযক্ষভাযে কোন শিক্ষাস্তৰ অধ্য ন কৰিছিল ?",
+            "optsEn": [
+                "Primary Education",
+                "Secondary Education",
+                "University Education",
+                "Adult Education"
+            ],
+            "optsAs": [
+                "প্ৰ াথমিক শিক্ষা",
+                "মাধ্যমিক শিক্ষা",
+                "বিশ্ববিদ্যালয় শিক্ষা",
+                "প্ৰ াপ্তব স্ক শিক্ষা"
+            ],
+            "correct": 1,
+            "expEn": "The Commission specifically examined the structure, curriculum and problems of secondary education.",
+            "expAs": "আয়াযগ মাধ্যমিক শিক্ষাৰ গঠন , পাঠযক্ৰম আৰু সসিযাসমূৈ অধ্য ন কৰিছিল।"
+        },
+        {
+            "id": 5,
+            "qEn": "Which defect of secondary education was strongly criticized by the Mudaliar Commission?",
+            "qAs": "মুদামলাৰ আয়াযগ মাধ্যমিক শিক্ষাৰ কোন ত্ৰু টিয়াক তীব্ৰভাযে সমাযলাচনা কৰিছিল ?",
+            "optsEn": [
+                "Excessive practical work",
+                "Bookish and examination-oriented education",
+                "Excessive sports activities",
+                "Lack of libraries"
+            ],
+            "optsAs": [
+                "অত্যাধিক বযেৈাৰিক কাম",
+                "পুথিগত আৰু পৰীক্ষামুখী শিক্ষা",
+                "অত্যাধিক ক্ৰ ীডা কাযযসূচী",
+                "পুথিভঁৰালৰ অভাৱ"
+            ],
+            "correct": 1,
+            "expEn": "The Commission believed that education had become too book-centered and examination-driven.",
+            "expAs": "আয়াগৰ যিত শিক্ষা অত্যাধিক পুথিগত আৰু পৰীক্ষামুখী হৈ পৰিছিল।"
+        }
+  ],
 
 
 
-  // Test Paper 2: Unit III & IV Mid-Term Review
+    // Test Paper 2: Unit III & IV Mid-Term Review
   2: [
     {
       id: 1,

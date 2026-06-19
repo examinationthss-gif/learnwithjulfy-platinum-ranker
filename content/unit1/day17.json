@@ -78,63 +78,63 @@
   "asMcqs": [
     {
       "id": 1,
-      "question": "না:\nএখন মাধ্ যমমক মবদযালয উৎকৃষ্ট পৰীক্ষ াৰ ফলাফল লাভ কযৰ, মকন্তু অমধ্কাংি মিক্ষাথীয বযেৈামৰক কপছাগত\nদক্ষতাৰ অভােত কমযসংস্থান লাভ কৰাত অসুমবধ্া পা ।\nমাধ্যমমক মিক্ষাৰ ককান লক্ষযয া উযপক্ষা কৰা হৈযছ ? [ID: LWJ-U1-081]",
+      "question": "না:\nএখন মাধ্ যমিক বিদযালয উৎকৃষ্ট পৰীক্ষ াৰ ফলাফল লাভ কযৰ, কিন্তু অধি্কাংি শিক্ষাথীয বযেৈাৰিক কপছাগত\nদক্ষতাৰ অভােত কযিসংস্থান লাভ কৰাত অসুবিধ্া পা ।\nমাধ্যমিক শিক্ষাৰ কোন লক্ষযয়া উপেক্ষা কৰা হৈছে ? [ID: LWJ-U1-081]",
       "options": [
-        "গণতামন্ত্ৰক নাগমৰকত্ব",
-        "বৃমিমূলক দক্ষ তা",
-        "সাংস্কৃ মতক মবকাি",
-        "িাৰীমৰক মিক্ষা"
+        "গণতানি্ত্ৰক নাগৰিকত্ব",
+        "বৃত্তিমূলক দক্ষ তা",
+        "সাংস্কৃ তিক বিকাশ",
+        "িাৰীৰিক শিক্ষা"
       ],
       "correct": 1,
-      "explanation": "মুদামল াৰ আয াযগ বৃমিমূলক দক্ষ তাৰ ওপৰত গু ৰুত্ব মদমছল যাযত মিক্ষ া মিক্ষ াথীক উৎপাদনিীল কময আৰু\nআত্মমনভযৰিীলতাৰ বাযব প্ৰস্তু ত কযৰ।\nHint: The problem concerns employability rather than academic achievement.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "মুদামলাৰ আয়াযগ বৃত্তিমূলক দক্ষ তাৰ ওপৰত গু ৰুত্ব দিছিল যাযত মিক্ষ া মিক্ষ াথীক উৎপাদনিীল কযি আৰু\nআত্মিনভযৰিীলতাৰ বাযব প্ৰস্তু ত কযৰ।\nHint: The problem concerns employability rather than academic achievement.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 2,
-      "question": "ককাঠাৰী আয াযগ পৰামিয মদ া ১০+২+৩ গাঁথমনৰ মুখয মিক্ষাগত গু ৰুত্ব মক আমছল ? [ID: LWJ-U1-082]",
+      "question": "ককাঠাৰী আয়াযগ পৰামিয মদা ১০+২+৩ গাঁথনিৰ মুখয শিক্ষাগত গু ৰুত্ব কি আছিল ? [ID: LWJ-U1-082]",
       "options": [
-        "ই উচ্চ মিক্ষাৰ সুযযাগ হ্ৰ াস কমৰমছল।",
-        "ই এক একীভূত োতী মিক্ষা গাঁথমন প্ৰ েতযন কমৰমছল।",
-        "ই বৃমিমুখী মিক্ষ া মবযলাপ কমৰমছল।",
-        "ই ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব মদমছল।"
+        "ই উচ্চ শিক্ষাৰ সুযযাগ হ্ৰ াস কৰিছিল।",
+        "ই এক একীভূত জাতীয় শিক্ষা গাঁথনি প্ৰ েতযন কৰিছিল।",
+        "ই বৃত্তিমুখী মিক্ষ া বিযলাপ কৰিছিল।",
+        "ই ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব দিছিল।"
       ],
       "correct": 1,
-      "explanation": "১০+২+৩ গাঁথমনয ভাৰতেুমৰ মিক্ষা পযযা সমূৈ একীভূত কমৰ মিক্ষাগত পমৰকল্পনা সৈে কমৰ তুমলমছল।\nHint: The recommendation focused on national educational consistency.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "১০+২+৩ গাঁথনিয ভাৰতেুমৰ শিক্ষা পযযা সমূৈ একীভূত কমৰ শিক্ষাগত পমৰকল্পনা সৈে কমৰ তুলিছিল।\nHint: The recommendation focused on national educational consistency.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 3,
-      "question": "না:\nএখন চৰকাযৰ বমঞ্চ ত মিক্ষ াথীৰ বাযব মবযিষ বৃমি, আবাস আৰু মিক্ষাগত সৈা কাযযসূচী আৰম্ভ কমৰযছ।\nই NPE 1986-ৰ ককান মুখয উযেিযক সবযামধ্ক প্ৰ মতফমলত কযৰ ? [ID: LWJ-U1-083]",
+      "question": "না:\nএখন চৰকাৰে বঞি্চ ত মিক্ষ াথীৰ বাযব বিযিষ বৃত্তি, আবাস আৰু শিক্ষাগত সৈা কাযযসূচী আৰ্িভ কৰিযছ।\nই NPE 1986-ৰ কোন মুখয উযেিযক সবযাধি্ক প্ৰ তিফলিত কযৰ ? [ID: LWJ-U1-083]",
       "options": [
-        "মিক্ষাগত সমতা",
+        "শিক্ষাগত সতিা",
         "পৰীক্ষা সংস্কাৰ",
         "প্ৰ িাসমনক মন ন্ত্ৰ ণ",
         "পাঠযক্ৰম হ্ৰ াস"
       ],
       "correct": 0,
-      "explanation": "NPE 1986-এ মবযিষলক বমঞ্চত আৰু মপছপৰা কগা সমূৈৰ বাযব সমান মিক্ষাৰ সুযযাগৰ ওপৰত গু ৰুত্ব আযৰাপ\nকমৰমছল।\nHint: The policy focuses on reducing educational disadvantage.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "NPE 1986-এ বিযিষলক বঞি্চত আৰু পিছপৰা কগা সমূৈৰ বাযব সমান শিক্ষাৰ সুযোগৰ ওপৰত গু ৰুত্ব আযৰাপ\nকৰিছিল।\nHint: The policy focuses on reducing educational disadvantage.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 4,
-      "question": "অসমৰ এ া দূৰেতী অঞ্চলত মবদযাল ভেন আযছ , মকন্তু দক্ষ মিক্ষক আৰু মিক্ষণ সম্পদৰ অভাে আযছ। এই\nঅেস্থাই ককান সমসযাক সবযামধ্ক স্পষ্ট ভাযে প্ৰ মতফমলত কযৰ ? [ID: LWJ-U1-084]",
+      "question": "অসমৰ এ া দূৰেতী অঞ্চলত বিদযাল ভেন আযছ , কিন্তু দক্ষ মিক্ষক আৰু মিক্ষণ স্িপদৰ অভাৱ আযছ। এই\nঅেস্থাই কোন সসিযাক সবযাধি্ক স্পষ্ট ভাযে প্ৰ তিফলিত কযৰ ? [ID: LWJ-U1-084]",
       "options": [
-        "মিক্ষাৰ প্ৰ মত চামৈদাৰ অভাে",
-        "মিক্ষাৰ গু ণগত মানৰ অসমতা",
-        "অতযামধ্ ক বৃমিমুখীকৰণ",
-        "আন্তঃগাঁথমনৰ অতযামধ্ক উন্ন ন"
+        "শিক্ষাৰ প্ৰ মত চামৈদাৰ অভাৱ",
+        "শিক্ষাৰ গু ণগত মানৰ অসতিা",
+        "অত্যাধিক ক বৃত্তিমুখীকৰণ",
+        "আন্তঃগাঁথমনৰ অত্যাধিক উন্ন ন"
       ],
       "correct": 1,
-      "explanation": "ককেল মবদযাল ৰ উপমস্থমত যযথষ্ট নৈ ; গু ণগত মিক্ষা মনমিত কমৰবলল উপযুক্ত সম্পদ আৰু দক্ষ মিক্ষক\n প্ৰ\nয ােন।\nHint: The issue concerns educational quality rather than access.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "ককেল বিদযাল ৰ উপসি্থমত যযথষ্ট নৈ ; গু ণগত শিক্ষা নিমিত কৰিবলৈ উপযুক্ত স্িপদ আৰু দক্ষ মিক্ষক\n প্ৰ\nয়ােন।\nHint: The issue concerns educational quality rather than access.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 5,
-      "question": "এখন ৰােযই এযক সম যত গু ণগত মিক্ষা , সমতা, কযমযাপযযামগতা, গণতামন্ত্ৰক নাগমৰকত্ব আৰু োতী উন্ন ন লাভ\nকমৰব মবচাযৰ। ককান ককৌিলয া সবযামধ্ক উপযুক্ত ? [ID: LWJ-U1-085]",
+      "question": "এখন ৰােযই এযক সম যত গু ণগত শিক্ষা , সতিা, কযযিাপযযাগিতা, গণতানি্ত্ৰক নাগৰিকত্ব আৰু জাতীয় উন্ন ন লাভ\nকৰিব বিচাযৰ। কোন ককৌিলয়া সবযাধি্ক উপযুক্ত ? [ID: LWJ-U1-085]",
       "options": [
-        "পৰীক্ষাযকমিক মিক্ষা মযিল",
-        "সমমিত সংস্কাৰমভমিক মিক্ষা বযেস্থা",
-        "মুখস্থমভমিক পাঠযক্ৰম",
-        "মিক্ষাৰ সুযযাগ সীমমতকৰণ"
+        "পৰীক্ষামুখী শিক্ষা যিিল",
+        "সমিিত সংস্কাৰভিমিক শিক্ষা বযেস্থা",
+        "মুখস্থভিমিক পাঠযক্ৰম",
+        "শিক্ষাৰ সুযযাগ সীমিতকৰণ"
       ],
       "correct": 1,
-      "explanation": "সমমিত সংস্কাৰমভমিক পিমতয মুদামল াৰ আয াগ , ককাঠাৰী আয াগ আৰু NPE 1986-ৰ মুখয পৰামিযসমূৈ\nএকমত্রত কযৰ।\nHint: Choose the option that combines all major educational goals.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nREGISTRY UPDATE\nGenerated:\n✓ LWJ-U1-081\n✓ LWJ-U1-082\n✓ LWJ-U1-083\n✓ LWJ-U1-084\n✓ LWJ-U1-085\nCoverage Status:\n✓ Vocational Efficiency Reinforced\n✓ 10+2+3 Structure Reinforced\n✓ NPE Equality Framework Reinforced\n✓ Assam Educational Challenges Reinforced\n✓ Integrated Reform Strategy Expanded\nDifficulty Audit (001–085)\nEasy = 11\nModerate = 27\nHard = 47\nBloom Coverage\n✓ Remember\n✓ Understand\n✓ Apply\n✓ Analyze\n✓ Evaluate\n✓ Create\nDuplicate Check:\n✓ Passed\nAHSEC Boundary Check:\n✓ Passed\nNext MCQ ID:\nLWJ-U1-086\n\n\n\nNext Target Range:\nLWJ-U1-086 → LWJ-U1-090\nStatus:\nWebsite Ready\nAssessment Engine Ready\nAI Tutor Ready\nRegistry Continuity Maintained\nLEARNWITHJULFY PLATINUM MCQ BANK ENGINE\nUNIT I – Development of Secondary Education in India and Assam\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "সমিিত সংস্কাৰভিমিক পিতিয মুদামলাৰ আয়াগ , ককাঠাৰী আয়াগ আৰু NPE 1986-ৰ মুখয পৰামিযসমূৈ\nএকতি্রত কযৰ।\nHint: Choose the option that combines all major educational goals.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nREGISTRY UPDATE\nGenerated:\n✓ LWJ-U1-081\n✓ LWJ-U1-082\n✓ LWJ-U1-083\n✓ LWJ-U1-084\n✓ LWJ-U1-085\nCoverage Status:\n✓ Vocational Efficiency Reinforced\n✓ 10+2+3 Structure Reinforced\n✓ NPE Equality Framework Reinforced\n✓ Assam Educational Challenges Reinforced\n✓ Integrated Reform Strategy Expanded\nDifficulty Audit (001–085)\nEasy = 11\nModerate = 27\nHard = 47\nBloom Coverage\n✓ Remember\n✓ Understand\n✓ Apply\n✓ Analyze\n✓ Evaluate\n✓ Create\nDuplicate Check:\n✓ Passed\nAHSEC Boundary Check:\n✓ Passed\nNext MCQ ID:\nLWJ-U1-086\n\n\n\nNext Target Range:\nLWJ-U1-086 → LWJ-U1-090\nStatus:\nWebsite Ready\nAssessment Engine Ready\nAI Tutor Ready\nRegistry Continuity Maintained\nLEARNWITHJULFY PLATINUM MCQ BANK ENGINE\nUNIT I – Development of Secondary Education in India and Assam\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     }
   ]
 }
