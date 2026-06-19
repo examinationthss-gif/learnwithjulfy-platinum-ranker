@@ -8,7 +8,7 @@
     "subtopic": "Establishment",
     "difficulty": "Easy",
     "enQuestion": "In which year was the Secondary Education Commission appointed?",
-    "asQuestion": "মাধ্যমমক মিক্ষা আয াগ ককান বছৰত মনযুক্ত কৰা হৈমছল ?",
+    "asQuestion": "মাধ্যমিক শিক্ষা আয়োগ কোন বছৰত নিযুক্ত কৰা হৈছিল?",
     "enOptions": [
       "1948",
       "1952",
@@ -23,7 +23,7 @@
     ],
     "correctIndex": 1,
     "enExplanation": "The Secondary Education Commission was appointed by the Government of India in 1952.",
-    "asExplanation": "ভাৰত চৰকাযৰ ১৯৫২ চনত মাধ্যমমক মিক্ষা আয াগ মনযুক্ত কমৰমছল।",
+    "asExplanation": "ভাৰত চৰকাৰে ১৯৫২ চনত মাধ্যমিক শিক্ষা আয়োগ নিযুক্ত কৰিছিল।",
     "hint": "Remember the year immediately after the First Five-Year Plan began.\n━━━━━━━━━━━━━━━━━━"
   },
   {
@@ -35,7 +35,7 @@
     "subtopic": "Chairman",
     "difficulty": "Easy",
     "enQuestion": "Who was the Chairman of the Secondary Education Commission?",
-    "asQuestion": "মাধ্যমমক মিক্ষা আয াগৰ সভাপমত ককান আমছল ?",
+    "asQuestion": "মাধ্যমিক শিক্ষা আয়োগৰ সভাপতি কোন আছিল?",
     "enOptions": [
       "D. S. Kothari",
       "A. Lakshmanaswami Mudaliar",
@@ -43,14 +43,14 @@
       "Zakir Hussain"
     ],
     "asOptions": [
-      "মি. এছ. ককাঠাৰী",
-      "এ. লক্ষ্মণস্বামী মুদামল াৰ",
-      "কে. মপ. না ক",
-      "োমকৰ হু যছইন"
+      "ডি. এছ. কোঠাৰী",
+      "এ. লক্ষ্মণস্বামী মুদালিয়াৰ",
+      "জে. পি. নায়ক",
+      "জাকিৰ হুছেইন"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission was chaired by Dr. A. Lakshmanaswami Mudaliar.",
-    "asExplanation": "ি° এ. লক্ষ্মণস্বামী মুদামল াৰ এই আয াগৰ সভাপমত আমছল।",
+    "asExplanation": "ড° এ. লক্ষ্মণস্বামী মুদালিয়াৰ এই আয়োগৰ সভাপতি আছিল।",
     "hint": "The Commission is popularly known by the Chairman's surname.\n━━━━━━━━━━━━━━━━━━"
   },
   {
@@ -62,7 +62,7 @@
     "subtopic": "Purpose",
     "difficulty": "Easy",
     "enQuestion": "Why was the Secondary Education Commission appointed?",
-    "asQuestion": "মাধ্যমমক মিক্ষা আয াগ মক মনযুক্ত কৰা হৈমছল ?",
+    "asQuestion": "মাধ্যমিক শিক্ষা আয়োগ কিয় নিযুক্ত কৰা হৈছিল?",
     "enOptions": [
       "To reform higher education",
       "To examine and improve secondary education",
@@ -70,14 +70,14 @@
       "To regulate primary schools"
     ],
     "asOptions": [
-      "উচ্চ মিক্ষাৰ সংস্কাৰৰ বাযব",
-      "মাধ্যমমক মিক্ষা পযযাযলাচনা আৰু উন্ন নৰ বাযব",
-      "মবশ্বমবদযালস্থ াপনৰ বাযব",
-      "প্ৰ াথমমক মবদযাল মন ন্ত্ৰ ণৰ বাযব"
+      "উচ্চ শিক্ষাৰ সংস্কাৰৰ বাবে",
+      "মাধ্যমিক শিক্ষা পৰ্যালোচনা আৰু উন্নয়নৰ বাবে",
+      "বিশ্ববিদ্যালয় স্থাপনৰ বাবে",
+      "প্ৰাথমিক বিদ্যালয় নিয়ন্ত্ৰণৰ বাবে"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission was formed to study the problems of secondary education and suggest reforms.",
-    "asExplanation": "মাধ্যমমক মিক্ষাৰ সমসযা অধ্য ন কমৰ উন্ন নৰ পৰামিয মদবলল এই আয াগ গঠন কৰা হৈমছল।",
+    "asExplanation": "মাধ্যমিক শিক্ষাৰ সমস্যা অধ্যয়ন কৰি উন্নয়নৰ পৰামৰ্শ দিবলৈ এই আয়োগ গঠন কৰা হৈছিল।",
     "hint": "Its focus was the secondary stage of education.\n━━━━━━━━━━━━━━━━━━"
   },
   {
@@ -89,7 +89,7 @@
     "subtopic": "Educational Context",
     "difficulty": "Easy",
     "enQuestion": "Which educational level was directly studied by the Mudaliar Commission?",
-    "asQuestion": "মুদামল াৰ আয াযগ প্ৰ তযক্ষভাযে ককান মিক্ষাস্তৰ অধ্য ন কমৰমছল ?",
+    "asQuestion": "মুদালিয়াৰ আয়োগে প্ৰত্যক্ষভাৱে কোন শিক্ষাস্তৰ অধ্যয়ন কৰিছিল?",
     "enOptions": [
       "Primary Education",
       "Secondary Education",
@@ -97,14 +97,14 @@
       "Adult Education"
     ],
     "asOptions": [
-      "প্ৰ াথমমক মিক্ষা",
-      "মাধ্যমমক মিক্ষা",
-      "মবশ্বমবদযাল মিক্ষা",
-      "প্ৰ াপ্তব স্ক মিক্ষা"
+      "প্ৰাথমিক শিক্ষা",
+      "মাধ্যমিক শিক্ষা",
+      "বিশ্ববিদ্যালয় শিক্ষা",
+      "প্ৰাপ্তবয়স্ক শিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission specifically examined the structure, curriculum and problems of secondary education.",
-    "asExplanation": "আয াযগ মাধ্যমমক মিক্ষাৰ গঠন , পাঠযক্ৰম আৰু সমসযাসমূৈ অধ্য ন কমৰমছল।",
+    "asExplanation": "আয়োগে মাধ্যমিক শিক্ষাৰ গঠন, পাঠ্যক্ৰম আৰু সমস্যাসমূহ অধ্যয়ন কৰিছিল।",
     "hint": "Its official name itself gives the answer.\n━━━━━━━━━━━━━━━━━━"
   },
   {
@@ -116,7 +116,7 @@
     "subtopic": "Bookish Education",
     "difficulty": "Easy",
     "enQuestion": "Which defect of secondary education was strongly criticized by the Mudaliar Commission?",
-    "asQuestion": "মুদামল াৰ আয াযগ মাধ্যমমক মিক্ষাৰ ককান ত্ৰু টিয াক তীব্ৰভাযে সমাযলাচনা কমৰমছল ?",
+    "asQuestion": "মুদালিয়াৰ আয়োগে মাধ্যমিক শিক্ষাৰ কোন ত্ৰুটিটোক তীব্ৰভাৱে সমালোচনা কৰিছিল?",
     "enOptions": [
       "Excessive practical work",
       "Bookish and examination-oriented education",
@@ -124,14 +124,14 @@
       "Lack of libraries"
     ],
     "asOptions": [
-      "অতযামধ্ক বযেৈামৰক কাম",
-      "পুমথগত আৰু পৰীক্ষাযকমিক মিক্ষা",
-      "অতযামধ্ক ক্ৰ ীডা কাযযসূচী",
-      "পুমথভঁৰালৰ অভাে"
+      "অত্যাধিক ব্যৱহাৰিক কাম",
+      "পুথিগত আৰু পৰীক্ষাকেন্দ্ৰিক শিক্ষা",
+      "অত্যাধিক ক্ৰীড়া কাৰ্যসূচী",
+      "পুথিভঁৰালৰ অভাৱ"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission believed that education had become too book-centered and examination-driven.",
-    "asExplanation": "আয াগৰ মযত মিক্ষা অতযামধ্ক পুমথগত আৰু পৰীক্ষামুখী হৈ পমৰমছল।",
+    "asExplanation": "আয়োগৰ মতে শিক্ষা অত্যাধিক পুথিগত আৰু পৰীক্ষামুখী হৈ পৰিছিল।",
     "hint": "The criticism was against rote learning.\n━━━━━━━━━━━━━━━━━━"
   },
   {
