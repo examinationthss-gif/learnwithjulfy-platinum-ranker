@@ -122,7 +122,6 @@ export default function TestsPage() {
   // Timer States
   const [timeLeft, setTimeLeft] = useState<number>(0); // in seconds
   const [timerRunning, setTimerRunning] = useState<boolean>(false);
-  const [downloadSuccessMessage, setDownloadSuccessMessage] = useState<string | null>(null);
 
   // Assessment Engine States
   const [userAnswers, setUserAnswers] = useState<Record<number, number>>({});
@@ -203,17 +202,6 @@ export default function TestsPage() {
     setExamSubmitted(false);
     setExamScore(null);
   };
-
-  const triggerDownload = (title: string) => {
-    const successMsg = language === "en" 
-      ? `Success! Initiated download for: ${title}`
-      : `সফল হ'ল! ডাউনলোড প্ৰক্ৰিয়া আৰম্ভ হৈছে: ${title}`;
-    setDownloadSuccessMessage(successMsg);
-    setTimeout(() => {
-      setDownloadSuccessMessage(null);
-    }, 4000);
-  };
-
   // Formatting seconds to HH:MM:SS with language numerals
   const formatTime = (secs: number) => {
     const h = Math.floor(secs / 3600);
@@ -259,14 +247,6 @@ export default function TestsPage() {
           {t("testsSub")}
         </p>
       </div>
-
-      {/* Mock Download Toast */}
-      {downloadSuccessMessage && (
-        <div className="fixed bottom-5 right-5 z-50 flex items-center gap-2 bg-emerald-500 text-white px-4 py-3 rounded-xl shadow-lg animate-bounce text-sm">
-          <CheckCircle2 className="h-5 w-5 shrink-0" />
-          <span>{downloadSuccessMessage}</span>
-        </div>
-      )}
 
       {/* Grid: Main Section vs Timer Console */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -342,11 +322,11 @@ export default function TestsPage() {
                       {/* Actions Panel */}
                       <div className="mt-6 pt-4 border-t border-border/60 flex items-center gap-3">
                         <button
-                          onClick={() => triggerDownload(titleText)}
-                          className="flex-1 flex items-center justify-center gap-1.5 rounded-xl border border-border bg-background py-2 text-xs font-bold text-foreground hover:bg-muted transition-colors"
+                          disabled
+                          className="flex-1 flex items-center justify-center gap-1.5 rounded-xl border border-border bg-muted/20 py-2 text-xs font-bold text-muted-foreground cursor-not-allowed opacity-75"
                         >
                           <Download className="h-4 w-4" />
-                          {t("downloadPaper")}
+                          {language === "en" ? "Coming Soon" : "শীঘ্ৰেই আহিব"}
                         </button>
                         <button
                           onClick={() => startTimerConsole(paper)}
