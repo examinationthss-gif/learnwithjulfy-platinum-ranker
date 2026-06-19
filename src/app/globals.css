@@ -130,3 +130,102 @@ body {
     print-color-adjust: exact;
   }
 }
+
+/* ==========================================================================
+   Appearance System & Themes
+   ========================================================================== */
+
+/* 1. AMOLED Black Theme (OLED Optimized) */
+.theme-amoled.dark {
+  --background: 0 0% 0%;
+  --card: 240 10% 2.5%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 5% 10%;
+  --primary: 270 95% 70%;
+  --primary-hover: 270 95% 62%;
+  --muted: 240 5% 8%;
+  --muted-foreground: 240 5% 60%;
+}
+.theme-amoled.dark .glass-panel {
+  background: rgba(0, 0, 0, 0.9);
+  border-color: rgba(255, 255, 255, 0.04);
+}
+
+/* 2. macOS Glass Theme (frosted glass, blurs, and Apple aesthetic) */
+.theme-macos {
+  --background: 220 20% 97%;
+  --card: 0 0% 100% / 0.5;
+  --border: 220 15% 90% / 0.5;
+}
+.theme-macos.dark {
+  --background: 220 20% 8%;
+  --card: 220 20% 12% / 0.45;
+  --border: 220 10% 20% / 0.4;
+}
+.theme-macos .glass-panel,
+.theme-macos .bg-card,
+.theme-macos.dark .glass-panel,
+.theme-macos.dark .bg-card {
+  backdrop-filter: blur(25px) !important;
+  -webkit-backdrop-filter: blur(25px) !important;
+}
+.theme-macos .glass-panel {
+  background: rgba(255, 255, 255, 0.45);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+.theme-macos.dark .glass-panel {
+  background: rgba(15, 20, 30, 0.4);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* 3. Samsung One UI Theme (Rounder edges, ergonomic sizing) */
+.theme-oneui select,
+.theme-oneui input,
+.theme-oneui button,
+.theme-oneui a,
+.theme-oneui .rounded-xl,
+.theme-oneui .rounded-2xl,
+.theme-oneui .rounded-3xl,
+.theme-oneui .bg-card,
+.theme-oneui .glass-panel {
+  border-radius: 26px !important;
+}
+.theme-oneui {
+  --background: 220 25% 98%;
+  --card: 0 0% 100%;
+}
+.theme-oneui.dark {
+  --background: 220 18% 7%;
+  --card: 220 18% 10%;
+}
+
+/* 4. Gamer Neon Theme (Purple glows and neon styling) */
+.theme-gamer.dark {
+  --background: 265 30% 4.5%;
+  --card: 265 25% 8.5%;
+  --border: 265 30% 16%;
+  --primary: 295 100% 65%;
+  --primary-hover: 295 100% 55%;
+  --muted: 265 25% 12%;
+}
+.theme-gamer.dark .bg-card,
+.theme-gamer.dark .glass-panel {
+  border: 1px solid rgba(217, 70, 239, 0.3) !important;
+  box-shadow: 0 0 15px rgba(217, 70, 239, 0.15) !important;
+  animation: gamerGlow 8s infinite alternate;
+}
+@keyframes gamerGlow {
+  0% {
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.12);
+    border-color: rgba(168, 85, 247, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(217, 70, 239, 0.22);
+    border-color: rgba(217, 70, 239, 0.45);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.12);
+    border-color: rgba(99, 102, 241, 0.25);
+  }
+}
+

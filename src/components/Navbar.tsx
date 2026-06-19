@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
-import { Sun, Moon, Menu, X, GraduationCap, Languages, Search } from "lucide-react";
+import { Sun, Moon, Menu, X, GraduationCap, Languages, Search, Palette } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { useStudent } from "@/context/StudentContext";
 import { awardBadge, hasBadge } from "@/lib/localStorage";
@@ -149,6 +149,17 @@ export default function Navbar() {
                 <Languages className="h-4 w-4 text-indigo-600 dark:text-indigo-400" />
                 <span className="hidden sm:inline">{language === "en" ? "অসমীয়া" : "English"}</span>
               </button>
+            )}
+
+            {/* Appearance Settings */}
+            {mounted && (
+              <Link
+                href="/settings"
+                className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-transparent text-foreground hover:bg-muted transition-colors mr-1"
+                aria-label="Appearance Settings"
+              >
+                <Palette className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
+              </Link>
             )}
 
             {/* Theme Toggle */}

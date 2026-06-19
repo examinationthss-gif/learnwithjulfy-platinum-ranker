@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { AppearanceProvider } from "@/context/AppearanceContext";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { StudentProvider } from "@/context/StudentContext";
 import Navbar from "@/components/Navbar";
@@ -67,14 +68,16 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <LanguageProvider>
-            <StudentProvider>
-              <Navbar />
-              <main className="flex-grow">{children}</main>
-              <Footer />
-              <BadgeToast />
-            </StudentProvider>
-          </LanguageProvider>
+          <AppearanceProvider>
+            <LanguageProvider>
+              <StudentProvider>
+                <Navbar />
+                <main className="flex-grow">{children}</main>
+                <Footer />
+                <BadgeToast />
+              </StudentProvider>
+            </LanguageProvider>
+          </AppearanceProvider>
         </ThemeProvider>
       </body>
     </html>
