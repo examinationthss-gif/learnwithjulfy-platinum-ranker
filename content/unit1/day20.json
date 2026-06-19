@@ -78,19 +78,19 @@
   "asMcqs": [
     {
       "id": 1,
-      "question": "মুদামলাৰ আয়াযগ পৰামিয মদা মাধ্যমিক শিক্ষাৰ মুখয লক্ষযসমূৈৰ সবযাধি্ক উপযুক্ত সমি ককানয়া ? [ID: LWJ-U1-096]",
+      "question": "মুডালিয়াৰ আয়াযগ পৰামিয মদা মাধ্যমিক শিক্ষাৰ মুখয লক্ষযসমূৈৰ সবযাধি্ক উপযুক্ত সমি কোনয়া? [ID: LWJ-U1-096]",
       "options": [
-        "মুখস্থ বিদযা , প্ৰ তিযযাগিতা আৰু পৰীক্ষাত সফলতা",
-        "গণতানি্ত্ৰক নাগৰিকত্ব , বৃত্তিমূলক দক্ষ তা, চৰিত্র গঠন আৰু নেতৃত্ব",
-        "প্ৰ িাসমনক মন ন্ত্ৰ ণ , একৰূপতা আৰু সীমাবিতা",
+        "মুখস্থ বিদযা, প্ৰ তিযযাগিতা আৰু পৰীক্ষাত সফলতা",
+        "গণতানি্ত্ৰক নাগৰিকত্ব, বৃত্তিমূলক দক্ষ তা, চৰিত্র গঠন আৰু নেতৃত্ব",
+        "প্ৰশাসনিক মন ন্ত্ৰ ণ, একৰূপতা আৰু সীমাবিতা",
         "ককেল একাযিমিক সফলতা"
       ],
       "correct": 1,
-      "explanation": "মুদামলাৰ আয়াযগ নাগমৰকত্ব , চমৰত্র , নেতৃত্ব আৰু বৃত্তিমূলক দক্ষ তাৰ েমৰ যত সুষম বিকাশৰ ওপৰত গু ৰুত্ব\nআযৰাপ কৰিছিল।\nHint: Choose the option that reflects holistic development.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "মুডালিয়াৰ আয়াযগ নাগমৰকত্ব, চমৰত্র, নেতৃত্ব আৰু বৃত্তিমূলক দক্ষ তাৰ েমৰ যত সুষম বিকাশৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।\nHint: Choose the option that reflects holistic development.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 2,
-      "question": "উকি্ত ( A):\nককাঠাৰী আয়াযগ জাতীয় পযযা ত শিক্ষাগত পৰিকল্পনাৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।\nকাৰণ (R):\nশিক্ষাক জাতীয় উন্ন ন আৰু সামামেক পৰিেতযনৰ এক মুখয উপা মৈচাযপ গণয কৰা হৈছিল। [ID: LWJ-U1-097]",
+      "question": "উকি্ত ( A): কোঠাৰী আয়াযগ জাতীয় পযযা ত শিক্ষাগত পৰিকল্পনাৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল। কাৰণ (R): শিক্ষাক জাতীয় উন্ন ন আৰু সামামেক পৰিেতযনৰ এক মুখয উপা মৈচাযপ গণয কৰা হৈছিল। [ID: LWJ-U1-097]",
       "options": [
         "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
         "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
@@ -98,27 +98,27 @@
         "A অসতয কিন্তু R সতয"
       ],
       "correct": 0,
-      "explanation": "আয়াযগ সুসংগঠিত শিক্ষাগত পৰিকল্পনাৰ পৰামিয দিছিল , কাৰণ শিক্ষা জাতীয় অগ্ৰগতিত ককিী ভূমিকা পালন\nকযৰ বুমল গণয কৰা হৈছিল।\nHint: The reason directly explains the assertion.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "আয়াযগ সুসংগঠিত শিক্ষাগত পৰিকল্পনাৰ পৰামিয দিছিল, কাৰণ শিক্ষা জাতীয় অগ্ৰগতিত ককিী ভূমিকা পালন কযৰ বুমল গণয কৰা হৈছিল।\nHint: The reason directly explains the assertion.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 3,
-      "question": "NPE 1986-ৰ দী য যিাদী\t দৃষি্ট ভংগীৰ হসযত কোন মিক্ষ াগত পিমত সবযাধি্ ক সাঞি্জ সযপূণয? [ID: LWJ-U1-098]",
+      "question": "NPE 1986-ৰ দী য যিাদী দৃষি্ট ভংগীৰ হসযত কোন মিক্ষ াগত পিমত সবযাধি্ ক সাঞি্জ সযপূণয? [ID: LWJ-U1-098]",
       "options": [
         "পৰীক্ষামুখী মিক্ষণ",
-        "গু ণগত শিক্ষা , সতিা, আধুনিকীকৰণ আৰু সামামেক নযা",
+        "গু ণগত শিক্ষা, সতিা, আধুনিকীকৰণ আৰু সামামেক নযা",
         "মুখস্থভিমিক শিক্ষা",
         "সীমিত শিক্ষাগত সুযযাগ"
       ],
       "correct": 1,
-      "explanation": "NPE 1986-এ গু ণগত শিক্ষা , সতিা, আধুনিকীকৰণ , মিক্ষক উন্ন ন আৰু সামামেক নযাৰ ওপৰত গু ৰুত্ব আযৰাপ\nকৰিছিল।\nHint: Think about the broader goals of educational reform.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "NPE 1986-এ গু ণগত শিক্ষা, সতিা, আধুনিকীকৰণ, মিক্ষক উন্ন ন আৰু সামামেক নযাৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।\nHint: Think about the broader goals of educational reform.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 4,
-      "question": "না:\nঅসমত মাধ্ যমিক মিক্ষ াৰ সুযযাগ বৃত্তি পাইযছ, কিন্তু নগৰ আৰু গ্ৰ াযি বিদযাল সমূৈৰ মােত মিক্ষক আৰু মিক্ষণ\nস্িপদৰ কক্ষত্রত বৈষ্িয বিদযমান।\nকোন সসিযায়াক সবযাধি্ক অগ্ৰাধি্কাৰ দিব লাযগ ? [ID: LWJ-U1-099]",
+      "question": "না: অসমত মাধ্ যমিক মিক্ষ াৰ সুযযাগ বৃত্তি পাইযছ, কিন্তু নগৰ আৰু গ্ৰাযি বিদযাল সমূৈৰ মােত মিক্ষক আৰু মিক্ষণ স্িপদৰ কক্ষত্রত বৈষ্িয বিদযমান। কোন সসিযায়াক সবযাধি্ক অগ্ৰাধি্কাৰ দিব লাযগ? [ID: LWJ-U1-099]",
       "options": [
         "নাভিমতয সীমিত কৰা",
         "শিক্ষাৰ গু ণগত মান আৰু সতিা নিমিত কৰা",
-        "বিজ্ঞান শিক্ষা হ্ৰ াস কৰা",
+        "বিজ্ঞান শিক্ষা হ্ৰাস কৰা",
         "পৰীক্ষ াৰ চাপ বৃত্তি কৰা"
       ],
       "correct": 1,
@@ -126,7 +126,7 @@
     },
     {
       "id": 5,
-      "question": "এখন োতিয এযন মাধ্যমিক শিক্ষা বযেস্থা গ়িি তুমলব বিচাযৰ যিয গণতানি্ত্ৰক নাগৰিকত্ব , বৃত্তিমূলক দক্ষ তা,\nশিক্ষাগত সতিা , বৈজ্ঞানিক যিনাভাে , সামামেক নযা আৰু জাতীয় উন্ন নক উৎসামৈত কযৰ।\nএই দৃষি্ট ভংগীক সবযাধি্ ক উপযুক্ত ভাযে কি বুমল বণযনা কৰিব পাৰি? [ID: LWJ-U1-100]",
+      "question": "এখন োতিয এযন মাধ্যমিক শিক্ষা বযেস্থা গ়িি তুমলব বিচাযৰ যিয গণতানি্ত্ৰক নাগৰিকত্ব, বৃত্তিমূলক দক্ষ তা, শিক্ষাগত সতিা, বৈজ্ঞানিক যিনাভাে, সামামেক নযা আৰু জাতীয় উন্ন নক উৎসামৈত কযৰ। এই দৃষি্ট ভংগীক সবযাধি্ ক উপযুক্ত ভাযে কি বুমল বণযনায়কৰিব পাৰি? [ID: LWJ-U1-100]",
       "options": [
         "পৰীক্ষামুখী শিক্ষা যিিল",
         "সমিিত শিক্ষাগত সংস্কাৰ যিিল",
@@ -134,7 +134,7 @@
         "সীমিত পাঠযক্ৰম যিিল"
       ],
       "correct": 1,
-      "explanation": "এই সমিিত দৃষি্ট ভংগীয মুদামলাৰ আয়াগ, ককাঠাৰী আয়াগ, NPE 1986 আৰু আধ্ুনিক শিক্ষাগত সংস্কাৰৰ মুখয\nপৰামিযসমূৈ একতি্রত কযৰ।\nHint: Choose the option that incorporates all major educational reform objectives.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nUNIT I MASTER MCQ BANK COMPLETION AUDIT\nRegistry Status\nGenerated:\n✓ LWJ-U1-001 → LWJ-U1-100\nTotal MCQs:\n✓ 100 / 100 Completed\n━━━━━━━━━━━━━━━━━━\nTopic Coverage Audit\n✓ Mudaliar Commission (1952–53)\n✓ Defects of Secondary Education\n✓ Aims of Secondary Education\n✓ Recommendations of Mudaliar Commission\n✓ Kothari Commission (1964–66)\n✓ Main Recommendations of Kothari Commission\n✓ National Policy on Education (1986)\n✓ Vocationalisation of Secondary Education\n✓ Development of Secondary Education in Assam\n✓ Current Relevance & Educational Reforms\n━━━━━━━━━━━━━━━━━━\n\n\n\nBloom's Taxonomy Coverage\n✓ Remember\n✓ Understand\n✓ Apply\n✓ Analyze\n✓ Evaluate\n✓ Create\n━━━━━━━━━━━━━━━━━━\nMCQ Type Coverage\n✓ Concept-Based\n✓ Application-Based\n✓ Comparative\n✓ Assertion–Reason\n✓ Case-Based\n✓ Scenario-Based\n✓ Analytical\n✓ Board Prediction\n━━━━━━━━━━━━━━━━━━\nPlatform Compatibility\n✓ Website Ready\n✓ Assessment Engine Ready\n✓ Mobile App Ready\n✓ AI Tutor Ready\n✓ Analytics Dashboard Ready\n✓ Future Premium Subscription Ready\n━━━━━━━━━━━━━━━━━━\n\n\n\nQuality Assurance\n✓ AHSEC Syllabus Boundary Maintained\n✓ Bilingual Format Maintained\n✓ Metadata Structure Maintained\n✓ Registry Continuity Maintained\n✓ Duplicate Concept Check Passed\n✓ Publication Standard Achieved\n━━━━━━━━━━━━━━━━━━\nUNIT I STATUS: COMPLETED\nMCQ Bank:\n100/100 Complete\nLearnWithJulfy Platinum Compliance:\nPASSED"
+      "explanation": "এই সমিিত দৃষি্ট ভংগীয মুডালিয়াৰ আয়োগ, কোঠাৰী আয়োগ, NPE 1986 আৰু আধ্ুনিক শিক্ষাগত সংস্কাৰৰ মুখয পৰামিযসমূৈ একতি্রত কযৰ।\nHint: Choose the option that incorporates all major educational reform objectives.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nUNIT I MASTER MCQ BANK COMPLETION AUDIT\nRegistry Status\nGenerated:\n✓ LWJ-U1-001 → LWJ-U1-100\nTotal MCQs:\n✓ 100 / 100 Completed\n━━━━━━━━━━━━━━━━━━\nTopic Coverage Audit\n✓ Mudaliar Commission (1952–53)\n✓ Defects of Secondary Education\n✓ Aims of Secondary Education\n✓ Recommendations of Mudaliar Commission\n✓ Kothari Commission (1964–66)\n✓ Main Recommendations of Kothari Commission\n✓ National Policy on Education (1986)\n✓ Vocationalisation of Secondary Education\n✓ Development of Secondary Education in Assam\n✓ Current Relevance & Educational Reforms\n━━━━━━━━━━━━━━━━━━\n\n\n\nBloom's Taxonomy Coverage\n✓ Remember\n✓ Understand\n✓ Apply\n✓ Analyze\n✓ Evaluate\n✓ Create\n━━━━━━━━━━━━━━━━━━\nMCQ Type Coverage\n✓ Concept-Based\n✓ Application-Based\n✓ Comparative\n✓ Assertion–Reason\n✓ Case-Based\n✓ Scenario-Based\n✓ Analytical\n✓ Board Prediction\n━━━━━━━━━━━━━━━━━━\nPlatform Compatibility\n✓ Website Ready\n✓ Assessment Engine Ready\n✓ Mobile App Ready\n✓ AI Tutor Ready\n✓ Analytics Dashboard Ready\n✓ Future Premium Subscription Ready\n━━━━━━━━━━━━━━━━━━\n\n\n\nQuality Assurance\n✓ AHSEC Syllabus Boundary Maintained\n✓ Bilingual Format Maintained\n✓ Metadata Structure Maintained\n✓ Registry Continuity Maintained\n✓ Duplicate Concept Check Passed\n✓ Publication Standard Achieved\n━━━━━━━━━━━━━━━━━━\nUNIT I STATUS: COMPLETED\nMCQ Bank:\n100/100 Complete\nLearnWithJulfy Platinum Compliance:\nPASSED"
     }
   ]
 }

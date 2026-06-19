@@ -15,7 +15,7 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
         {
             "id": 1,
             "qEn": "In which year was the Secondary Education Commission appointed?",
-            "qAs": "মাধ্যমিক শিক্ষা আয়াগ কোন বছৰত নিযুক্ত কৰা হৈছিল ?",
+            "qAs": "মাধ্যমিক শিক্ষা আয়োগ কোন বছৰত নিযুক্ত কৰা হৈছিল?",
             "optsEn": [
                 "1948",
                 "1952",
@@ -30,12 +30,12 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
             ],
             "correct": 1,
             "expEn": "The Secondary Education Commission was appointed by the Government of India in 1952.",
-            "expAs": "ভাৰত চৰকাৰে ১৯৫২ চনত মাধ্যমিক শিক্ষা আয়াগ নিযুক্ত কৰিছিল।"
+            "expAs": "ভাৰত চৰকাৰে ১৯৫২ চনত মাধ্যমিক শিক্ষা আয়োগ নিযুক্ত কৰিছিল।"
         },
         {
             "id": 2,
             "qEn": "Who was the Chairman of the Secondary Education Commission?",
-            "qAs": "মাধ্যমিক শিক্ষা আয়াগৰ সভাপতি কোন আছিল ?",
+            "qAs": "মাধ্যমিক শিক্ষা আয়োগৰ সভাপতি কোন আছিল?",
             "optsEn": [
                 "D. S. Kothari",
                 "A. Lakshmanaswami Mudaliar",
@@ -43,19 +43,19 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
                 "Zakir Hussain"
             ],
             "optsAs": [
-                "ডি. এছ. ককাঠাৰী",
-                "এ. লক্ষ্ণিস্বামী মুদামলাৰ",
-                "কে. পি. না ক",
-                "জাকিৰ হু যছইন"
+                "ডি. এছ. কোঠাৰী",
+                "এ. লক্ষ্ণিস্বামী মুডালিয়াৰ",
+                "কে. পি. নায়ক",
+                "জাকিৰ হুছেইন"
             ],
             "correct": 1,
             "expEn": "The Commission was chaired by Dr. A. Lakshmanaswami Mudaliar.",
-            "expAs": "ড° এ. লক্ষ্ণিস্বামী মুদামলাৰ এই আয়াগৰ সভাপতি আছিল।"
+            "expAs": "ড° এ. লক্ষ্ণিস্বামী মুডালিয়াৰ এই আয়াগৰ সভাপতি আছিল।"
         },
         {
             "id": 3,
             "qEn": "Why was the Secondary Education Commission appointed?",
-            "qAs": "মাধ্যমিক শিক্ষা আয়াগ কি নিযুক্ত কৰা হৈছিল ?",
+            "qAs": "মাধ্যমিক শিক্ষা আয়োগ কি নিযুক্ত কৰা হৈছিল?",
             "optsEn": [
                 "To reform higher education",
                 "To examine and improve secondary education",
@@ -66,7 +66,7 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
                 "উচ্চ শিক্ষাৰ সংস্কাৰৰ বাযব",
                 "মাধ্যমিক শিক্ষা পৰ্যালোচনা আৰু উন্ন নৰ বাযব",
                 "বিশ্ববিদযালস্থ াপনৰ বাযব",
-                "প্ৰ াথমিক বিদযাল মন ন্ত্ৰ ণৰ বাযব"
+                "প্ৰাথমিক বিদযাল মন ন্ত্ৰ ণৰ বাযব"
             ],
             "correct": 1,
             "expEn": "The Commission was formed to study the problems of secondary education and suggest reforms.",
@@ -75,7 +75,7 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
         {
             "id": 4,
             "qEn": "Which educational level was directly studied by the Mudaliar Commission?",
-            "qAs": "মুদামলাৰ আয়াযগ প্ৰ তযক্ষভাযে কোন শিক্ষাস্তৰ অধ্য ন কৰিছিল ?",
+            "qAs": "মুডালিয়াৰ আয়াযগ প্ৰ তযক্ষভাযে কোন শিক্ষাস্তৰ অধ্য ন কৰিছিল?",
             "optsEn": [
                 "Primary Education",
                 "Secondary Education",
@@ -83,19 +83,19 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
                 "Adult Education"
             ],
             "optsAs": [
-                "প্ৰ াথমিক শিক্ষা",
+                "প্ৰাথমিক শিক্ষা",
                 "মাধ্যমিক শিক্ষা",
                 "বিশ্ববিদ্যালয় শিক্ষা",
-                "প্ৰ াপ্তব স্ক শিক্ষা"
+                "প্ৰাপ্তব স্ক শিক্ষা"
             ],
             "correct": 1,
             "expEn": "The Commission specifically examined the structure, curriculum and problems of secondary education.",
-            "expAs": "আয়াযগ মাধ্যমিক শিক্ষাৰ গঠন , পাঠযক্ৰম আৰু সসিযাসমূৈ অধ্য ন কৰিছিল।"
+            "expAs": "আয়াযগ মাধ্যমিক শিক্ষাৰ গঠন, পাঠযক্ৰম আৰু সসিযাসমূৈ অধ্য ন কৰিছিল।"
         },
         {
             "id": 5,
             "qEn": "Which defect of secondary education was strongly criticized by the Mudaliar Commission?",
-            "qAs": "মুদামলাৰ আয়াযগ মাধ্যমিক শিক্ষাৰ কোন ত্ৰু টিয়াক তীব্ৰভাযে সমাযলাচনা কৰিছিল ?",
+            "qAs": "মুডালিয়াৰ আয়াযগ মাধ্যমিক শিক্ষাৰ কোন ত্ৰু টিয়াক তীব্ৰভাযে সমাযলাচনায়কৰিছিল?",
             "optsEn": [
                 "Excessive practical work",
                 "Bookish and examination-oriented education",

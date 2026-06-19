@@ -35,13 +35,16 @@ const mcqDataString = "const mcqData: MCQ[] = " + JSON.stringify(newMcqDataArray
 const startMarker = "const mcqData: MCQ[] = [";
 const endMarker = "];\n\nexport default function MCQPage()";
 
+// Normalize CRLF to LF for reliable matching
+mcqPageContent = mcqPageContent.replace(/\r\n/g, "\n");
+
 const startIndex = mcqPageContent.indexOf(startMarker);
 const endIndex = mcqPageContent.indexOf(endMarker);
 
 if (startIndex !== -1 && endIndex !== -1) {
   const before = mcqPageContent.substring(0, startIndex);
   const after = mcqPageContent.substring(endIndex + 2); // keep "export default function MCQPage()"
-  fs.writeFileSync(mcqFilePath, before + mcqDataString + "\n\n" + after.trim() + "\n", "utf8");
+  fs.writeFileSync(mcqFilePath, (before + mcqDataString + "\n\n" + after.trim() + "\n").replace(/\n/g, "\r\n"), "utf8");
   console.log("SUCCESSFULLY UPDATED src/app/mcq/page.tsx");
 } else {
   console.error("COULD NOT FIND MARKERS IN src/app/mcq/page.tsx");
