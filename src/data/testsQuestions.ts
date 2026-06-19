@@ -15,7 +15,7 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
         {
             "id": 1,
             "qEn": "In which year was the Secondary Education Commission appointed?",
-            "qAs": "মাধ্যমিক শিক্ষা আয়োগ কোন বছৰত নিযুক্ত কৰা হৈছিল?",
+            "qAs": "মাধ্যমমক মিক্ষা আয াগ ককান বছৰত মনযুক্ত কৰা হৈমছল ?",
             "optsEn": [
                 "1948",
                 "1952",
@@ -30,12 +30,12 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
             ],
             "correct": 1,
             "expEn": "The Secondary Education Commission was appointed by the Government of India in 1952.",
-            "expAs": "ভাৰত চৰকাৰে ১৯৫২ চনত মাধ্যমিক শিক্ষা আয়োগ নিযুক্ত কৰিছিল।"
+            "expAs": "ভাৰত চৰকাযৰ ১৯৫২ চনত মাধ্যমমক মিক্ষা আয াগ মনযুক্ত কমৰমছল।"
         },
         {
             "id": 2,
             "qEn": "Who was the Chairman of the Secondary Education Commission?",
-            "qAs": "মাধ্যমিক শিক্ষা আয়োগৰ সভাপতি কোন আছিল?",
+            "qAs": "মাধ্যমমক মিক্ষা আয াগৰ সভাপমত ককান আমছল ?",
             "optsEn": [
                 "D. S. Kothari",
                 "A. Lakshmanaswami Mudaliar",
@@ -43,19 +43,19 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
                 "Zakir Hussain"
             ],
             "optsAs": [
-                "ডি. এছ. কোঠাৰী",
-                "এ. লক্ষ্ণিস্বামী মুডালিয়াৰ",
-                "কে. পি. নায়ক",
-                "জাকিৰ হুছেইন"
+                "মি. এছ. ককাঠাৰী",
+                "এ. লক্ষ্মণস্বামী মুদামল াৰ",
+                "কে. মপ. না ক",
+                "োমকৰ হু যছইন"
             ],
             "correct": 1,
             "expEn": "The Commission was chaired by Dr. A. Lakshmanaswami Mudaliar.",
-            "expAs": "ড° এ. লক্ষ্ণিস্বামী মুডালিয়াৰ এই আয়াগৰ সভাপতি আছিল।"
+            "expAs": "ি° এ. লক্ষ্মণস্বামী মুদামল াৰ এই আয াগৰ সভাপমত আমছল।"
         },
         {
             "id": 3,
             "qEn": "Why was the Secondary Education Commission appointed?",
-            "qAs": "মাধ্যমিক শিক্ষা আয়োগ কি নিযুক্ত কৰা হৈছিল?",
+            "qAs": "মাধ্যমমক মিক্ষা আয াগ মক মনযুক্ত কৰা হৈমছল ?",
             "optsEn": [
                 "To reform higher education",
                 "To examine and improve secondary education",
@@ -63,19 +63,19 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
                 "To regulate primary schools"
             ],
             "optsAs": [
-                "উচ্চ শিক্ষাৰ সংস্কাৰৰ বাযব",
-                "মাধ্যমিক শিক্ষা পৰ্যালোচনা আৰু উন্ন নৰ বাযব",
-                "বিশ্ববিদযালস্থ াপনৰ বাযব",
-                "প্ৰাথমিক বিদযাল মন ন্ত্ৰ ণৰ বাযব"
+                "উচ্চ মিক্ষাৰ সংস্কাৰৰ বাযব",
+                "মাধ্যমমক মিক্ষা পযযাযলাচনা আৰু উন্ন নৰ বাযব",
+                "মবশ্বমবদযালস্থ াপনৰ বাযব",
+                "প্ৰ াথমমক মবদযাল মন ন্ত্ৰ ণৰ বাযব"
             ],
             "correct": 1,
             "expEn": "The Commission was formed to study the problems of secondary education and suggest reforms.",
-            "expAs": "মাধ্যমিক শিক্ষাৰ সসিযা অধ্য ন কমৰ উন্ন নৰ পৰামিয দিবলল এই আয়াগ গঠন কৰা হৈছিল।"
+            "expAs": "মাধ্যমমক মিক্ষাৰ সমসযা অধ্য ন কমৰ উন্ন নৰ পৰামিয মদবলল এই আয াগ গঠন কৰা হৈমছল।"
         },
         {
             "id": 4,
             "qEn": "Which educational level was directly studied by the Mudaliar Commission?",
-            "qAs": "মুডালিয়াৰ আয়াযগ প্ৰ তযক্ষভাযে কোন শিক্ষাস্তৰ অধ্য ন কৰিছিল?",
+            "qAs": "মুদামল াৰ আয াযগ প্ৰ তযক্ষভাযে ককান মিক্ষাস্তৰ অধ্য ন কমৰমছল ?",
             "optsEn": [
                 "Primary Education",
                 "Secondary Education",
@@ -83,19 +83,19 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
                 "Adult Education"
             ],
             "optsAs": [
-                "প্ৰাথমিক শিক্ষা",
-                "মাধ্যমিক শিক্ষা",
-                "বিশ্ববিদ্যালয় শিক্ষা",
-                "প্ৰাপ্তব স্ক শিক্ষা"
+                "প্ৰ াথমমক মিক্ষা",
+                "মাধ্যমমক মিক্ষা",
+                "মবশ্বমবদযাল মিক্ষা",
+                "প্ৰ াপ্তব স্ক মিক্ষা"
             ],
             "correct": 1,
             "expEn": "The Commission specifically examined the structure, curriculum and problems of secondary education.",
-            "expAs": "আয়াযগ মাধ্যমিক শিক্ষাৰ গঠন, পাঠযক্ৰম আৰু সসিযাসমূৈ অধ্য ন কৰিছিল।"
+            "expAs": "আয াযগ মাধ্যমমক মিক্ষাৰ গঠন , পাঠযক্ৰম আৰু সমসযাসমূৈ অধ্য ন কমৰমছল।"
         },
         {
             "id": 5,
             "qEn": "Which defect of secondary education was strongly criticized by the Mudaliar Commission?",
-            "qAs": "মুডালিয়াৰ আয়াযগ মাধ্যমিক শিক্ষাৰ কোন ত্ৰু টিয়াক তীব্ৰভাযে সমাযলাচনায়কৰিছিল?",
+            "qAs": "মুদামল াৰ আয াযগ মাধ্যমমক মিক্ষাৰ ককান ত্ৰু টিয াক তীব্ৰভাযে সমাযলাচনা কমৰমছল ?",
             "optsEn": [
                 "Excessive practical work",
                 "Bookish and examination-oriented education",
@@ -103,14 +103,14 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
                 "Lack of libraries"
             ],
             "optsAs": [
-                "অত্যাধিক বযেৈাৰিক কাম",
-                "পুথিগত আৰু পৰীক্ষামুখী শিক্ষা",
-                "অত্যাধিক ক্ৰ ীডা কাযযসূচী",
-                "পুথিভঁৰালৰ অভাৱ"
+                "অতযামধ্ক বযেৈামৰক কাম",
+                "পুমথগত আৰু পৰীক্ষাযকমিক মিক্ষা",
+                "অতযামধ্ক ক্ৰ ীডা কাযযসূচী",
+                "পুমথভঁৰালৰ অভাে"
             ],
             "correct": 1,
             "expEn": "The Commission believed that education had become too book-centered and examination-driven.",
-            "expAs": "আয়াগৰ যিত শিক্ষা অত্যাধিক পুথিগত আৰু পৰীক্ষামুখী হৈ পৰিছিল।"
+            "expAs": "আয াগৰ মযত মিক্ষা অতযামধ্ক পুমথগত আৰু পৰীক্ষামুখী হৈ পমৰমছল।"
         }
   ],
 

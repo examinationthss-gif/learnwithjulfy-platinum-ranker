@@ -27,7 +27,7 @@ const mcqData: MCQ[] = [
     "asUnitNumber": "গোট ১",
     "dayNumber": 1,
     "enQuestion": "In which year was the Secondary Education Commission appointed?",
-    "asQuestion": "মাধ্যমিক শিক্ষা আয়োগ কোন বছৰত নিযুক্ত কৰা হৈছিল?",
+    "asQuestion": "মাধ্যমমক মিক্ষা আয াগ ককান বছৰত মনযুক্ত কৰা হৈমছল ?",
     "enOptions": [
       "1948",
       "1952",
@@ -42,7 +42,7 @@ const mcqData: MCQ[] = [
     ],
     "correctIndex": 1,
     "enExplanation": "The Secondary Education Commission was appointed by the Government of India in 1952.",
-    "asExplanation": "ভাৰত চৰকাৰে ১৯৫২ চনত মাধ্যমিক শিক্ষা আয়োগ নিযুক্ত কৰিছিল।"
+    "asExplanation": "ভাৰত চৰকাযৰ ১৯৫২ চনত মাধ্যমমক মিক্ষা আয াগ মনযুক্ত কমৰমছল।"
   },
   {
     "id": 2,
@@ -51,7 +51,7 @@ const mcqData: MCQ[] = [
     "asUnitNumber": "গোট ১",
     "dayNumber": 1,
     "enQuestion": "Who was the Chairman of the Secondary Education Commission?",
-    "asQuestion": "মাধ্যমিক শিক্ষা আয়োগৰ সভাপতি কোন আছিল?",
+    "asQuestion": "মাধ্যমমক মিক্ষা আয াগৰ সভাপমত ককান আমছল ?",
     "enOptions": [
       "D. S. Kothari",
       "A. Lakshmanaswami Mudaliar",
@@ -59,23 +59,23 @@ const mcqData: MCQ[] = [
       "Zakir Hussain"
     ],
     "asOptions": [
-      "ডি. এছ. কোঠাৰী",
-      "এ. লক্ষ্ণিস্বামী মুডালিয়াৰ",
-      "কে. পি. নায়ক",
-      "জাকিৰ হুছেইন"
+      "মি. এছ. ককাঠাৰী",
+      "এ. লক্ষ্মণস্বামী মুদামল াৰ",
+      "কে. মপ. না ক",
+      "োমকৰ হু যছইন"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission was chaired by Dr. A. Lakshmanaswami Mudaliar.",
-    "asExplanation": "ড° এ. লক্ষ্ণিস্বামী মুডালিয়াৰ এই আয়াগৰ সভাপতি আছিল।"
+    "asExplanation": "ি° এ. লক্ষ্মণস্বামী মুদামল াৰ এই আয াগৰ সভাপমত আমছল।"
   },
   {
     "id": 3,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 1,
+    "dayNumber": 2,
     "enQuestion": "Why was the Secondary Education Commission appointed?",
-    "asQuestion": "মাধ্যমিক শিক্ষা আয়োগ কি নিযুক্ত কৰা হৈছিল?",
+    "asQuestion": "মাধ্যমমক মিক্ষা আয াগ মক মনযুক্ত কৰা হৈমছল ?",
     "enOptions": [
       "To reform higher education",
       "To examine and improve secondary education",
@@ -83,23 +83,23 @@ const mcqData: MCQ[] = [
       "To regulate primary schools"
     ],
     "asOptions": [
-      "উচ্চ শিক্ষাৰ সংস্কাৰৰ বাযব",
-      "মাধ্যমিক শিক্ষা পৰ্যালোচনা আৰু উন্ন নৰ বাযব",
-      "বিশ্ববিদযালস্থ াপনৰ বাযব",
-      "প্ৰাথমিক বিদযাল মন ন্ত্ৰ ণৰ বাযব"
+      "উচ্চ মিক্ষাৰ সংস্কাৰৰ বাযব",
+      "মাধ্যমমক মিক্ষা পযযাযলাচনা আৰু উন্ন নৰ বাযব",
+      "মবশ্বমবদযালস্থ াপনৰ বাযব",
+      "প্ৰ াথমমক মবদযাল মন ন্ত্ৰ ণৰ বাযব"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission was formed to study the problems of secondary education and suggest reforms.",
-    "asExplanation": "মাধ্যমিক শিক্ষাৰ সসিযা অধ্য ন কমৰ উন্ন নৰ পৰামিয দিবলল এই আয়াগ গঠন কৰা হৈছিল।"
+    "asExplanation": "মাধ্যমমক মিক্ষাৰ সমসযা অধ্য ন কমৰ উন্ন নৰ পৰামিয মদবলল এই আয াগ গঠন কৰা হৈমছল।"
   },
   {
     "id": 4,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 1,
+    "dayNumber": 2,
     "enQuestion": "Which educational level was directly studied by the Mudaliar Commission?",
-    "asQuestion": "মুডালিয়াৰ আয়াযগ প্ৰ তযক্ষভাযে কোন শিক্ষাস্তৰ অধ্য ন কৰিছিল?",
+    "asQuestion": "মুদামল াৰ আয াযগ প্ৰ তযক্ষভাযে ককান মিক্ষাস্তৰ অধ্য ন কমৰমছল ?",
     "enOptions": [
       "Primary Education",
       "Secondary Education",
@@ -107,23 +107,23 @@ const mcqData: MCQ[] = [
       "Adult Education"
     ],
     "asOptions": [
-      "প্ৰাথমিক শিক্ষা",
-      "মাধ্যমিক শিক্ষা",
-      "বিশ্ববিদ্যালয় শিক্ষা",
-      "প্ৰাপ্তব স্ক শিক্ষা"
+      "প্ৰ াথমমক মিক্ষা",
+      "মাধ্যমমক মিক্ষা",
+      "মবশ্বমবদযাল মিক্ষা",
+      "প্ৰ াপ্তব স্ক মিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission specifically examined the structure, curriculum and problems of secondary education.",
-    "asExplanation": "আয়াযগ মাধ্যমিক শিক্ষাৰ গঠন, পাঠযক্ৰম আৰু সসিযাসমূৈ অধ্য ন কৰিছিল।"
+    "asExplanation": "আয াযগ মাধ্যমমক মিক্ষাৰ গঠন , পাঠযক্ৰম আৰু সমসযাসমূৈ অধ্য ন কমৰমছল।"
   },
   {
     "id": 5,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 1,
+    "dayNumber": 3,
     "enQuestion": "Which defect of secondary education was strongly criticized by the Mudaliar Commission?",
-    "asQuestion": "মুডালিয়াৰ আয়াযগ মাধ্যমিক শিক্ষাৰ কোন ত্ৰু টিয়াক তীব্ৰভাযে সমাযলাচনায়কৰিছিল?",
+    "asQuestion": "মুদামল াৰ আয াযগ মাধ্যমমক মিক্ষাৰ ককান ত্ৰু টিয াক তীব্ৰভাযে সমাযলাচনা কমৰমছল ?",
     "enOptions": [
       "Excessive practical work",
       "Bookish and examination-oriented education",
@@ -131,23 +131,23 @@ const mcqData: MCQ[] = [
       "Lack of libraries"
     ],
     "asOptions": [
-      "অত্যাধিক বযেৈাৰিক কাম",
-      "পুথিগত আৰু পৰীক্ষামুখী শিক্ষা",
-      "অত্যাধিক ক্ৰ ীডা কাযযসূচী",
-      "পুথিভঁৰালৰ অভাৱ"
+      "অতযামধ্ক বযেৈামৰক কাম",
+      "পুমথগত আৰু পৰীক্ষাযকমিক মিক্ষা",
+      "অতযামধ্ক ক্ৰ ীডা কাযযসূচী",
+      "পুমথভঁৰালৰ অভাে"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission believed that education had become too book-centered and examination-driven.",
-    "asExplanation": "আয়াগৰ যিত শিক্ষা অত্যাধিক পুথিগত আৰু পৰীক্ষামুখী হৈ পৰিছিল।"
+    "asExplanation": "আয াগৰ মযত মিক্ষা অতযামধ্ক পুমথগত আৰু পৰীক্ষামুখী হৈ পমৰমছল।"
   },
   {
     "id": 6,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 2,
+    "dayNumber": 3,
     "enQuestion": "According to the Mudaliar Commission, the curriculum of secondary education failed mainly because it—",
-    "asQuestion": "মুডালিয়াৰ আয়োগৰ যিত মাধ্যমিক শিক্ষাৰ পাঠযক্ৰমৰ মুখয ত্ৰু টি কি আছিল?",
+    "asQuestion": "মুদামল াৰ আয াগৰ মযত মাধ্যমমক মিক্ষাৰ পাঠযক্ৰমৰ মুখয ত্ৰু টি মক আমছল ?",
     "enOptions": [
       "Was too vocational",
       "Ignored individual differences and practical needs",
@@ -155,23 +155,23 @@ const mcqData: MCQ[] = [
       "Included too many co-curricular activities"
     ],
     "asOptions": [
-      "অত্যাধিক ক বৃত্তিমূলক আছিল",
-      "বযকি্তগত পার্থক্য আৰু বযেৈাৰিক প্ৰ য়ােন উপেক্ষা কৰিছিল",
-      "কলা বিষ ত অত্যাধিক গু ৰুত্ব দিছিল",
-      "সৈ-পাঠযক্ৰম কাযযসূচী কবছি আছিল"
+      "অতযামধ্ ক বৃমিমূলক আমছল",
+      "বযমক্তগত পাথযকয আৰু বযেৈামৰক প্ৰ য ােন উযপক্ষা কমৰমছল",
+      "কলা মবষ ত অতযামধ্ক গু ৰুত্ব মদমছল",
+      "সৈ-পাঠযক্ৰম কাযযসূচী কবমছ আমছল"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission felt that the curriculum did not adequately address students' varied interests, abilities and\npractical life needs.",
-    "asExplanation": "আয়াগৰ যিত পাঠযক্ৰযম শিক্ষাৰ্থীৰ ভিন্ন আগ্ৰহ, সাৰি্থ্য আৰু জীৱনমুখী প্ৰ য়ােনসমূৈ যযথষ্ট গু ৰুত্ব মদা নাছিল।"
+    "asExplanation": "আয াগৰ মযত পাঠযক্ৰযম মিক্ষাথীৰ মভন্ন আগ্ৰৈ , সামথযয আৰু েীেনমুখী প্ৰ য ােনসমূৈ যযথষ্ট গু ৰুত্ব মদ া নামছল।"
   },
   {
     "id": 7,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 2,
+    "dayNumber": 4,
     "enQuestion": "A school evaluates students only through annual written examinations. According to the Mudaliar\nCommission, what is the major drawback of this practice?",
-    "asQuestion": "এখন বিদ্যালয়ে কেৱল িাবষিে লিখিত পৰীক্ষাৰ জবৰ়েযত শিক্ষাৰ্থীৰ মূলযা়েন েৰা হ়ে। মুদ্াবল়োৰ আয়োগৰ যিত ই়োৰ মুখয অসুবিধা বে?",
+    "asQuestion": "এখন বিদ্যালয়ে কেৱল িাবষিে বলবখত পৰীক্ষাৰ জবৰ়েযত বিক্ষাৰ্থীৰ মূলযা়েন েৰা হ়ে। মুদ্াবল়োৰ আয়োগৰ মযত ই়োৰ মুখয অসুবিধা বে?",
     "enOptions": [
       "It increases vocational efficiency",
       "It ignores all-round development",
@@ -179,23 +179,23 @@ const mcqData: MCQ[] = [
       "It improves guidance services"
     ],
     "asOptions": [
-      "ই িৃবিমূলে দক্ষ তা িৃবি কৰে",
-      "ই শিক্ষাৰ্থীৰ সিিাঙ্গীন বিকাশ উপেক্ষা কৰে",
-      "ই সহ-পাঠ্যক্ৰম কাৰ্যসূচী উন্নত কৰে",
-      "ই বনযদ্িিনা সেৱা উন্নত কৰে"
+      "ই িৃবিমূলে দ্ক্ষ তা িৃবি েযৰ",
+      "ই বিক্ষাৰ্থীৰ সিিাঙ্গীন বিোি উযপক্ষা েযৰ",
+      "ই সহ-পাঠ্যক্ৰম োৰ্িসূচী উন্নত েযৰ",
+      "ই বনযদ্িিনা কসৱা উন্নত েযৰ"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission criticized examination-centered education because it neglected students' overall\ndevelopment and practical abilities.",
-    "asExplanation": "আয়োগে পৰীক্ষাকেন্দ্ৰিক শিক্ষাৰ সমাযলাচনা েবৰবিল, োৰণ ই়োত শিক্ষাৰ্থীৰ সিিাঙ্গীন বিকাশ আৰু ব্যৱহাৰিক দক্ষ তা উযপবক্ষত হৈছিল।"
+    "asExplanation": "আয়োযগ পৰীক্ষাযেবিে বিক্ষাৰ সমাযলাচনা েবৰবিল, োৰণ ই়োত বিক্ষাৰ্থীৰ সিিাঙ্গীন বিোি আৰু িযৱহাবৰে দ্ক্ষ তা উযপবক্ষত হহবিল।"
   },
   {
     "id": 8,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 2,
+    "dayNumber": 4,
     "enQuestion": "A student scores high marks but lacks practical skills required in daily life. Which defect of secondary\neducation does this situation represent?",
-    "asQuestion": "এজন শিক্ষাৰ্থীয়ে উচ্চ ন্িবৰ লাভ কৰে, বেন্তু দৈনন্দিন জীৱনৰ িাযি প্ৰ য়োজনী়ে ব্যৱহাৰিক দক্ষ তা নাই। এই অৱস্থাই মাধযবমে শিক্ষাৰ কোন ত্ৰু টি প্ৰ োি কৰে?",
+    "asQuestion": "এজন বিক্ষাৰ্থীয়ে উচ্চ নম্বৰ লাভ েযৰ, বেন্তু হদ্নবিন জীৱনৰ িাযি প্ৰ য়োজনী়ে িযৱহাবৰে দ্ক্ষ তা নাই। এই অৱস্থাই মাধযবমে বিক্ষাৰ কোন ত্ৰু টি\t প্ৰ\t োি\nেযৰ?",
     "enOptions": [
       "Lack of libraries",
       "Overcrowded classrooms",
@@ -205,21 +205,21 @@ const mcqData: MCQ[] = [
     "asOptions": [
       "পুবৰ্থভঁৰালৰ অভাৱ",
       "অবতমাত্ৰা বভৰৰ্ুক্ত কেণীযোঠ্া",
-      "জীৱনমুখী শিক্ষাৰ অভাৱ",
+      "জীৱনমুখী বিক্ষাৰ অভাৱ",
       "ক্ৰ ীডা সুবিধাৰ অভাৱ"
     ],
     "correctIndex": 2,
     "enExplanation": "One major criticism was that secondary education was disconnected from practical life and real-world\nneeds.",
-    "asExplanation": "মাধযবমে শিক্ষা িাস্তৱ জীৱন আৰু ব্যৱহাৰিক প্ৰ য়োজনৰ হসযত ৰ্ যৰ্থষ্ট সংৰ্ুক্ত নাবিল িুবল সমাযলাচনা েৰা হৈছিল।"
+    "asExplanation": "মাধযবমে বিক্ষা িাস্তৱ জীৱন আৰু িযৱহাবৰে প্ৰ য়োজনৰ হসযত ৰ্ যৰ্থষ্ট সংৰ্ুক্ত নাবিল িুবল সমাযলাচনা েৰা হহবিল।"
   },
   {
     "id": 9,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 2,
+    "dayNumber": 5,
     "enQuestion": "Which aim of secondary education focuses on developing responsible citizens in a democracy?",
-    "asQuestion": "মাধযবমে শিক্ষাৰ কোন লক্ষযই গণতাবিে সমাজৰ দ্ াব়েত্বিীল নাগবৰে গব়ি কতালাৰ ওপৰত গু ৰুত্ব বদ্য়ে?",
+    "asQuestion": "মাধযবমে বিক্ষাৰ কোন লক্ষযই গণতাবিে সমাজৰ দ্ াব়েত্বিীল নাগবৰে গব়ি কতালাৰ ওপৰত গু ৰুত্ব বদ্য়ে ?",
     "enOptions": [
       "Vocational efficiency",
       "Democratic citizenship",
@@ -227,23 +227,23 @@ const mcqData: MCQ[] = [
       "Cultural entertainment"
     ],
     "asOptions": [
-      "িৃবিমূলে দক্ষ তা",
+      "িৃবিমূলে দ্ক্ষ তা",
       "গণতাবিে নাগবৰেত্ব",
-      "িাৰীবৰে সক্ষতিা",
+      "িাৰীবৰে সক্ষমতা",
       "সাংস্কৃ বতে বিযনাদ্ন"
     ],
     "correctIndex": 1,
     "enExplanation": "The Mudaliar Commission emphasized democratic citizenship as a major aim of secondary education.",
-    "asExplanation": "মুদ্াবল়োৰ আয়োগে গণতাবিে নাগবৰেত্বে মাধযবমে শিক্ষাৰ এে মুখয লক্ষয বহচাযপ গণয েবৰবিল।"
+    "asExplanation": "মুদ্াবল়োৰ আয়োযগ গণতাবিে নাগবৰেত্বে মাধযবমে বিক্ষাৰ এে মুখয লক্ষয বহচাযপ গণয েবৰবিল।"
   },
   {
     "id": 10,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 2,
+    "dayNumber": 5,
     "enQuestion": "Character formation as an aim of secondary education primarily seeks to develop—",
-    "asQuestion": "মাধযবমে শিক্ষাৰ লক্ষয বহচাযপ চবৰত্ৰ গঠ্নৰ মূল উযেিয বে?",
+    "asQuestion": "মাধযবমে বিক্ষাৰ লক্ষয বহচাযপ চবৰত্ৰ গঠ্নৰ মূল উযেিয বে?",
     "enOptions": [
       "Examination skills only",
       "Moral and ethical qualities",
@@ -251,23 +251,23 @@ const mcqData: MCQ[] = [
       "Technical specialization"
     ],
     "asOptions": [
-      "কেৱল পৰীক্ষামূলে দক্ষ তা",
-      "হনবতে আৰু চাবিবত্ৰে গু ণ",
-      "িযৱসা়ে পবৰচালনা দক্ষ তা",
+      "কেৱল পৰীক্ষামূলে\t দ্ক্ষ\t তা",
+      "হনবতে আৰু চাবিবত্ৰে\t গু\t ণ",
+      "িযৱসা়ে পবৰচালনা দ্ক্ষ তা",
       "োবৰেৰী বিযিষজ্ঞতা"
     ],
     "correctIndex": 1,
     "enExplanation": "Character formation promotes honesty, responsibility, discipline and ethical conduct.",
-    "asExplanation": "চবৰত্ৰ গঠ্যন সততা, দ্ াব়েত্বযিাধ, িৃংখলা আৰু হনবতে আচৰণ বিকাশ কৰে।"
+    "asExplanation": "চবৰত্ৰ গঠ্যন সততা, দ্ াব়েত্বযিাধ , িৃংখলা আৰু হনবতে আচৰণ বিোি েযৰ।"
   },
   {
     "id": 11,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 3,
+    "dayNumber": 5,
     "enQuestion": "A secondary school introduces skill-based courses in agriculture, commerce and technology to prepare\nstudents for employment. Which aim of secondary education is being fulfilled?",
-    "asQuestion": "এখন মাধ্ যমিক বিদযালয মিক্ষ াথীক কযিসংস্থ াপনৰ বাযব কৃষি, বাণিেয আৰু প্ৰ যুকি্ত ভিমিক দক্ষতা পাঠযক্ৰম আৰ্িভ কৰা হৈছে। ই াত মাধ্যমিক শিক্ষাৰ কোন লক্ষয পূৰণ হৈছে?",
+    "asQuestion": "এখন মাধ্ যমমক মবদযালয মিক্ষ াথীক কমযসংস্থ াপনৰ বাযব কৃমষ, বামণেয আৰু প্ৰ যুমক্ত মভমিক দক্ষতা পাঠযক্ৰম\nআৰম্ভ কৰা হৈযছ। ই াত মাধ্যমমক মিক্ষাৰ ককান লক্ষয পূৰণ হৈযছ ?",
     "enOptions": [
       "Democratic citizenship",
       "Vocational efficiency",
@@ -275,23 +275,23 @@ const mcqData: MCQ[] = [
       "Physical development"
     ],
     "asOptions": [
-      "গণতানি্ত্ৰক নাগৰিকত্ব",
-      "বৃত্তিমূলক দক্ষ তা",
-      "সাংস্কৃ তিক যিনাৰঞ্জ ন",
-      "িাৰীৰিক বিকাশ"
+      "গণতামন্ত্ৰক নাগমৰকত্ব",
+      "বৃমিমূলক দক্ষ তা",
+      "সাংস্কৃ মতক মযনাৰঞ্জ ন",
+      "িাৰীমৰক মবকাি"
     ],
     "correctIndex": 1,
     "enExplanation": "The Mudaliar Commission emphasized vocational efficiency to prepare students for productive work and\nself-reliance.",
-    "asExplanation": "মুডালিয়াৰ আয়াযগ মিক্ষ াথীক উৎপাদনিীল কযি আৰু আত্ম নিভযৰিীলতাৰ বাযব প্ৰস্তু ত কৰিবলৈ বৃত্তিমূলক দক্ষ তাৰ ওপৰত গু ৰুত্ব দিছিল।"
+    "asExplanation": "মুদামল াৰ আয াযগ মিক্ষ াথীক উৎপাদনিীল কময আৰু আত্ম মনভযৰিীলতাৰ বাযব প্ৰস্তু ত কমৰবলল বৃমিমূলক দক্ষ তাৰ\nওপৰত গু ৰুত্ব মদমছল।"
   },
   {
     "id": 12,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 3,
+    "dayNumber": 6,
     "enQuestion": "A school regularly organizes student councils and leadership camps. Which aim of secondary education is\nmainly promoted?",
-    "asQuestion": "এখন বিদযালয মন মিতভাযে ছাত্র সংসদ আৰু নেতৃত্ব মিবিৰ আয়ােন কৰা ৈ । ই াৰ দ্ব াৰা মাধ্ যমিক মিক্ষ াৰ কোন লক্ষয অধি্ক বিকমিত ৈ?",
+    "asQuestion": "এখন মবদযালয মন মমতভাযে ছাত্র সংসদ আৰু কনতৃত্ব মিমবৰ আয ােন কৰা ৈ । ই াৰ দ্ব াৰা মাধ্ যমমক মিক্ষ াৰ\nককান লক্ষয অমধ্ক মবকমিত ৈ ?",
     "enOptions": [
       "Leadership qualities",
       "Examination success",
@@ -299,23 +299,23 @@ const mcqData: MCQ[] = [
       "University admission"
     ],
     "asOptions": [
-      "নেতৃত্ব ৰ গু ণ",
+      "কনতৃত্ব ৰ গু ণ",
       "পৰীক্ষাত সফলতা",
       "মুখস্থ কৰাৰ দক্ষতা",
-      "বিশ্ববিদ্যালয় ত ভতিয"
+      "মবশ্বমবদযাল ত ভমতয"
     ],
     "correctIndex": 0,
     "enExplanation": "Leadership activities help students develop initiative, responsibility and cooperation.",
-    "asExplanation": "নেতৃত্ব মূলক কাযযসূচীয মিক্ষ াথীৰ উযদযাগ, দাম ত্ব যবাধ্ আৰু সৈযযাগিতাৰ গু ণ বিকাশ কযৰ।"
+    "asExplanation": "কনতৃত্ব মূলক কাযযসূচীয মিক্ষ াথীৰ উযদযাগ, দাম ত্ব যবাধ্ আৰু সৈযযামগতাৰ গু ণ মবকাি কযৰ।"
   },
   {
     "id": 13,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 3,
+    "dayNumber": 6,
     "enQuestion": "Assertion (A):\nSecondary education should develop democratic citizenship.\nReason (R):\nCitizens must understand rights, duties and social responsibilities.",
-    "asQuestion": "উকি্ত ( A): মাধ্যমিক শিক্ষাই গণতানি্ত্ৰক নাগৰিকত্ব গ়িি তুলিব লাযগ। কাৰণ (R): নাগৰিযক নিেৰ অধি্কাৰ, কতযবয আৰু সামামেক দাম ত্ব বুমেব লাযগ।",
+    "asQuestion": "উমক্ত ( A):\nমাধ্যমমক মিক্ষাই গণতামন্ত্ৰক নাগমৰকত্ব গম়ি তুমলব লাযগ।\nকাৰণ (R):\nনাগমৰযক মনেৰ অমধ্কাৰ , কতযবয আৰু সামামেক দাম ত্ব বুমেব লাযগ।",
     "enOptions": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -323,23 +323,23 @@ const mcqData: MCQ[] = [
       "A is false, but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "Democratic citizenship requires awareness of rights, duties and responsibilities; therefore the reason\ncorrectly explains the assertion.",
-    "asExplanation": "গণতানি্ত্ৰক নাগৰিকত্ব গ়িি তুলিবলল অধি্কাৰ, কতযবয আৰু দাম ত্ব ৰ জ্ঞান প্ৰ য়ােন। কসয যৈ R এ A-ৰ সঠিক ব্যাখ্যা কযৰ।"
+    "asExplanation": "গণতামন্ত্ৰক নাগমৰকত্ব গম়ি তুমলবলল অমধ্কাৰ , কতযবয আৰু দাম ত্ব ৰ জ্ঞ ান প্ৰ য ােন। কসয যৈ R এ A-ৰ সঠিক\nবযাখযা কযৰ।"
   },
   {
     "id": 14,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 3,
+    "dayNumber": 7,
     "enQuestion": "Why did the Mudaliar Commission recommend a diversified curriculum?",
-    "asQuestion": "মুডালিয়াৰ আয়াযগ হবচিত্রম পাঠযক্ৰমৰ পৰামিয কি দিছিল?",
+    "asQuestion": "মুদামল াৰ আয াযগ হবমচত্রম পাঠযক্ৰমৰ পৰামিয মক মদমছল ?",
     "enOptions": [
       "To reduce school enrolment",
       "To meet diverse interests and abilities of students",
@@ -347,23 +347,23 @@ const mcqData: MCQ[] = [
       "To make education purely academic"
     ],
     "asOptions": [
-      "বিদযাল ত নাভিতিযৰ সংখযা হ্ৰাস কৰিবলৈ",
-      "শিক্ষাৰ্থীৰ বিভিন্ন আগ্ৰহ আৰু সাৰি্থ্য পূৰণ কৰিবলৈ",
-      "বযেৈাৰিক বিষ সমূৈ বিযলাপ কৰিবলৈ",
-      "শিক্ষাক ককেল একাযিমিক কৰিবলৈ"
+      "মবদযাল ত নামভমতযৰ সংখযা হ্ৰ াস কমৰবলল",
+      "মিক্ষাথীৰ মবমভন্ন আগ্ৰৈ আৰু সামথযয পূৰণ কমৰবলল",
+      "বযেৈামৰক মবষ সমূৈ মবযলাপ কমৰবলল",
+      "মিক্ষাক ককেল একাযিমমক কমৰবলল"
     ],
     "correctIndex": 1,
     "enExplanation": "Students differ in interests, talents and career aspirations; therefore diversified curricula provide suitable\neducational opportunities.",
-    "asExplanation": "শিক্ষাৰ্থীৰ আগ্ৰহ, প্ৰ তিভা আৰু ভমেষযৎ লক্ষয কবযলগ কবযলগ ৈ । কসয যৈ হবচিত্রম পাঠযক্ৰমৰ প্ৰ য়ােন।"
+    "asExplanation": "মিক্ষাথীৰ আগ্ৰৈ , প্ৰ মতভা আৰু ভমেষযৎ লক্ষয কবযলগ কবযলগ ৈ । কসয যৈ হবমচত্রম পাঠযক্ৰমৰ প্ৰ য ােন।"
   },
   {
     "id": 15,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 3,
+    "dayNumber": 7,
     "enQuestion": "How does a multipurpose school differ from a traditional academic school?",
-    "asQuestion": "এখন বহু মুখী বিদযাল এখন পৰ্িপ ৰাগত একাযিমিক বিদযাল ৰ পৰা ককযনলক পৃথক?",
+    "asQuestion": "এখন বহু মুখী মবদযাল এখন পৰম্প ৰাগত একাযিমমক মবদযাল ৰ পৰা ককযনলক পৃথক?",
     "enOptions": [
       "It offers only science subjects",
       "It provides a variety of academic, technical and vocational courses",
@@ -371,23 +371,23 @@ const mcqData: MCQ[] = [
       "It excludes co-curricular activities"
     ],
     "asOptions": [
-      "ককেল বিজ্ঞান বিষপ্ৰ দান কযৰ",
-      "একাযিমিক, কাৰিকৰী আৰু বৃত্তিমূলক বিভিন্ন পাঠযক্ৰ ম প্ৰ দান কযৰ",
-      "ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব দিয",
-      "সৈ-পাঠযক্ৰম কাযযসূচী বাদ দিয"
+      "ককেল মবজ্ঞান মবষপ্ৰ দান কযৰ",
+      "একাযিমমক, কামৰকৰী আৰু বৃমিমূলক মবমভন্ন পাঠযক্ৰ ম প্ৰ দান কযৰ",
+      "ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব মদয",
+      "সৈ-পাঠযক্ৰম কাযযসূচী বাদ মদয"
     ],
     "correctIndex": 1,
     "enExplanation": "Multipurpose schools were recommended to provide diverse educational opportunities according to students'\nneeds and abilities.",
-    "asExplanation": "শিক্ষাৰ্থীৰ প্ৰ য়ােন আৰু সামৰ্থ্য অনুসমৰ বিভিন্ন শিক্ষামূলক সুযযাগ প্ৰ দানৰ বাযব বহুমুখী বিদযাল ৰ পৰামিয মদা হৈছিল।"
+    "asExplanation": "মিক্ষাথীৰ প্ৰ য ােন আৰু সামথযয অনুসমৰ মবমভন্ন মিক্ষামূলক সুযযাগ প্ৰ দানৰ বাযব বহুমুখী মবদযাল ৰ পৰামিয\nমদ া হৈমছল।"
   },
   {
     "id": 16,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 4,
+    "dayNumber": 8,
     "enQuestion": "A student is confused about selecting a suitable career after secondary education. Which recommendation of\nthe Mudaliar Commission would best help the student?",
-    "asQuestion": "এেন শিক্ষাৰ্থী মাধ্যমিক শিক্ষা কিষ কৰাৰ পিছত উপযুক্ত কপছা বাছমন কৰিবলৈ বিভ্ৰান্ত হৈছে। মুডালিয়াৰ আয়াগৰ কোন পৰামিযই কতওঁক সবযাধি্ক সৈা কৰিব?",
+    "asQuestion": "এেন মিক্ষাথী মাধ্যমমক মিক্ষা কিষ কৰাৰ মপছত উপযুক্ত কপছা বাছমন কমৰবলল মবভ্ৰান্ত হৈযছ। মুদামল াৰ\nআয াগৰ ককান পৰামিযই কতওঁক সবযামধ্ক সৈা কমৰব ?",
     "enOptions": [
       "Examination reform",
       "Guidance and counselling service",
@@ -396,22 +396,22 @@ const mcqData: MCQ[] = [
     ],
     "asOptions": [
       "পৰীক্ষা সংস্কাৰ",
-      "নিযদযিনা আৰু পৰামিযদান কসো",
-      "বহুমুখী বিদযাল",
-      "িাৰীৰিক শিক্ষা কাযযসূচী"
+      "মনযদযিনা আৰু পৰামিযদান কসো",
+      "বহুমুখী মবদযাল",
+      "িাৰীমৰক মিক্ষা কাযযসূচী"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission recommended guidance and counselling services to help students understand their abilities,\ninterests and career opportunities.",
-    "asExplanation": "আয়াযগ শিক্ষার্থীক নিেৰ সাৰি্থ্য, আগ্ৰহ আৰু কপছাগত সুযযাগ বুমেবলল নিযদযিনা আৰু পৰামিযদান কসোৰ পৰামিয দিছিল।"
+    "asExplanation": "আয াযগ মিক্ষাথীক মনেৰ সামথযয , আগ্ৰৈ আৰু কপছাগত সুযযাগ বুমেবলল মনযদযিনা আৰু পৰামিযদান কসোৰ\nপৰামিয মদমছল।"
   },
   {
     "id": 17,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 4,
+    "dayNumber": 8,
     "enQuestion": "A school encourages debates, sports, cultural programmes and social service activities. Which\nrecommendation of the Mudaliar Commission is reflected here?",
-    "asQuestion": "এখন বিদযালয বিতকয, ক্ৰ ীডা, সাংস্কৃ তিক অনুষ্ঠ ান আৰু সমােযসোমূলক কাযযসূচী উৎসামৈত কৰা ৈ । ই াত মুডালিয়াৰ আয়োগৰ কোন পৰামিয প্ৰ তিফমলত হৈছে?",
+    "asQuestion": "এখন মবদযালয মবতকয, ক্ৰ ীডা , সাংস্কৃ মতক অনুষ্ঠ ান আৰু সমােযসোমূলক কাযযসূচী উৎসামৈত কৰা ৈ । ই াত\nমুদামল াৰ আয াগৰ ককান পৰামিয প্ৰ মতফমলত হৈযছ ?",
     "enOptions": [
       "Vocational education only",
       "Co-curricular activities",
@@ -419,23 +419,23 @@ const mcqData: MCQ[] = [
       "Examination-centered education"
     ],
     "asOptions": [
-      "ককেল বৃত্তিমূলক মিক্ষ া",
+      "ককেল বৃমিমূলক মিক্ষ া",
       "সৈ-পাঠযক্ৰম কাযযসূচী",
-      "বিশ্ববিদ্যালয় শিক্ষা",
-      "পৰীক্ষামুখী শিক্ষা"
+      "মবশ্বমবদযাল মিক্ষা",
+      "পৰীক্ষাযকমিক মিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission emphasized co-curricular activities for the all-round development of students.",
-    "asExplanation": "আয়াযগ শিক্ষাৰ্থীৰ সবযাঙ্গীন বিকাশৰ বাযব সৈ -পাঠযক্ৰম কাযযসূচীৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "আয াযগ মিক্ষাথীৰ সবযাঙ্গীন মবকািৰ বাযব সৈ -পাঠযক্ৰম কাযযসূচীৰ ওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।"
   },
   {
     "id": 18,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 4,
+    "dayNumber": 8,
     "enQuestion": "Why did the Mudaliar Commission recommend reforms in the examination system?",
-    "asQuestion": "মুডালিয়াৰ আয়াযগ পৰীক্ষা বযেস্থাত সংস্কাৰৰ পৰামিয কি দিছিল?",
+    "asQuestion": "মুদামল াৰ আয াযগ পৰীক্ষা বযেস্থাত সংস্কাৰৰ পৰামিয মক মদমছল ?",
     "enOptions": [
       "To increase the number of examinations",
       "To make education more book-centered",
@@ -443,23 +443,23 @@ const mcqData: MCQ[] = [
       "To abolish all written tests"
     ],
     "asOptions": [
-      "পৰীক্ষ াৰ সংখযা বৃত্তি কৰিবলৈ",
-      "শিক্ষাক অধি্ক পুথিগত কৰিবলৈ",
-      "শিক্ষাৰ ওপৰত পৰীক্ষাৰ অত্যাধিক প্ৰ ভাে হ্ৰাস কৰিবলৈ",
-      "সকযলা লিখিত পৰীক্ষা বিযলাপ কৰিবলৈ"
+      "পৰীক্ষ াৰ সংখযা বৃমি কমৰবলল",
+      "মিক্ষাক অমধ্ক পুমথগত কমৰবলল",
+      "মিক্ষাৰ ওপৰত পৰীক্ষাৰ অতযামধ্ক প্ৰ ভাে হ্ৰ াস কমৰবলল",
+      "সকযলা মলমখত পৰীক্ষা মবযলাপ কমৰবলল"
     ],
     "correctIndex": 2,
     "enExplanation": "The Commission believed that education had become overly examination-oriented and reforms were\nnecessary to improve learning.",
-    "asExplanation": "আয়াগৰ যিত শিক্ষা অত্যাধিক পৰীক্ষামুখী হৈ পৰিছিল আৰু মিকন -প্ৰ কি্ৰা উন্নত কৰিবলৈ সংস্কাৰ প্ৰ য়ােন আছিল।"
+    "asExplanation": "আয াগৰ মযত মিক্ষা অতযামধ্ক পৰীক্ষাযকমিক হৈ পমৰমছল আৰু মিকন -প্ৰ মক্ৰ া উন্নত কমৰবলল সংস্কাৰ প্ৰ য ােন\nআমছল।"
   },
   {
     "id": 19,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 4,
+    "dayNumber": 9,
     "enQuestion": "Which of the following best represents the educational philosophy behind the DVPLC objectives\nrecommended by the Mudaliar Commission?",
-    "asQuestion": "মুডালিয়াৰ আয়াযগ প্ৰস্তামেত DVPLC লক্ষযসমূৈৰ শিক্ষাগত দিযন কোনয়া বিকল্পই সবযাধি্ক সঠিকভাযে প্ৰ কাি কযৰ?",
+    "asQuestion": "মুদামল াৰ আয াযগ প্ৰস্ত ামেত DVPLC লক্ষযসমূৈৰ মিক্ষাগত দিযন ককানয া মবকল্পই সবযামধ্ক সঠিকভাযে প্ৰ কাি\nকযৰ?",
     "enOptions": [
       "Education should focus only on examinations.",
       "Education should promote balanced development of the individual and society.",
@@ -467,23 +467,23 @@ const mcqData: MCQ[] = [
       "Education should emphasize memorization alone."
     ],
     "asOptions": [
-      "শিক্ষা ককেল পৰীক্ষাৰ ওপৰত ককমিত ৈ’ব লাযগ।",
-      "শিক্ষা বযকি্তগত আৰু সামামেক উভ বিকাশ সাধ্ন কৰিব লাযগ।",
-      "শিক্ষা ককেল বিশ্ববিদ্যালয় ৰ বাযব প্ৰস্তু মত ৈ’ব লাযগ।",
-      "শিক্ষা ককেল মুখস্থ বিদযাৰ ওপৰত গু ৰুত্ব দিব লাযগ।"
+      "মিক্ষা ককেল পৰীক্ষাৰ ওপৰত ককমিত ৈ’ব লাযগ।",
+      "মিক্ষা বযমক্তগত আৰু সামামেক উভ মবকাি সাধ্ন কমৰব লাযগ।",
+      "মিক্ষা ককেল মবশ্বমবদযাল ৰ বাযব প্ৰস্তু মত ৈ’ব লাযগ।",
+      "মিক্ষা ককেল মুখস্থ মবদযাৰ ওপৰত গু ৰুত্ব মদব লাযগ।"
     ],
     "correctIndex": 1,
     "enExplanation": "The DVPLC framework reflects a balanced educational philosophy emphasizing democratic citizenship,\nvocational efficiency, personality development, leadership and character formation.",
-    "asExplanation": "DVPLC ধ্ াৰণাই গণতানি্ত্ৰক নাগৰিকত্ব, বৃত্তিমূলক দক্ষ তা, ব্যক্তিত্ব বিকাশ, নেতৃত্ব আৰু চৰিত্র গঠনৰ সমিিত বিকাশৰ ওপৰত গু ৰুত্ব দিয ।"
+    "asExplanation": "DVPLC ধ্ াৰণাই গণতামন্ত্ৰক নাগমৰকত্ব , বৃমিমূলক দক্ষ তা, বযমক্তত্ব মবকাি , কনতৃত্ব আৰু চমৰত্র গঠনৰ সমমিত\nমবকািৰ ওপৰত গু ৰুত্ব মদয ।"
   },
   {
     "id": 20,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 4,
+    "dayNumber": 10,
     "enQuestion": "Which statement best evaluates the contribution of the Mudaliar Commission to secondary education in\nIndia?",
-    "asQuestion": "ভাৰতৰ মাধ্যমিক শিক্ষাৰ কক্ষত্রত মুডালিয়াৰ আয়োগৰ অেদানৰ সযবযািম মূলযা ন কোনয়া?",
+    "asQuestion": "ভাৰতৰ মাধ্যমমক মিক্ষাৰ কক্ষত্রত মুদামল াৰ আয াগৰ অেদানৰ সযবযািম মূলযা ন ককানয া ?",
     "enOptions": [
       "It focused only on administrative reforms.",
       "It ignored students' individual differences.",
@@ -491,23 +491,23 @@ const mcqData: MCQ[] = [
       "It recommended the abolition of secondary education."
     ],
     "asOptions": [
-      "ই ককেল প্ৰ িাসনিক সংস্কাৰৰ ওপৰত গু ৰুত্ব দিছিল।",
-      "ই শিক্ষাৰ্থীৰ বযকি্তগত পার্থক্য উপেক্ষা কৰিছিল।",
-      "ই মাধ্ যমিক মিক্ষ াৰ উন্ন নৰ বাযব এক বিস্তৃ ত কাঠাযমা প্ৰ দান কৰিছিল।",
-      "ই মাধ্যমিক শিক্ষা বিযলাপৰ পৰামিয দিছিল।"
+      "ই ককেল প্ৰ িাসমনক সংস্কাৰৰ ওপৰত গু ৰুত্ব মদমছল।",
+      "ই মিক্ষাথীৰ বযমক্তগত পাথযকয উযপক্ষা কমৰমছল।",
+      "ই মাধ্ যমমক মিক্ষ াৰ উন্ন নৰ বাযব এক মবস্তৃ ত কাঠাযমা প্ৰ দান কমৰমছল।",
+      "ই মাধ্যমমক মিক্ষা মবযলাপৰ পৰামিয মদমছল।"
     ],
     "correctIndex": 2,
     "enExplanation": "The Mudaliar Commission significantly influenced curriculum reform, guidance services, vocational\neducation, examination reform and democratic citizenship.",
-    "asExplanation": "মুডালিয়াৰ আয়াযগ পাঠযক্ৰম সংস্কাৰ, নিযদযিনায়কসো, বৃত্তিমূলক মিক্ষ া, পৰীক্ষা সংস্কাৰ আৰু গণতানি্ত্ৰক নাগৰিকত্বৰ কক্ষত্রত গভীৰ প্ৰ ভাে কপলাইছিল।"
+    "asExplanation": "মুদামল াৰ আয াযগ পাঠযক্ৰম সংস্কাৰ , মনযদযিনা কসো, বৃমিমূলক মিক্ষ া, পৰীক্ষা সংস্কাৰ আৰু গণতামন্ত্ৰক নাগমৰকত্বৰ\nকক্ষত্রত গভীৰ প্ৰ ভাে কপলাইমছল।"
   },
   {
     "id": 21,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 5,
+    "dayNumber": 11,
     "enQuestion": "In which year was the Kothari Commission appointed?",
-    "asQuestion": "কোঠাৰী আয়োগ কোন বছৰত নিযুক্ত কৰা হৈছিল?",
+    "asQuestion": "ককাঠাৰী আয াগ ককান বছৰত মনযুক্ত কৰা হৈমছল ?",
     "enOptions": [
       "1952",
       "1964",
@@ -522,16 +522,16 @@ const mcqData: MCQ[] = [
     ],
     "correctIndex": 1,
     "enExplanation": "The Education Commission, popularly known as the Kothari Commission, was appointed in 1964.",
-    "asExplanation": "শিক্ষা আয়াগ, যাক কোঠাৰী আয়োগ বুলিও কোৱা ৈ, ১৯৬৪ চনত নিযুক্ত কৰা হৈছিল।"
+    "asExplanation": "মিক্ষা আয াগ , যাক ককাঠাৰী আয াগ বুমলও ককাো ৈ , ১৯৬৪ চনত মনযুক্ত কৰা হৈমছল।"
   },
   {
     "id": 22,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 5,
+    "dayNumber": 11,
     "enQuestion": "Who was the Chairman of the Kothari Commission?",
-    "asQuestion": "কোঠাৰী আয়োগৰ সভাপতি কোন আছিল?",
+    "asQuestion": "ককাঠাৰী আয াগৰ সভাপমত ককান আমছল?",
     "enOptions": [
       "A. Lakshmanaswami Mudaliar",
       "Zakir Hussain",
@@ -539,23 +539,23 @@ const mcqData: MCQ[] = [
       "J. P. Naik"
     ],
     "asOptions": [
-      "এ. লক্ষ্ণিস্বামী মুডালিয়াৰ",
-      "জাকিৰ হুছেইন",
-      "ডি. এছ. কোঠাৰী",
-      "কে. পি. নায়ক"
+      "এ. লক্ষ্মণস্বামী মুদামল াৰ",
+      "োমকৰ হু যছইন",
+      "মি. এছ. ককাঠাৰী",
+      "কে. মপ. না ক"
     ],
     "correctIndex": 2,
     "enExplanation": "The Commission was chaired by Dr. D. S. Kothari, a distinguished scientist and educationist.",
-    "asExplanation": "ড° ডি. এছ. কোঠাৰী এই আয়াগৰ সভাপতি আছিল, যিেন এেন বিশিষ্ট বিজ্ঞানী আৰু শিক্ষাবিদ আছিল।"
+    "asExplanation": "ি° মি. এছ. ককাঠাৰী এই আয াগৰ সভাপমত আমছল, মযেন এেন মবমিষ্ট মবজ্ঞানী আৰু মিক্ষামবদ আমছল।"
   },
   {
     "id": 23,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 5,
+    "dayNumber": 12,
     "enQuestion": "The Kothari Commission viewed education primarily as an instrument for—",
-    "asQuestion": "কোঠাৰী আয়াযগ শিক্ষাক মূলতঃ কিৈৰ উপা মৈচাযপ গণয কৰিছিল?",
+    "asQuestion": "ককাঠাৰী আয াযগ মিক্ষাক মূলতঃ মকৈৰ উপা মৈচাযপ গণয কমৰমছল ?",
     "enOptions": [
       "Examination success",
       "National development",
@@ -564,22 +564,22 @@ const mcqData: MCQ[] = [
     ],
     "asOptions": [
       "পৰীক্ষাত সফলতা",
-      "জাতীয় উন্ন ন",
-      "ধৰ্মীয় শিক্ষা",
-      "প্ৰশাসনিক মন ন্ত্ৰ ণ"
+      "োতী উন্ন ন",
+      "ধ্ মী মিক্ষা",
+      "প্ৰ িাসমনক মন ন্ত্ৰ ণ"
     ],
     "correctIndex": 1,
     "enExplanation": "The Kothari Commission emphasized that education should contribute to national development,\nmodernization and social transformation.",
-    "asExplanation": "কোঠাৰী আয়াযগ শিক্ষা জাতীয় উন্ন ন, আধুনিকীকৰণ আৰু সামামেক পৰিেতযনৰ শক্তিশালী উপা বুমল তি প্ৰ কাি কৰিছিল।"
+    "asExplanation": "ককাঠাৰী আয াযগ মিক্ষা োতী উন্ন ন , আধ্ুমনকীকৰণ আৰু সামামেক পমৰেতযনৰ িমক্তিালী উপা বুমল মত\n প্ৰ\nকাি কমৰমছল।"
   },
   {
     "id": 24,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 5,
+    "dayNumber": 12,
     "enQuestion": "Assertion (A):\nThe Kothari Commission emphasized equal educational opportunities.\nReason (R):\nEducation should help reduce social and economic inequalities.",
-    "asQuestion": "উকি্ত ( A): কোঠাৰী আয়াযগ সমান শিক্ষাৰ সুযোগৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল। কাৰণ (R): শিক্ষাই সামামেক আৰু অৰ্থনৈতিক বৈষ্িয হ্ৰাস কৰাত সৈা কৰিব লাযগ।",
+    "asQuestion": "উমক্ত ( A):\nককাঠাৰী আয াযগ সমান মিক্ষাৰ সুযযাগৰ ওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।\nকাৰণ (R):\nমিক্ষাই সামামেক আৰু অথযলনমতক হবষময হ্ৰ াস কৰাত সৈা কমৰব লাযগ।",
     "enOptions": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -587,23 +587,23 @@ const mcqData: MCQ[] = [
       "A is false but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "The Commission believed that equal educational opportunities are essential for reducing inequalities and\npromoting social justice.",
-    "asExplanation": "আয়াগৰ যিত সমান শিক্ষাৰ সুযযাগ সামামেক নযাপ্ৰ তিষ্ঠা আৰু বৈষ্িয হ্ৰাসৰ বাযব অতযন্ত প্ৰ য়ােনী ।"
+    "asExplanation": "আয াগৰ মযত সমান মিক্ষাৰ সুযযাগ সামামেক নযাপ্ৰ মতষ্ঠা আৰু হবষময হ্ৰ াসৰ বাযব অতযন্ত প্ৰ য ােনী ।"
   },
   {
     "id": 25,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 5,
+    "dayNumber": 13,
     "enQuestion": "Which recommendation of the Kothari Commission aimed at providing equal educational opportunities to\nall children regardless of social background?",
-    "asQuestion": "সামামেক প ভূমি নিবিযযিযষ সকযলা শিশুক সমান শিক্ষাৰ সুযযাগ প্ৰ দান কৰাৰ উযেযিয কোঠাৰী আয়াযগ কোন পৰামিয আগব়িাইছিল?",
+    "asQuestion": "সামামেক প ভূমম মনমবযযিযষ সকযলা মিশুক সমান মিক্ষাৰ সুযযাগ প্ৰ দান কৰাৰ উযেযিয ককাঠাৰী আয াযগ ককান\nপৰামিয আগব়িাইমছল ?",
     "enOptions": [
       "Multipurpose Schools",
       "Common School System",
@@ -611,23 +611,23 @@ const mcqData: MCQ[] = [
       "Open Universities"
     ],
     "asOptions": [
-      "বহুমুখী বিদযাল",
-      "সাধ্াৰণ বিদযাল বযেস্থা",
+      "বহুমুখী মবদযাল",
+      "সাধ্াৰণ মবদযাল বযেস্থা",
       "অপাযৰচন কেকব'িয",
-      "মুক্ত বিশ্ববিদ্যালয়"
+      "মুক্ত মবশ্বমবদযাল"
     ],
     "correctIndex": 1,
     "enExplanation": "The Common School System was recommended to promote equality and reduce educational disparities.",
-    "asExplanation": "সাধ্ াৰণ বিদযাল বযেস্থ া সতিা বৃত্তি আৰু মিক্ষ াগত বৈষ্িয হ্ৰাস কৰাৰ উযেযিয পৰামিয মদা হৈছিল।"
+    "asExplanation": "সাধ্ াৰণ মবদযাল বযেস্থ া সমতা বৃমি আৰু মিক্ষ াগত হবষময হ্ৰ াস কৰাৰ উযেযিয পৰামিয মদ া হৈমছল।"
   },
   {
     "id": 26,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 6,
+    "dayNumber": 13,
     "enQuestion": "Which educational structure was recommended by the Kothari Commission for India?",
-    "asQuestion": "কোঠাৰী আয়াযগ ভাৰতৰ বাযব কোন শিক্ষা গাঁথনিৰ পৰামিয আগব়িাইছিল?",
+    "asQuestion": "ককাঠাৰী আয াযগ ভাৰতৰ বাযব ককান মিক্ষা গাঁথমনৰ পৰামিয আগব়িাইমছল ?",
     "enOptions": [
       "8+4+3",
       "10+2+3",
@@ -642,16 +642,16 @@ const mcqData: MCQ[] = [
     ],
     "correctIndex": 1,
     "enExplanation": "The Kothari Commission recommended the 10+2+3 structure, which later became the standard educational\npattern in India.",
-    "asExplanation": "কোঠাৰী আয়াযগ ১০+২+৩ শিক্ষা গাঁথনিৰ পৰামিয আগব়িাইছিল, যি পিছত ভাৰতৰ মানক শিক্ষা বযেস্থা মৈচাযপ গৃৈীত ৈ ।"
+    "asExplanation": "ককাঠাৰী আয াযগ ১০+২+৩ মিক্ষা গাঁথমনৰ পৰামিয আগব়িাইমছল , ময মপছত ভাৰতৰ মানক মিক্ষা বযেস্থা মৈচাযপ\nগৃৈীত ৈ ।"
   },
   {
     "id": 27,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 6,
+    "dayNumber": 13,
     "enQuestion": "A student completes ten years of schooling and then enters a two-year higher secondary programme. Which\nrecommendation of the Kothari Commission is reflected here?",
-    "asQuestion": "এেন মিক্ষ াথীয দৈ বছৰৰ বিদযাল মিক্ষ া স্িপূ ণয কৰাৰ পিছত দুবছৰী া উচ্চ মাধ্ যমিক কাযযসূচীত কযাগদান কযৰ। ই াত কোঠাৰী আয়োগৰ কোন পৰামিয প্ৰ তিফলিত হৈছে?",
+    "asQuestion": "এেন মিক্ষ াথীয দৈ বছৰৰ মবদযাল মিক্ষ া সম্পূ ণয কৰাৰ মপছত দুবছৰী া উচ্চ মাধ্ যমমক কাযযসূচীত কযাগদান\nকযৰ। ই াত ককাঠাৰী আয াগৰ ককান পৰামিয প্ৰ মতফমলত হৈযছ ?",
     "enOptions": [
       "Common School System",
       "Work Experience",
@@ -659,23 +659,23 @@ const mcqData: MCQ[] = [
       "Adult Education"
     ],
     "asOptions": [
-      "সাধ্াৰণ বিদযাল বযেস্থা",
-      "কযি অভিজ্ঞতা",
-      "১০+২+৩ গাঁথনি",
-      "প্ৰাপ্তব স্ক শিক্ষা"
+      "সাধ্াৰণ মবদযাল বযেস্থা",
+      "কময অমভজ্ঞতা",
+      "১০+২+৩ গাঁথমন",
+      "প্ৰ াপ্তব স্ক মিক্ষা"
     ],
     "correctIndex": 2,
     "enExplanation": "The 10+2+3 pattern consists of ten years of schooling, two years of higher secondary education and three\nyears of degree education.",
-    "asExplanation": "১০+২+৩ গাঁথনি অনুসমৰ ১০ বছৰ বিদযাল শিক্ষা, ২ বছৰ উচ্চ মাধ্যমিক আৰু ৩ বছৰ ডিগ্ৰী শিক্ষা থাযক।"
+    "asExplanation": "১০+২+৩ গাঁথমন অনুসমৰ ১০ বছৰ মবদযাল মিক্ষা , ২ বছৰ উচ্চ মাধ্যমমক আৰু ৩ বছৰ মিগ্ৰী মিক্ষা থাযক।"
   },
   {
     "id": 28,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 6,
+    "dayNumber": 14,
     "enQuestion": "A school requires students to participate in community service, gardening and productive activities as part of\nlearning. Which recommendation of the Kothari Commission does this represent?",
-    "asQuestion": "এখন বিদযালয শিক্ষার্থীক শিক্ষা প্ৰ কি্ৰাৰ অংি মৈচাযপ সমােযসো, বাগিচা কযি আৰু উৎপাদনিীল কাযযত অংিগ্ৰৈণ কৰায়া বাধ্যতামূলক কৰিযছ। ই াত কোঠাৰী আয়োগৰ কোন পৰামিয প্ৰ তিফলিত হৈছে?",
+    "asQuestion": "এখন মবদযালয মিক্ষাথীক মিক্ষা প্ৰ মক্ৰ াৰ অংি মৈচাযপ সমােযসো , বামগচা কময আৰু উৎপাদনিীল কাযযত\nঅংিগ্ৰৈণ কৰায া বাধ্যতামূলক কমৰযছ। ই াত ককাঠাৰী আয াগৰ ককান পৰামিয প্ৰ মতফমলত হৈযছ ?",
     "enOptions": [
       "Common School System",
       "Work Experience",
@@ -683,23 +683,23 @@ const mcqData: MCQ[] = [
       "Open Learning"
     ],
     "asOptions": [
-      "সাধ্াৰণ বিদযাল বযেস্থা",
-      "কযি অভিজ্ঞতা",
+      "সাধ্াৰণ মবদযাল বযেস্থা",
+      "কময অমভজ্ঞতা",
       "পৰীক্ষা সংস্কাৰ",
-      "মুক্ত শিক্ষা"
+      "মুক্ত মিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "The Kothari Commission emphasized work experience to connect education with productive work and\nsocial responsibility.",
-    "asExplanation": "কোঠাৰী আয়াযগ শিক্ষাক উৎপাদনিীল কযি আৰু সামামেক দাম ত্ব ৰ হসযত সংযযাগ কৰিবলৈ কযি অভিজ্ঞতাৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "ককাঠাৰী আয াযগ মিক্ষাক উৎপাদনিীল কময আৰু সামামেক দাম ত্ব ৰ হসযত সংযযাগ কমৰবলল কময অমভজ্ঞতাৰ\nওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।"
   },
   {
     "id": 29,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 6,
+    "dayNumber": 14,
     "enQuestion": "Why did the Kothari Commission place special emphasis on equal educational opportunity?",
-    "asQuestion": "কোঠাৰী আয়াযগ সমান শিক্ষাৰ সুযোগৰ ওপৰত বিযিষ গু ৰুত্ব কি আযৰাপ কৰিছিল?",
+    "asQuestion": "ককাঠাৰী আয াযগ সমান মিক্ষাৰ সুযযাগৰ ওপৰত মবযিষ গু ৰুত্ব মক আযৰাপ কমৰমছল ?",
     "enOptions": [
       "To increase examination competition",
       "To reduce social inequality and promote national integration",
@@ -707,23 +707,23 @@ const mcqData: MCQ[] = [
       "To reduce higher education enrolment"
     ],
     "asOptions": [
-      "পৰীক্ষ ামূলক প্ৰ তিযযাগিতা বৃত্তি কৰিবলৈ",
-      "সামামেক বৈষ্িয হ্ৰাস আৰু জাতীয় সংহতি শক্তিশালী কৰিবলৈ",
-      "ব্যক্তি গত বিদযাল বৃত্তি কৰিবলৈ",
-      "উচ্চ শিক্ষাত নাভিতিয হ্ৰাস কৰিবলৈ"
+      "পৰীক্ষ ামূলক প্ৰ মতযযামগতা বৃমি কমৰবলল",
+      "সামামেক হবষময হ্ৰ াস আৰু োতী সংৈমত িমক্তিালী কমৰবলল",
+      "বযমক্ত গত মবদযাল বৃমি কমৰবলল",
+      "উচ্চ মিক্ষাত নামভমতয হ্ৰ াস কমৰবলল"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission viewed educational equality as a means to achieve social justice, national integration and\nbalanced development.",
-    "asExplanation": "আয়াগৰ যিত শিক্ষাগত সতিা সামামেক নযা, জাতীয় সংহতি আৰু সমিবকাি নিমিত কৰাৰ এক মুখয উপা ।"
+    "asExplanation": "আয াগৰ মযত মিক্ষাগত সমতা সামামেক নযা , োতী সংৈমত আৰু সমমবকাি মনমিত কৰাৰ এক মুখয উপা ।"
   },
   {
     "id": 30,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 6,
+    "dayNumber": 14,
     "enQuestion": "Assertion (A):\nThe Kothari Commission emphasized science education.\nReason (R):\nScientific knowledge is essential for modernization and national development.",
-    "asQuestion": "উকি্ত ( A): কোঠাৰী আয়াযগ বিজ্ঞান শিক্ষাৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল। কাৰণ (R): আধুনিকীকৰণ আৰু জাতীয় উন্ন নৰ বাযব বৈজ্ঞানিক জ্ঞান অতযােিযক।",
+    "asQuestion": "উমক্ত ( A):\nককাঠাৰী আয াযগ মবজ্ঞান মিক্ষাৰ ওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।\nকাৰণ (R):\nআধ্ুমনকীকৰণ আৰু োতী উন্ন নৰ বাযব হবজ্ঞামনক জ্ঞ ান অতযােিযক।",
     "enOptions": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -731,23 +731,23 @@ const mcqData: MCQ[] = [
       "A is false but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "The Commission believed science education was essential for technological progress, modernization and\neconomic development.",
-    "asExplanation": "আয়াগৰ যিত বিজ্ঞান শিক্ষা প্ৰ যুকি্তগত অগ্ৰগতি, আধুনিকীকৰণ আৰু অৰ্থনৈতিক বিকাশৰ বাযব অতযন্ত প্ৰ য়ােনী ।"
+    "asExplanation": "আয াগৰ মযত মবজ্ঞান মিক্ষা প্ৰ যুমক্তগত অগ্ৰগমত , আধ্ুমনকীকৰণ আৰু অথযলনমতক মবকািৰ বাযব অতযন্ত\n প্ৰ\nয ােনী ।"
   },
   {
     "id": 31,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 7,
+    "dayNumber": 15,
     "enQuestion": "In which year was the National Policy on Education introduced?",
-    "asQuestion": "ৰাষ্ট্ৰীয়য় শিক্ষা নীতি ( NPE) কোন বছৰত প্ৰ েতযন কৰা হৈছিল?",
+    "asQuestion": "ৰাষ্ট্ৰী মিক্ষা নীমত ( NPE) ককান বছৰত প্ৰ েতযন কৰা হৈমছল ?",
     "enOptions": [
       "1968",
       "1976",
@@ -762,16 +762,16 @@ const mcqData: MCQ[] = [
     ],
     "correctIndex": 2,
     "enExplanation": "The National Policy on Education was announced in 1986 to promote educational development and equality.",
-    "asExplanation": "মিক্ষ াৰ উন্ন ন আৰু সতিা বৃত্তিৰ উযেযিয ১৯৮৬ চনত ৰাষ্ট্ৰ ী মিক্ষ া নীতি ক াষণা কৰা হৈছিল।"
+    "asExplanation": "মিক্ষ াৰ উন্ন ন আৰু সমতা বৃমিৰ উযেযিয ১৯৮৬ চনত ৰাষ্ট্ৰ ী মিক্ষ া নীমত ক াষণা কৰা হৈমছল।"
   },
   {
     "id": 32,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 7,
+    "dayNumber": 15,
     "enQuestion": "One of the major objectives of the National Policy on Education (1986) was to—",
-    "asQuestion": "ৰাষ্ট্ৰীয়য় শিক্ষা নীতি (১৯৮৬) -ৰ অনযতম মুখয উযেিয কি আছিল?",
+    "asQuestion": "ৰাষ্ট্ৰী মিক্ষা নীমত (১৯৮৬) -ৰ অনযতম মুখয উযেিয মক আমছল?",
     "enOptions": [
       "Reduce access to education",
       "Promote equality of educational opportunity",
@@ -779,23 +779,23 @@ const mcqData: MCQ[] = [
       "Restrict vocational education"
     ],
     "asOptions": [
-      "শিক্ষাৰ সুযযাগ হ্ৰাস কৰা",
-      "মিক্ষ াৰ সমান সুযযাগ বৃত্তি কৰা",
-      "মাধ্যমিক শিক্ষা বিযলাপ কৰা",
-      "বৃত্তিমূলক মিক্ষ া সীমাবি কৰা"
+      "মিক্ষাৰ সুযযাগ হ্ৰ াস কৰা",
+      "মিক্ষ াৰ সমান সুযযাগ বৃমি কৰা",
+      "মাধ্যমমক মিক্ষা মবযলাপ কৰা",
+      "বৃমিমূলক মিক্ষ া সীমাবি কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "The NPE 1986 aimed to ensure equal educational opportunities for all sections of society.",
-    "asExplanation": "NPE 1986-এ সমােৰ সকযলা কেণীৰ বাযব সমান শিক্ষাৰ সুযযাগ নিমিত কৰাৰ লক্ষয হলছিল।"
+    "asExplanation": "NPE 1986-এ সমােৰ সকযলা কেণীৰ বাযব সমান মিক্ষাৰ সুযযাগ মনমিত কৰাৰ লক্ষয হলমছল।"
   },
   {
     "id": 33,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 7,
+    "dayNumber": 16,
     "enQuestion": "A government programme provides classrooms, teaching materials and basic facilities to improve school\ninfrastructure. Which initiative of NPE 1986 does this describe?",
-    "asQuestion": "এ া চৰকাৰী কাযযসূচীয বিদযাল সমূৈক কেণীযকাঠা, মিক্ষণ সাগি্ৰী আৰু কমৌলিক সুবিধ্া প্ৰ দান কযৰ। ই NPE 1986-ৰ কোন পদযক্ষপৰ উদাৈৰণ?",
+    "asQuestion": "এ া চৰকাৰী কাযযসূচীয মবদযাল সমূৈক কেণীযকাঠা, মিক্ষণ সামগ্ৰী আৰু কমৌমলক সুমবধ্া প্ৰ দান কযৰ। ই NPE\n1986-ৰ ককান পদযক্ষপৰ উদাৈৰণ ?",
     "enOptions": [
       "Work Experience",
       "Common School System",
@@ -803,23 +803,23 @@ const mcqData: MCQ[] = [
       "Adult Education"
     ],
     "asOptions": [
-      "কযি অভিজ্ঞতা",
-      "সাধ্াৰণ বিদযাল বযেস্থা",
+      "কময অমভজ্ঞতা",
+      "সাধ্াৰণ মবদযাল বযেস্থা",
       "অপাযৰচন কেকব'িয",
-      "প্ৰাপ্তব স্ক শিক্ষা"
+      "প্ৰ াপ্তব স্ক মিক্ষা"
     ],
     "correctIndex": 2,
     "enExplanation": "Operation Blackboard was launched to improve essential facilities and teaching resources in schools.",
-    "asExplanation": "বিদযাল সমূৈত কমৌলিক সুবিধ্া আৰু মিক্ষণ স্িপদ উন্নত কৰাৰ বাযব অপাযৰচন কেকব 'িয আৰ্িভ কৰা হৈছিল।"
+    "asExplanation": "মবদযাল সমূৈত কমৌমলক সুমবধ্া আৰু মিক্ষণ সম্পদ উন্নত কৰাৰ বাযব অপাযৰচন কেকব 'িয আৰম্ভ কৰা হৈমছল।"
   },
   {
     "id": 34,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 7,
+    "dayNumber": 16,
     "enQuestion": "Why did the National Policy on Education (1986) emphasize teacher education and training?",
-    "asQuestion": "ৰাষ্ট্ৰীয়য় শিক্ষা নীতি (১৯৮৬) -এ মিক্ষক শিক্ষা আৰু প্ৰ মিক্ষণৰ ওপৰত বিযিষ গু ৰুত্ব কি আযৰাপ কৰিছিল?",
+    "asQuestion": "ৰাষ্ট্ৰী মিক্ষা নীমত (১৯৮৬) -এ মিক্ষক মিক্ষা আৰু প্ৰ মিক্ষণৰ ওপৰত মবযিষ গু ৰুত্ব মক আযৰাপ কমৰমছল ?",
     "enOptions": [
       "To reduce the number of teachers",
       "To improve the quality of education",
@@ -827,23 +827,23 @@ const mcqData: MCQ[] = [
       "To eliminate examinations"
     ],
     "asOptions": [
-      "মিক্ষকৰ সংখযা হ্ৰাস কৰিবলৈ",
-      "শিক্ষাৰ গু ণগত মান উন্নত কৰিবলৈ",
-      "বিদযাল ৰ পৰিেযতয প্ৰ যুকি্ত বযেৈাৰ কৰিবলৈ",
-      "পৰীক্ষা বিযলাপ কৰিবলৈ"
+      "মিক্ষকৰ সংখযা হ্ৰ াস কমৰবলল",
+      "মিক্ষাৰ গু ণগত মান উন্নত কমৰবলল",
+      "মবদযাল ৰ পমৰেযতয প্ৰ যুমক্ত বযেৈাৰ কমৰবলল",
+      "পৰীক্ষা মবযলাপ কমৰবলল"
     ],
     "correctIndex": 1,
     "enExplanation": "The policy recognized that educational quality depends greatly on well-trained and professionally competent\nteachers.",
-    "asExplanation": "নীতিখযন স্ব ীকাৰ কৰিছিল কয শিক্ষাৰ গু ণগত মান দক্ষ আৰু সু -প্ৰ মিকি্ষত মিক্ষকৰ ওপৰত নিভযৰ কযৰ।"
+    "asExplanation": "নীমতখযন স্ব ীকাৰ কমৰমছল কয মিক্ষাৰ গু ণগত মান দক্ষ আৰু সু -প্ৰ মিমক্ষত মিক্ষকৰ ওপৰত মনভযৰ কযৰ।"
   },
   {
     "id": 35,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 7,
+    "dayNumber": 17,
     "enQuestion": "A secondary school introduces courses in agriculture, computer applications and business skills to prepare\nstudents for employment. This reflects the concept of—",
-    "asQuestion": "এখন মাধ্ যমিক বিদযালয কৃষি, কমি্পউ াৰ প্ৰ য়াগ আৰু বযেসাম ক দক্ষতাৰ পাঠযক্ৰম আৰ্িভ কৰা হৈছে যাযত শিক্ষাথীসকল কযিসংস্থাপনৰ বাযব প্ৰস্তু ত ৈ । ই কোন ধ্ াৰণাক প্ৰ তিফলিত কযৰ?",
+    "asQuestion": "এখন মাধ্ যমমক মবদযালয কৃমষ, কমম্পউ াৰ প্ৰ য াগ আৰু বযেসাম ক দক্ষতাৰ পাঠযক্ৰম আৰম্ভ কৰা হৈযছ যাযত\nমিক্ষাথীসকল কমযসংস্থাপনৰ বাযব প্ৰস্তু ত ৈ । ই ককান ধ্ াৰণাক প্ৰ মতফমলত কযৰ ?",
     "enOptions": [
       "Examination Reform",
       "Vocationalisation of Education",
@@ -852,22 +852,22 @@ const mcqData: MCQ[] = [
     ],
     "asOptions": [
       "পৰীক্ষা সংস্কাৰ",
-      "মিক্ষ াৰ বৃত্তিমুখীকৰণ",
-      "সাধ্াৰণ বিদযাল বযেস্থা",
-      "গণতানি্ত্ৰক নাগৰিকত্ব"
+      "মিক্ষ াৰ বৃমিমুখীকৰণ",
+      "সাধ্াৰণ মবদযাল বযেস্থা",
+      "গণতামন্ত্ৰক নাগমৰকত্ব"
     ],
     "correctIndex": 1,
     "enExplanation": "Vocationalisation aims to equip students with practical skills and employment-oriented knowledge.",
-    "asExplanation": "বৃত্তিমুখীকৰণৰ লক্ষ য হৈছে মিক্ষ াথীক বযেৈাৰিক দক্ষ তা আৰু কযিমুখী জ্ঞান প্ৰ দান কৰা।"
+    "asExplanation": "বৃমিমুখীকৰণৰ লক্ষ য হৈযছ মিক্ষ াথীক বযেৈামৰক দক্ষ তা আৰু কমযমুখী জ্ঞ ান প্ৰ দান কৰা।"
   },
   {
     "id": 36,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 8,
+    "dayNumber": 17,
     "enQuestion": "What is the primary objective of vocationalisation of secondary education?",
-    "asQuestion": "মাধ্ যমিক মিক্ষ াৰ বৃত্তিমুখীকৰণৰ মুখয উযেিয কি?",
+    "asQuestion": "মাধ্ যমমক মিক্ষ াৰ বৃমিমুখীকৰণৰ মুখয উযেিয মক?",
     "enOptions": [
       "To increase examination marks only",
       "To prepare students for productive employment",
@@ -875,23 +875,23 @@ const mcqData: MCQ[] = [
       "To eliminate academic subjects"
     ],
     "asOptions": [
-      "ককেল পৰীক্ষ াৰ ন্িব ৰ বৃত্তি কৰা",
-      "শিক্ষার্থীক উৎপাদনিীল কযিসংস্থাপনৰ বাযব প্ৰস্তু ত কৰা",
-      "বযেৈাৰিক কাযযকলাপ হ্ৰাস কৰা",
-      "একাযিমিক বিষ বিযলাপ কৰা"
+      "ককেল পৰীক্ষ াৰ নম্ব ৰ বৃমি কৰা",
+      "মিক্ষাথীক উৎপাদনিীল কমযসংস্থাপনৰ বাযব প্ৰস্তু ত কৰা",
+      "বযেৈামৰক কাযযকলাপ হ্ৰ াস কৰা",
+      "একাযিমমক মবষ মবযলাপ কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "Vocationalisation aims to equip students with practical skills and occupational competence for employment\nand self-reliance.",
-    "asExplanation": "বৃত্তিমুখীকৰযণ মিক্ষ াথীক বযেৈামৰক দক্ষ তা আৰু কপছাগত কযাগযতাযৰ সমিত কমৰ কযিসংস্থ ান আৰু আত্মিনভযৰিীলতাৰ বাযব প্ৰস্তু ত কযৰ।"
+    "asExplanation": "বৃমিমুখীকৰযণ মিক্ষ াথীক বযেৈামৰক দক্ষ তা আৰু কপছাগত কযাগযতাযৰ সমিত কমৰ কমযসংস্থ ান আৰু\nআত্মমনভযৰিীলতাৰ বাযব প্ৰস্তু ত কযৰ।"
   },
   {
     "id": 37,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 8,
+    "dayNumber": 17,
     "enQuestion": "A region faces high youth unemployment despite many students completing school education. Which\neducational approach can best address this issue?",
-    "asQuestion": "এ া অঞ্চ লত বহু মিক্ষ াথীয বিদযাল মিক্ষ া স্িপূ ণয কৰাৰ পিছযতা যুে কবকাৰত্ব অধি্ ক। কোন মিক্ষ াগত পিতিয এই সসিযাৰ উিম সমাধ্ান দিব পাযৰ?",
+    "asQuestion": "এ া অঞ্চ লত বহু মিক্ষ াথীয মবদযাল মিক্ষ া সম্পূ ণয কৰাৰ মপছযতা যুে কবকাৰত্ব অমধ্ ক। ককান মিক্ষ াগত\nপিমতয এই সমসযাৰ উিম সমাধ্ান মদব পাযৰ ?",
     "enOptions": [
       "Examination-oriented education",
       "Vocationalisation of education",
@@ -899,23 +899,23 @@ const mcqData: MCQ[] = [
       "Reduction of practical work"
     ],
     "asOptions": [
-      "পৰীক্ষামুখী শিক্ষা",
-      "মিক্ষ াৰ বৃত্তিমুখীকৰণ",
-      "মুখস্থভিমিক শিক্ষা",
-      "বযেৈাৰিক কাযয হ্ৰাস"
+      "পৰীক্ষাযকমিক মিক্ষা",
+      "মিক্ষ াৰ বৃমিমুখীকৰণ",
+      "মুখস্থমভমিক মিক্ষা",
+      "বযেৈামৰক কাযয হ্ৰ াস"
     ],
     "correctIndex": 1,
     "enExplanation": "Vocational education helps students acquire employable skills and reduces the gap between education and\nemployment.",
-    "asExplanation": "বৃত্তিমুখী মিক্ষ াই মিক্ষ াথীক কযযিাপযযাগী দক্ষ তা প্ৰ দান কমৰ মিক্ষ া আৰু কযিসংস্থ াপনৰ মােৰ বযেধ্ ান হ্ৰাস কযৰ।"
+    "asExplanation": "বৃমিমুখী মিক্ষ াই মিক্ষ াথীক কযমযাপযযাগী দক্ষ তা প্ৰ দান কমৰ মিক্ষ া আৰু কমযসংস্থ াপনৰ মােৰ বযেধ্ ান হ্ৰ াস কযৰ।"
   },
   {
     "id": 38,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 8,
+    "dayNumber": 18,
     "enQuestion": "One major feature of the development of secondary education in Assam after independence was—",
-    "asQuestion": "স্ব াধ্ীনতাৰ পিছত অসমত মাধ্যমিক শিক্ষাৰ বিকাশৰ এ া মুখয হবমিষ্টয কি আছিল?",
+    "asQuestion": "স্ব\nাধ্ীনতাৰ মপছত অসমত মাধ্যমমক মিক্ষাৰ মবকািৰ এ া মুখয হবমিষ্টয মক আমছল ?",
     "enOptions": [
       "Reduction in school enrolment",
       "Expansion of educational institutions",
@@ -923,23 +923,23 @@ const mcqData: MCQ[] = [
       "Elimination of science education"
     ],
     "asOptions": [
-      "বিদযাল ত নাভিতিয হ্ৰাস",
-      "শিক্ষানুষ্ঠানৰ স্িপ্ৰসাৰণ",
-      "গ্ৰাযি বিদযাল বন্ধ",
-      "বিজ্ঞান শিক্ষা বিযলাপ"
+      "মবদযাল ত নামভমতয হ্ৰ াস",
+      "মিক্ষানুষ্ঠানৰ সম্প্ৰসাৰণ",
+      "গ্ৰ াময মবদযাল বন্ধ",
+      "মবজ্ঞান মিক্ষা মবযলাপ"
     ],
     "correctIndex": 1,
     "enExplanation": "After independence, Assam witnessed a significant expansion in secondary schools and educational\nopportunities.",
-    "asExplanation": "স্ব াধ্ীনতাৰ পিছত অসমত মাধ্যমিক বিদযাল আৰু শিক্ষাৰ সুযোগৰ উযেখযযাগয স্িপ্ৰসাৰণ টিছিল।"
+    "asExplanation": "স্ব\nাধ্ীনতাৰ মপছত অসমত মাধ্যমমক মবদযাল আৰু মিক্ষাৰ সুযযাগৰ উযেখযযাগয সম্প্ৰসাৰণ টিমছল।"
   },
   {
     "id": 39,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 8,
+    "dayNumber": 18,
     "enQuestion": "Which factor contributed most significantly to the growth of secondary education in Assam after\nindependence?",
-    "asQuestion": "স্ব াধ্ীনতাৰ পিছত অসমত মাধ্যমিক শিক্ষাৰ বিকািত কোন কাৰযক সবযাধি্ক গু ৰুত্বপূণয ভূমিকা পালন কৰিছিল?",
+    "asQuestion": "স্ব\nাধ্ীনতাৰ মপছত অসমত মাধ্যমমক মিক্ষাৰ মবকািত ককান কাৰযক সবযামধ্ক গু ৰুত্বপূণয ভূমমকা পালন কমৰমছল ?",
     "enOptions": [
       "Reduction of public investment",
       "Expansion of schools and government initiatives",
@@ -947,23 +947,23 @@ const mcqData: MCQ[] = [
       "Decrease in literacy programmes"
     ],
     "asOptions": [
-      "চৰকাৰী বিনিয়াগ হ্ৰাস",
-      "বিদযাল স্িপ্ৰসাৰণ আৰু চৰকাৰী পদযক্ষপ",
-      "মিক্ষক প্ৰ মিক্ষণ সীমিতকৰণ",
-      "সাক্ষৰতা কাযযসূচী হ্ৰাস"
+      "চৰকাৰী মবমনয াগ হ্ৰ াস",
+      "মবদযাল সম্প্ৰসাৰণ আৰু চৰকাৰী পদযক্ষপ",
+      "মিক্ষক প্ৰ মিক্ষণ সীমমতকৰণ",
+      "সাক্ষৰতা কাযযসূচী হ্ৰ াস"
     ],
     "correctIndex": 1,
     "enExplanation": "Government policies, expansion of institutions and increased educational awareness contributed\nsignificantly to educational development.",
-    "asExplanation": "চৰকাৰী নীতি, বিদযাল স্িপ্ৰ সাৰণ আৰু মিক্ষ াৰ প্ৰ মত সযচতনতা বৃত্তিয মিক্ষ াৰ বিকািত বিযিষ ভূমিকা পালন কৰিছিল।"
+    "asExplanation": "চৰকাৰী নীমত, মবদযাল সম্প্ৰ সাৰণ আৰু মিক্ষ াৰ প্ৰ মত সযচতনতা বৃমিয মিক্ষ াৰ মবকািত মবযিষ ভূমমকা পালন\nকমৰমছল।"
   },
   {
     "id": 40,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 8,
+    "dayNumber": 18,
     "enQuestion": "A rural district has schools but lacks sufficient teachers, laboratories and learning resources. Which\nchallenge of secondary education in Assam does this situation best represent?",
-    "asQuestion": "এ া গ্ৰাযি মেলাত বিদযাল আযছ, কিন্তু পযযাপ্ত মিক্ষক, পৰীক্ষাগাৰ আৰু মিক্ষণ স্িপদ নাই। এই অেস্থাই অসৰি মাধ্যমিক শিক্ষাৰ কোন সসিযাক সবযাধি্ক সঠিকভাযে প্ৰ তিফলিত কযৰ?",
+    "asQuestion": "এ া গ্ৰ াময মেলাত মবদযাল আযছ , মকন্তু পযযাপ্ত মিক্ষক , পৰীক্ষাগাৰ আৰু মিক্ষণ সম্পদ নাই। এই অেস্থাই অসমৰ\nমাধ্যমমক মিক্ষাৰ ককান সমসযাক সবযামধ্ক সঠিকভাযে প্ৰ মতফমলত কযৰ ?",
     "enOptions": [
       "Excessive vocationalisation",
       "Inequality in educational facilities",
@@ -971,23 +971,23 @@ const mcqData: MCQ[] = [
       "Lack of educational demand"
     ],
     "asOptions": [
-      "অত্যাধিক ক বৃত্তিমুখীকৰণ",
-      "শিক্ষাগত সুবিধ্াৰ অসম বণ্টন",
-      "আন্তঃগাঁথনিৰ অত্যাধিক উন্ন ন",
-      "শিক্ষাৰ প্ৰ মত চামৈদাৰ অভাৱ"
+      "অতযামধ্ ক বৃমিমুখীকৰণ",
+      "মিক্ষাগত সুমবধ্াৰ অসম বণ্টন",
+      "আন্তঃগাঁথমনৰ অতযামধ্ক উন্ন ন",
+      "মিক্ষাৰ প্ৰ মত চামৈদাৰ অভাে"
     ],
     "correctIndex": 1,
     "enExplanation": "Unequal distribution of educational resources remains a challenge in ensuring quality secondary education\nacross all regions.",
-    "asExplanation": "শিক্ষাগত স্িপদৰ অসম বণ্টন এমতাও সকযলা অঞ্চলত গু ণগত মাধ্যমিক শিক্ষা নিমিত কৰাৰ কক্ষত্রত এক গু ৰুত্বপূণয সসিযা।"
+    "asExplanation": "মিক্ষাগত সম্পদৰ অসম বণ্টন এমত াও সকযলা অঞ্চলত গু ণগত মাধ্যমমক মিক্ষা মনমিত কৰাৰ কক্ষত্রত এক\n গু\nৰুত্বপূণয সমসযা।"
   },
   {
     "id": 41,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 9,
+    "dayNumber": 19,
     "enQuestion": "Which factor played a major role in strengthening secondary education in Assam after independence?",
-    "asQuestion": "স্ব াধ্ীনতাৰ পিছত অসমত মাধ্যমিক শিক্ষা শক্তিশালী কৰাৰ কক্ষত্রত কোন কাৰযক গু ৰুত্বপূণয ভূমিকা পালন কৰিছিল?",
+    "asQuestion": "স্ব\nাধ্ীনতাৰ মপছত অসমত মাধ্যমমক মিক্ষা িমক্তিালী কৰাৰ কক্ষত্রত ককান কাৰযক গু ৰুত্বপূণয ভূমমকা পালন\nকমৰমছল?",
     "enOptions": [
       "Closure of educational institutions",
       "Government support and educational expansion",
@@ -995,23 +995,23 @@ const mcqData: MCQ[] = [
       "Elimination of science subjects"
     ],
     "asOptions": [
-      "শিক্ষানুষ্ঠান বন্ধ কৰা",
-      "চৰকাৰী সৈা আৰু শিক্ষাৰ স্িপ্ৰসাৰণ",
-      "মিক্ষক নিযুকি্ত হ্ৰাস",
-      "বিজ্ঞান বিষ বিযলাপ"
+      "মিক্ষানুষ্ঠান বন্ধ কৰা",
+      "চৰকাৰী সৈা আৰু মিক্ষাৰ সম্প্ৰসাৰণ",
+      "মিক্ষক মনযুমক্ত হ্ৰ াস",
+      "মবজ্ঞান মবষ মবযলাপ"
     ],
     "correctIndex": 1,
     "enExplanation": "Government initiatives, institutional growth and educational planning helped strengthen secondary\neducation in Assam.",
-    "asExplanation": "চৰকাৰী পদযক্ষপ, মিক্ষ ানুষ্ঠ ানৰ বৃত্তি আৰু মিক্ষ াগত পৰিকল্প নাই অসমত মাধ্ যমিক মিক্ষ া িকি্ত িালী কৰাত সৈা কৰিছিল।"
+    "asExplanation": "চৰকাৰী পদযক্ষপ , মিক্ষ ানুষ্ঠ ানৰ বৃমি আৰু মিক্ষ াগত পমৰকল্প নাই অসমত মাধ্ যমমক মিক্ষ া িমক্ত িালী কৰাত সৈা\nকমৰমছল।"
   },
   {
     "id": 42,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 9,
+    "dayNumber": 19,
     "enQuestion": "Which educational issue is highlighted by this case?",
-    "asQuestion": "এই নায়াযে কোন শিক্ষাগত সসিযাক উজ্জ্বলভাযে প্ৰ কাি কযৰ?",
+    "asQuestion": "এই নায াযে ককান মিক্ষাগত সমসযাক উজ্জ্বলভাযে প্ৰ কাি কযৰ ?",
     "enOptions": [
       "Excessive vocationalisation",
       "Educational inequality",
@@ -1019,23 +1019,23 @@ const mcqData: MCQ[] = [
       "Lack of examinations"
     ],
     "asOptions": [
-      "অত্যাধিক ক বৃত্তিমুখীকৰণ",
-      "শিক্ষাগত অসতিা",
-      "বিশ্ববিদ্যালয় ত অতিমাত্রা ভিৰ",
-      "পৰীক্ষাৰ অভাৱ"
+      "অতযামধ্ ক বৃমিমুখীকৰণ",
+      "মিক্ষাগত অসমতা",
+      "মবশ্বমবদযাল ত অমতমাত্রা মভৰ",
+      "পৰীক্ষাৰ অভাে"
     ],
     "correctIndex": 1,
     "enExplanation": "Differences in facilities and educational resources indicate educational inequality among regions.",
-    "asExplanation": "সুবিধ্া আৰু শিক্ষাগত স্িপদৰ পার্থক্যই অঞ্চলসমূৈৰ মােত শিক্ষাগত অসতিা প্ৰ কাি কযৰ।"
+    "asExplanation": "সুমবধ্া আৰু মিক্ষাগত সম্পদৰ পাথযকযই অঞ্চলসমূৈৰ মােত মিক্ষাগত অসমতা প্ৰ কাি কযৰ।"
   },
   {
     "id": 43,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 9,
+    "dayNumber": 19,
     "enQuestion": "Which measure would be most effective in improving the quality of secondary education in rural Assam?",
-    "asQuestion": "গ্ৰাযি অসমত মাধ্যমিক শিক্ষাৰ গু ণগত মান উন্নত কৰাৰ বাযব কোন বযেস্থা সবযাধি্ক ফলপ্ৰসূ ৈ’ব?",
+    "asQuestion": "গ্ৰ\nাময অসমত মাধ্যমমক মিক্ষাৰ গু ণগত মান উন্নত কৰাৰ বাযব ককান বযেস্থা সবযামধ্ক ফলপ্ৰসূ ৈ’ব ?",
     "enOptions": [
       "Reducing teacher training",
       "Increasing examination pressure",
@@ -1043,23 +1043,23 @@ const mcqData: MCQ[] = [
       "Limiting educational access"
     ],
     "asOptions": [
-      "মিক্ষক প্ৰ মিক্ষণ হ্ৰাস কৰা",
-      "পৰীক্ষ াৰ চাপ বৃত্তি কৰা",
-      "আন্তঃগাঁথনি আৰু মিক্ষকৰ গু ণগত মান উন্নত কৰা",
-      "শিক্ষাৰ সুযযাগ সীমিত কৰা"
+      "মিক্ষক প্ৰ মিক্ষণ হ্ৰ াস কৰা",
+      "পৰীক্ষ াৰ চাপ বৃমি কৰা",
+      "আন্তঃগাঁথমন আৰু মিক্ষকৰ গু ণগত মান উন্নত কৰা",
+      "মিক্ষাৰ সুযযাগ সীমমত কৰা"
     ],
     "correctIndex": 2,
     "enExplanation": "Quality education depends on trained teachers, adequate infrastructure and effective learning resources.",
-    "asExplanation": "গু ণগত শিক্ষা দক্ষ মিক্ষক, উপযুক্ত আন্তঃগাঁথনি আৰু মিক্ষণ স্িপদৰ ওপৰত মনভযৰিীল।"
+    "asExplanation": "গু\nণগত মিক্ষা দক্ষ মিক্ষক , উপযুক্ত আন্তঃগাঁথমন আৰু মিক্ষণ সম্পদৰ ওপৰত মনভযৰিীল।"
   },
   {
     "id": 44,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 9,
+    "dayNumber": 20,
     "enQuestion": "Why are the recommendations of the Mudaliar and Kothari Commissions still considered relevant today?",
-    "asQuestion": "মুডালিয়াৰ আৰু কোঠাৰী আয়োগৰ পৰামিযসমূৈ আমেও কিপ্ৰাসংগিক বুমল গণয কৰা ৈ?",
+    "asQuestion": "মুদামল াৰ আৰু ককাঠাৰী আয াগৰ পৰামিযসমূৈ আমেও মকপ্ৰ াসংমগক বুমল গণয কৰা ৈ ?",
     "enOptions": [
       "They focused only on examinations.",
       "They addressed issues of quality, equality and national development.",
@@ -1067,23 +1067,23 @@ const mcqData: MCQ[] = [
       "They eliminated vocational education."
     ],
     "asOptions": [
-      "কতওঁযলাযক ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব দিছিল।",
-      "কতওঁযলাযক গু ণগত মান, সতিা আৰু জাতীয় উন্ন নৰ বিষ সমূৈ সয্িবাধ্ন কৰিছিল।",
-      "কতওঁযলাযক শিক্ষাগত সংস্কাৰ মনৰুৎসামৈত কৰিছিল।",
-      "কতওঁযলাযক বৃত্তিমুখী মিক্ষ া বিযলাপ কৰিছিল।"
+      "কতওঁযলাযক ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব মদমছল।",
+      "কতওঁযলাযক গু ণগত মান , সমতা আৰু োতী উন্ন নৰ মবষ সমূৈ সযম্বাধ্ন কমৰমছল।",
+      "কতওঁযলাযক মিক্ষাগত সংস্কাৰ মনৰুৎসামৈত কমৰমছল।",
+      "কতওঁযলাযক বৃমিমুখী মিক্ষ া মবযলাপ কমৰমছল।"
     ],
     "correctIndex": 1,
     "enExplanation": "Many recommendations regarding educational quality, equality, vocationalisation and national development\nremain relevant in modern education.",
-    "asExplanation": "শিক্ষাৰ গু ণগত মান, সতিা, বৃত্তিমুখীকৰণ আৰু জাতীয় উন্ন নৰ হসযত েডিত বহু পৰামিয আমেও অতযন্ত প্ৰাসংগিক।"
+    "asExplanation": "মিক্ষাৰ গু ণগত মান , সমতা, বৃমিমুখীকৰণ আৰু োতী উন্ন নৰ হসযত েমডত বহু পৰামিয আমেও অতযন্ত\n প্ৰ\nাসংমগক।"
   },
   {
     "id": 45,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 9,
+    "dayNumber": 20,
     "enQuestion": "A state government plans to reform secondary education by improving vocational training, strengthening\nscience education and ensuring equal opportunities for all learners. These reforms are most closely aligned\nwith which educational vision?",
-    "asQuestion": "এখন ৰােয চৰকাৰে মাধ্ যমিক মিক্ষ া সংস্ক াৰৰ বাযব বৃত্তিমূলক প্ৰ মিক্ষ ণ উন্ন ত কৰা, বিজ্ঞান শিক্ষা শক্তিশালী কৰা আৰু সকযলা শিক্ষাৰ্থীৰ বাযব সমান সুযযাগ নিমিত কৰাৰ পৰিকল্পনায়কৰিযছ। এই সংস্কাৰসমূৈ কোন শিক্ষাগত দৃষি্ট ভংগীৰ হসযত অধি্ ক মিল খা?",
+    "asQuestion": "এখন ৰােয চৰকাযৰ মাধ্ যমমক মিক্ষ া সংস্ক াৰৰ বাযব বৃমিমূলক প্ৰ মিক্ষ ণ উন্ন ত কৰা, মবজ্ঞান মিক্ষা িমক্তিালী কৰা\nআৰু সকযলা মিক্ষাথীৰ বাযব সমান সুযযাগ মনমিত কৰাৰ পমৰকল্পনা কমৰযছ। এই সংস্কাৰসমূৈ ককান মিক্ষাগত\nদৃমষ্ট ভংগীৰ হসযত অমধ্ ক মমল খা ?",
     "enOptions": [
       "Examination-oriented education",
       "Combined vision of the Mudaliar and Kothari Commissions",
@@ -1091,23 +1091,23 @@ const mcqData: MCQ[] = [
       "Restriction of educational access"
     ],
     "asOptions": [
-      "পৰীক্ষামুখী শিক্ষা",
-      "মুডালিয়াৰ আৰু কোঠাৰী আয়োগৰ সমিিত দৃষি্ট ভংগী",
-      "মাধ্যমিক শিক্ষা বিযলাপ",
-      "শিক্ষাৰ সুযযাগ সীমিতকৰণ"
+      "পৰীক্ষাযকমিক মিক্ষা",
+      "মুদামল াৰ আৰু ককাঠাৰী আয াগৰ সমমিত দৃমষ্ট ভংগী",
+      "মাধ্যমমক মিক্ষা মবযলাপ",
+      "মিক্ষাৰ সুযযাগ সীমমতকৰণ"
     ],
     "correctIndex": 1,
     "enExplanation": "The reforms combine key ideas from both commissions, including vocational efficiency, science education,\nequality and national development.",
-    "asExplanation": "এই সংস্কাৰসমূযৈ মুডালিয়াৰ আৰু কোঠাৰী আয়োগৰ মূল ধ্ াৰণাসমূৈ —বৃত্তিমূলক দক্ষ তা, বিজ্ঞান শিক্ষা, সতিা আৰু জাতীয় উন্ন ন —সমিিতভাযে অন্তভুযক্ত কযৰ।"
+    "asExplanation": "এই সংস্কাৰসমূযৈ মুদামল াৰ আৰু ককাঠাৰী আয াগৰ মূল ধ্ াৰণাসমূৈ —বৃমিমূলক দক্ষ তা, মবজ্ঞান মিক্ষা , সমতা আৰু\nোতী উন্ন ন —সমমিতভাযে অন্তভুযক্ত কযৰ।"
   },
   {
     "id": 46,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 10,
+    "dayNumber": 20,
     "enQuestion": "Case:\nA state education department finds that student enrolment has increased significantly, but learning outcomes\nremain poor. The department plans to improve teacher training, guidance services and curriculum quality.\nWhich educational principle is most clearly reflected in this reform effort?",
-    "asQuestion": "না: এখন ৰামেযক মিক্ষ া বিভাযগ লক্ষ য কমৰযছ কয মিক্ষ াথীৰ নাভিতিয বৃত্তি পাইযছ, কিন্তু মিক্ষণ ফলাফল সযন্তাষেনক নৈ । বিভাগয়াযে মিক্ষক প্ৰ মিক্ষণ, নিযদযিনায়কসো আৰু পাঠযক্ৰমৰ মান উন্নত কৰাৰ পমৰকল্পনায়কমৰযছ। এই সংস্কাৰ প্ৰ যচষ্টাই কোন শিক্ষাগত নীতিক সবযাধি্ক স্পষ্ট ভাযে প্ৰ তিফলিত কযৰ?",
+    "asQuestion": "না:\nএখন ৰামেযক মিক্ষ া মবভাযগ লক্ষ য কমৰযছ কয মিক্ষ াথীৰ নামভমতয বৃমি পাইযছ, মকন্তু মিক্ষণ ফলাফল সযন্তাষেনক\nনৈ । মবভাগয াযে মিক্ষক প্ৰ মিক্ষণ , মনযদযিনা কসো আৰু পাঠযক্ৰমৰ মান উন্নত কৰাৰ পমৰকল্পনা কমৰযছ।\nএই সংস্কাৰ প্ৰ যচষ্টাই ককান মিক্ষাগত নীমতক সবযামধ্ক স্পষ্ট ভাযে প্ৰ মতফমলত কযৰ ?",
     "enOptions": [
       "Expansion without quality",
       "Quality-oriented educational reform",
@@ -1115,23 +1115,23 @@ const mcqData: MCQ[] = [
       "Examination-centred education"
     ],
     "asOptions": [
-      "গু ণগত মান অবিৈযন স্িপ্ৰসাৰণ",
-      "গু ণগত শিক্ষামুখী সংস্কাৰ",
-      "শিক্ষাৰ সুযযাগ হ্ৰাস",
-      "পৰীক্ষামুখী শিক্ষা"
+      "গু ণগত মান অমবৈযন সম্প্ৰসাৰণ",
+      "গু ণগত মিক্ষামুখী সংস্কাৰ",
+      "মিক্ষাৰ সুযযাগ হ্ৰ াস",
+      "পৰীক্ষাযকমিক মিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "Educational reform should focus not only on access but also on improving the quality of teaching,\ncurriculum and student support.",
-    "asExplanation": "মিক্ষ াগত সংস্ক াযৰ ককেল সুযযাগ বৃত্তিৰ ওপৰত নৈ, শিক্ষাদান, পাঠযক্ৰম আৰু শিক্ষাৰ্থী সৈা বযেস্থাৰ গু ণগত মান উন্নত কৰাৰ ওপৰযতা গু ৰুত্ব দিব লাযগ।"
+    "asExplanation": "মিক্ষ াগত সংস্ক াযৰ ককেল সুযযাগ বৃমিৰ ওপৰত নৈ , মিক্ষাদান , পাঠযক্ৰম আৰু মিক্ষাথী সৈা বযেস্থাৰ গু ণগত\nমান উন্নত কৰাৰ ওপৰযতা গু ৰুত্ব মদব লাযগ।"
   },
   {
     "id": 47,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 10,
+    "dayNumber": 20,
     "enQuestion": "A country faces a growing mismatch between academic qualifications and employment opportunities.\nWhich recommendation from educational reforms would most directly address this issue?",
-    "asQuestion": "এখন কদিত একাযিমিক কযাগযতা আৰু কযিসংস্থ াপনৰ সুযোগৰ মােত বযেধ্ ান বৃত্তি পাইযছ। মিক্ষ াগত সংস্ক াৰৰ কোন পৰামিযই এই সসিযাক সবযাধি্ক প্ৰ তযক্ষভাযে সমাধ্ান কৰিব?",
+    "asQuestion": "এখন কদিত একাযিমমক কযাগযতা আৰু কমযসংস্থ াপনৰ সুযযাগৰ মােত বযেধ্ ান বৃমি পাইযছ। মিক্ষ াগত সংস্ক াৰৰ\nককান পৰামিযই এই সমসযাক সবযামধ্ক প্ৰ তযক্ষভাযে সমাধ্ান কমৰব ?",
     "enOptions": [
       "Increasing written examinations",
       "Vocationalisation of education",
@@ -1139,23 +1139,23 @@ const mcqData: MCQ[] = [
       "Limiting school expansion"
     ],
     "asOptions": [
-      "লিখিত পৰীক্ষ া বৃত্তি",
-      "মিক্ষ াৰ বৃত্তিমুখীকৰণ",
-      "বিজ্ঞান শিক্ষা হ্ৰাস",
-      "বিদযাল স্িপ্ৰসাৰণ সীমিতকৰণ"
+      "মলমখত পৰীক্ষ া বৃমি",
+      "মিক্ষ াৰ বৃমিমুখীকৰণ",
+      "মবজ্ঞান মিক্ষা হ্ৰ াস",
+      "মবদযাল সম্প্ৰসাৰণ সীমমতকৰণ"
     ],
     "correctIndex": 1,
     "enExplanation": "Vocationalisation links education with practical skills and labour market needs.",
-    "asExplanation": "বৃত্তিমুখীকৰযণ মিক্ষ াক বযেৈাৰিক দক্ষ তা আৰু কযিবোৰৰ প্ৰ য়ােনৰ হসযত সংযুক্ত কযৰ।"
+    "asExplanation": "বৃমিমুখীকৰযণ মিক্ষ াক বযেৈামৰক দক্ষ তা আৰু কমযবোৰৰ প্ৰ য ােনৰ হসযত সংযুক্ত কযৰ।"
   },
   {
     "id": 48,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 10,
+    "dayNumber": 20,
     "enQuestion": "Assertion (A):\nEqual educational opportunity remains an important goal of modern education.\nReason (R):\nEducational inequality can limit social mobility and national development.",
-    "asQuestion": "উকি্ত ( A): সমান শিক্ষাৰ সুযযাগ আধ্ুনিক শিক্ষাৰ এক গু ৰুত্বপূণয লক্ষয হৈ আযছ। কাৰণ (R): শিক্ষাগত অসমতাই সামামেক গমতিীলতা আৰু জাতীয় উন্ন ন সীমিত কৰিব পাযৰ।",
+    "asQuestion": "উমক্ত ( A):\nসমান মিক্ষাৰ সুযযাগ আধ্ুমনক মিক্ষাৰ এক গু ৰুত্বপূণয লক্ষয হৈ আযছ।\nকাৰণ (R):\nমিক্ষাগত অসমতাই সামামেক গমতিীলতা আৰু োতী উন্ন ন সীমমত কমৰব পাযৰ।",
     "enOptions": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1163,23 +1163,23 @@ const mcqData: MCQ[] = [
       "A is false but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "Equal opportunity promotes social justice and allows individuals to contribute fully to national development.",
-    "asExplanation": "সমান সুযযাযগ সামামেক নযাপ্ৰ তিষ্ঠ া কযৰ আৰু ব্যক্তি ক জাতীয় উন্ন নত স্িপূ ণযভাযে অেদান ৰাখিবলল সক্ষ ম কযৰ।"
+    "asExplanation": "সমান সুযযাযগ সামামেক নযাপ্ৰ মতষ্ঠ া কযৰ আৰু বযমক্ত ক োতী উন্ন নত সম্পূ ণযভাযে অেদান ৰামখবলল সক্ষ ম\nকযৰ।"
   },
   {
     "id": 49,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 10,
+    "dayNumber": 20,
     "enQuestion": "Which educational reform proposal best combines the visions of the Mudaliar Commission, the Kothari\nCommission and the National Policy on Education (1986)?",
-    "asQuestion": "কোন শিক্ষাগত সংস্কাৰ প্ৰস্তাযে মুডালিয়াৰ আয়োগ, কোঠাৰী আয়োগ আৰু ৰাষ্ট্ৰীয়য় শিক্ষা নীতি (১৯৮৬) -ৰ দৃষি্ট ভংগীক সবযাধি্ ক সফলভাযে একতি্র ত কযৰ?",
+    "asQuestion": "ককান মিক্ষাগত সংস্কাৰ প্ৰস্ত াযে মুদামল াৰ আয াগ , ককাঠাৰী আয াগ আৰু ৰাষ্ট্ৰী মিক্ষা নীমত (১৯৮৬) -ৰ\nদৃমষ্ট ভংগীক সবযামধ্ ক সফলভাযে একমত্র ত কযৰ?",
     "enOptions": [
       "Focus only on board examinations",
       "Promote equality, quality, vocational skills and national development",
@@ -1187,23 +1187,23 @@ const mcqData: MCQ[] = [
       "Eliminate practical learning"
     ],
     "asOptions": [
-      "ককেল ব'িয পৰীক্ষাৰ ওপৰত গু ৰুত্ব মদা",
-      "সতিা, গু ণগত মান, বৃত্তিমূলক দক্ষ তা আৰু জাতীয় উন্ন নক উৎসামৈত কৰা",
-      "মাধ্যমিক শিক্ষাৰ সুযযাগ হ্ৰাস কৰা",
-      "বযেৈাৰিক মিক্ষণ বিযলাপ কৰা"
+      "ককেল ব'িয পৰীক্ষাৰ ওপৰত গু ৰুত্ব মদ া",
+      "সমতা, গু ণগত মান , বৃমিমূলক দক্ষ তা আৰু োতী উন্ন নক উৎসামৈত কৰা",
+      "মাধ্যমমক মিক্ষাৰ সুযযাগ হ্ৰ াস কৰা",
+      "বযেৈামৰক মিক্ষণ মবযলাপ কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "The common vision across these reforms includes educational quality, equality, vocational relevance and\nnational progress.",
-    "asExplanation": "এই সকযলা সংস্কাৰৰ মূল লক্ষয হৈছে শিক্ষাৰ গু ণগত মান, সমতা, বৃত্তিমুখী প্ৰাসংগিকতা আৰু জাতীয় অগ্ৰ গমত।"
+    "asExplanation": "এই সকযলা সংস্কাৰৰ মূল লক্ষয হৈযছ মিক্ষাৰ গু ণগত মান , সমতা, বৃমিমুখী প্ৰ াসংমগকতা আৰু োতী অগ্ৰ গমত।"
   },
   {
     "id": 50,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 10,
+    "dayNumber": 20,
     "enQuestion": "A future-ready secondary education system should primarily aim to—",
-    "asQuestion": "ভমেষযৎমুখী মাধ্যমিক শিক্ষা বযেস্থাৰ মুখয লক্ষয কি ৈ’ব লাযগ?",
+    "asQuestion": "ভমেষযৎমুখী মাধ্যমমক মিক্ষা বযেস্থাৰ মুখয লক্ষয মক ৈ’ব লাযগ ?",
     "enOptions": [
       "Prepare students only for examinations",
       "Develop knowledgeable, skilled, responsible and adaptable citizens",
@@ -1211,14 +1211,14 @@ const mcqData: MCQ[] = [
       "Focus only on academic achievement"
     ],
     "asOptions": [
-      "ককেল পৰীক্ষাৰ বাযব শিক্ষার্থীক প্ৰস্তু ত কৰা",
-      "জ্ঞানস্িপন্ন, দক্ষ, দাম ত্ব িীল আৰু অভিযযােনক্ষম নাগৰিক গ়িি কতালা",
-      "বৃত্তিমুখী মিক্ষ া বিযলাপ কৰা",
-      "ককেল একাযিমিক সফলতাৰ ওপৰত গু ৰুত্ব মদা"
+      "ককেল পৰীক্ষাৰ বাযব মিক্ষাথীক প্ৰস্তু ত কৰা",
+      "জ্ঞ ানসম্পন্ন , দক্ষ , দাম ত্ব িীল আৰু অমভযযােনক্ষম নাগমৰক গম়ি কতালা",
+      "বৃমিমুখী মিক্ষ া মবযলাপ কৰা",
+      "ককেল একাযিমমক সফলতাৰ ওপৰত গু ৰুত্ব মদ া"
     ],
     "correctIndex": 1,
     "enExplanation": "Modern educational reforms aim to develop holistic individuals who can contribute effectively to society\nand national development.",
-    "asExplanation": "আধ্ুনিক শিক্ষাগত সংস্কাৰৰ লক্ষয হৈছে এযন সবযাঙ্গীন ব্যক্তিত্ব গ়িি কতালা যিয সমাে আৰু জাতীয় উন্ন নত ফলপ্ৰসূ অেদান ৰাখিব পাযৰ।"
+    "asExplanation": "আধ্ুমনক মিক্ষাগত সংস্কাৰৰ লক্ষয হৈযছ এযন সবযাঙ্গীন বযমক্তত্ব গম়ি কতালা মযয সমাে আৰু োতী উন্ন নত\nফলপ্ৰসূ অেদান ৰামখব পাযৰ।"
   },
   {
     "id": 51,
@@ -1227,7 +1227,7 @@ const mcqData: MCQ[] = [
     "asUnitNumber": "গোট ১",
     "dayNumber": 11,
     "enQuestion": "What was the central philosophy of the Kothari Commission regarding education?",
-    "asQuestion": "শিক্ষাৰ কক্ষত্রত কোঠাৰী আয়োগৰ ককিী দিযন কি আছিল?",
+    "asQuestion": "মিক্ষাৰ কক্ষত্রত ককাঠাৰী আয াগৰ ককিী দিযন মক আমছল ?",
     "enOptions": [
       "Education for examinations",
       "Education for national development",
@@ -1235,23 +1235,23 @@ const mcqData: MCQ[] = [
       "Education for administration only"
     ],
     "asOptions": [
-      "পৰীক্ষাৰ বাযব শিক্ষা",
-      "জাতীয় উন্ন নৰ বাযব শিক্ষা",
-      "মুখস্থ বিদযাৰ বাযব শিক্ষা",
-      "ককেল প্ৰ িাসনৰ বাযব শিক্ষা"
+      "পৰীক্ষাৰ বাযব মিক্ষা",
+      "োতী উন্ন নৰ বাযব মিক্ষা",
+      "মুখস্থ মবদযাৰ বাযব মিক্ষা",
+      "ককেল প্ৰ িাসনৰ বাযব মিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "The Kothari Commission viewed education as the most powerful instrument of national development.",
-    "asExplanation": "কোঠাৰী আয়াযগ শিক্ষাক জাতীয় উন্ন নৰ আ াইতলক শক্তিশালী উপা মৈচাযপ গণয কৰিছিল।"
+    "asExplanation": "ককাঠাৰী আয াযগ মিক্ষাক োতী উন্ন নৰ আ াইতলক িমক্তিালী উপা মৈচাযপ গণয কমৰমছল।"
   },
   {
     "id": 52,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 11,
+    "dayNumber": 14,
     "enQuestion": "Which common objective was emphasized by both the Kothari Commission and the National Policy on\nEducation (1986)?",
-    "asQuestion": "কোঠাৰী আয়োগ আৰু ৰাষ্ট্ৰীয়য় শিক্ষা নীতি (১৯৮৬) উভয ই কোন সাধ্াৰণ লক্ষযৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল?",
+    "asQuestion": "ককাঠাৰী আয াগ আৰু ৰাষ্ট্ৰী মিক্ষা নীমত (১৯৮৬) উভয ই ককান সাধ্াৰণ লক্ষযৰ ওপৰত গু ৰুত্ব আযৰাপ\nকমৰমছল?",
     "enOptions": [
       "Restricting access to education",
       "Equality of educational opportunity",
@@ -1259,23 +1259,23 @@ const mcqData: MCQ[] = [
       "Limiting vocational education"
     ],
     "asOptions": [
-      "শিক্ষাৰ সুযযাগ সীমিত কৰা",
-      "শিক্ষাৰ সমান সুযযাগ",
-      "বিজ্ঞান শিক্ষা হ্ৰাস কৰা",
-      "বৃত্তিমুখী মিক্ষ া সীমিত কৰা"
+      "মিক্ষাৰ সুযযাগ সীমমত কৰা",
+      "মিক্ষাৰ সমান সুযযাগ",
+      "মবজ্ঞান মিক্ষা হ্ৰ াস কৰা",
+      "বৃমিমুখী মিক্ষ া সীমমত কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "Both emphasized educational equality as a means to promote social justice and national progress.",
-    "asExplanation": "উভয ই সামামেক নযা আৰু জাতীয় অগ্ৰগতিৰ বাযব শিক্ষাগত সমতাৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "উভয ই সামামেক নযা আৰু োতী অগ্ৰগমতৰ বাযব মিক্ষাগত সমতাৰ ওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।"
   },
   {
     "id": 53,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 11,
+    "dayNumber": 7,
     "enQuestion": "Which statement correctly distinguishes the Mudaliar Commission from the Kothari Commission?",
-    "asQuestion": "কোন বক্ত বযই মুডালিয়াৰ আয়োগক কোঠাৰী আয়োগৰ পৰা সঠিকভাযে পৃথক কযৰ?",
+    "asQuestion": "ককান বক্ত বযই মুদামল াৰ আয াগক ককাঠাৰী আয াগৰ পৰা সঠিকভাযে পৃথক কযৰ?",
     "enOptions": [
       "Mudaliar Commission focused mainly on secondary education, while Kothari Commission examined",
       "Both dealt only with university education.",
@@ -1283,23 +1283,23 @@ const mcqData: MCQ[] = [
       "Both commissions had identical objectives and scope."
     ],
     "asOptions": [
-      "মুডালিয়াৰ আয়াযগ মূলতঃ মাধ্যমিক শিক্ষাৰ ওপৰত গু ৰুত্ব দিছিল, আনৈাযত কোঠাৰী আয়াযগ সগি্ৰ শিক্ষা",
-      "দুয়া াই ককেল বিশ্ববিদ্যালয় শিক্ষা অধ্য ন কৰিছিল।",
-      "কোঠাৰী আয়াযগ ককেল মাধ্যমিক শিক্ষাৰ ওপৰত গু ৰুত্ব দিছিল।",
-      "দুয়া া আয়াগৰ লক্ষয আৰু পৰিসৰ এযক আছিল।"
+      "মুদামল াৰ আয াযগ মূলতঃ মাধ্যমমক মিক্ষাৰ ওপৰত গু ৰুত্ব মদমছল , আনৈাযত ককাঠাৰী আয াযগ সমগ্ৰ মিক্ষা",
+      "দুয া াই ককেল মবশ্বমবদযাল মিক্ষা অধ্য ন কমৰমছল।",
+      "ককাঠাৰী আয াযগ ককেল মাধ্যমমক মিক্ষাৰ ওপৰত গু ৰুত্ব মদমছল।",
+      "দুয া া আয াগৰ লক্ষয আৰু পমৰসৰ এযক আমছল।"
     ],
     "correctIndex": 0,
     "enExplanation": "The Mudaliar Commission concentrated on secondary education, whereas the Kothari Commission reviewed\nthe entire educational system.",
-    "asExplanation": "মুডালিয়াৰ আয়াযগ মাধ্যমিক শিক্ষাৰ ওপৰত গু ৰুত্ব দিছিল, কিন্তু কোঠাৰী আয়াযগ সগি্ৰ শিক্ষা বযেস্থাৰ পৰ্যালোচনায়কৰিছিল।"
+    "asExplanation": "মুদামল াৰ আয াযগ মাধ্যমমক মিক্ষাৰ ওপৰত গু ৰুত্ব মদমছল , মকন্তু ককাঠাৰী আয াযগ সমগ্ৰ মিক্ষা বযেস্থাৰ\nপযযাযলাচনা কমৰমছল।"
   },
   {
     "id": 54,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 11,
+    "dayNumber": 18,
     "enQuestion": "A district administration plans to improve secondary education by opening new schools, appointing trained\nteachers and providing laboratories. Which educational goal is being pursued?",
-    "asQuestion": "এখন মেলা প্ৰ িাসযন নতুন বিদযালস্থ াপন, প্ৰ মিকি্ষত মিক্ষক নিযুকি্ত আৰু পৰীক্ষাগাৰ স্থ াপনৰ েমৰ যত মাধ্যমিক শিক্ষা উন্নত কৰাৰ পমৰকল্পনায়কমৰযছ। ই াত কোন শিক্ষাগত লক্ষয অনুসৰণ কৰা হৈছে?",
+    "asQuestion": "এখন মেলা প্ৰ িাসযন নতুন মবদযালস্থ াপন , প্ৰ মিমক্ষত মিক্ষক মনযুমক্ত আৰু পৰীক্ষাগাৰ স্থ াপনৰ েমৰ যত মাধ্যমমক\nমিক্ষা উন্নত কৰাৰ পমৰকল্পনা কমৰযছ। ই াত ককান মিক্ষাগত লক্ষয অনুসৰণ কৰা হৈযছ ?",
     "enOptions": [
       "Educational expansion and quality improvement",
       "Restriction of educational access",
@@ -1307,23 +1307,23 @@ const mcqData: MCQ[] = [
       "Examination reform only"
     ],
     "asOptions": [
-      "শিক্ষাৰ স্িপ্ৰসাৰণ আৰু গু ণগত উন্ন ন",
-      "শিক্ষাৰ সুযযাগ সীমিতকৰণ",
-      "শিক্ষাগত সুবিধ্া হ্ৰাস",
+      "মিক্ষাৰ সম্প্ৰসাৰণ আৰু গু ণগত উন্ন ন",
+      "মিক্ষাৰ সুযযাগ সীমমতকৰণ",
+      "মিক্ষাগত সুমবধ্া হ্ৰ াস",
       "ককেল পৰীক্ষা সংস্কাৰ"
     ],
     "correctIndex": 0,
     "enExplanation": "Educational development requires both expansion of access and improvement in quality.",
-    "asExplanation": "শিক্ষাৰ বিকাশৰ বাযব সুযোগৰ স্িপ্ৰসাৰণ আৰু গু ণগত উন্ন ন দুয়া াই প্ৰ য়ােন।"
+    "asExplanation": "মিক্ষাৰ মবকািৰ বাযব সুযযাগৰ সম্প্ৰসাৰণ আৰু গু ণগত উন্ন ন দুয া াই প্ৰ য ােন।"
   },
   {
     "id": 55,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 11,
+    "dayNumber": 20,
     "enQuestion": "If you were designing a modern secondary education system based on Unit I concepts, which combination\nwould be most appropriate?",
-    "asQuestion": "Unit I-ৰ ধ্ াৰণাসমূৈৰ ভিমিত যমদ আপুমন এখন আধ্ুমনক মাধ্যমিক শিক্ষা বযেস্থা মিোইন কযৰ, কতযন্ত কোন সমি য়া সবযাধি্ক উপযুক্ত ৈ 'ব?",
+    "asQuestion": "Unit I-ৰ ধ্ াৰণাসমূৈৰ মভমিত যমদ আপুমন এখন আধ্ুমনক মাধ্যমমক মিক্ষা বযেস্থা মিোইন কযৰ , কতযন্ত ককান\nসমি য া সবযামধ্ক উপযুক্ত ৈ 'ব?",
     "enOptions": [
       "Examinations + Memorization",
       "Equality + Vocational Skills + Quality Education + Scientific Outlook",
@@ -1331,23 +1331,23 @@ const mcqData: MCQ[] = [
       "Academic Learning Only"
     ],
     "asOptions": [
-      "পৰীক্ষা + মুখস্থ বিদযা",
-      "সতিা + বৃত্তিমূলক দক্ষ তা + গু ণগত মিক্ষ া + হবজ্ঞানিক দৃষি্ট ভংগী",
-      "সীমিত সুযযাগ + সীমিত পাঠযক্ৰম",
-      "ককেল একাযিমিক শিক্ষা"
+      "পৰীক্ষা + মুখস্থ মবদযা",
+      "সমতা + বৃমিমূলক দক্ষ তা + গু ণগত মিক্ষ া + হবজ্ঞ ামনক দৃমষ্ট ভংগী",
+      "সীমমত সুযযাগ + সীমমত পাঠযক্ৰম",
+      "ককেল একাযিমমক মিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "Modern educational reforms emphasize equity, quality, vocational competence and scientific thinking for\nholistic development.",
-    "asExplanation": "আধ্ুনিক শিক্ষাগত সংস্কাযৰ সবযাঙ্গীন বিকাশৰ বাযব সতিা, গু ণগত শিক্ষা, বৃত্তিমূলক দক্ষ তা আৰু হবজ্ঞানিক চিন্তাধ্াৰাৰ ওপৰত গু ৰুত্ব দিয ।"
+    "asExplanation": "আধ্ুমনক মিক্ষাগত সংস্কাযৰ সবযাঙ্গীন মবকািৰ বাযব সমতা , গু ণগত মিক্ষা , বৃমিমূলক দক্ষ তা আৰু হবজ্ঞ ামনক\nমচন্তাধ্াৰাৰ ওপৰত গু ৰুত্ব মদয ।"
   },
   {
     "id": 56,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 12,
+    "dayNumber": 1,
     "enQuestion": "A school organizes mock parliament sessions, community discussions and civic awareness programmes.\nWhich aim of secondary education is primarily promoted?",
-    "asQuestion": "এখন বিদযালয নকল সংসদ অধি্যেিন, সামামেক আযলাচনা আৰু নাগৰিক সযচতনতা কাযযসূচী আয়ােন কযৰ। ই াৰ দ্ব াৰা মাধ্যমিক শিক্ষাৰ কোন লক্ষয মূলতঃ বিকমিত ৈ?",
+    "asQuestion": "এখন মবদযালয নকল সংসদ অমধ্যেিন , সামামেক আযলাচনা আৰু নাগমৰক সযচতনতা কাযযসূচী আয ােন কযৰ।\nই াৰ দ্ব াৰা মাধ্যমমক মিক্ষাৰ ককান লক্ষয মূলতঃ মবকমিত ৈ ?",
     "enOptions": [
       "Vocational efficiency",
       "Democratic citizenship",
@@ -1355,23 +1355,23 @@ const mcqData: MCQ[] = [
       "Examination preparation"
     ],
     "asOptions": [
-      "বৃত্তিমূলক দক্ষ তা",
-      "গণতানি্ত্ৰক নাগৰিকত্ব",
-      "কাৰিকৰী বিযিষজ্ঞতা",
-      "পৰীক্ষাৰ প্ৰস্তু তি"
+      "বৃমিমূলক দক্ষ তা",
+      "গণতামন্ত্ৰক নাগমৰকত্ব",
+      "কামৰকৰী মবযিষজ্ঞতা",
+      "পৰীক্ষাৰ প্ৰস্তু মত"
     ],
     "correctIndex": 1,
     "enExplanation": "These activities help students understand democratic values, rights, duties and civic responsibilities.",
-    "asExplanation": "এই কাযযসূচীযবাযৰ শিক্ষার্থীক গণতানি্ত্ৰক মূলযযবাধ্, অধি্কাৰ, কতযবয আৰু নাগৰিক দাম ত্ব ৰ জ্ঞান প্ৰ দান কযৰ।"
+    "asExplanation": "এই কাযযসূচীযবাযৰ মিক্ষাথীক গণতামন্ত্ৰক মূলযযবাধ্ , অমধ্কাৰ , কতযবয আৰু নাগমৰক দাম ত্ব ৰ জ্ঞ ান প্ৰ দান কযৰ।"
   },
   {
     "id": 57,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 12,
+    "dayNumber": 3,
     "enQuestion": "Which recommendation of the Mudaliar Commission most directly addressed the problem of a rigid and\nbook-centered curriculum?",
-    "asQuestion": "কযঠাৰ আৰু পুথিযকমিক পাঠযক্ৰমৰ সসিযাৰ সবযাধি্ক প্ৰ তযক্ষ সমাধ্ান মৈচাযপ মুডালিয়াৰ আয়াযগ কোন পৰামিয আগব়িাইছিল?",
+    "asQuestion": "কযঠাৰ আৰু পুমথযকমিক পাঠযক্ৰমৰ সমসযাৰ সবযামধ্ক প্ৰ তযক্ষ সমাধ্ান মৈচাযপ মুদামল াৰ আয াযগ ককান পৰামিয\nআগব়িাইমছল ?",
     "enOptions": [
       "Diversified curriculum",
       "Increasing examinations",
@@ -1379,23 +1379,23 @@ const mcqData: MCQ[] = [
       "Reducing guidance services"
     ],
     "asOptions": [
-      "হবচিত্রম পাঠযক্ৰম",
-      "পৰীক্ষ া বৃত্তি",
-      "সৈ-পাঠযক্ৰম কাযয সীমিতকৰণ",
-      "নিযদযিনায়কসো হ্ৰাস"
+      "হবমচত্রম পাঠযক্ৰম",
+      "পৰীক্ষ া বৃমি",
+      "সৈ-পাঠযক্ৰম কাযয সীমমতকৰণ",
+      "মনযদযিনা কসো হ্ৰ াস"
     ],
     "correctIndex": 0,
     "enExplanation": "A diversified curriculum was introduced to meet different interests, aptitudes and future needs of learners.",
-    "asExplanation": "শিক্ষাৰ্থীৰ বিভিন্ন আগ্ৰহ, কযাগযতা আৰু ভমেষযৎ প্ৰ য়ােন পূৰণৰ বাযব হবচিত্রম পাঠযক্ৰমৰ পৰামিয মদা হৈছিল।"
+    "asExplanation": "মিক্ষাথীৰ মবমভন্ন আগ্ৰৈ , কযাগযতা আৰু ভমেষযৎ প্ৰ য ােন পূৰণৰ বাযব হবমচত্রম পাঠযক্ৰমৰ পৰামিয মদ া\nহৈমছল।"
   },
   {
     "id": 58,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 12,
+    "dayNumber": 11,
     "enQuestion": "Assertion (A):\nScience education received special emphasis in educational reforms.\nReason (R):\nScientific thinking is essential for modernization and national progress.",
-    "asQuestion": "উকি্ত ( A): শিক্ষাগত সংস্কাৰসমূৈত বিজ্ঞান শিক্ষাৰ ওপৰত বিযিষ গু ৰুত্ব আযৰাপ কৰা হৈছিল। কাৰণ (R): বৈজ্ঞানিক চিন্তাধ্াৰা আধুনিকীকৰণ আৰু জাতীয় অগ্ৰগতিৰ বাযব অতযােিযক।",
+    "asQuestion": "উমক্ত ( A):\nমিক্ষাগত সংস্কাৰসমূৈত মবজ্ঞান মিক্ষাৰ ওপৰত মবযিষ গু ৰুত্ব আযৰাপ কৰা হৈমছল।\n\n\n\nকাৰণ (R):\nহবজ্ঞামনক মচন্তাধ্াৰা আধ্ুমনকীকৰণ আৰু োতী অগ্ৰগমতৰ বাযব অতযােিযক।",
     "enOptions": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1403,23 +1403,23 @@ const mcqData: MCQ[] = [
       "A is false but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "Science education was promoted because scientific temper is vital for technological advancement and\ndevelopment.",
-    "asExplanation": "বিজ্ঞান শিক্ষা গু ৰুত্ব মদা হৈছিল কাৰণ বৈজ্ঞানিক যিনাভাে প্ৰ যুকি্তগত আৰু জাতীয় বিকাশৰ বাযব অতযন্ত প্ৰ য়ােনী ।"
+    "asExplanation": "মবজ্ঞান মিক্ষা গু ৰুত্ব মদ া হৈমছল কাৰণ হবজ্ঞামনক মযনাভাে প্ৰ যুমক্তগত আৰু োতী মবকািৰ বাযব অতযন্ত\n প্ৰ\nয ােনী ।"
   },
   {
     "id": 59,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 12,
+    "dayNumber": 17,
     "enQuestion": "Case:\nA state reports that thousands of students complete secondary education every year, yet many remain\nunemployed because they lack practical job skills.\nWhich reform would be most effective?",
-    "asQuestion": "না: এখন ৰােযত ৈাোৰ ৈাোৰ মিক্ষ াথীয মাধ্ যমিক মিক্ষ া স্িপূ ণয কযৰ, কিন্তু বযেৈাৰিক কযিদক্ষতাৰ অভাৱত বহুেন নিবনুো হৈ থাযক। কোন সংস্কাৰ সবযাধি্ক ফলপ্ৰসূ ৈ 'ব?",
+    "asQuestion": "না:\nএখন ৰােযত ৈাোৰ ৈাোৰ মিক্ষ াথীয মাধ্ যমমক মিক্ষ া সম্পূ ণয কযৰ, মকন্তু বযেৈামৰক কমযদক্ষতাৰ অভােত\nবহুেন মনবনুো হৈ থাযক।\nককান সংস্কাৰ সবযামধ্ক ফলপ্ৰসূ ৈ 'ব?",
     "enOptions": [
       "More written examinations",
       "Vocationalisation of secondary education",
@@ -1427,23 +1427,23 @@ const mcqData: MCQ[] = [
       "Limiting technical courses"
     ],
     "asOptions": [
-      "অধি্ক লিখিত পৰীক্ষা",
-      "মাধ্ যমিক মিক্ষ াৰ বৃত্তিমুখীকৰণ",
-      "বযেৈাৰিক প্ৰ মিক্ষণ হ্ৰাস",
-      "কাৰিকৰী পাঠযক্ৰম সীমিতকৰণ"
+      "অমধ্ক মলমখত পৰীক্ষা",
+      "মাধ্ যমমক মিক্ষ াৰ বৃমিমুখীকৰণ",
+      "বযেৈামৰক প্ৰ মিক্ষণ হ্ৰ াস",
+      "কামৰকৰী পাঠযক্ৰম সীমমতকৰণ"
     ],
     "correctIndex": 1,
     "enExplanation": "Vocationalisation equips learners with employable skills and reduces the gap between education and\nemployment.",
-    "asExplanation": "বৃত্তিমুখীকৰযণ মিক্ষ াথীক কযযিাপযযাগী দক্ষ তা প্ৰ দান কমৰ মিক্ষ া আৰু কযিসংস্থ াপনৰ মােৰ বযেধ্ ান হ্ৰাস কযৰ।"
+    "asExplanation": "বৃমিমুখীকৰযণ মিক্ষ াথীক কযমযাপযযাগী দক্ষ তা প্ৰ দান কমৰ মিক্ষ া আৰু কমযসংস্থ াপনৰ মােৰ বযেধ্ ান হ্ৰ াস কযৰ।"
   },
   {
     "id": 60,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 12,
+    "dayNumber": 1,
     "enQuestion": "Which combination best represents the collective vision of the Mudaliar Commission, Kothari Commission\nand National Policy on Education (1986)?",
-    "asQuestion": "মুডালিয়াৰ আয়োগ, কোঠাৰী আয়োগ আৰু ৰাষ্ট্ৰীয়য় শিক্ষা নীতি (১৯৮৬) -ৰ সামূমৈক দৃষি্ট ভংগীক কোন সমি য়াযে সবযাধি্ক সঠিকভাযে প্ৰ কাি কযৰ?",
+    "asQuestion": "মুদামল াৰ আয াগ, ককাঠাৰী আয াগ আৰু ৰাষ্ট্ৰী মিক্ষা নীমত (১৯৮৬) -ৰ সামূমৈক দৃমষ্ট ভংগীক ককান\nসমি য াযে সবযামধ্ক সঠিকভাযে প্ৰ কাি কযৰ ?",
     "enOptions": [
       "Examination + Memorization + Competition",
       "Equality + Quality + Vocational Skills + National Development",
@@ -1451,23 +1451,23 @@ const mcqData: MCQ[] = [
       "Academic Achievement Only"
     ],
     "asOptions": [
-      "পৰীক্ষা + মুখস্থ বিদযা + প্ৰ তিযযাগিতা",
-      "সতিা + গু ণগত মান + বৃত্তিমূলক দক্ষ তা + জাতীয় উন্ন ন",
-      "সীমাবিতা + একৰূপতা + বযেৈাৰিক শিক্ষাৰ বিযলাপ",
-      "ককেল একাযিমিক সফলতা"
+      "পৰীক্ষা + মুখস্থ মবদযা + প্ৰ মতযযামগতা",
+      "সমতা + গু ণগত মান + বৃমিমূলক দক্ষ তা + োতী উন্ন ন",
+      "সীমাবিতা + একৰূপতা + বযেৈামৰক মিক্ষাৰ মবযলাপ",
+      "ককেল একাযিমমক সফলতা"
     ],
     "correctIndex": 1,
     "enExplanation": "The major reforms consistently promoted educational quality, equal opportunity, vocational relevance and\nnational development.",
-    "asExplanation": "এই সকযলা শিক্ষাগত সংস্কাযৰ গু ণগত শিক্ষা, সমান সুযযাগ, বৃত্তিমুখী প্ৰাসংগিকতা আৰু জাতীয় উন্ন নৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "এই সকযলা মিক্ষাগত সংস্কাযৰ গু ণগত মিক্ষা , সমান সুযযাগ, বৃমিমুখী প্ৰ াসংমগকতা আৰু োতী উন্ন নৰ ওপৰত\n গু\nৰুত্ব আযৰাপ কমৰমছল।"
   },
   {
     "id": 61,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 13,
+    "dayNumber": 1,
     "enQuestion": "Case:\nA secondary school offers Science, Commerce, Agriculture, Fine Arts and Technical subjects under one\ninstitution so that students can choose according to their interests and abilities.\nThis model is best described as:",
-    "asQuestion": "না: এখন মাধ্যমিক বিদযালয বিজ্ঞান, বাণিেয, কৃষি, চিত্রকলা আৰু কামৰকৰী বিষ এযক প্ৰ তিষ্ঠানৰ অন্তগযতভাযে প্ৰ দান কৰা ৈ যাযত শিক্ষাথীসকযল মনেৰ আগ্ৰহ আৰু সামৰ্থ্য অনুসমৰ বিষ বাছমন কমৰব পাযৰ। এই যিিলয়াক সবযাধি্ক উপযুক্তভাযে কি বুমল কোৱা ৈ?",
+    "asQuestion": "না:\nএখন মাধ্যমমক মবদযালয মবজ্ঞান , বামণেয, কৃমষ, মচত্রকলা আৰু কামৰকৰী মবষ এযক প্ৰ মতষ্ঠানৰ অন্তগযতভাযে\n প্ৰ\nদান কৰা ৈ যাযত মিক্ষাথীসকযল মনেৰ আগ্ৰৈ আৰু সামথযয অনুসমৰ মবষ বাছমন কমৰব পাযৰ।\nএই মযিলয াক সবযামধ্ক উপযুক্তভাযে মক বুমল ককাো ৈ ?",
     "enOptions": [
       "Traditional School",
       "Multipurpose School",
@@ -1475,23 +1475,23 @@ const mcqData: MCQ[] = [
       "Correspondence School"
     ],
     "asOptions": [
-      "পৰ্িপৰাগত বিদযাল",
-      "বহুমুখী বিদযাল",
-      "মুক্ত বিশ্ববিদ্যালয়",
-      "িাকযযাযগ শিক্ষা/যযাগাযযাগ শিক্ষা বিদযাল"
+      "পৰম্পৰাগত মবদযাল",
+      "বহুমুখী মবদযাল",
+      "মুক্ত মবশ্বমবদযাল",
+      "িাকযযাযগ মিক্ষা/যযাগাযযাগ মিক্ষা মবদযাল"
     ],
     "correctIndex": 1,
     "enExplanation": "The Mudaliar Commission recommended multipurpose schools to cater to diverse interests, aptitudes and\nvocational needs.",
-    "asExplanation": "মুডালিয়াৰ আয়াযগ শিক্ষাৰ্থীৰ বিভিন্ন আগ্ৰহ, কযাগযতা আৰু বৃত্তিমূলক প্ৰ য়ােন পূৰণৰ বাযব বহু মুখী বিদযাল ৰ পৰামিয দিছিল।"
+    "asExplanation": "মুদামল াৰ আয াযগ মিক্ষাথীৰ মবমভন্ন আগ্ৰৈ , কযাগযতা আৰু বৃমিমূলক প্ৰ য ােন পূৰণৰ বাযব বহু মুখী মবদযাল ৰ\nপৰামিয মদমছল।"
   },
   {
     "id": 62,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 13,
+    "dayNumber": 1,
     "enQuestion": "A school integrates gardening, community service, school maintenance and productive manual work into the\ncurriculum.\nWhich recommendation of the Kothari Commission is most clearly reflected?",
-    "asQuestion": "এখন বিদযালয বাগিচা কযি, সমােযসো, বিদযাল ৰক্ষণাযবক্ষণ আৰু উৎপাদনিীল িাৰীমৰক কযি পাঠযক্ৰমৰ অংি মৈচাযপ অন্তভুযক্ত কমৰযছ। ই কোঠাৰী আয়োগৰ কোন পৰামিযক সবযাধি্ক স্পষ্ট ভাযে প্ৰ তিফলিত কযৰ?",
+    "asQuestion": "এখন মবদযালয বামগচা কময, সমােযসো, মবদযাল ৰক্ষণাযবক্ষণ আৰু উৎপাদনিীল িাৰীমৰক কময পাঠযক্ৰমৰ অংি\nমৈচাযপ অন্তভুযক্ত কমৰযছ।\nই ককাঠাৰী আয াগৰ ককান পৰামিযক সবযামধ্ক স্পষ্ট ভাযে প্ৰ মতফমলত কযৰ ?",
     "enOptions": [
       "Common School System",
       "Work Experience",
@@ -1499,23 +1499,23 @@ const mcqData: MCQ[] = [
       "Distance Education"
     ],
     "asOptions": [
-      "সাধ্াৰণ বিদযাল বযেস্থা",
-      "কযি অভিজ্ঞতা",
+      "সাধ্াৰণ মবদযাল বযেস্থা",
+      "কময অমভজ্ঞতা",
       "পৰীক্ষা সংস্কাৰ",
-      "দূৰেিী শিক্ষা"
+      "দূৰেিী মিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission emphasized work experience to connect education with productive labour and social\nresponsibility.",
-    "asExplanation": "আয়াযগ শিক্ষাক উৎপাদনিীল কযি আৰু সামামেক দাম ত্ব ৰ হসযত সংযযাগ কৰিবলৈ কযি অভিজ্ঞতাৰ ওপৰত গু ৰুত্ব দিছিল।"
+    "asExplanation": "আয াযগ মিক্ষাক উৎপাদনিীল কময আৰু সামামেক দাম ত্ব ৰ হসযত সংযযাগ কমৰবলল কময অমভজ্ঞতাৰ ওপৰত\n গু\nৰুত্ব মদমছল।"
   },
   {
     "id": 63,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 13,
+    "dayNumber": 1,
     "enQuestion": "Assertion (A):\nThe National Policy on Education (1986) emphasized education for women and disadvantaged groups.\nReason (R):\nEducational equality is essential for social justice and national development.",
-    "asQuestion": "উকি্ত ( A): ৰাষ্ট্ৰীয়য় শিক্ষা নীতি (১৯৮৬) -এ দিছেলা আৰু বঞি্চত কগা সমূৈৰ শিক্ষাৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল। কাৰণ (R): শিক্ষাগত সতিা সামামেক নযা আৰু জাতীয় উন্ন নৰ বাযব অতযােিযক।",
+    "asQuestion": "উমক্ত ( A):\nৰাষ্ট্ৰী মিক্ষা নীমত (১৯৮৬) -এ মমৈলা আৰু বমঞ্চত কগা সমূৈৰ মিক্ষাৰ ওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।\nকাৰণ (R):\nমিক্ষাগত সমতা সামামেক নযা আৰু োতী উন্ন নৰ বাযব অতযােিযক।",
     "enOptions": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1523,23 +1523,23 @@ const mcqData: MCQ[] = [
       "A is false but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "NPE 1986 emphasized equality and special support for disadvantaged groups to achieve social justice.",
-    "asExplanation": "NPE 1986-এ সামামেক নযা নিমিত কৰিবলৈ বঞি্চত কগা সমূৈৰ বাযব বিযিষ শিক্ষাগত সুবিধ্াৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "NPE 1986-এ সামামেক নযা মনমিত কমৰবলল বমঞ্চত কগা সমূৈৰ বাযব মবযিষ মিক্ষাগত সুমবধ্াৰ ওপৰত গু ৰুত্ব\nআযৰাপ কমৰমছল।"
   },
   {
     "id": 64,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 13,
+    "dayNumber": 1,
     "enQuestion": "Case:\n\n\n\nA rural area in Assam has sufficient school buildings but suffers from teacher shortages, inadequate\nlaboratories and poor learning outcomes.\nWhich strategy would be most effective?",
-    "asQuestion": "না: অসমৰ এ া গ্ৰাযি অঞ্চলত বিদযাল ভেন যযথষ্ট আযছ, কিন্তু মিক্ষক সংক, অপযযাপ্ত পৰীক্ষাগাৰ আৰু দুবযল মিক্ষণ ফলাফল বিদযমান। কোন ককৌিলয়া সবযাধি্ক ফলপ্ৰসূ ৈ 'ব?",
+    "asQuestion": "না:\nঅসমৰ এ া গ্ৰ াময অঞ্চলত মবদযাল ভেন যযথষ্ট আযছ , মকন্তু মিক্ষক সংক , অপযযাপ্ত পৰীক্ষাগাৰ আৰু দুবযল\nমিক্ষণ ফলাফল মবদযমান।\nককান ককৌিলয া সবযামধ্ক ফলপ্ৰসূ ৈ 'ব?",
     "enOptions": [
       "Construct more buildings only",
       "Improve teacher quality and learning resources",
@@ -1547,23 +1547,23 @@ const mcqData: MCQ[] = [
       "Reduce enrolment"
     ],
     "asOptions": [
-      "ককেল অধি্ক ভেন নিযিাণ কৰা",
-      "মিক্ষকৰ গু ণগত মান আৰু মিক্ষণ স্িপদ উন্নত কৰা",
-      "পৰীক্ষ াৰ সংখযা বৃত্তি কৰা",
-      "নাভিতিয হ্ৰাস কৰা"
+      "ককেল অমধ্ক ভেন মনমযাণ কৰা",
+      "মিক্ষকৰ গু ণগত মান আৰু মিক্ষণ সম্পদ উন্নত কৰা",
+      "পৰীক্ষ াৰ সংখযা বৃমি কৰা",
+      "নামভমতয হ্ৰ াস কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "Quality improvement requires qualified teachers, adequate resources and effective learning support.",
-    "asExplanation": "গু ণগত উন্ন নৰ বাযব দক্ষ মিক্ষক, পযযাপ্ত স্িপদ আৰু ফলপ্ৰসূ মিক্ষণ সৈাৰ প্ৰ য়ােন।"
+    "asExplanation": "গু\nণগত উন্ন নৰ বাযব দক্ষ মিক্ষক , পযযাপ্ত সম্পদ আৰু ফলপ্ৰসূ মিক্ষণ সৈা ৰ প্ৰ য ােন।"
   },
   {
     "id": 65,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 13,
+    "dayNumber": 1,
     "enQuestion": "A modern secondary education policy aims to balance vocational skills, educational equality, scientific\noutlook and character development.\nThis approach is most consistent with:",
-    "asQuestion": "এখন আধ্ু নিক মাধ্ যমিক মিক্ষ া নীতিয বৃত্তিমূলক দক্ষ তা, শিক্ষাগত সমতা, হবজ্ঞানিক দৃষি্ট ভংগী আৰু চৰিত্র গঠনৰ মােত সমতা স্থ াপন কৰিবলৈ কচষ্টা কযৰ। এই পিমত সবযাধি্ক কিৈৰ হসযত সাঞি্জসযপূণয?",
+    "asQuestion": "এখন আধ্ু মনক মাধ্ যমমক মিক্ষ া নীমতয বৃমিমূলক দক্ষ তা, মিক্ষাগত সমতা , হবজ্ঞ ামনক দৃমষ্ট ভংগী আৰু চমৰত্র গঠনৰ\nমােত সমতা স্থ াপন কমৰবলল কচষ্টা কযৰ।\nএই পিমত সবযামধ্ক মকৈৰ হসযত সামঞ্জসযপূণয ?",
     "enOptions": [
       "Examination-centred education",
       "Integrated reform vision of major educational commissions and policies",
@@ -1571,23 +1571,23 @@ const mcqData: MCQ[] = [
       "Restricted curriculum model"
     ],
     "asOptions": [
-      "পৰীক্ষামুখী শিক্ষা",
-      "মুখয মিক্ষ াগত আয়াগ আৰু নীতিসমূৈৰ সমিিত সংস্ক াৰমূলক দৃষি্ট ভংগী",
-      "মুখস্থভিমিক শিক্ষা",
-      "সীমিত পাঠযক্ৰম যিিল"
+      "পৰীক্ষাযকমিক মিক্ষা",
+      "মুখয মিক্ষ াগত আয াগ আৰু নীমতসমূৈৰ সমমিত সংস্ক াৰমূলক দৃমষ্ট ভংগী",
+      "মুখস্থমভমিক মিক্ষা",
+      "সীমমত পাঠযক্ৰম মযিল"
     ],
     "correctIndex": 1,
     "enExplanation": "The combined educational vision of Mudaliar Commission, Kothari Commission and NPE 1986 promotes\nbalanced development through equality, skills, values and scientific thinking.",
-    "asExplanation": "মুডালিয়াৰ আয়োগ, কোঠাৰী আয়োগ আৰু NPE 1986-ৰ সমিিত দৃষি্ট ভংগীয সতিা, দক্ষতা, মূলযযবাধ্ আৰু বৈজ্ঞানিক চিন্তাধ্াৰাৰ েমৰ যত সুষম বিকাশৰ ওপৰত গু ৰুত্ব দিয ।"
+    "asExplanation": "মুদামল াৰ আয াগ, ককাঠাৰী আয াগ আৰু NPE 1986-ৰ সমমিত দৃমষ্ট ভংগীয সমতা, দক্ষতা , মূলযযবাধ্ আৰু\nহবজ্ঞামনক মচন্তাধ্াৰাৰ েমৰ যত সুষম মবকািৰ ওপৰত গু ৰুত্ব মদয ।"
   },
   {
     "id": 66,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 14,
+    "dayNumber": 1,
     "enQuestion": "A student is unable to choose between science, commerce and vocational courses because he is unaware of\nhis own interests and abilities. Which recommendation of the Mudaliar Commission would best help him?",
-    "asQuestion": "এেন শিক্ষাথীয বিজ্ঞান, বাণিেয আৰু বৃত্তিমুখী পাঠযক্ৰ মৰ মােত বাছমন কমৰব পৰা নাই, কাৰণ কতওঁ মনেৰ আগ্ৰহ আৰু সামৰ্থ্য স্িপযকয সযচতন নৈ । মুডালিয়াৰ আয়োগৰ কোন পৰামিযই কতওঁক সবযাধি্ক সৈা কমৰব?",
+    "asQuestion": "এেন মিক্ষাথীয মবজ্ঞান , বামণেয আৰু বৃমিমুখী পাঠযক্ৰ মৰ মােত বাছমন কমৰব পৰা নাই, কাৰণ কতওঁ মনেৰ\nআগ্ৰৈ আৰু সামথযয সম্পযকয সযচতন নৈ । মুদামল াৰ আয াগৰ ককান পৰামিযই কতওঁক সবযামধ্ক সৈা কমৰব ?",
     "enOptions": [
       "Examination Reform",
       "Guidance and Counselling Service",
@@ -1596,22 +1596,22 @@ const mcqData: MCQ[] = [
     ],
     "asOptions": [
       "পৰীক্ষা সংস্কাৰ",
-      "নিযদযিনা আৰু পৰামিযদান কসো",
-      "বহুমুখী বিদযাল ভেন",
-      "িাৰীৰিক শিক্ষা কাযযসূচী"
+      "মনযদযিনা আৰু পৰামিযদান কসো",
+      "বহুমুখী মবদযাল ভেন",
+      "িাৰীমৰক মিক্ষা কাযযসূচী"
     ],
     "correctIndex": 1,
     "enExplanation": "Guidance services help learners identify their interests, aptitudes and suitable educational or vocational\npathways.",
-    "asExplanation": "নিযদযিনায়কসোই শিক্ষার্থীক নিেৰ আগ্ৰহ, কযাগযতা আৰু উপযুক্ত মিক্ষ াগত বা বৃত্তিমুখী পথ চিনাক্ত কৰাত সৈা কযৰ।"
+    "asExplanation": "মনযদযিনা কসোই মিক্ষাথীক মনেৰ আগ্ৰৈ , কযাগযতা আৰু উপযুক্ত মিক্ষ াগত বা বৃমিমুখী পথ মচনাক্ত কৰাত সৈা\nকযৰ।"
   },
   {
     "id": 67,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 14,
+    "dayNumber": 1,
     "enQuestion": "What was the primary objective of the Common School System recommended by the Kothari Commission?",
-    "asQuestion": "কোঠাৰী আয়াযগ পৰামিয মদা সাধ্াৰণ বিদযাল বযেস্থাৰ মুখয উযেিয কি আছিল?",
+    "asQuestion": "ককাঠাৰী আয াযগ পৰামিয মদ া সাধ্াৰণ মবদযাল বযেস্থাৰ মুখয উযেিয মক আমছল ?",
     "enOptions": [
       "To increase private education",
       "To provide equal educational opportunities irrespective of social background",
@@ -1619,23 +1619,23 @@ const mcqData: MCQ[] = [
       "To promote examination competition"
     ],
     "asOptions": [
-      "ব্যক্তি গত মিক্ষ া বৃত্তি কৰা",
-      "সামামেক প ভূমি নিবিযযিযষ সমান শিক্ষাৰ সুযযাগ প্ৰ দান কৰা",
-      "মাধ্যমিক বিদযাল ত নাভিতিয হ্ৰাস কৰা",
-      "পৰীক্ষ ামূলক প্ৰ তিযযাগিতা বৃত্তি কৰা"
+      "বযমক্ত গত মিক্ষ া বৃমি কৰা",
+      "সামামেক প ভূমম মনমবযযিযষ সমান মিক্ষাৰ সুযযাগ প্ৰ দান কৰা",
+      "মাধ্যমমক মবদযাল ত নামভমতয হ্ৰ াস কৰা",
+      "পৰীক্ষ ামূলক প্ৰ মতযযামগতা বৃমি কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "The Common School System aimed to reduce educational inequalities and promote social justice.",
-    "asExplanation": "সাধ্াৰণ বিদযাল বযেস্থাৰ লক্ষয আছিল শিক্ষাগত অসতিা হ্ৰাস কমৰ সামামেক নযাপ্ৰ তিষ্ঠা কৰা।"
+    "asExplanation": "সাধ্াৰণ মবদযাল বযেস্থাৰ লক্ষয আমছল মিক্ষাগত অসমতা হ্ৰ াস কমৰ সামামেক নযাপ্ৰ মতষ্ঠা কৰা।"
   },
   {
     "id": 68,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 14,
+    "dayNumber": 1,
     "enQuestion": "Case:\nA rural school receives additional classrooms, teaching-learning materials and basic educational facilities\nunder a government programme.\nWhich NPE 1986 initiative is reflected here?",
-    "asQuestion": "না: এখন গ্ৰাযি বিদযালয চৰকাৰী কাযযসূচীৰ অধ্ীনত অতিৰিক্ত কেণীযকাঠা, মিক্ষণ -মিকন সাগি্ৰী আৰু কমৌলিক শিক্ষাগত সুবিধ্া লাভ কযৰ। ই NPE 1986-ৰ কোন পদযক্ষপক প্ৰ তিফলিত কযৰ?",
+    "asQuestion": "না:\n\n\n\nএখন গ্ৰ াময মবদযালয চৰকাৰী কাযযসূচীৰ অধ্ীনত অমতমৰক্ত কেণীযকাঠা , মিক্ষণ -মিকন সামগ্ৰী আৰু কমৌমলক\nমিক্ষাগত সুমবধ্া লাভ কযৰ।\nই NPE 1986-ৰ ককান পদযক্ষপক প্ৰ মতফমলত কযৰ ?",
     "enOptions": [
       "Common School System",
       "Work Experience",
@@ -1643,23 +1643,23 @@ const mcqData: MCQ[] = [
       "Vocationalisation"
     ],
     "asOptions": [
-      "সাধ্াৰণ বিদযাল বযেস্থা",
-      "কযি অভিজ্ঞতা",
+      "সাধ্াৰণ মবদযাল বযেস্থা",
+      "কময অমভজ্ঞতা",
       "অপাযৰচন কেকব'িয",
-      "বৃত্তিমুখীকৰণ"
+      "বৃমিমুখীকৰণ"
     ],
     "correctIndex": 2,
     "enExplanation": "Operation Blackboard sought to provide minimum essential facilities and resources in schools.",
-    "asExplanation": "অপাযৰচন কেকব'িযৰ লক্ষয আছিল বিদযাল সমূৈত নূযনতম প্ৰ য়ােনী সুবিধ্া আৰু স্িপদ নিমিত কৰা।"
+    "asExplanation": "অপাযৰচন কেকব'িযৰ লক্ষয আমছল মবদযাল সমূৈত নূযনতম প্ৰ য ােনী সুমবধ্া আৰু সম্পদ মনমিত কৰা।"
   },
   {
     "id": 69,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 14,
+    "dayNumber": 1,
     "enQuestion": "A district has achieved universal access to secondary schools, but student achievement levels remain low.\nWhich reform should be given highest priority?",
-    "asQuestion": "এখন মেলাই মাধ্যমিক বিদযাল ত সাবযেনীন প্ৰ যেিাধি্কাৰ নিমিত কৰিযছ, কিন্তু শিক্ষাৰ্থীৰ হিকি্ষক সাফলয নি্িন। কোন সংস্কাৰক সবযাধি্ক অগ্ৰাধি্কাৰ দিব লাযগ?",
+    "asQuestion": "এখন মেলাই মাধ্যমমক মবদযাল ত সাবযেনীন প্ৰ যেিামধ্কাৰ মনমিত কমৰযছ , মকন্তু মিক্ষাথীৰ হিমক্ষক সাফলয মনম্ন।\nককান সংস্কাৰক সবযামধ্ক অগ্ৰামধ্কাৰ মদব লাযগ ?",
     "enOptions": [
       "Opening more schools",
       "Improving teacher effectiveness and learning quality",
@@ -1667,23 +1667,23 @@ const mcqData: MCQ[] = [
       "Increasing examination frequency"
     ],
     "asOptions": [
-      "অধি্ক বিদযালস্থ াপন",
+      "অমধ্ক মবদযালস্থ াপন",
       "মিক্ষকৰ কাযযদক্ষতা আৰু মিক্ষণৰ গু ণগত মান উন্নত কৰা",
-      "বযেৈাৰিক কাযয হ্ৰাস কৰা",
-      "পৰীক্ষ াৰ সংখযা বৃত্তি কৰা"
+      "বযেৈামৰক কাযয হ্ৰ াস কৰা",
+      "পৰীক্ষ াৰ সংখযা বৃমি কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "Once access is achieved, educational quality becomes the key factor for improvement.",
-    "asExplanation": "প্ৰ যেিাধি্কাৰ নিমিত কৈাোৰ পিছত শিক্ষাৰ গু ণগত মান উন্নত কৰায়া আ াইতলক গু ৰুত্বপূণয হৈ পযৰ।"
+    "asExplanation": "প্ৰ\nযেিামধ্কাৰ মনমিত কৈাোৰ মপছত মিক্ষাৰ গু ণগত মান উন্নত কৰায া আ াইতলক গু ৰুত্বপূণয হৈ পযৰ।"
   },
   {
     "id": 70,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 14,
+    "dayNumber": 1,
     "enQuestion": "A policy maker wants to design a secondary education system that promotes equality, vocational\ncompetence, democratic citizenship and scientific thinking. Which educational approach is most\nappropriate?",
-    "asQuestion": "এেন নীতি নিধ্যাৰযক এযন এখন মাধ্যমিক শিক্ষা বযেস্থা গ়িি তুলিব বিচাযৰ যিয সমতা, বৃত্তিমূলক দক্ষ তা, গণতানি্ত্ৰক নাগৰিকত্ব আৰু বৈজ্ঞানিক চিন্তাধ্াৰা বিকাশ কযৰ। কোন শিক্ষাগত পিমত সবযাধি্ক উপযুক্ত?",
+    "asQuestion": "এেন নীমত মনধ্যাৰযক এযন এখন মাধ্যমমক মিক্ষা বযেস্থা গম়ি তুমলব মবচাযৰ মযয সমতা , বৃমিমূলক দক্ষ তা,\nগণতামন্ত্ৰক নাগমৰকত্ব আৰু হবজ্ঞামনক মচন্তাধ্াৰা মবকাি কযৰ। ককান মিক্ষাগত পিমত সবযামধ্ক উপযুক্ত ?",
     "enOptions": [
       "Examination-centred model",
       "Integrated reform-based model",
@@ -1691,23 +1691,23 @@ const mcqData: MCQ[] = [
       "Restricted curriculum model"
     ],
     "asOptions": [
-      "পৰীক্ষামুখী যিিল",
-      "সমিিত সংস্কাৰভিমিক যিিল",
-      "মুখস্থভিমিক যিিল",
-      "সীমিত পাঠযক্ৰম যিিল"
+      "পৰীক্ষাযকমিক মযিল",
+      "সমমিত সংস্কাৰমভমিক মযিল",
+      "মুখস্থমভমিক মযিল",
+      "সীমমত পাঠযক্ৰম মযিল"
     ],
     "correctIndex": 1,
     "enExplanation": "The integrated reform model combines the major educational goals promoted by the Mudaliar Commission,\nKothari Commission and NPE 1986.",
-    "asExplanation": "সমিিত সংস্কাৰভিমিক যিিলয়াযে মুডালিয়াৰ আয়োগ, কোঠাৰী আয়োগ আৰু NPE 1986-এ আগবয়িাো মুখয শিক্ষাগত লক্ষযসমূৈ একতি্রত কযৰ।"
+    "asExplanation": "সমমিত সংস্কাৰমভমিক মযিলয াযে মুদামল াৰ আয াগ , ককাঠাৰী আয াগ আৰু NPE 1986-এ আগবয়িাো মুখয\nমিক্ষাগত লক্ষযসমূৈ একমত্রত কযৰ।"
   },
   {
     "id": 71,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 15,
+    "dayNumber": 1,
     "enQuestion": "Case:\nA school evaluates students only through a final annual examination. Students memorize information but\ndemonstrate weak practical skills and poor creativity.\nWhich criticism of the existing secondary education system was identified by the Mudaliar Commission?",
-    "asQuestion": "না: এখন বিদযালয শিক্ষার্থীক ককেল বাষিযক চূডান্ত পৰীক্ষাৰ েমৰ যত মূলযা ন কৰা ৈ । শিক্ষাথীসকযল তথয মুখস্থ কযৰ, কিন্তু বযেৈামৰক দক্ষ তা আৰু সৃষি্ট িীলতা দুবযল। মুডালিয়াৰ আয়াযগ বিদযমান মাধ্যমিক শিক্ষা বযেস্থাৰ কোন সমাযলাচনায়া আগব়িাইছিল?",
+    "asQuestion": "না:\nএখন মবদযালয মিক্ষাথীক ককেল বামষযক চূডান্ত পৰীক্ষাৰ েমৰ যত মূলযা ন কৰা ৈ । মিক্ষাথীসকযল তথয মুখস্থ\nকযৰ, মকন্তু বযেৈামৰক দক্ষ তা আৰু সৃমষ্ট িীলতা দুবযল।\nমুদামল াৰ আয াযগ মবদযমান মাধ্যমমক মিক্ষা বযেস্থাৰ ককান সমাযলাচনায া আগব়িাইমছল ?",
     "enOptions": [
       "Excessive vocationalisation",
       "Examination-centred education",
@@ -1715,23 +1715,23 @@ const mcqData: MCQ[] = [
       "Overemphasis on creativity"
     ],
     "asOptions": [
-      "অত্যাধিক ক বৃত্তিমুখীকৰণ",
-      "পৰীক্ষামুখী শিক্ষা",
-      "অত্যাধিক সৈ -পাঠযক্ৰম কাযয",
-      "সৃষি্ট িীলতাৰ ওপৰত অত্যাধিক ক গু ৰুত্ব"
+      "অতযামধ্ ক বৃমিমুখীকৰণ",
+      "পৰীক্ষাযকমিক মিক্ষা",
+      "অতযামধ্ক সৈ -পাঠযক্ৰম কাযয",
+      "সৃমষ্ট িীলতাৰ ওপৰত অতযামধ্ ক গু ৰুত্ব"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission strongly criticized an examination-dominated system that encouraged rote learning and\nneglected holistic development.",
-    "asExplanation": "আয়াযগ এযন পৰীক্ষ াযকমিক বযেস্থ াৰ সমাযলাচনায়কৰিছিল যিয মুখস্থ বিদযাৰ প্ৰ েণতা বৃত্তি কৰিছিল আৰু সবযাঙ্গীন বিকাশ উপেক্ষা কৰিছিল।"
+    "asExplanation": "আয াযগ এযন পৰীক্ষ াযকমিক বযেস্থ াৰ সমাযলাচনা কমৰমছল মযয মুখস্থ মবদযাৰ প্ৰ েণতা বৃমি কমৰমছল আৰু\nসবযাঙ্গীন মবকাি উযপক্ষা কমৰমছল।"
   },
   {
     "id": 72,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 15,
+    "dayNumber": 1,
     "enQuestion": "Assertion (A):\nThe Kothari Commission considered education an important instrument for national integration.\nReason (R):\nEducation can promote common values, social cohesion and national unity.",
-    "asQuestion": "উকি্ত ( A): কোঠাৰী আয়াযগ শিক্ষাক জাতীয় সংহতিৰ এক গু ৰুত্বপূণয উপা বুমল গণয কৰিছিল। কাৰণ (R): শিক্ষাই সাধ্াৰণ মূলযযবাধ্, সামামেক সংহতি আৰু জাতীয় ঐকয গ়িি তুমলব পাযৰ।",
+    "asQuestion": "উমক্ত ( A):\n\n\n\nককাঠাৰী আয াযগ মিক্ষাক োতী সংৈমতৰ এক গু ৰুত্বপূণয উপা বুমল গণয কমৰমছল।\nকাৰণ (R):\nমিক্ষাই সাধ্াৰণ মূলযযবাধ্ , সামামেক সংৈমত আৰু োতী ঐকয গম়ি তুমলব পাযৰ।",
     "enOptions": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1739,23 +1739,23 @@ const mcqData: MCQ[] = [
       "A is false but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "The Commission believed education could unite diverse groups and strengthen national identity.",
-    "asExplanation": "আয়াগৰ যিত শিক্ষা বিভিন্ন কগা ক একতি্রত কমৰ জাতীয় পমৰচ আৰু সংহতি শক্তিশালী কমৰব পাযৰ।"
+    "asExplanation": "আয াগৰ মযত মিক্ষা মবমভন্ন কগা ক একমত্রত কমৰ োতী পমৰচ আৰু সংৈমত িমক্তিালী কমৰব পাযৰ।"
   },
   {
     "id": 73,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 15,
+    "dayNumber": 1,
     "enQuestion": "Which measure would most effectively improve educational quality according to the spirit of NPE 1986?",
-    "asQuestion": "NPE 1986-ৰ মূল দৃষি্ট ভংগী অনুসমৰ মিক্ষ াৰ গু ণগত মান উন্ন ত কৰাৰ বাযব কোন বযেস্থ ায়া সবযাধি্ ক ফলপ্ৰ সূ?",
+    "asQuestion": "NPE 1986-ৰ মূল দৃমষ্ট ভংগী অনুসমৰ মিক্ষ াৰ গু ণগত মান উন্ন ত কৰাৰ বাযব ককান বযেস্থ ায া সবযামধ্ ক ফলপ্ৰ সূ?",
     "enOptions": [
       "Increasing examination pressure",
       "Improving teacher preparation and learning resources",
@@ -1763,23 +1763,23 @@ const mcqData: MCQ[] = [
       "Limiting science education"
     ],
     "asOptions": [
-      "পৰীক্ষ াৰ চাপ বৃত্তি",
-      "মিক্ষক প্ৰস্তু মত আৰু মিক্ষণ স্িপদ উন্নত কৰা",
-      "শিক্ষাৰ সুযযাগ সীমিত কৰা",
-      "বিজ্ঞান শিক্ষা সীমিত কৰা"
+      "পৰীক্ষ াৰ চাপ বৃমি",
+      "মিক্ষক প্ৰস্তু মত আৰু মিক্ষণ সম্পদ উন্নত কৰা",
+      "মিক্ষাৰ সুযযাগ সীমমত কৰা",
+      "মবজ্ঞান মিক্ষা সীমমত কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "NPE 1986 emphasized teacher development, learning resources and quality improvement measures.",
-    "asExplanation": "NPE 1986-এ মিক্ষক উন্ন ন, মিক্ষণ স্িপদ আৰু গু ণগত উন্ন নৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "NPE 1986-এ মিক্ষক উন্ন ন , মিক্ষণ সম্পদ আৰু গু ণগত উন্ন নৰ ওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।"
   },
   {
     "id": 74,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 15,
+    "dayNumber": 1,
     "enQuestion": "A region experiences rapid industrial growth but schools continue to provide only traditional academic\neducation. What is the most likely consequence?",
-    "asQuestion": "এ া অঞ্চলত দ্ৰু ত ঔযদযাগিক বিকাশ টিযছ, কিন্তু বিদযাল সমূযৈ ককেল পৰ্িপৰাগত একাযিমিক শিক্ষা প্ৰ দান কমৰ আযছ। স্িভােয ফলাফল কি ৈ 'ব?",
+    "asQuestion": "এ া অঞ্চলত দ্ৰু ত ঔযদযামগক মবকাি টিযছ , মকন্তু মবদযাল সমূযৈ ককেল পৰম্পৰাগত একাযিমমক মিক্ষা প্ৰ দান\nকমৰ আযছ। সম্ভােয ফলাফল মক ৈ 'ব?",
     "enOptions": [
       "Better employment matching",
       "Increased gap between education and employment",
@@ -1787,23 +1787,23 @@ const mcqData: MCQ[] = [
       "Reduction in skill shortages"
     ],
     "asOptions": [
-      "কযিসংস্থাপনৰ হসযত উন্নত সাঞি্জসয",
-      "মিক্ষ া আৰু কযিসংস্থ াপনৰ মােৰ বযেধ্ ান বৃত্তি",
-      "অধি্ ক বৃত্তিমূলক দক্ষ তা",
-      "দক্ষতাৰা মত হ্ৰাস"
+      "কমযসংস্থাপনৰ হসযত উন্নত সামঞ্জসয",
+      "মিক্ষ া আৰু কমযসংস্থ াপনৰ মােৰ বযেধ্ ান বৃমি",
+      "অমধ্ ক বৃমিমূলক দক্ষ তা",
+      "দক্ষতাৰ া মত হ্ৰ াস"
     ],
     "correctIndex": 1,
     "enExplanation": "Without vocational orientation, education may fail to meet labour market needs.",
-    "asExplanation": "বৃত্তিমুখী মিক্ষ া অবিৈযন মিক্ষ া বযেস্থ াই কযিবোৰৰ প্ৰ য়ােন পূৰণ কৰিব কনাোযৰ।"
+    "asExplanation": "বৃমিমুখী মিক্ষ া অমবৈযন মিক্ষ া বযেস্থ াই কমযবোৰৰ প্ৰ য ােন পূৰণ কমৰব কনাোযৰ।"
   },
   {
     "id": 75,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 15,
+    "dayNumber": 1,
     "enQuestion": "A state wants to develop a future-ready secondary education system. Which combination of priorities best\nreflects the collective recommendations of Unit I?",
-    "asQuestion": "এখন ৰােযই ভমেষযৎমুখী মাধ্যমিক শিক্ষা বযেস্থা গ়িি তুলিব বিচাযৰ। কোন অগ্ৰাধি্কাৰসমূৈৰ সমিয Unit I-ৰ সামূমৈক পৰামিযসমূৈ সবযাধি্ক প্ৰ তিফলিত কযৰ?",
+    "asQuestion": "এখন ৰােযই ভমেষযৎমুখী মাধ্যমমক মিক্ষা বযেস্থা গম়ি তুমলব মবচাযৰ। ককান অগ্ৰামধ্কাৰসমূৈৰ সমিয Unit I-ৰ\nসামূমৈক পৰামিযসমূৈ সবযামধ্ক প্ৰ মতফমলত কযৰ ?",
     "enOptions": [
       "Examination success + Memorization",
       "Equality + Quality + Vocational Skills + Democratic Values + Scientific Outlook",
@@ -1811,23 +1811,23 @@ const mcqData: MCQ[] = [
       "Academic achievement only"
     ],
     "asOptions": [
-      "পৰীক্ষাত সফলতা + মুখস্থ বিদযা",
-      "সতিা + গু ণগত মান + বৃত্তিমূলক দক্ষ তা + গণতানি্ত্ৰ ক মূলযযবাধ্ + হবজ্ঞানিক দৃষি্ট ভংগী",
-      "সীমিত পাঠযক্ৰম + ককিী পৰীক্ষা",
-      "ককেল একাযিমিক সফলতা"
+      "পৰীক্ষাত সফলতা + মুখস্থ মবদযা",
+      "সমতা + গু ণগত মান + বৃমিমূলক দক্ষ তা + গণতামন্ত্ৰ ক মূলযযবাধ্ + হবজ্ঞ ামনক দৃমষ্ট ভংগী",
+      "সীমমত পাঠযক্ৰম + ককিী পৰীক্ষা",
+      "ককেল একাযিমমক সফলতা"
     ],
     "correctIndex": 1,
     "enExplanation": "The major educational reforms in Unit I consistently emphasize quality, equality, vocational competence,\ndemocratic citizenship and scientific thinking.",
-    "asExplanation": "Unit I-ৰ মুখয শিক্ষাগত সংস্কাৰসমূযৈ গু ণগত শিক্ষা, সতিা, বৃত্তিমূলক দক্ষ তা, গণতানি্ত্ৰক নাগৰিকত্ব আৰু বৈজ্ঞানিক চিন্তাধ্াৰাৰ ওপৰত সমান গু ৰুত্ব আযৰাপ কযৰ।"
+    "asExplanation": "Unit I-ৰ মুখয মিক্ষাগত সংস্কাৰসমূযৈ গু ণগত মিক্ষা , সমতা, বৃমিমূলক দক্ষ তা, গণতামন্ত্ৰক নাগমৰকত্ব আৰু হবজ্ঞামনক\nমচন্তাধ্াৰাৰ ওপৰত সমান গু ৰুত্ব আযৰাপ কযৰ।"
   },
   {
     "id": 76,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 16,
+    "dayNumber": 1,
     "enQuestion": "A school introduces student self-government, community service projects and leadership camps. Which\ncombined aim of secondary education is most strongly promoted?",
-    "asQuestion": "এখন বিদযালয শিক্ষাৰ্থী স্ব -িাসন, সমােযসো প্ৰ কল্প আৰু নেতৃত্ব মিবিৰ আৰ্িভ কৰিযছ। ই াৰ দ্ব াৰা মাধ্ যমিক শিক্ষাৰ কোন সমিিত লক্ষয সবযাধি্ক বিকমিত ৈ?",
+    "asQuestion": "এখন মবদযালয মিক্ষাথী স্ব -িাসন, সমােযসো প্ৰ কল্প আৰু কনতৃত্ব মিমবৰ আৰম্ভ কমৰযছ। ই াৰ দ্ব াৰা মাধ্ যমমক\nমিক্ষাৰ ককান সমমিত লক্ষয সবযামধ্ক মবকমিত ৈ ?",
     "enOptions": [
       "Examination success and memorization",
       "Democratic citizenship and leadership",
@@ -1835,23 +1835,23 @@ const mcqData: MCQ[] = [
       "University admission preparation"
     ],
     "asOptions": [
-      "পৰীক্ষাত সফলতা আৰু মুখস্থ বিদযা",
-      "গণতানি্ত্ৰ ক নাগৰিকত্ব আৰু নেতৃত্ব",
-      "ককেল কাৰিকৰী বিযিষজ্ঞতা",
-      "বিশ্ববিদ্যালয় ত ভতিযৰ প্ৰস্তু তি"
+      "পৰীক্ষাত সফলতা আৰু মুখস্থ মবদযা",
+      "গণতামন্ত্ৰ ক নাগমৰকত্ব আৰু কনতৃত্ব",
+      "ককেল কামৰকৰী মবযিষজ্ঞতা",
+      "মবশ্বমবদযাল ত ভমতযৰ প্ৰস্তু মত"
     ],
     "correctIndex": 1,
     "enExplanation": "These activities help students develop civic responsibility, cooperation, initiative and leadership qualities.",
-    "asExplanation": "এই কাযযসূচীযবাযৰ শিক্ষাৰ্থীৰ নাগৰিক দাম ত্ব যবাধ্, সৈযযাগিতা, উযদযাগ আৰু নেতৃত্ব ৰ গু ণ বিকাশ কযৰ।"
+    "asExplanation": "এই কাযযসূচীযবাযৰ মিক্ষাথীৰ নাগমৰক দাম ত্ব যবাধ্ , সৈযযামগতা, উযদযাগ আৰু কনতৃত্ব ৰ গু ণ মবকাি কযৰ।"
   },
   {
     "id": 77,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 16,
+    "dayNumber": 1,
     "enQuestion": "Case:\nA school offers only one academic stream to all learners regardless of aptitude, interest or future career\nplans.\nWhich recommendation of the Mudaliar Commission is being ignored?",
-    "asQuestion": "না: এখন বিদযালয সকযলা শিক্ষার্থীক কতওঁযলাকৰ কযাগযতা, আগ্ৰহ বা ভমেষযৎ কপছাগত লক্ষয নিবিযযিযষ এযক একাযিমিক ধ্ াৰা প্ৰ দান কৰা ৈ । মুডালিয়াৰ আয়োগৰ কোন পৰামিযয়া উপেক্ষা কৰা হৈছে?",
+    "asQuestion": "না:\nএখন মবদযালয সকযলা মিক্ষাথীক কতওঁযলাকৰ কযাগযতা , আগ্ৰৈ বা ভমেষযৎ কপছাগত লক্ষয মনমবযযিযষ এযক\nএকাযিমমক ধ্ াৰা প্ৰ দান কৰা ৈ ।\nমুদামল াৰ আয াগৰ ককান পৰামিযয া উযপক্ষা কৰা হৈযছ ?",
     "enOptions": [
       "Guidance Service",
       "Diversified Curriculum",
@@ -1859,23 +1859,23 @@ const mcqData: MCQ[] = [
       "Examination Reform"
     ],
     "asOptions": [
-      "নিযদযিনায়কসো",
-      "হবচিত্রম পাঠযক্ৰম",
-      "িাৰীৰিক শিক্ষা",
+      "মনযদযিনা কসো",
+      "হবমচত্রম পাঠযক্ৰম",
+      "িাৰীমৰক মিক্ষা",
       "পৰীক্ষা সংস্কাৰ"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission recommended diversified curricula to accommodate individual differences and varied\ncareer aspirations.",
-    "asExplanation": "আয়াযগ বযকি্তগত পার্থক্য আৰু ভিন্ন কপছাগত লক্ষয পূৰণৰ বাযব হবচিত্রম পাঠযক্ৰমৰ পৰামিয দিছিল।"
+    "asExplanation": "আয াযগ বযমক্তগত পাথযকয আৰু মভন্ন কপছাগত লক্ষয পূৰণৰ বাযব হবমচত্রম পাঠযক্ৰমৰ পৰামিয মদমছল।"
   },
   {
     "id": 78,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 16,
+    "dayNumber": 1,
     "enQuestion": "Assertion (A):\nEducational equality was considered essential by the Kothari Commission.\nReason (R):\nEducational inequality can weaken social justice and national integration.",
-    "asQuestion": "উকি্ত ( A): কোঠাৰী আয়াযগ শিক্ষাগত সতিাক অতযােিযক বুমল গণয কৰিছিল। কাৰণ (R): শিক্ষাগত অসতিাই সামামেক নযা আৰু জাতীয় সংহতি দুবযল কৰিব পাযৰ।",
+    "asQuestion": "উমক্ত ( A):\nককাঠাৰী আয াযগ মিক্ষাগত সমতাক অতযােিযক বুমল গণয কমৰমছল।\nকাৰণ (R):\nমিক্ষাগত অসমতাই সামামেক নযা আৰু োতী সংৈমত দুবযল কমৰব পাযৰ।",
     "enOptions": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1883,23 +1883,23 @@ const mcqData: MCQ[] = [
       "A is false but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "The Commission linked equality of educational opportunity with social justice and national development.",
-    "asExplanation": "আয়াযগ শিক্ষাগত সতিাক সামামেক নযা আৰু জাতীয় বিকাশৰ হসযত স্িপকিযত কৰিছিল।"
+    "asExplanation": "আয াযগ মিক্ষাগত সমতাক সামামেক নযা আৰু োতী মবকািৰ হসযত সম্পমকযত কমৰমছল।"
   },
   {
     "id": 79,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 16,
+    "dayNumber": 1,
     "enQuestion": "Why is teacher education considered a critical component of educational reform?",
-    "asQuestion": "শিক্ষাগত সংস্কাৰৰ কক্ষত্রত মিক্ষক শিক্ষাক কি এক গু ৰুত্বপূণয উপাদান বুমল গণয কৰা ৈ?",
+    "asQuestion": "মিক্ষাগত সংস্কাৰৰ কক্ষত্রত মিক্ষক মিক্ষাক মক এক গু ৰুত্বপূণয উপাদান বুমল গণয কৰা ৈ ?",
     "enOptions": [
       "Teachers determine educational quality and learning outcomes",
       "Teachers reduce curriculum flexibility",
@@ -1907,23 +1907,23 @@ const mcqData: MCQ[] = [
       "Teachers eliminate educational equality"
     ],
     "asOptions": [
-      "মিক্ষযক শিক্ষাৰ গু ণগত মান আৰু মিক্ষণ ফলাফল নিধ্যাৰণ কযৰ",
-      "মিক্ষযক পাঠযক্ৰমৰ ননিী তা হ্ৰাস কযৰ",
-      "মিক্ষযক শিক্ষাগত পৰিকল্পনাৰ বিকল্প ৈ",
-      "মিক্ষযক শিক্ষাগত সতিা বিযলাপ কযৰ"
+      "মিক্ষযক মিক্ষাৰ গু ণগত মান আৰু মিক্ষণ ফলাফল মনধ্যাৰণ কযৰ",
+      "মিক্ষযক পাঠযক্ৰমৰ নমনী তা হ্ৰ াস কযৰ",
+      "মিক্ষযক মিক্ষাগত পমৰকল্পনাৰ মবকল্প ৈ",
+      "মিক্ষযক মিক্ষাগত সমতা মবযলাপ কযৰ"
     ],
     "correctIndex": 0,
     "enExplanation": "Effective teachers are essential for curriculum implementation, student learning and educational quality\nimprovement.",
-    "asExplanation": "কাযযকৰী মিক্ষকসকল পাঠযক্ৰম ৰূপা ণ, মিক্ষ ণ উন্ন ন আৰু মিক্ষ াৰ গু ণগত মান বৃত্তিৰ বাযব অতযন্ত প্ৰ য়ােনী ।"
+    "asExplanation": "কাযযকৰী মিক্ষকসকল পাঠযক্ৰম ৰূপা ণ , মিক্ষ ণ উন্ন ন আৰু মিক্ষ াৰ গু ণগত মান বৃমিৰ বাযব অতযন্ত প্ৰ য ােনী ।"
   },
   {
     "id": 80,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 16,
+    "dayNumber": 1,
     "enQuestion": "A future secondary education model seeks to promote equality, employability, scientific thinking,\ndemocratic values and character development. Which educational tradition best supports this vision?",
-    "asQuestion": "এখন ভমেষযৎমুখী মাধ্যমিক শিক্ষা যিিযল সতিা, কযযিাপযযাগিতা, বৈজ্ঞানিক চিন্তাধ্াৰা, গণতানি্ত্ৰক মূলযযবাধ্ আৰু চৰিত্র গঠনৰ বিকাশ াব বিচাযৰ। কোন মিক্ষ াগত ধ্ াৰণাই এই দৃষি্ট ভংগীক সবযাধি্ ক সথিযন কযৰ?",
+    "asQuestion": "এখন ভমেষযৎমুখী মাধ্যমমক মিক্ষা মযিযল সমতা , কযমযাপযযামগতা, হবজ্ঞামনক মচন্তাধ্াৰা , গণতামন্ত্ৰক মূলযযবাধ্ আৰু\nচমৰত্র গঠনৰ মবকাি াব মবচাযৰ। ককান মিক্ষ াগত ধ্ াৰণাই এই দৃমষ্ট ভংগীক সবযামধ্ ক সমথযন কযৰ?",
     "enOptions": [
       "Examination-centred tradition",
       "Integrated reform tradition of major educational commissions",
@@ -1931,23 +1931,23 @@ const mcqData: MCQ[] = [
       "Restricted curriculum tradition"
     ],
     "asOptions": [
-      "পৰীক্ষামুখী ধ্ াৰণা",
-      "মুখয শিক্ষাগত আয়াগসমূৈৰ সমিিত সংস্কাৰমূলক ধ্ াৰণা",
-      "মুখস্থভিমিক ধ্ াৰণা",
-      "সীমিত পাঠযক্ৰমিভমিক ধ্ াৰণা"
+      "পৰীক্ষাযকমিক ধ্ াৰণা",
+      "মুখয মিক্ষাগত আয াগসমূৈৰ সমমিত সংস্কাৰমূলক ধ্ াৰণা",
+      "মুখস্থমভমিক ধ্ াৰণা",
+      "সীমমত পাঠযক্ৰমমভমিক ধ্ াৰণা"
     ],
     "correctIndex": 1,
     "enExplanation": "The collective vision of Unit I reforms emphasizes balanced development through quality, equality,\nvocational competence and democratic values.",
-    "asExplanation": "Unit I-ৰ সংস্কাৰসমূযৈ গু ণগত শিক্ষা, সতিা, বৃত্তিমূলক দক্ষ তা আৰু গণতানি্ত্ৰ ক মূলযযবাধ্ ৰ েমৰ যত সুষম বিকাশৰ ওপৰত গু ৰুত্ব আযৰাপ কযৰ।"
+    "asExplanation": "Unit I-ৰ সংস্কাৰসমূযৈ গু ণগত মিক্ষা , সমতা, বৃমিমূলক দক্ষ তা আৰু গণতামন্ত্ৰ ক মূলযযবাধ্ ৰ েমৰ যত সুষম মবকািৰ\nওপৰত গু ৰুত্ব আযৰাপ কযৰ।"
   },
   {
     "id": 81,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 17,
+    "dayNumber": 1,
     "enQuestion": "Case:\nA secondary school produces excellent examination results, but most graduates struggle to obtain\nemployment because they lack practical occupational skills.\nWhich aim of secondary education has been neglected?",
-    "asQuestion": "না: এখন মাধ্ যমিক বিদযালয উৎকৃষ্ট পৰীক্ষ াৰ ফলাফল লাভ কযৰ, কিন্তু অধি্কাংি শিক্ষাথীয বযেৈাৰিক কপছাগত দক্ষতাৰ অভাৱত কযিসংস্থান লাভ কৰাত অসুবিধ্া পা । মাধ্যমিক শিক্ষাৰ কোন লক্ষযয়া উপেক্ষা কৰা হৈছে?",
+    "asQuestion": "না:\nএখন মাধ্ যমমক মবদযালয উৎকৃষ্ট পৰীক্ষ াৰ ফলাফল লাভ কযৰ, মকন্তু অমধ্কাংি মিক্ষাথীয বযেৈামৰক কপছাগত\nদক্ষতাৰ অভােত কমযসংস্থান লাভ কৰাত অসুমবধ্া পা ।\nমাধ্যমমক মিক্ষাৰ ককান লক্ষযয া উযপক্ষা কৰা হৈযছ ?",
     "enOptions": [
       "Democratic Citizenship",
       "Vocational Efficiency",
@@ -1955,23 +1955,23 @@ const mcqData: MCQ[] = [
       "Physical Education"
     ],
     "asOptions": [
-      "গণতানি্ত্ৰক নাগৰিকত্ব",
-      "বৃত্তিমূলক দক্ষ তা",
-      "সাংস্কৃ তিক বিকাশ",
-      "িাৰীৰিক শিক্ষা"
+      "গণতামন্ত্ৰক নাগমৰকত্ব",
+      "বৃমিমূলক দক্ষ তা",
+      "সাংস্কৃ মতক মবকাি",
+      "িাৰীমৰক মিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "The Mudaliar Commission emphasized vocational efficiency to ensure that education prepares learners for\nproductive work and self-reliance.",
-    "asExplanation": "মুডালিয়াৰ আয়াযগ বৃত্তিমূলক দক্ষ তাৰ ওপৰত গু ৰুত্ব দিছিল যাযত মিক্ষ া মিক্ষ াথীক উৎপাদনিীল কযি আৰু আত্মিনভযৰিীলতাৰ বাযব প্ৰস্তু ত কযৰ।"
+    "asExplanation": "মুদামল াৰ আয াযগ বৃমিমূলক দক্ষ তাৰ ওপৰত গু ৰুত্ব মদমছল যাযত মিক্ষ া মিক্ষ াথীক উৎপাদনিীল কময আৰু\nআত্মমনভযৰিীলতাৰ বাযব প্ৰস্তু ত কযৰ।"
   },
   {
     "id": 82,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 17,
+    "dayNumber": 1,
     "enQuestion": "What was the major educational significance of the 10+2+3 structure recommended by the Kothari\nCommission?",
-    "asQuestion": "কোঠাৰী আয়াযগ পৰামিয মদা ১০+২+৩ গাঁথনিৰ মুখয শিক্ষাগত গু ৰুত্ব কি আছিল?",
+    "asQuestion": "ককাঠাৰী আয াযগ পৰামিয মদ া ১০+২+৩ গাঁথমনৰ মুখয মিক্ষাগত গু ৰুত্ব মক আমছল ?",
     "enOptions": [
       "It reduced access to higher education.",
       "It introduced a uniform national educational pattern.",
@@ -1979,23 +1979,23 @@ const mcqData: MCQ[] = [
       "It focused only on examinations."
     ],
     "asOptions": [
-      "ই উচ্চ শিক্ষাৰ সুযযাগ হ্ৰাস কৰিছিল।",
-      "ই এক একীভূত জাতীয় শিক্ষা গাঁথনি প্ৰ েতযন কৰিছিল।",
-      "ই বৃত্তিমুখী মিক্ষ া বিযলাপ কৰিছিল।",
-      "ই ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব দিছিল।"
+      "ই উচ্চ মিক্ষাৰ সুযযাগ হ্ৰ াস কমৰমছল।",
+      "ই এক একীভূত োতী মিক্ষা গাঁথমন প্ৰ েতযন কমৰমছল।",
+      "ই বৃমিমুখী মিক্ষ া মবযলাপ কমৰমছল।",
+      "ই ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব মদমছল।"
     ],
     "correctIndex": 1,
     "enExplanation": "The 10+2+3 pattern helped standardize educational stages across India and facilitated educational planning.",
-    "asExplanation": "১০+২+৩ গাঁথনিয ভাৰতেুমৰ শিক্ষা পযযা সমূৈ একীভূত কমৰ শিক্ষাগত পমৰকল্পনা সৈে কমৰ তুলিছিল।"
+    "asExplanation": "১০+২+৩ গাঁথমনয ভাৰতেুমৰ মিক্ষা পযযা সমূৈ একীভূত কমৰ মিক্ষাগত পমৰকল্পনা সৈে কমৰ তুমলমছল।"
   },
   {
     "id": 83,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 17,
+    "dayNumber": 1,
     "enQuestion": "Case:\nA government introduces special scholarships, hostels and educational support programmes for\ndisadvantaged students.\nWhich objective of NPE 1986 is primarily reflected?",
-    "asQuestion": "না: এখন চৰকাৰে বঞি্চ ত মিক্ষ াথীৰ বাযব বিযিষ বৃত্তি, আবাস আৰু শিক্ষাগত সৈা কাযযসূচী আৰ্িভ কৰিযছ। ই NPE 1986-ৰ কোন মুখয উযেিযক সবযাধি্ক প্ৰ তিফলিত কযৰ?",
+    "asQuestion": "না:\nএখন চৰকাযৰ বমঞ্চ ত মিক্ষ াথীৰ বাযব মবযিষ বৃমি, আবাস আৰু মিক্ষাগত সৈা কাযযসূচী আৰম্ভ কমৰযছ।\nই NPE 1986-ৰ ককান মুখয উযেিযক সবযামধ্ক প্ৰ মতফমলত কযৰ ?",
     "enOptions": [
       "Educational Equality",
       "Examination Reform",
@@ -2003,23 +2003,23 @@ const mcqData: MCQ[] = [
       "Curriculum Reduction"
     ],
     "asOptions": [
-      "শিক্ষাগত সতিা",
+      "মিক্ষাগত সমতা",
       "পৰীক্ষা সংস্কাৰ",
-      "প্ৰশাসনিক মন ন্ত্ৰ ণ",
-      "পাঠযক্ৰম হ্ৰাস"
+      "প্ৰ িাসমনক মন ন্ত্ৰ ণ",
+      "পাঠযক্ৰম হ্ৰ াস"
     ],
     "correctIndex": 0,
     "enExplanation": "NPE 1986 emphasized equal educational opportunities, especially for disadvantaged and underrepresented\ngroups.",
-    "asExplanation": "NPE 1986-এ বিযিষলক বঞি্চত আৰু পিছপৰা কগা সমূৈৰ বাযব সমান শিক্ষাৰ সুযোগৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "NPE 1986-এ মবযিষলক বমঞ্চত আৰু মপছপৰা কগা সমূৈৰ বাযব সমান মিক্ষাৰ সুযযাগৰ ওপৰত গু ৰুত্ব আযৰাপ\nকমৰমছল।"
   },
   {
     "id": 84,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 17,
+    "dayNumber": 1,
     "enQuestion": "A remote area in Assam has school buildings but lacks qualified teachers and learning resources. Which\nchallenge does this situation best represent?",
-    "asQuestion": "অসমৰ এ া দূৰেতী অঞ্চলত বিদযাল ভেন আযছ, কিন্তু দক্ষ মিক্ষক আৰু মিক্ষণ স্িপদৰ অভাৱ আযছ। এই অেস্থাই কোন সসিযাক সবযাধি্ক স্পষ্ট ভাযে প্ৰ তিফলিত কযৰ?",
+    "asQuestion": "অসমৰ এ া দূৰেতী অঞ্চলত মবদযাল ভেন আযছ , মকন্তু দক্ষ মিক্ষক আৰু মিক্ষণ সম্পদৰ অভাে আযছ। এই\nঅেস্থাই ককান সমসযাক সবযামধ্ক স্পষ্ট ভাযে প্ৰ মতফমলত কযৰ ?",
     "enOptions": [
       "Lack of educational demand",
       "Inequality in educational quality",
@@ -2027,23 +2027,23 @@ const mcqData: MCQ[] = [
       "Overdevelopment of infrastructure"
     ],
     "asOptions": [
-      "শিক্ষাৰ প্ৰ মত চামৈদাৰ অভাৱ",
-      "শিক্ষাৰ গু ণগত মানৰ অসতিা",
-      "অত্যাধিক ক বৃত্তিমুখীকৰণ",
-      "আন্তঃগাঁথনিৰ অত্যাধিক উন্ন ন"
+      "মিক্ষাৰ প্ৰ মত চামৈদাৰ অভাে",
+      "মিক্ষাৰ গু ণগত মানৰ অসমতা",
+      "অতযামধ্ ক বৃমিমুখীকৰণ",
+      "আন্তঃগাঁথমনৰ অতযামধ্ক উন্ন ন"
     ],
     "correctIndex": 1,
     "enExplanation": "Access alone is insufficient; quality educational resources are necessary for meaningful learning.",
-    "asExplanation": "ককেল বিদযাল ৰ উপসি্থমত যযথষ্ট নৈ ; গু ণগত শিক্ষা নিমিত কৰিবলৈ উপযুক্ত স্িপদ আৰু দক্ষ মিক্ষক প্ৰ য়ােন।"
+    "asExplanation": "ককেল মবদযাল ৰ উপমস্থমত যযথষ্ট নৈ ; গু ণগত মিক্ষা মনমিত কমৰবলল উপযুক্ত সম্পদ আৰু দক্ষ মিক্ষক\n প্ৰ\nয ােন।"
   },
   {
     "id": 85,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 17,
+    "dayNumber": 1,
     "enQuestion": "If a state seeks to achieve educational quality, equality, employability, democratic citizenship and national\ndevelopment simultaneously, which strategy would be most appropriate?",
-    "asQuestion": "এখন ৰােযই এযক সম যত গু ণগত শিক্ষা, সতিা, কযযিাপযযাগিতা, গণতানি্ত্ৰক নাগৰিকত্ব আৰু জাতীয় উন্ন ন লাভ কৰিব বিচাযৰ। কোন ককৌিলয়া সবযাধি্ক উপযুক্ত?",
+    "asQuestion": "এখন ৰােযই এযক সম যত গু ণগত মিক্ষা , সমতা, কযমযাপযযামগতা, গণতামন্ত্ৰক নাগমৰকত্ব আৰু োতী উন্ন ন লাভ\nকমৰব মবচাযৰ। ককান ককৌিলয া সবযামধ্ক উপযুক্ত ?",
     "enOptions": [
       "Examination-centred educational model",
       "Integrated reform-based educational system",
@@ -2051,23 +2051,23 @@ const mcqData: MCQ[] = [
       "Restricted educational access"
     ],
     "asOptions": [
-      "পৰীক্ষামুখী শিক্ষা যিিল",
-      "সমিিত সংস্কাৰভিমিক শিক্ষা বযেস্থা",
-      "মুখস্থভিমিক পাঠযক্ৰম",
-      "শিক্ষাৰ সুযযাগ সীমিতকৰণ"
+      "পৰীক্ষাযকমিক মিক্ষা মযিল",
+      "সমমিত সংস্কাৰমভমিক মিক্ষা বযেস্থা",
+      "মুখস্থমভমিক পাঠযক্ৰম",
+      "মিক্ষাৰ সুযযাগ সীমমতকৰণ"
     ],
     "correctIndex": 1,
     "enExplanation": "An integrated reform approach combines the major recommendations of the Mudaliar Commission, Kothari\nCommission and NPE 1986.",
-    "asExplanation": "সমিিত সংস্কাৰভিমিক পিতিয মুডালিয়াৰ আয়োগ, কোঠাৰী আয়োগ আৰু NPE 1986-ৰ মুখয পৰামিযসমূৈ একতি্রত কযৰ।"
+    "asExplanation": "সমমিত সংস্কাৰমভমিক পিমতয মুদামল াৰ আয াগ , ককাঠাৰী আয াগ আৰু NPE 1986-ৰ মুখয পৰামিযসমূৈ\nএকমত্রত কযৰ।"
   },
   {
     "id": 86,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 18,
+    "dayNumber": 1,
     "enQuestion": "A school achieves excellent academic results but frequently faces issues of dishonesty, indiscipline and lack\nof social responsibility among students.\nWhich aim of secondary education requires greater emphasis?",
-    "asQuestion": "এখন বিদযালয উৎকৃষ্ট একাযিমিক ফলাফল লাভ কৰা ৈ, কিন্তু শিক্ষাৰ্থীৰ মােত অসততা, অনুিাসনৈীনতা আৰু সামামেক দাম ত্ব যবাধ্ৰ অভাৱ কদখা যা । মাধ্যমিক শিক্ষাৰ কোন লক্ষযৰ ওপৰত অধি্ক গু ৰুত্ব মদাৰ প্ৰ য়ােন?",
+    "asQuestion": "এখন মবদযালয উৎকৃষ্ট একাযিমমক ফলাফল লাভ কৰা ৈ , মকন্তু মিক্ষাথীৰ মােত অসততা , অনুিাসনৈীনতা\nআৰু সামামেক দাম ত্ব যবাধ্ৰ অভাে কদখা যা ।\nমাধ্যমমক মিক্ষাৰ ককান লক্ষযৰ ওপৰত অমধ্ক গু ৰুত্ব মদ াৰ প্ৰ য ােন ?",
     "enOptions": [
       "Examination Success",
       "Character Formation",
@@ -2076,22 +2076,22 @@ const mcqData: MCQ[] = [
     ],
     "asOptions": [
       "পৰীক্ষাত সফলতা",
-      "চৰিত্র গঠন",
-      "বিশ্ববিদ্যালয় ত ভতিয",
-      "পাঠযক্ৰম স্িপ্ৰসাৰণ"
+      "চমৰত্র গঠন",
+      "মবশ্বমবদযাল ত ভমতয",
+      "পাঠযক্ৰম সম্প্ৰসাৰণ"
     ],
     "correctIndex": 1,
     "enExplanation": "The Mudaliar Commission emphasized character formation to develop honesty, responsibility, discipline\nand moral values.",
-    "asExplanation": "মুডালিয়াৰ আয়াযগ সততা, দাম ত্ব যবাধ্, িৃংখলা আৰু হনতিক মূলযযবাধ্ বিকাশৰ বাযব চৰিত্র গঠনৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "মুদামল াৰ আয াযগ সততা, দাম ত্ব যবাধ্ , িৃংখলা আৰু হনমতক মূলযযবাধ্ মবকািৰ বাযব চমৰত্র গঠনৰ ওপৰত গু ৰুত্ব\nআযৰাপ কমৰমছল।"
   },
   {
     "id": 87,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 18,
+    "dayNumber": 1,
     "enQuestion": "Why did the Kothari Commission describe education as the most powerful instrument of national\ndevelopment?",
-    "asQuestion": "কোঠাৰী আয়াযগ শিক্ষাক জাতীয় উন্ন নৰ আ াইতলক শক্তিশালী উপা বুমল কি বণযনায়কৰিছিল?",
+    "asQuestion": "ককাঠাৰী আয াযগ মিক্ষাক োতী উন্ন নৰ আ াইতলক িমক্তিালী উপা বুমল মক বণযনা কমৰমছল ?",
     "enOptions": [
       "Education reduces the need for planning",
       "Education develops human resources and promotes social progress",
@@ -2099,23 +2099,23 @@ const mcqData: MCQ[] = [
       "Education replaces economic policy"
     ],
     "asOptions": [
-      "শিক্ষা পৰিকল্পনাৰ প্ৰ য়ােন হ্ৰাস কযৰ",
-      "শিক্ষা মানে স্িপদ গ়িি কতাযল আৰু সামামেক অগ্ৰগতি সাধ্ন কযৰ",
-      "মিক্ষ া সাংস্কৃ তিক হবচিত্র য বিযলাপ কযৰ",
-      "শিক্ষা অৰ্থনৈতিক নীতিৰ বিকল্প ৈ"
+      "মিক্ষা পমৰকল্পনাৰ প্ৰ য ােন হ্ৰ াস কযৰ",
+      "মিক্ষা মানে সম্পদ গম়ি কতাযল আৰু সামামেক অগ্ৰগমত সাধ্ন কযৰ",
+      "মিক্ষ া সাংস্কৃ মতক হবমচত্র য মবযলাপ কযৰ",
+      "মিক্ষা অথযলনমতক নীমতৰ মবকল্প ৈ"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission believed that education contributes directly to economic growth, social transformation and\nnational integration.",
-    "asExplanation": "আয়াগৰ যিত শিক্ষা অৰ্থনৈতিক বিকাশ, সামামেক পৰিেতযন আৰু জাতীয় সংৈতিত প্ৰ তযক্ষভাযে অেদান ৰাযখ।"
+    "asExplanation": "আয াগৰ মযত মিক্ষা অথযলনমতক মবকাি , সামামেক পমৰেতযন আৰু োতী সংৈমতত প্ৰ তযক্ষভাযে অেদান ৰাযখ।"
   },
   {
     "id": 88,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 18,
+    "dayNumber": 1,
     "enQuestion": "Assertion (A):\nTeacher education was given high priority in NPE 1986.\nReason (R):\nTeachers play a central role in improving educational quality.",
-    "asQuestion": "উকি্ত ( A): NPE 1986-এ মিক্ষক শিক্ষাক উচ্চ অগ্ৰাধি্কাৰ দিছিল। কাৰণ (R): শিক্ষাৰ গু ণগত মান উন্নত কৰাত মিক্ষযক ককিী ভূমিকা পালন কযৰ।",
+    "asQuestion": "উমক্ত ( A):\n\n\n\nNPE 1986-এ মিক্ষক মিক্ষাক উচ্চ অগ্ৰামধ্কাৰ মদমছল।\nকাৰণ (R):\nমিক্ষাৰ গু ণগত মান উন্নত কৰাত মিক্ষযক ককিী ভূমমকা পালন কযৰ।",
     "enOptions": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2123,23 +2123,23 @@ const mcqData: MCQ[] = [
       "A is false but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "NPE 1986 recognized that educational quality depends greatly on professionally competent teachers.",
-    "asExplanation": "NPE 1986-এ স্ব ীকাৰ কৰিছিল কয শিক্ষাৰ গু ণগত মান দক্ষ আৰু সু -প্ৰমিকি্ষত মিক্ষকৰ ওপৰত নিভযৰ কযৰ।"
+    "asExplanation": "NPE 1986-এ স্ব ীকাৰ কমৰমছল কয মিক্ষাৰ গু ণগত মান দক্ষ আৰু সু -প্ৰমিমক্ষত মিক্ষকৰ ওপৰত মনভযৰ কযৰ।"
   },
   {
     "id": 89,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 18,
+    "dayNumber": 1,
     "enQuestion": "Case:\nA state has many educated unemployed youth because school education remains largely theoretical and\ndisconnected from labour market needs.\nWhich educational reform would most effectively address this issue?",
-    "asQuestion": "না: এখন ৰােযত বহু মিকি্ষত নিবনুো যুেক আযছ, কাৰণ বিদযাল শিক্ষা অধি্কাংি কক্ষত্রযত তামিক আৰু কযিবোৰৰ প্ৰ য়ােনৰ হসযত সংযুক্ত নৈ । কোন শিক্ষাগত সংস্কাযৰ এই সসিযাৰ সবযাধি্ক ফলপ্ৰসূ সমাধ্ান দিব?",
+    "asQuestion": "না:\nএখন ৰােযত বহু মিমক্ষত মনবনুো যুেক আযছ , কাৰণ মবদযাল মিক্ষা অমধ্কাংি কক্ষত্রযত তামিক আৰু\nকমযবোৰৰ প্ৰ য ােনৰ হসযত সংযুক্ত নৈ ।\nককান মিক্ষাগত সংস্কাযৰ এই সমসযাৰ সবযামধ্ক ফলপ্ৰসূ সমাধ্ান মদব ?",
     "enOptions": [
       "Increasing written examinations",
       "Vocationalisation of education",
@@ -2147,23 +2147,23 @@ const mcqData: MCQ[] = [
       "Limiting technical subjects"
     ],
     "asOptions": [
-      "লিখিত পৰীক্ষ া বৃত্তি",
-      "মিক্ষ াৰ বৃত্তিমুখীকৰণ",
-      "বযেৈাৰিক প্ৰ মিক্ষণ হ্ৰাস",
-      "কাৰিকৰী বিষ সীমিতকৰণ"
+      "মলমখত পৰীক্ষ া বৃমি",
+      "মিক্ষ াৰ বৃমিমুখীকৰণ",
+      "বযেৈামৰক প্ৰ মিক্ষণ হ্ৰ াস",
+      "কামৰকৰী মবষ সীমমতকৰণ"
     ],
     "correctIndex": 1,
     "enExplanation": "Vocationalisation connects education with practical skills and employment opportunities.",
-    "asExplanation": "বৃত্তিমুখীকৰযণ মিক্ষ াক বযেৈাৰিক দক্ষ তা আৰু কযিসংস্থ াপনৰ সুযোগৰ হসযত সংযযাগ কযৰ।"
+    "asExplanation": "বৃমিমুখীকৰযণ মিক্ষ াক বযেৈামৰক দক্ষ তা আৰু কমযসংস্থ াপনৰ সুযযাগৰ হসযত সংযযাগ কযৰ।"
   },
   {
     "id": 90,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 18,
+    "dayNumber": 1,
     "enQuestion": "Which educational transformation strategy would most effectively realize the collective vision of the\nMudaliar Commission, Kothari Commission and NPE 1986?",
-    "asQuestion": "মুডালিয়াৰ আয়োগ, কোঠাৰী আয়োগ আৰু NPE 1986-ৰ সামূমৈক দৃষি্ট ভংগী সবযাধি্ ক সফলভাযে বাস্ত োম ত কৰিবলৈ কোন শিক্ষাগত ৰূপান্তৰ ককৌিল উপযুক্ত?",
+    "asQuestion": "মুদামল াৰ আয াগ, ককাঠাৰী আয াগ আৰু NPE 1986-ৰ সামূমৈক দৃমষ্ট ভংগী সবযামধ্ ক সফলভাযে বাস্ত োম ত\nকমৰবলল ককান মিক্ষাগত ৰূপান্তৰ ককৌিল উপযুক্ত ?",
     "enOptions": [
       "Examination-centred education",
       "Quality education with equality, vocational competence, democratic values and scientific outlook",
@@ -2171,23 +2171,23 @@ const mcqData: MCQ[] = [
       "Restricted educational opportunities"
     ],
     "asOptions": [
-      "পৰীক্ষামুখী শিক্ষা",
-      "গু ণগত শিক্ষা, সতিা, বৃত্তিমূলক দক্ষ তা, গণতানি্ত্ৰ ক মূলযযবাধ্ আৰু হবজ্ঞানিক দৃষি্ট ভংগী",
-      "মুখস্থভিমিক মিক্ষণ",
-      "সীমিত শিক্ষাগত সুযযাগ"
+      "পৰীক্ষাযকমিক মিক্ষা",
+      "গু ণগত মিক্ষা , সমতা, বৃমিমূলক দক্ষ তা, গণতামন্ত্ৰ ক মূলযযবাধ্ আৰু হবজ্ঞ ামনক দৃমষ্ট ভংগী",
+      "মুখস্থমভমিক মিক্ষণ",
+      "সীমমত মিক্ষাগত সুযযাগ"
     ],
     "correctIndex": 1,
     "enExplanation": "The collective reform vision emphasizes quality, equality, vocational relevance, democratic citizenship and\nscientific thinking.",
-    "asExplanation": "সামূমৈক সংস্ক াৰমূলক দৃষি্ট ভংগীযগু ণগত মিক্ষ া, সতিা, বৃত্তিমূলক প্ৰাসংগিকতা, গণতানি্ত্ৰক নাগৰিকত্ব আৰু বৈজ্ঞানিক চিন্তাধ্াৰাৰ ওপৰত গু ৰুত্ব আযৰাপ কযৰ।"
+    "asExplanation": "সামূমৈক সংস্ক াৰমূলক দৃমষ্ট ভংগীযগু ণগত মিক্ষ া, সমতা, বৃমিমূলক প্ৰ াসংমগকতা, গণতামন্ত্ৰক নাগমৰকত্ব আৰু\nহবজ্ঞামনক মচন্তাধ্াৰাৰ ওপৰত গু ৰুত্ব আযৰাপ কযৰ।"
   },
   {
     "id": 91,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 19,
+    "dayNumber": 1,
     "enQuestion": "Which aim of secondary education proposed by the Mudaliar Commission is most directly related to\npreparing students for responsible participation in public life?",
-    "asQuestion": "মুডালিয়াৰ আয়াযগ প্ৰস্তাে কৰা মাধ্যমিক শিক্ষাৰ কোন লক্ষযয়া েনেীেনত দাম ত্ব িীল অংিগ্ৰৈণৰ বাযব শিক্ষার্থীক প্ৰস্তু ত কৰাৰ হসযত সবযাধি্ক স্িপকিযত?",
+    "asQuestion": "মুদামল াৰ আয াযগ প্ৰস্ত াে কৰা মাধ্যমমক মিক্ষাৰ ককান লক্ষযয া েনেীেনত দাম ত্ব িীল অংিগ্ৰৈণৰ বাযব\nমিক্ষাথীক প্ৰস্তু ত কৰাৰ হসযত সবযামধ্ক সম্পমকযত ?",
     "enOptions": [
       "Vocational Efficiency",
       "Democratic Citizenship",
@@ -2195,23 +2195,23 @@ const mcqData: MCQ[] = [
       "Cultural Recreation"
     ],
     "asOptions": [
-      "বৃত্তিমূলক দক্ষ তা",
-      "গণতানি্ত্ৰক নাগৰিকত্ব",
-      "িাৰীৰিক বিকাশ",
-      "সাংস্কৃ তিক অেসৰ"
+      "বৃমিমূলক দক্ষ তা",
+      "গণতামন্ত্ৰক নাগমৰকত্ব",
+      "িাৰীমৰক মবকাি",
+      "সাংস্কৃ মতক অেসৰ"
     ],
     "correctIndex": 1,
     "enExplanation": "Democratic citizenship develops civic responsibility, social awareness and participation in democratic\ninstitutions.",
-    "asExplanation": "গণতানি্ত্ৰক নাগৰিকযত্ব নাগৰিক দাম ত্ব যবাধ্, সামামেক সযচতনতা আৰু গণতানি্ত্ৰক প্ৰ তিষ্ঠানত অংিগ্ৰৈণৰ গু ণ বিকাশ কযৰ।"
+    "asExplanation": "গণতামন্ত্ৰক নাগমৰকযত্ব নাগমৰক দাম ত্ব যবাধ্ , সামামেক সযচতনতা আৰু গণতামন্ত্ৰক প্ৰ মতষ্ঠানত অংিগ্ৰৈণৰ গু ণ\nমবকাি কযৰ।"
   },
   {
     "id": 92,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 19,
+    "dayNumber": 1,
     "enQuestion": "Case:\nTwo students possess equal ability and motivation. One receives excellent educational opportunities while\nthe other faces severe educational disadvantages due to social background.\nAccording to the Kothari Commission, what principle is being violated?",
-    "asQuestion": "না: দুেন মিক্ষ াথীৰ কযাগযতা আৰু কপ্ৰ ৰণা সমান। এেযন উৎকৃষ্ট মিক্ষ াগত সুযযাগ লাভ কমৰযছ, আনৈাযত আনেন সামামেক প ভূমিৰ বাযব বঞি্চত হৈছে। কোঠাৰী আয়োগৰ যিত কোন নীতিয়া লমিত হৈছে?",
+    "asQuestion": "না:\n\n\n\nদুেন মিক্ষ াথীৰ কযাগযতা আৰু কপ্ৰ ৰণা সমান। এেযন উৎকৃষ্ট মিক্ষ াগত সুযযাগ লাভ কমৰযছ, আনৈাযত আনেন\nসামামেক প ভূমমৰ বাযব বমঞ্চত হৈযছ।\nককাঠাৰী আয াগৰ মযত ককান নীমতয া লমিত হৈযছ?",
     "enOptions": [
       "Vocational Efficiency",
       "Equality of Educational Opportunity",
@@ -2219,23 +2219,23 @@ const mcqData: MCQ[] = [
       "Examination Reform"
     ],
     "asOptions": [
-      "বৃত্তিমূলক দক্ষ তা",
-      "শিক্ষাৰ সমান সুযযাগ",
-      "কযি অভিজ্ঞতা",
+      "বৃমিমূলক দক্ষ তা",
+      "মিক্ষাৰ সমান সুযযাগ",
+      "কময অমভজ্ঞতা",
       "পৰীক্ষা সংস্কাৰ"
     ],
     "correctIndex": 1,
     "enExplanation": "The Commission strongly advocated equal educational opportunities regardless of social or economic\nbackground.",
-    "asExplanation": "আয়াযগ সামামেক বা আথিযক প ভূমি নিবিযযিযষ সমান শিক্ষাৰ সুযোগৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "আয াযগ সামামেক বা আমথযক প ভূমম মনমবযযিযষ সমান মিক্ষাৰ সুযযাগৰ ওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।"
   },
   {
     "id": 93,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 19,
+    "dayNumber": 1,
     "enQuestion": "Why did NPE 1986 emphasize science, technology and modernization in education?",
-    "asQuestion": "NPE 1986-এ শিক্ষাত বিজ্ঞান, প্ৰ যুকি্ত আৰু আধ্ুনিকীকৰণৰ ওপৰত কিগু ৰুত্ব আযৰাপ কৰিছিল?",
+    "asQuestion": "NPE 1986-এ মিক্ষাত মবজ্ঞান , প্ৰ যুমক্ত আৰু আধ্ুমনকীকৰণৰ ওপৰত মকগু ৰুত্ব আযৰাপ কমৰমছল ?",
     "enOptions": [
       "To reduce educational opportunities",
       "To prepare citizens for national development and technological progress",
@@ -2243,23 +2243,23 @@ const mcqData: MCQ[] = [
       "To replace teachers with machines"
     ],
     "asOptions": [
-      "শিক্ষাৰ সুযযাগ হ্ৰাস কৰিবলৈ",
-      "জাতীয় উন্ন ন আৰু প্ৰ যুকি্তগত অগ্ৰগতিৰ বাযব নাগৰিকক প্ৰস্তু ত কৰিবলৈ",
-      "পৰ্িপ ৰাগত মূলযযবাধ্ স্িপূ ণযৰূযপ বিযলাপ কৰিবলৈ",
-      "মিক্ষকৰ পৰিেযতয যন্ত্ৰ বযেৈাৰ কৰিবলৈ"
+      "মিক্ষাৰ সুযযাগ হ্ৰ াস কমৰবলল",
+      "োতী উন্ন ন আৰু প্ৰ যুমক্তগত অগ্ৰগমতৰ বাযব নাগমৰকক প্ৰস্তু ত কমৰবলল",
+      "পৰম্প ৰাগত মূলযযবাধ্ সম্পূ ণযৰূযপ মবযলাপ কমৰবলল",
+      "মিক্ষকৰ পমৰেযতয যন্ত্ৰ বযেৈাৰ কমৰবলল"
     ],
     "correctIndex": 1,
     "enExplanation": "Scientific and technological advancement was viewed as essential for national progress and modernization.",
-    "asExplanation": "বৈজ্ঞানিক আৰু প্ৰ যুকি্তগত অগ্ৰগতিক জাতীয় উন্ন ন আৰু আধ্ুনিকীকৰণৰ বাযব অতযােিযক বুমল গণয কৰা হৈছিল।"
+    "asExplanation": "হবজ্ঞামনক আৰু প্ৰ যুমক্তগত অগ্ৰগমতক োতী উন্ন ন আৰু আধ্ুমনকীকৰণৰ বাযব অতযােিযক বুমল গণয কৰা\nহৈমছল।"
   },
   {
     "id": 94,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 19,
+    "dayNumber": 1,
     "enQuestion": "A district has adequate school buildings and enrolment, but learning achievement remains poor. Which\nintervention should receive highest priority?",
-    "asQuestion": "এখন মেলাত বিদযাল ভেন আৰু নাভিতিয যযথষ্ট আযছ, কিন্তু মিক্ষণ সাফলয নি্িন। কোন ৈস্তযক্ষপক সবযাধি্ক অগ্ৰাধি্কাৰ দিব লাযগ?",
+    "asQuestion": "এখন মেলাত মবদযাল ভেন আৰু নামভমতয যযথষ্ট আযছ , মকন্তু মিক্ষণ সাফলয মনম্ন। ককান ৈস্তযক্ষপক সবযামধ্ক\nঅগ্ৰামধ্কাৰ মদব লাযগ ?",
     "enOptions": [
       "Construction of additional buildings",
       "Improvement of teaching quality and learning resources",
@@ -2267,23 +2267,23 @@ const mcqData: MCQ[] = [
       "Limiting admissions"
     ],
     "asOptions": [
-      "অতিৰিক্ত ভেন নিযিাণ",
-      "শিক্ষাদানৰ গু ণগত মান আৰু মিক্ষণ স্িপদ উন্নত কৰা",
-      "বিদযাল সহি্ৰাস",
-      "নাভিমতয সীমিত কৰা"
+      "অমতমৰক্ত ভেন মনমযাণ",
+      "মিক্ষাদানৰ গু ণগত মান আৰু মিক্ষণ সম্পদ উন্নত কৰা",
+      "মবদযাল সমহ্ৰ াস",
+      "নামভমতয সীমমত কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "Once access is available, educational quality becomes the key determinant of student achievement.",
-    "asExplanation": "প্ৰ যেিাধি্কাৰ নিমিত কৈাোৰ পিছত শিক্ষাৰ গু ণগত মাযনই শিক্ষাৰ্থীৰ সাফলযৰ মূল নিধ্যাৰক ৈ ।"
+    "asExplanation": "প্ৰ\nযেিামধ্কাৰ মনমিত কৈাোৰ মপছত মিক্ষাৰ গু ণগত মাযনই মিক্ষাথীৰ সাফলযৰ মূল মনধ্যাৰক ৈ ।"
   },
   {
     "id": 95,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 19,
+    "dayNumber": 1,
     "enQuestion": "Which educational vision best reflects the combined philosophy of the Mudaliar Commission, Kothari\nCommission and National Policy on Education (1986)?",
-    "asQuestion": "মুডালিয়াৰ আয়োগ, কোঠাৰী আয়োগ আৰু ৰাষ্ট্ৰীয়য় শিক্ষা নীতি (১৯৮৬) -ৰ সমিিত দিযনক কোন শিক্ষাগত দৃষি্ট ভংগীয সবযাধি্ ক সঠিকভাযে প্ৰ তিফমলত কযৰ?",
+    "asQuestion": "মুদামল াৰ আয াগ, ককাঠাৰী আয াগ আৰু ৰাষ্ট্ৰী মিক্ষা নীমত (১৯৮৬) -ৰ সমমিত দিযনক ককান মিক্ষাগত\nদৃমষ্ট ভংগীয সবযামধ্ ক সঠিকভাযে প্ৰ মতফমলত কযৰ?",
     "enOptions": [
       "Education focused mainly on examinations",
       "Education for quality, equality, employability, democratic citizenship and national development",
@@ -2291,23 +2291,23 @@ const mcqData: MCQ[] = [
       "Education based primarily on memorization"
     ],
     "asOptions": [
-      "ককেল পৰীক্ষামুখী শিক্ষা",
-      "গু ণগত শিক্ষা, সতিা, কযযিাপযযাগিতা, গণতানি্ত্ৰক নাগৰিকত্ব আৰু জাতীয় উন্ন নৰ বাযব শিক্ষা",
-      "ককেল একাযিমিক সফলতাভিমিক শিক্ষা",
-      "মুখস্থভিমিক শিক্ষা"
+      "ককেল পৰীক্ষাযকমিক মিক্ষা",
+      "গু ণগত মিক্ষা , সমতা, কযমযাপযযামগতা, গণতামন্ত্ৰক নাগমৰকত্ব আৰু োতী উন্ন নৰ বাযব মিক্ষা",
+      "ককেল একাযিমমক সফলতামভমিক মিক্ষা",
+      "মুখস্থমভমিক মিক্ষা"
     ],
     "correctIndex": 1,
     "enExplanation": "The collective reform agenda emphasized holistic development through quality education, equality,\nvocational competence and democratic values.",
-    "asExplanation": "সামূমৈক সংস্কাৰসূচীযগু ণগত শিক্ষা, সতিা, বৃত্তিমূলক দক্ষ তা আৰু গণতানি্ত্ৰ ক মূলযযবাধ্ ৰ েমৰ যত সবযাঙ্গ ীন বিকাশৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "সামূমৈক সংস্কাৰসূচীযগু ণগত মিক্ষা , সমতা, বৃমিমূলক দক্ষ তা আৰু গণতামন্ত্ৰ ক মূলযযবাধ্ ৰ েমৰ যত সবযাঙ্গ ীন\nমবকািৰ ওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।"
   },
   {
     "id": 96,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 20,
+    "dayNumber": 1,
     "enQuestion": "Which combination best represents the major aims of secondary education recommended by the Mudaliar\nCommission?",
-    "asQuestion": "মুডালিয়াৰ আয়াযগ পৰামিয মদা মাধ্যমিক শিক্ষাৰ মুখয লক্ষযসমূৈৰ সবযাধি্ক উপযুক্ত সমি কোনয়া?",
+    "asQuestion": "মুদামল াৰ আয াযগ পৰামিয মদ া মাধ্যমমক মিক্ষাৰ মুখয লক্ষযসমূৈৰ সবযামধ্ক উপযুক্ত সমি ককানয া ?",
     "enOptions": [
       "Memorization, Competition and Examination Success",
       "Democratic Citizenship, Vocational Efficiency, Character Formation and Leadership",
@@ -2315,23 +2315,23 @@ const mcqData: MCQ[] = [
       "Academic Achievement Only"
     ],
     "asOptions": [
-      "মুখস্থ বিদযা, প্ৰ তিযযাগিতা আৰু পৰীক্ষাত সফলতা",
-      "গণতানি্ত্ৰক নাগৰিকত্ব, বৃত্তিমূলক দক্ষ তা, চৰিত্র গঠন আৰু নেতৃত্ব",
-      "প্ৰশাসনিক মন ন্ত্ৰ ণ, একৰূপতা আৰু সীমাবিতা",
-      "ককেল একাযিমিক সফলতা"
+      "মুখস্থ মবদযা , প্ৰ মতযযামগতা আৰু পৰীক্ষাত সফলতা",
+      "গণতামন্ত্ৰক নাগমৰকত্ব , বৃমিমূলক দক্ষ তা, চমৰত্র গঠন আৰু কনতৃত্ব",
+      "প্ৰ িাসমনক মন ন্ত্ৰ ণ , একৰূপতা আৰু সীমাবিতা",
+      "ককেল একাযিমমক সফলতা"
     ],
     "correctIndex": 1,
     "enExplanation": "The Mudaliar Commission emphasized balanced development through citizenship, character, leadership and\nvocational efficiency.",
-    "asExplanation": "মুডালিয়াৰ আয়াযগ নাগমৰকত্ব, চমৰত্র, নেতৃত্ব আৰু বৃত্তিমূলক দক্ষ তাৰ েমৰ যত সুষম বিকাশৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "মুদামল াৰ আয াযগ নাগমৰকত্ব , চমৰত্র , কনতৃত্ব আৰু বৃমিমূলক দক্ষ তাৰ েমৰ যত সুষম মবকািৰ ওপৰত গু ৰুত্ব\nআযৰাপ কমৰমছল।"
   },
   {
     "id": 97,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 20,
+    "dayNumber": 1,
     "enQuestion": "Assertion (A):\n\n\n\nThe Kothari Commission emphasized educational planning at the national level.\nReason (R):\nEducation was viewed as a key instrument for national development and social transformation.",
-    "asQuestion": "উকি্ত ( A): কোঠাৰী আয়াযগ জাতীয় পযযা ত শিক্ষাগত পৰিকল্পনাৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল। কাৰণ (R): শিক্ষাক জাতীয় উন্ন ন আৰু সামামেক পৰিেতযনৰ এক মুখয উপা মৈচাযপ গণয কৰা হৈছিল।",
+    "asQuestion": "উমক্ত ( A):\nককাঠাৰী আয াযগ োতী পযযা ত মিক্ষাগত পমৰকল্পনাৰ ওপৰত গু ৰুত্ব আযৰাপ কমৰমছল।\nকাৰণ (R):\nমিক্ষাক োতী উন্ন ন আৰু সামামেক পমৰেতযনৰ এক মুখয উপা মৈচাযপ গণয কৰা হৈমছল।",
     "enOptions": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2339,23 +2339,23 @@ const mcqData: MCQ[] = [
       "A is false but R is true"
     ],
     "asOptions": [
-      "A আৰু R দুয়া া সতয আৰু R হৈছে A-ৰ সঠিক ব্যাখ্যা",
-      "A আৰু R দুয়া া সতয কিন্তু R হৈছে A-ৰ সঠিক ব্যাখ্যা নৈ",
-      "A সতয কিন্তু R অসতয",
-      "A অসতয কিন্তু R সতয"
+      "A আৰু R দুয া া সতয আৰু R হৈযছ A-ৰ সঠিক বযাখযা",
+      "A আৰু R দুয া া সতয মকন্তু R হৈযছ A-ৰ সঠিক বযাখযা নৈ",
+      "A সতয মকন্তু R অসতয",
+      "A অসতয মকন্তু R সতয"
     ],
     "correctIndex": 0,
     "enExplanation": "The Commission advocated systematic educational planning because education was considered essential for\nnational progress.",
-    "asExplanation": "আয়াযগ সুসংগঠিত শিক্ষাগত পৰিকল্পনাৰ পৰামিয দিছিল, কাৰণ শিক্ষা জাতীয় অগ্ৰগতিত ককিী ভূমিকা পালন কযৰ বুমল গণয কৰা হৈছিল।"
+    "asExplanation": "আয াযগ সুসংগঠিত মিক্ষাগত পমৰকল্পনাৰ পৰামিয মদমছল , কাৰণ মিক্ষা োতী অগ্ৰগমতত ককিী ভূমমকা পালন\nকযৰ বুমল গণয কৰা হৈমছল।"
   },
   {
     "id": 98,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 20,
+    "dayNumber": 1,
     "enQuestion": "Which educational approach is most consistent with the long-term vision of NPE 1986?",
-    "asQuestion": "NPE 1986-ৰ দী য যিাদী দৃষি্ট ভংগীৰ হসযত কোন মিক্ষ াগত পিমত সবযাধি্ ক সাঞি্জ সযপূণয?",
+    "asQuestion": "NPE 1986-ৰ দী য মযাদী\t দৃমষ্ট ভংগীৰ হসযত ককান মিক্ষ াগত পিমত সবযামধ্ ক সামঞ্জ সযপূণয?",
     "enOptions": [
       "Examination-centred learning",
       "Quality education with equality, modernization and social justice",
@@ -2363,23 +2363,23 @@ const mcqData: MCQ[] = [
       "Restricted educational opportunities"
     ],
     "asOptions": [
-      "পৰীক্ষামুখী মিক্ষণ",
-      "গু ণগত শিক্ষা, সতিা, আধুনিকীকৰণ আৰু সামামেক নযা",
-      "মুখস্থভিমিক শিক্ষা",
-      "সীমিত শিক্ষাগত সুযযাগ"
+      "পৰীক্ষাযকমিক মিক্ষণ",
+      "গু ণগত মিক্ষা , সমতা, আধ্ুমনকীকৰণ আৰু সামামেক নযা",
+      "মুখস্থমভমিক মিক্ষা",
+      "সীমমত মিক্ষাগত সুযযাগ"
     ],
     "correctIndex": 1,
     "enExplanation": "NPE 1986 promoted quality, equality, modernization, teacher development and social justice.",
-    "asExplanation": "NPE 1986-এ গু ণগত শিক্ষা, সতিা, আধুনিকীকৰণ, মিক্ষক উন্ন ন আৰু সামামেক নযাৰ ওপৰত গু ৰুত্ব আযৰাপ কৰিছিল।"
+    "asExplanation": "NPE 1986-এ গু ণগত মিক্ষা , সমতা, আধ্ুমনকীকৰণ , মিক্ষক উন্ন ন আৰু সামামেক নযা ৰ ওপৰত গু ৰুত্ব আযৰাপ\nকমৰমছল।"
   },
   {
     "id": 99,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 20,
+    "dayNumber": 1,
     "enQuestion": "Case:\nAssam has expanded access to secondary education, but disparities remain between urban and rural schools\nin teacher availability and learning resources.\n\n\n\nWhich challenge requires the greatest attention?",
-    "asQuestion": "না: অসমত মাধ্ যমিক মিক্ষ াৰ সুযযাগ বৃত্তি পাইযছ, কিন্তু নগৰ আৰু গ্ৰাযি বিদযাল সমূৈৰ মােত মিক্ষক আৰু মিক্ষণ স্িপদৰ কক্ষত্রত বৈষ্িয বিদযমান। কোন সসিযায়াক সবযাধি্ক অগ্ৰাধি্কাৰ দিব লাযগ?",
+    "asQuestion": "না:\nঅসমত মাধ্ যমমক মিক্ষ াৰ সুযযাগ বৃমি পাইযছ, মকন্তু নগৰ আৰু গ্ৰ াময মবদযাল সমূৈৰ মােত মিক্ষক আৰু মিক্ষণ\nসম্পদৰ কক্ষত্রত হবষময মবদযমান।\nককান সমসযায াক সবযামধ্ক অগ্ৰামধ্কাৰ মদব লাযগ ?",
     "enOptions": [
       "Restricting enrolment",
       "Ensuring educational quality and equity",
@@ -2387,23 +2387,23 @@ const mcqData: MCQ[] = [
       "Increasing examination pressure"
     ],
     "asOptions": [
-      "নাভিমতয সীমিত কৰা",
-      "শিক্ষাৰ গু ণগত মান আৰু সতিা নিমিত কৰা",
-      "বিজ্ঞান শিক্ষা হ্ৰাস কৰা",
-      "পৰীক্ষ াৰ চাপ বৃত্তি কৰা"
+      "নামভমতয সীমমত কৰা",
+      "মিক্ষাৰ গু ণগত মান আৰু সমতা মনমিত কৰা",
+      "মবজ্ঞান মিক্ষা হ্ৰ াস কৰা",
+      "পৰীক্ষ াৰ চাপ বৃমি কৰা"
     ],
     "correctIndex": 1,
     "enExplanation": "The major challenge is ensuring equitable quality education across all regions.",
-    "asExplanation": "মুখয সসিযা হৈছে সকযলা অঞ্চলত সতিাভিমিক গু ণগত শিক্ষা নিমিত কৰা।"
+    "asExplanation": "মুখয সমসযা হৈযছ সকযলা অঞ্চলত সমতামভমিক গু ণগত মিক্ষা মনমিত কৰা।"
   },
   {
     "id": 100,
     "unitId": "unit-1",
     "enUnitNumber": "Unit I",
     "asUnitNumber": "গোট ১",
-    "dayNumber": 20,
+    "dayNumber": 1,
     "enQuestion": "A nation seeks to build a secondary education system that promotes democratic citizenship, vocational\ncompetence, educational equality, scientific temper, social justice and national development.\nThis vision is best described as:",
-    "asQuestion": "এখন োতিয এযন মাধ্যমিক শিক্ষা বযেস্থা গ়িি তুমলব বিচাযৰ যিয গণতানি্ত্ৰক নাগৰিকত্ব, বৃত্তিমূলক দক্ষ তা, শিক্ষাগত সতিা, বৈজ্ঞানিক যিনাভাে, সামামেক নযা আৰু জাতীয় উন্ন নক উৎসামৈত কযৰ। এই দৃষি্ট ভংগীক সবযাধি্ ক উপযুক্ত ভাযে কি বুমল বণযনায়কৰিব পাৰি?",
+    "asQuestion": "এখন োমতয এযন মাধ্যমমক মিক্ষা বযেস্থা গম়ি তুমলব মবচাযৰ মযয গণতামন্ত্ৰক নাগমৰকত্ব , বৃমিমূলক দক্ষ তা,\nমিক্ষাগত সমতা , হবজ্ঞামনক মযনাভাে , সামামেক নযা আৰু োতী উন্ন নক উৎসামৈত কযৰ।\nএই দৃমষ্ট ভংগীক সবযামধ্ ক উপযুক্ত ভাযে মক বুমল বণযনা কমৰব পামৰ?",
     "enOptions": [
       "Examination-centred educational model",
       "Integrated educational reform model",
@@ -2411,14 +2411,14 @@ const mcqData: MCQ[] = [
       "Restricted curriculum model"
     ],
     "asOptions": [
-      "পৰীক্ষামুখী শিক্ষা যিিল",
-      "সমিিত শিক্ষাগত সংস্কাৰ যিিল",
-      "মুখস্থভিমিক শিক্ষা যিিল",
-      "সীমিত পাঠযক্ৰম যিিল"
+      "পৰীক্ষাযকমিক মিক্ষা মযিল",
+      "সমমিত মিক্ষাগত সংস্কাৰ মযিল",
+      "মুখস্থমভমিক মিক্ষা মযিল",
+      "সীমমত পাঠযক্ৰম মযিল"
     ],
     "correctIndex": 1,
     "enExplanation": "This integrated vision combines the major recommendations of the Mudaliar Commission, Kothari\nCommission, NPE 1986 and modern educational reforms.",
-    "asExplanation": "এই সমিিত দৃষি্ট ভংগীয মুডালিয়াৰ আয়োগ, কোঠাৰী আয়োগ, NPE 1986 আৰু আধ্ুনিক শিক্ষাগত সংস্কাৰৰ মুখয পৰামিযসমূৈ একতি্রত কযৰ।"
+    "asExplanation": "এই সমমিত দৃমষ্ট ভংগীয মুদামল াৰ আয াগ, ককাঠাৰী আয াগ, NPE 1986 আৰু আধ্ুমনক মিক্ষাগত সংস্কাৰৰ মুখয\nপৰামিযসমূৈ একমত্রত কযৰ।"
   }
 ];
 

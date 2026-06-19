@@ -78,63 +78,63 @@
   "asMcqs": [
     {
       "id": 1,
-      "question": "মাধ্ যমিক মিক্ষ াৰ বৃত্তিমুখীকৰণৰ মুখয উযেিয কি? [ID: LWJ-U1-036]",
+      "question": "মাধ্ যমমক মিক্ষ াৰ বৃমিমুখীকৰণৰ মুখয উযেিয মক? [ID: LWJ-U1-036]",
       "options": [
-        "ককেল পৰীক্ষ াৰ ন্িব ৰ বৃত্তি কৰা",
-        "শিক্ষার্থীক উৎপাদনিীল কযিসংস্থাপনৰ বাযব প্ৰস্তু ত কৰা",
-        "বযেৈাৰিক কাযযকলাপ হ্ৰাস কৰা",
-        "একাযিমিক বিষ বিযলাপ কৰা"
+        "ককেল পৰীক্ষ াৰ নম্ব ৰ বৃমি কৰা",
+        "মিক্ষাথীক উৎপাদনিীল কমযসংস্থাপনৰ বাযব প্ৰস্তু ত কৰা",
+        "বযেৈামৰক কাযযকলাপ হ্ৰ াস কৰা",
+        "একাযিমমক মবষ মবযলাপ কৰা"
       ],
       "correct": 1,
-      "explanation": "বৃত্তিমুখীকৰযণ মিক্ষ াথীক বযেৈামৰক দক্ষ তা আৰু কপছাগত কযাগযতাযৰ সমিত কমৰ কযিসংস্থ ান আৰু আত্মিনভযৰিীলতাৰ বাযব প্ৰস্তু ত কযৰ।\nHint: The focus is on work-oriented education.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "বৃমিমুখীকৰযণ মিক্ষ াথীক বযেৈামৰক দক্ষ তা আৰু কপছাগত কযাগযতাযৰ সমিত কমৰ কমযসংস্থ ান আৰু\nআত্মমনভযৰিীলতাৰ বাযব প্ৰস্তু ত কযৰ।\nHint: The focus is on work-oriented education.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 2,
-      "question": "এ া অঞ্চ লত বহু মিক্ষ াথীয বিদযাল মিক্ষ া স্িপূ ণয কৰাৰ পিছযতা যুে কবকাৰত্ব অধি্ ক। কোন মিক্ষ াগত পিতিয এই সসিযাৰ উিম সমাধ্ান দিব পাযৰ? [ID: LWJ-U1-037]",
+      "question": "এ া অঞ্চ লত বহু মিক্ষ াথীয মবদযাল মিক্ষ া সম্পূ ণয কৰাৰ মপছযতা যুে কবকাৰত্ব অমধ্ ক। ককান মিক্ষ াগত\nপিমতয এই সমসযাৰ উিম সমাধ্ান মদব পাযৰ ? [ID: LWJ-U1-037]",
       "options": [
-        "পৰীক্ষামুখী শিক্ষা",
-        "মিক্ষ াৰ বৃত্তিমুখীকৰণ",
-        "মুখস্থভিমিক শিক্ষা",
-        "বযেৈাৰিক কাযয হ্ৰাস"
+        "পৰীক্ষাযকমিক মিক্ষা",
+        "মিক্ষ াৰ বৃমিমুখীকৰণ",
+        "মুখস্থমভমিক মিক্ষা",
+        "বযেৈামৰক কাযয হ্ৰ াস"
       ],
       "correct": 1,
-      "explanation": "বৃত্তিমুখী মিক্ষ াই মিক্ষ াথীক কযযিাপযযাগী দক্ষ তা প্ৰ দান কমৰ মিক্ষ া আৰু কযিসংস্থ াপনৰ মােৰ বযেধ্ ান হ্ৰাস কযৰ।\nHint: The solution should directly improve employability.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "বৃমিমুখী মিক্ষ াই মিক্ষ াথীক কযমযাপযযাগী দক্ষ তা প্ৰ দান কমৰ মিক্ষ া আৰু কমযসংস্থ াপনৰ মােৰ বযেধ্ ান হ্ৰ াস কযৰ।\nHint: The solution should directly improve employability.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 3,
-      "question": "স্ব াধ্ীনতাৰ পিছত অসমত মাধ্যমিক শিক্ষাৰ বিকাশৰ এ া মুখয হবমিষ্টয কি আছিল? [ID: LWJ-U1-038]",
+      "question": "স্ব\nাধ্ীনতাৰ মপছত অসমত মাধ্যমমক মিক্ষাৰ মবকািৰ এ া মুখয হবমিষ্টয মক আমছল ? [ID: LWJ-U1-038]",
       "options": [
-        "বিদযাল ত নাভিতিয হ্ৰাস",
-        "শিক্ষানুষ্ঠানৰ স্িপ্ৰসাৰণ",
-        "গ্ৰাযি বিদযাল বন্ধ",
-        "বিজ্ঞান শিক্ষা বিযলাপ"
+        "মবদযাল ত নামভমতয হ্ৰ াস",
+        "মিক্ষানুষ্ঠানৰ সম্প্ৰসাৰণ",
+        "গ্ৰ াময মবদযাল বন্ধ",
+        "মবজ্ঞান মিক্ষা মবযলাপ"
       ],
       "correct": 1,
-      "explanation": "স্ব াধ্ীনতাৰ পিছত অসমত মাধ্যমিক বিদযাল আৰু শিক্ষাৰ সুযোগৰ উযেখযযাগয স্িপ্ৰসাৰণ টিছিল।\nHint: The trend was growth rather than reduction.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "স্ব\nাধ্ীনতাৰ মপছত অসমত মাধ্যমমক মবদযাল আৰু মিক্ষাৰ সুযযাগৰ উযেখযযাগয সম্প্ৰসাৰণ টিমছল।\nHint: The trend was growth rather than reduction.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 4,
-      "question": "স্ব াধ্ীনতাৰ পিছত অসমত মাধ্যমিক শিক্ষাৰ বিকািত কোন কাৰযক সবযাধি্ক গু ৰুত্বপূণয ভূমিকা পালন কৰিছিল? [ID: LWJ-U1-039]",
+      "question": "স্ব\nাধ্ীনতাৰ মপছত অসমত মাধ্যমমক মিক্ষাৰ মবকািত ককান কাৰযক সবযামধ্ক গু ৰুত্বপূণয ভূমমকা পালন কমৰমছল ? [ID: LWJ-U1-039]",
       "options": [
-        "চৰকাৰী বিনিয়াগ হ্ৰাস",
-        "বিদযাল স্িপ্ৰসাৰণ আৰু চৰকাৰী পদযক্ষপ",
-        "মিক্ষক প্ৰ মিক্ষণ সীমিতকৰণ",
-        "সাক্ষৰতা কাযযসূচী হ্ৰাস"
+        "চৰকাৰী মবমনয াগ হ্ৰ াস",
+        "মবদযাল সম্প্ৰসাৰণ আৰু চৰকাৰী পদযক্ষপ",
+        "মিক্ষক প্ৰ মিক্ষণ সীমমতকৰণ",
+        "সাক্ষৰতা কাযযসূচী হ্ৰ াস"
       ],
       "correct": 1,
-      "explanation": "চৰকাৰী নীতি, বিদযাল স্িপ্ৰ সাৰণ আৰু মিক্ষ াৰ প্ৰ মত সযচতনতা বৃত্তিয মিক্ষ াৰ বিকািত বিযিষ ভূমিকা পালন কৰিছিল।\nHint: Look for the option that combines institutional growth and policy support.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "চৰকাৰী নীমত, মবদযাল সম্প্ৰ সাৰণ আৰু মিক্ষ াৰ প্ৰ মত সযচতনতা বৃমিয মিক্ষ াৰ মবকািত মবযিষ ভূমমকা পালন\nকমৰমছল।\nHint: Look for the option that combines institutional growth and policy support.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 5,
-      "question": "এ া গ্ৰাযি মেলাত বিদযাল আযছ, কিন্তু পযযাপ্ত মিক্ষক, পৰীক্ষাগাৰ আৰু মিক্ষণ স্িপদ নাই। এই অেস্থাই অসৰি মাধ্যমিক শিক্ষাৰ কোন সসিযাক সবযাধি্ক সঠিকভাযে প্ৰ তিফলিত কযৰ? [ID: LWJ-U1-040]",
+      "question": "এ া গ্ৰ াময মেলাত মবদযাল আযছ , মকন্তু পযযাপ্ত মিক্ষক , পৰীক্ষাগাৰ আৰু মিক্ষণ সম্পদ নাই। এই অেস্থাই অসমৰ\nমাধ্যমমক মিক্ষাৰ ককান সমসযাক সবযামধ্ক সঠিকভাযে প্ৰ মতফমলত কযৰ ? [ID: LWJ-U1-040]",
       "options": [
-        "অত্যাধিক ক বৃত্তিমুখীকৰণ",
-        "শিক্ষাগত সুবিধ্াৰ অসম বণ্টন",
-        "আন্তঃগাঁথনিৰ অত্যাধিক উন্ন ন",
-        "শিক্ষাৰ প্ৰ মত চামৈদাৰ অভাৱ"
+        "অতযামধ্ ক বৃমিমুখীকৰণ",
+        "মিক্ষাগত সুমবধ্াৰ অসম বণ্টন",
+        "আন্তঃগাঁথমনৰ অতযামধ্ক উন্ন ন",
+        "মিক্ষাৰ প্ৰ মত চামৈদাৰ অভাে"
       ],
       "correct": 1,
-      "explanation": "শিক্ষাগত স্িপদৰ অসম বণ্টন এমতাও সকযলা অঞ্চলত গু ণগত মাধ্যমিক শিক্ষা নিমিত কৰাৰ কক্ষত্রত এক গু ৰুত্বপূণয সসিযা।\nHint: The problem is not access alone, but unequal quality of facilities.\n\n\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nREGISTRY UPDATE\nGenerated:\n✓ LWJ-U1-036\n✓ LWJ-U1-037\n✓ LWJ-U1-038\n✓ LWJ-U1-039\n✓ LWJ-U1-040\nCoverage Status:\n✓ Topic 8 – Vocationalisation of Secondary Education (Completed)\n✓ Topic 9 – Development of Secondary Education in Assam (Started)\nDifficulty Audit (001–040)\nEasy = 11\nModerate = 22\nHard = 7\nBloom Coverage\n✓ Remember\n✓ Understand\n✓ Apply\n✓ Analyze\n✓ Evaluate\nMCQ Type Coverage\n✓ Concept-Based\n✓ Application-Based\n✓ Comparative\n✓ Scenario-Based\n✓ Assertion-Reason\n✓ Analytical\nDuplicate Check:\n✓ Passed\nAHSEC Boundary Check:\n✓ Passed\nNext MCQ ID:\nLWJ-U1-041\nNext Target Range:\nLWJ-U1-041 → LWJ-U1-045\n\n\n\nStatus:\nWebsite Ready\nAssessment Engine Ready\nAI Tutor Ready\nRegistry Continuity Maintained\nLEARNWITHJULFY PLATINUM MCQ BANK ENGINE\nUNIT I – Development of Secondary Education in India and Assam\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "মিক্ষাগত সম্পদৰ অসম বণ্টন এমত াও সকযলা অঞ্চলত গু ণগত মাধ্যমমক মিক্ষা মনমিত কৰাৰ কক্ষত্রত এক\n গু\nৰুত্বপূণয সমসযা।\nHint: The problem is not access alone, but unequal quality of facilities.\n\n\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nREGISTRY UPDATE\nGenerated:\n✓ LWJ-U1-036\n✓ LWJ-U1-037\n✓ LWJ-U1-038\n✓ LWJ-U1-039\n✓ LWJ-U1-040\nCoverage Status:\n✓ Topic 8 – Vocationalisation of Secondary Education (Completed)\n✓ Topic 9 – Development of Secondary Education in Assam (Started)\nDifficulty Audit (001–040)\nEasy = 11\nModerate = 22\nHard = 7\nBloom Coverage\n✓ Remember\n✓ Understand\n✓ Apply\n✓ Analyze\n✓ Evaluate\nMCQ Type Coverage\n✓ Concept-Based\n✓ Application-Based\n✓ Comparative\n✓ Scenario-Based\n✓ Assertion-Reason\n✓ Analytical\nDuplicate Check:\n✓ Passed\nAHSEC Boundary Check:\n✓ Passed\nNext MCQ ID:\nLWJ-U1-041\nNext Target Range:\nLWJ-U1-041 → LWJ-U1-045\n\n\n\nStatus:\nWebsite Ready\nAssessment Engine Ready\nAI Tutor Ready\nRegistry Continuity Maintained\nLEARNWITHJULFY PLATINUM MCQ BANK ENGINE\nUNIT I – Development of Secondary Education in India and Assam\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     }
   ]
 }

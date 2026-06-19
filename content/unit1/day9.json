@@ -78,63 +78,63 @@
   "asMcqs": [
     {
       "id": 1,
-      "question": "স্ব াধ্ীনতাৰ পিছত অসমত মাধ্যমিক শিক্ষা শক্তিশালী কৰাৰ কক্ষত্রত কোন কাৰযক গু ৰুত্বপূণয ভূমিকা পালন কৰিছিল? [ID: LWJ-U1-041]",
+      "question": "স্ব\nাধ্ীনতাৰ মপছত অসমত মাধ্যমমক মিক্ষা িমক্তিালী কৰাৰ কক্ষত্রত ককান কাৰযক গু ৰুত্বপূণয ভূমমকা পালন\nকমৰমছল? [ID: LWJ-U1-041]",
       "options": [
-        "শিক্ষানুষ্ঠান বন্ধ কৰা",
-        "চৰকাৰী সৈা আৰু শিক্ষাৰ স্িপ্ৰসাৰণ",
-        "মিক্ষক নিযুকি্ত হ্ৰাস",
-        "বিজ্ঞান বিষ বিযলাপ"
+        "মিক্ষানুষ্ঠান বন্ধ কৰা",
+        "চৰকাৰী সৈা আৰু মিক্ষাৰ সম্প্ৰসাৰণ",
+        "মিক্ষক মনযুমক্ত হ্ৰ াস",
+        "মবজ্ঞান মবষ মবযলাপ"
       ],
       "correct": 1,
-      "explanation": "চৰকাৰী পদযক্ষপ, মিক্ষ ানুষ্ঠ ানৰ বৃত্তি আৰু মিক্ষ াগত পৰিকল্প নাই অসমত মাধ্ যমিক মিক্ষ া িকি্ত িালী কৰাত সৈা কৰিছিল।\nHint: Think about policies that expand educational opportunities.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "চৰকাৰী পদযক্ষপ , মিক্ষ ানুষ্ঠ ানৰ বৃমি আৰু মিক্ষ াগত পমৰকল্প নাই অসমত মাধ্ যমমক মিক্ষ া িমক্ত িালী কৰাত সৈা\nকমৰমছল।\nHint: Think about policies that expand educational opportunities.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 2,
-      "question": "এই নায়াযে কোন শিক্ষাগত সসিযাক উজ্জ্বলভাযে প্ৰ কাি কযৰ? [ID: LWJ-U1-042]",
+      "question": "এই নায াযে ককান মিক্ষাগত সমসযাক উজ্জ্বলভাযে প্ৰ কাি কযৰ ? [ID: LWJ-U1-042]",
       "options": [
-        "অত্যাধিক ক বৃত্তিমুখীকৰণ",
-        "শিক্ষাগত অসতিা",
-        "বিশ্ববিদ্যালয় ত অতিমাত্রা ভিৰ",
-        "পৰীক্ষাৰ অভাৱ"
+        "অতযামধ্ ক বৃমিমুখীকৰণ",
+        "মিক্ষাগত অসমতা",
+        "মবশ্বমবদযাল ত অমতমাত্রা মভৰ",
+        "পৰীক্ষাৰ অভাে"
       ],
       "correct": 1,
-      "explanation": "সুবিধ্া আৰু শিক্ষাগত স্িপদৰ পার্থক্যই অঞ্চলসমূৈৰ মােত শিক্ষাগত অসতিা প্ৰ কাি কযৰ।\nHint: Compare the quality of educational opportunities available in both districts.\n\n\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "সুমবধ্া আৰু মিক্ষাগত সম্পদৰ পাথযকযই অঞ্চলসমূৈৰ মােত মিক্ষাগত অসমতা প্ৰ কাি কযৰ।\nHint: Compare the quality of educational opportunities available in both districts.\n\n\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 3,
-      "question": "গ্ৰাযি অসমত মাধ্যমিক শিক্ষাৰ গু ণগত মান উন্নত কৰাৰ বাযব কোন বযেস্থা সবযাধি্ক ফলপ্ৰসূ ৈ’ব? [ID: LWJ-U1-043]",
+      "question": "গ্ৰ\nাময অসমত মাধ্যমমক মিক্ষাৰ গু ণগত মান উন্নত কৰাৰ বাযব ককান বযেস্থা সবযামধ্ক ফলপ্ৰসূ ৈ’ব ? [ID: LWJ-U1-043]",
       "options": [
-        "মিক্ষক প্ৰ মিক্ষণ হ্ৰাস কৰা",
-        "পৰীক্ষ াৰ চাপ বৃত্তি কৰা",
-        "আন্তঃগাঁথনি আৰু মিক্ষকৰ গু ণগত মান উন্নত কৰা",
-        "শিক্ষাৰ সুযযাগ সীমিত কৰা"
+        "মিক্ষক প্ৰ মিক্ষণ হ্ৰ াস কৰা",
+        "পৰীক্ষ াৰ চাপ বৃমি কৰা",
+        "আন্তঃগাঁথমন আৰু মিক্ষকৰ গু ণগত মান উন্নত কৰা",
+        "মিক্ষাৰ সুযযাগ সীমমত কৰা"
       ],
       "correct": 2,
-      "explanation": "গু ণগত শিক্ষা দক্ষ মিক্ষক, উপযুক্ত আন্তঃগাঁথনি আৰু মিক্ষণ স্িপদৰ ওপৰত মনভযৰিীল।\nHint: The best solution should directly improve learning conditions.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "গু\nণগত মিক্ষা দক্ষ মিক্ষক , উপযুক্ত আন্তঃগাঁথমন আৰু মিক্ষণ সম্পদৰ ওপৰত মনভযৰিীল।\nHint: The best solution should directly improve learning conditions.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 4,
-      "question": "মুডালিয়াৰ আৰু কোঠাৰী আয়োগৰ পৰামিযসমূৈ আমেও কিপ্ৰাসংগিক বুমল গণয কৰা ৈ? [ID: LWJ-U1-044]",
+      "question": "মুদামল াৰ আৰু ককাঠাৰী আয াগৰ পৰামিযসমূৈ আমেও মকপ্ৰ াসংমগক বুমল গণয কৰা ৈ ? [ID: LWJ-U1-044]",
       "options": [
-        "কতওঁযলাযক ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব দিছিল।",
-        "কতওঁযলাযক গু ণগত মান, সতিা আৰু জাতীয় উন্ন নৰ বিষ সমূৈ সয্িবাধ্ন কৰিছিল।",
-        "কতওঁযলাযক শিক্ষাগত সংস্কাৰ মনৰুৎসামৈত কৰিছিল।",
-        "কতওঁযলাযক বৃত্তিমুখী মিক্ষ া বিযলাপ কৰিছিল।"
+        "কতওঁযলাযক ককেল পৰীক্ষাৰ ওপৰত গু ৰুত্ব মদমছল।",
+        "কতওঁযলাযক গু ণগত মান , সমতা আৰু োতী উন্ন নৰ মবষ সমূৈ সযম্বাধ্ন কমৰমছল।",
+        "কতওঁযলাযক মিক্ষাগত সংস্কাৰ মনৰুৎসামৈত কমৰমছল।",
+        "কতওঁযলাযক বৃমিমুখী মিক্ষ া মবযলাপ কমৰমছল।"
       ],
       "correct": 1,
-      "explanation": "শিক্ষাৰ গু ণগত মান, সতিা, বৃত্তিমুখীকৰণ আৰু জাতীয় উন্ন নৰ হসযত েডিত বহু পৰামিয আমেও অতযন্ত প্ৰাসংগিক।\nHint: Consider the long-term educational goals addressed by both commissions.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "মিক্ষাৰ গু ণগত মান , সমতা, বৃমিমুখীকৰণ আৰু োতী উন্ন নৰ হসযত েমডত বহু পৰামিয আমেও অতযন্ত\n প্ৰ\nাসংমগক।\nHint: Consider the long-term educational goals addressed by both commissions.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     },
     {
       "id": 5,
-      "question": "এখন ৰােয চৰকাৰে মাধ্ যমিক মিক্ষ া সংস্ক াৰৰ বাযব বৃত্তিমূলক প্ৰ মিক্ষ ণ উন্ন ত কৰা, বিজ্ঞান শিক্ষা শক্তিশালী কৰা আৰু সকযলা শিক্ষাৰ্থীৰ বাযব সমান সুযযাগ নিমিত কৰাৰ পৰিকল্পনায়কৰিযছ। এই সংস্কাৰসমূৈ কোন শিক্ষাগত দৃষি্ট ভংগীৰ হসযত অধি্ ক মিল খা? [ID: LWJ-U1-045]",
+      "question": "এখন ৰােয চৰকাযৰ মাধ্ যমমক মিক্ষ া সংস্ক াৰৰ বাযব বৃমিমূলক প্ৰ মিক্ষ ণ উন্ন ত কৰা, মবজ্ঞান মিক্ষা িমক্তিালী কৰা\nআৰু সকযলা মিক্ষাথীৰ বাযব সমান সুযযাগ মনমিত কৰাৰ পমৰকল্পনা কমৰযছ। এই সংস্কাৰসমূৈ ককান মিক্ষাগত\nদৃমষ্ট ভংগীৰ হসযত অমধ্ ক মমল খা ? [ID: LWJ-U1-045]",
       "options": [
-        "পৰীক্ষামুখী শিক্ষা",
-        "মুডালিয়াৰ আৰু কোঠাৰী আয়োগৰ সমিিত দৃষি্ট ভংগী",
-        "মাধ্যমিক শিক্ষা বিযলাপ",
-        "শিক্ষাৰ সুযযাগ সীমিতকৰণ"
+        "পৰীক্ষাযকমিক মিক্ষা",
+        "মুদামল াৰ আৰু ককাঠাৰী আয াগৰ সমমিত দৃমষ্ট ভংগী",
+        "মাধ্যমমক মিক্ষা মবযলাপ",
+        "মিক্ষাৰ সুযযাগ সীমমতকৰণ"
       ],
       "correct": 1,
-      "explanation": "এই সংস্কাৰসমূযৈ মুডালিয়াৰ আৰু কোঠাৰী আয়োগৰ মূল ধ্ াৰণাসমূৈ —বৃত্তিমূলক দক্ষ তা, বিজ্ঞান শিক্ষা, সতিা আৰু জাতীয় উন্ন ন —সমিিতভাযে অন্তভুযক্ত কযৰ।\nHint: Look for the option that integrates recommendations from both commissions.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nREGISTRY UPDATE\nGenerated:\n✓ LWJ-U1-041\n✓ LWJ-U1-042\n✓ LWJ-U1-043\n✓ LWJ-U1-044\n✓ LWJ-U1-045\nCoverage Status:\n✓ Topic 9 – Development of Secondary Education in Assam (Completed)\n✓ Topic 10 – Current Relevance and Educational Reforms (Started)\nDifficulty Audit (001–045)\nEasy = 11\nModerate = 23\nHard = 11\nBloom Coverage\n✓ Remember\n✓ Understand\n✓ Apply\n✓ Analyze\n✓ Evaluate\n✓ Create\nMCQ Type Coverage\n✓ Concept-Based\n✓ Application-Based\n✓ Comparative\n✓ Scenario-Based\n✓ Assertion-Reason\n✓ Analytical\n✓ Case-Based\n✓ Board Prediction\n\n\n\nDuplicate Check:\n✓ Passed\nAHSEC Boundary Check:\n✓ Passed\nNext MCQ ID:\nLWJ-U1-046\nNext Target Range:\nLWJ-U1-046 → LWJ-U1-050\nStatus:\nWebsite Ready\nAssessment Engine Ready\nAI Tutor Ready\nRegistry Continuity Maintained\nLEARNWITHJULFY PLATINUM MCQ BANK ENGINE\nUNIT I – Development of Secondary Education in India and Assam\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      "explanation": "এই সংস্কাৰসমূযৈ মুদামল াৰ আৰু ককাঠাৰী আয াগৰ মূল ধ্ াৰণাসমূৈ —বৃমিমূলক দক্ষ তা, মবজ্ঞান মিক্ষা , সমতা আৰু\nোতী উন্ন ন —সমমিতভাযে অন্তভুযক্ত কযৰ।\nHint: Look for the option that integrates recommendations from both commissions.\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nREGISTRY UPDATE\nGenerated:\n✓ LWJ-U1-041\n✓ LWJ-U1-042\n✓ LWJ-U1-043\n✓ LWJ-U1-044\n✓ LWJ-U1-045\nCoverage Status:\n✓ Topic 9 – Development of Secondary Education in Assam (Completed)\n✓ Topic 10 – Current Relevance and Educational Reforms (Started)\nDifficulty Audit (001–045)\nEasy = 11\nModerate = 23\nHard = 11\nBloom Coverage\n✓ Remember\n✓ Understand\n✓ Apply\n✓ Analyze\n✓ Evaluate\n✓ Create\nMCQ Type Coverage\n✓ Concept-Based\n✓ Application-Based\n✓ Comparative\n✓ Scenario-Based\n✓ Assertion-Reason\n✓ Analytical\n✓ Case-Based\n✓ Board Prediction\n\n\n\nDuplicate Check:\n✓ Passed\nAHSEC Boundary Check:\n✓ Passed\nNext MCQ ID:\nLWJ-U1-046\nNext Target Range:\nLWJ-U1-046 → LWJ-U1-050\nStatus:\nWebsite Ready\nAssessment Engine Ready\nAI Tutor Ready\nRegistry Continuity Maintained\nLEARNWITHJULFY PLATINUM MCQ BANK ENGINE\nUNIT I – Development of Secondary Education in India and Assam\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     }
   ]
 }

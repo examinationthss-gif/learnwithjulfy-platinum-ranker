@@ -2,11 +2,12 @@ const fs = require('fs');
 
 const text = fs.readFileSync('pdf_text_dump.txt', 'utf8');
 
-// The text has footer strings like "-- X of Y --" interspersed because of page breaks.
-// Let's first remove the "-- \d+ of \d+ --" lines to clean it up.
-const cleanedText = text.replace(/-- \d+ of \d+ --/g, '');
+const cleanedText = text
+    .replace(/-- \d+ of \d+ --/g, '')
+    .replace(/\x0C/g, '')
+    .replace(/\r\n/g, '\n');
 
-const mcqBlocks = cleanedText.split(/MCQ \d+/);
+const mcqBlocks = cleanedText.split(/MCQ (?=\d{3})/);
 console.log('Total split blocks:', mcqBlocks.length);
 
 const mcqs = [];
@@ -17,7 +18,18 @@ for (let i = 1; i < mcqBlocks.length; i++) {
     if (!block) continue;
     
     // Extract metadata
-    const mcqIdMatch = block.match(/MCQ ID:\s*([^\r\n]+)/);
+    const mcqIdMatch = block.match(/MCQ ID:\s*(LWJ-U1-\d{3})/);
+    if (!mcqIdMatch) {
+        continue;
+    }
+    
+    // De-duplicate blocks matching registry summaries or metadata notes
+    if (block.includes("Registry Status") || block.includes("REGISTRY UPDATE") || block.includes("Next MCQ ID:")) {
+        if (!block.startsWith(mcqIdMatch[1].replace("LWJ-U1-", ""))) {
+            continue;
+        }
+    }
+    
     const unitMatch = block.match(/Unit:\s*([^\r\n]+)/);
     const dayMatch = block.match(/Day:\s*([^\r\n]+)/);
     const topicMatch = block.match(/Topic:\s*([^\r\n]+)/);
@@ -42,10 +54,8 @@ for (let i = 1; i < mcqBlocks.length; i++) {
         englishQuestion = block.substring(eqIdx + 'English Question:'.length, aqIdx).trim();
     }
     
-    // Find option blocks starting with A. B. C. D.
-    // For English: options are usually after the Assamese Question or English Question.
-    // Let's find all occurrences of options.
-    const optRegex = /([A-D])\.\s*([^\r\n]+)/g;
+    // Match options prefix A. B. C. D. anywhere within the block sequentially
+    const optRegex = /\n([A-D])\.\s*([^\r\n]+)/g;
     let match;
     const allOptions = [];
     while ((match = optRegex.exec(block)) !== null) {
@@ -56,14 +66,15 @@ for (let i = 1; i < mcqBlocks.length; i++) {
         });
     }
     
-    // Usually, the first A, B, C, D are English options, and the second A, B, C, D are Assamese options.
-    // Let's sort them by index and divide them.
-    allOptions.sort((a, b) => a.index - b.index);
-    
-    // Sometimes there are other A, B, C, D in text, let's filter carefully.
-    // Let's separate English and Assamese options.
-    const engOpts = allOptions.slice(0, 4).map(o => o.text);
-    const asOpts = allOptions.slice(4, 8).map(o => o.text);
+    const engOpts = [];
+    const asOpts = [];
+    allOptions.forEach(o => {
+        if (engOpts.length < 4) {
+            engOpts.push(o.text);
+        } else if (asOpts.length < 4) {
+            asOpts.push(o.text);
+        }
+    });
     
     // Extract Assamese question text
     if (aqIdx !== -1) {
@@ -96,9 +107,16 @@ for (let i = 1; i < mcqBlocks.length; i++) {
     else if (correctLetter === 'D') correctIndex = 3;
     
     // Create the final object
+    const mcqId = mcqIdMatch[1].trim();
+    
+    // De-duplicate: check if mcqId already exists in extracted list
+    if (mcqs.some(item => item.mcqId === mcqId)) {
+        continue;
+    }
+
     mcqs.push({
         id: mcqs.length + 1,
-        mcqId: mcqIdMatch ? mcqIdMatch[1].trim() : '',
+        mcqId: mcqId,
         unit: unitMatch ? unitMatch[1].trim() : '',
         day: dayMatch ? dayMatch[1].trim() : '',
         topic: topicMatch ? topicMatch[1].trim() : '',
