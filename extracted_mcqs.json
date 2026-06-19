@@ -1,1 +1,137 @@
-[]
+[
+  {
+    "id": 1,
+    "mcqId": "LWJ-U1-001",
+    "unit": "Unit I",
+    "day": "Day 1",
+    "topic": "Mudaliar Commission (1952–53)",
+    "subtopic": "Establishment",
+    "difficulty": "Easy",
+    "enQuestion": "In which year was the Secondary Education Commission appointed?",
+    "asQuestion": "মাধ্যমিক শিক্ষা আয়োগ কোন বছৰত নিযুক্ত কৰা হৈছিল?",
+    "enOptions": [
+      "1948",
+      "1952",
+      "1964",
+      "1986"
+    ],
+    "asOptions": [
+      "১৯৪৮",
+      "১৯৫২",
+      "১৯৬৪",
+      "১৯৮৬"
+    ],
+    "correctIndex": 1,
+    "enExplanation": "The Secondary Education Commission was appointed by the Government of India in 1952.",
+    "asExplanation": "ভাৰত চৰকাৰে ১৯৫২ চনত মাধ্যমিক শিক্ষা আয়োগ নিযুক্ত কৰিছিল।",
+    "hint": "Remember the year immediately after the First Five-Year Plan began."
+  },
+  {
+    "id": 2,
+    "mcqId": "LWJ-U1-002",
+    "unit": "Unit I",
+    "day": "Day 1",
+    "topic": "Mudaliar Commission",
+    "subtopic": "Chairman",
+    "difficulty": "Easy",
+    "enQuestion": "Who was the Chairman of the Secondary Education Commission?",
+    "asQuestion": "মাধ্যমিক শিক্ষা আয়োগৰ সভাপতি কোন আছিল?",
+    "enOptions": [
+      "D. S. Kothari",
+      "A. Lakshmanaswami Mudaliar",
+      "J. P. Naik",
+      "Zakir Hussain"
+    ],
+    "asOptions": [
+      "ডি. এছ. কোঠাৰী",
+      "এ. লক্ষ্মণস্বামী মুদালিয়াৰ",
+      "জে. পি. নায়ক",
+      "জাকিৰ হুছেইন"
+    ],
+    "correctIndex": 1,
+    "enExplanation": "The Commission was chaired by Dr. A. Lakshmanaswami Mudaliar.",
+    "asExplanation": "ড° এ. লক্ষ্মণস্বামী মুদালিয়াৰ এই আয়োগৰ সভাপতি আছিল।",
+    "hint": "The Commission is popularly known by the Chairman's surname."
+  },
+  {
+    "id": 3,
+    "mcqId": "LWJ-U1-003",
+    "unit": "Unit I",
+    "day": "Day 2",
+    "topic": "Mudaliar Commission",
+    "subtopic": "Purpose",
+    "difficulty": "Easy",
+    "enQuestion": "Why was the Secondary Education Commission appointed?",
+    "asQuestion": "মাধ্যমিক শিক্ষা আয়োগ কিয় নিযুক্ত কৰা হৈছিল?",
+    "enOptions": [
+      "To reform higher education",
+      "To examine and improve secondary education",
+      "To establish universities",
+      "To regulate primary schools"
+    ],
+    "asOptions": [
+      "উচ্চ শিক্ষাৰ সংস্কাৰৰ বাবে",
+      "মাধ্যমিক শিক্ষা পৰ্যালোচনা আৰু উন্নয়নৰ বাবে",
+      "বিশ্ববিদ্যালয় স্থাপনৰ বাবে",
+      "প্ৰাথমিক বিদ্যালয় নিয়ন্ত্ৰণৰ বাবে"
+    ],
+    "correctIndex": 1,
+    "enExplanation": "The Commission was formed to study the problems of secondary education and suggest reforms.",
+    "asExplanation": "মাধ্যমিক শিক্ষাৰ সমস্যা অধ্যয়ন কৰি উন্নয়নৰ পৰামৰ্শ দিবলৈ এই আয়োগ গঠন কৰা হৈছিল।",
+    "hint": "Its focus was the secondary stage of education."
+  },
+  {
+    "id": 4,
+    "mcqId": "LWJ-U1-004",
+    "unit": "Unit I",
+    "day": "Day 2",
+    "topic": "Mudaliar Commission",
+    "subtopic": "Educational Context",
+    "difficulty": "Easy",
+    "enQuestion": "Which educational level was directly studied by the Mudaliar Commission?",
+    "asQuestion": "মুদালিয়াৰ আয়োগে প্ৰত্যক্ষভাৱে কোন শিক্ষাস্তৰ অধ্যয়ন কৰিছিল?",
+    "enOptions": [
+      "Primary Education",
+      "Secondary Education",
+      "University Education",
+      "Adult Education"
+    ],
+    "asOptions": [
+      "প্ৰাথমিক শিক্ষা",
+      "মাধ্যমিক শিক্ষা",
+      "বিশ্ববিদ্যালয় শিক্ষা",
+      "প্ৰাপ্তবয়স্ক শিক্ষা"
+    ],
+    "correctIndex": 1,
+    "enExplanation": "The Commission specifically examined the structure, curriculum and problems of secondary education.",
+    "asExplanation": "আয়োগে মাধ্যমিক শিক্ষাৰ গঠন, পাঠ্যক্ৰম আৰু সমস্যাসমূহ অধ্যয়ন কৰিছিল।",
+    "hint": "Its official name itself gives the answer."
+  },
+  {
+    "id": 5,
+    "mcqId": "LWJ-U1-005",
+    "unit": "Unit I",
+    "day": "Day 3",
+    "topic": "Defects of Secondary Education",
+    "subtopic": "Bookish Education",
+    "difficulty": "Easy",
+    "enQuestion": "Which defect of secondary education was strongly criticized by the Mudaliar Commission?",
+    "asQuestion": "মুদালিয়াৰ আয়োগে মাধ্যমিক শিক্ষাৰ কোন ত্ৰুটিটোক তীব্ৰভাৱে সমালোচনা কৰিছিল?",
+    "enOptions": [
+      "Excessive practical work",
+      "Bookish and examination-oriented education",
+      "Excessive sports activities",
+      "Lack of libraries"
+    ],
+    "asOptions": [
+      "অত্যাধিক ব্যৱহাৰিক কাম",
+      "পুথিগত আৰু পৰীক্ষাকেন্দ্ৰিক শিক্ষা",
+      "অত্যাধিক ক্ৰীড়া কাৰ্যসূচী",
+      "পুথিভঁৰালৰ অভাৱ"
+    ],
+    "correctIndex": 1,
+    "enExplanation": "The Commission believed that education had become too book-centered and examination-driven.",
+    "asExplanation": "আয়োগৰ মতে শিক্ষা অত্যাধিক পুথিগত আৰু পৰীক্ষামুখী হৈ পৰিছিল।",
+    "hint": "The criticism was against rote learning."
+  }
+]
