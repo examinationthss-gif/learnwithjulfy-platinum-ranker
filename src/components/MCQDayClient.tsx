@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ArrowLeft, ChevronLeft, ChevronRight, Trophy, BookOpen, AlertCircle } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import { useStudent } from "@/context/StudentContext";
 
 interface MCQ {
   id: number;
@@ -35,6 +36,7 @@ export default function MCQDayClient({
   unitTitleAs,
 }: MCQDayClientProps) {
   const { language, t, formatNumber } = useLanguage();
+  const { awardXP, checkAndAwardBadges } = useStudent();
   const [mounted, setMounted] = useState(false);
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, number>>({});
   const [savedScore, setSavedScore] = useState<{ score: number; total: number } | null>(null);
@@ -83,6 +85,18 @@ export default function MCQDayClient({
 
       const scoreRecord = { score, total: activeMcqs.length };
       setSavedScore(scoreRecord);
+
+      // Award XP for each correct answer (+2 XP per correct answer)
+      activeMcqs.forEach((mcq) => {
+        if (newAnswers[mcq.id] === mcq.correct) {
+          awardXP("MCQ_CORRECT_FIRST_TRY", `MCQ: ${unitId}-${dayId}-${mcq.id}`);
+        }
+      });
+      // Award XP for completing the set (+20 XP)
+      awardXP("COMPLETE_MCQ_SET", `${unitId}-${dayId}`);
+      if (typeof checkAndAwardBadges === "function") {
+        checkAndAwardBadges();
+      }
 
       // Save to localStorage
       const savedProgress = localStorage.getItem("julfy-mcq-progress") || "{}";

@@ -188,31 +188,303 @@ const syllabusTopics: Record<string, Record<number, { enTitle: string; asTitle: 
   },
   "unit-3": {
     1: {
-      enTitle: "Environmental Education - Importance and Aims",
-      asTitle: "পৰিৱেশ শিক্ষা - গুৰুত্ব আৰু লক্ষ্যসমূহ",
-      enConcept: "Studying the role of environmental education in creating eco-conscious citizens and conservation efforts.",
-      asConcept: "পৰিৱেশ সচেতন নাগৰিক আৰু সংৰক্ষণৰ প্ৰয়াস গঢ়ি তোলাত পৰিৱেশ শিক্ষাৰ ভূমিকা অধ্যয়ন কৰা।",
-      enExplanation: "Environmental Education aims at developing a world population that is aware of and concerned about the environment and its associated problems. It seeks to provide knowledge, attitudes, motivation, commitment, and skills to work individually and collectively toward solutions of current problems.",
-      asExplanation: "পৰিৱেশ শিক্ষাৰ লক্ষ্য হৈছে পৰিৱেশ আৰু ইয়াৰ সৈতে জড়িত সমস্যাসমূহৰ বিষয়ে সচেতন আৰু চিন্তিত বিশ্বৰ এক জনসমষ্টি গঢ়ি তোলা। ই জ্ঞান, মনোভাৱ, প্ৰেৰণা, প্ৰতিশ্ৰুতি আৰু দক্ষতা প্ৰদান কৰিবলৈ বিচাৰে যাতে বৰ্তমানৰ সমস্যাসমূহৰ সমাধানৰ বাবে কাম কৰিব পৰা যায়।",
+      enTitle: "Environmental Education (Part-1) - Meaning, Definitions, Aims, Objectives, Need and Importance",
+      asTitle: "পৰিৱেশ শিক্ষা (খণ্ড-১) - অৰ্থ, সংজ্ঞা, লক্ষ্য, উদ্দেশ্য, প্ৰয়োজনীয়তা আৰু গুৰুত্ব",
+      enConcept: "Define Environment and Environmental Education, explaining their aims, objectives, and need in modern society.",
+      asConcept: "পৰিৱেশ আৰু পৰিৱেশ শিক্ষাৰ সংজ্ঞা, ইয়াৰ লক্ষ্য, উদ্দেশ্য আৰু আধুনিক সমাজত ইয়াৰ প্ৰয়োজনীয়তা ব্যাখ্যা কৰা।",
+      enExplanation: "Environmental Education (EE) is the process of developing knowledge, awareness, attitudes, and skills for environmental protection and conservation. Douglas and Holland define environment as the aggregate of all external conditions affecting an organism. UNESCO defines EE as a process aimed at developing a world population aware of and concerned about the environment and its problems.",
+      asExplanation: "পৰিৱেশ শিক্ষা হ'ল পৰিৱেশ সংৰক্ষণ আৰু সুৰক্ষাৰ বাবে জ্ঞান, সচেতনতা, মনোভাৱ আৰু দক্ষতা বিকাশৰ প্ৰক্ৰিয়া। ডগলাছ আৰু হলাণ্ডৰ মতে, পৰিৱেশ হ'ল এটা জীৱক প্ৰভাৱিত কৰা সকলো বাহ্যিক অৱস্থাৰ সমষ্টি। ইউনেস্কোৰ মতে, পৰিৱেশ শিক্ষা হ'ল পৰিৱেশ আৰু ইয়াৰ সমস্যাসমূহৰ বিষয়ে সচেতন আৰু চিন্তিত বিশ্বৰ এক জনসমষ্টি গঢ়ি তোলাৰ প্ৰক্ৰিয়া।",
       enPoints: [
-        "Awareness: Gain sensitivity towards the environment and ecological challenges.",
-        "Attitude: Build strong values and motivation to participate in conservation.",
-        "Skills: Identify and solve local environmental issues programmatically."
+        "Environment: Everything surrounding a living organism (physical, biological, and social factors).",
+        "Aims: Create awareness, develop positive attitudes toward nature, conserve natural resources, prevent pollution, and promote sustainable development.",
+        "Objectives (AKASP): Awareness, Knowledge, Attitude, Skills, and Participation.",
+        "Need: Essential due to rising pollution, depletion of resources, population pressure, and climate change."
       ],
       asPoints: [
-        "সচেতনতা: পৰিৱেশ আৰু পৰিৱেশগত প্ৰত্যাহ্বানসমূহৰ প্ৰতি সংবেদনশীলতা লাভ কৰা।",
-        "মনোভাৱ: সংৰক্ষণত অংশগ্ৰহণ কৰিবলৈ দৃঢ় মূল্যবোধ আৰু অনুপ্ৰেৰণা গঢ়ি তোলা।",
-        "দক্ষতা: স্থানীয় পৰিৱেশৰ সমস্যাসমূহ চিনাক্ত আৰু সমাধান কৰা।"
+        "পৰিৱেশ: জীৱক ঘেৰি থকা সকলো বস্তু, অৱস্থা আৰু শক্তি (ভৌতিক, জৈৱিক আৰু সামাজিক উপাদান)।",
+        "লক্ষ্যসমূহ: সচেতনতা সৃষ্টি কৰা, ইতিবাচক মনোভাৱ গঢ়া, প্ৰাকৃতিক সম্পদ সংৰক্ষণ কৰা, দূষণ ৰোধ কৰা আৰু স্থায়ী উন্নয়ন সাধন কৰা।",
+        "উদ্দেশ্যসমূহ: সজাগতা, জ্ঞান, মনোভাৱ, দক্ষতা আৰু অংশগ্ৰহণ।",
+        "প্ৰয়োজনীয়তা: ক্ৰমবৰ্ধমান পৰিৱেশ দূষণ, প্ৰাকৃতিক সম্পদৰ ক্ষয়, জনসংখ্যা বৃদ্ধিৰ চাপ আৰু জলবায়ু পৰিৱৰ্তনৰ বাবে প্ৰয়োজনীয়।"
       ],
-      enTip: "Remember the Tbilisi Declaration (1977) objectives: Awareness, Knowledge, Attitude, Skills, and Participation.",
-      asTip: "তবিলিচি ঘোষণা (১৯৭৭) ৰ উদ্দেশ্যসমূহ মনত ৰাখিব: সচেতনতা, জ্ঞান, মনোভাৱ, দক্ষতা আৰু অংশগ্ৰহণ।",
+      enTip: "For a 2-mark answer, write the concise definition of Environmental Education: 'It is the process of developing knowledge, awareness, attitudes and skills for environmental protection and conservation.'",
+      asTip: "২ নম্বৰৰ প্ৰশ্নৰ বাবে পৰিৱেশ শিক্ষাৰ চমু সংজ্ঞা লিখক: 'পৰিৱেশ শিক্ষা হৈছে পৰিৱেশ সংৰক্ষণৰ বাবে জ্ঞান, সচেতনতা, মনোভাৱ আৰু দক্ষতা বিকাশৰ প্ৰক্ৰিয়া।'",
       enQuestions: [
-        "What is environmental education?",
-        "List three major objectives of environmental education."
+        "What is Environment?",
+        "Define Environmental Education according to UNESCO.",
+        "Mention two objectives of Environmental Education."
       ],
       asQuestions: [
-        "পৰিৱেশ শিক্ষা কি?",
-        "পৰিৱেশ শিক্ষাৰ তিনিটা প্ৰধান উদ্দেশ্য তালিকাভুক্ত কৰা।"
+        "পৰিৱেশ কি?",
+        "ইউনেস্কোৰ মতে পৰিৱেশ শিক্ষাৰ সংজ্ঞা দিয়া।",
+        "পৰিৱেশ শিক্ষাৰ দুটা উদ্দেশ্য উল্লেখ কৰা।"
+      ]
+    },
+    2: {
+      enTitle: "Environmental Education (Part-2) - Functions, Principles, Curriculum, Scope, Limitations, Methods and Resources",
+      asTitle: "পৰিৱেশ শিক্ষা (খণ্ড-২) - কাৰ্যাৱলী, নীতি, পাঠ্যক্ৰম, পৰিসৰ, সীমাবদ্ধতা, পদ্ধতি আৰু সম্পদ",
+      enConcept: "Understand the functions, principles, curriculum, scope, limitations, teaching methods, and resources used in Environmental Education.",
+      asConcept: "পৰিৱেশ শিক্ষাৰ কাৰ্যাৱলী, নীতি, পাঠ্যক্ৰম, পৰিসৰ, সীমাবদ্ধতা, শিক্ষণ পদ্ধতি আৰু ব্যৱহৃত সম্পদসমূহ বুজি লোৱা।",
+      enExplanation: "Environmental Education functions to develop awareness, scientific knowledge, positive attitudes, and problem-solving skills for resource protection. Key principles include a holistic approach, lifelong learning, interdisciplinary studies, and local-to-global perspective. It uses resources from natural, human, institutional, media, and community pools.",
+      asExplanation: "পৰিৱেশ শিক্ষাৰ কাম হ'ল সম্পদ সংৰক্ষণৰ বাবে সজাগতা, বৈজ্ঞানিক জ্ঞান, ইতিবাচক মনোভাৱ আৰু সমস্যা সমাধানৰ দক্ষতা গঢ়ি তোলা। ইয়াৰ মূল নীতিসমূহৰ ভিতৰত সামগ্ৰিক দৃষ্টিভংগী, আজীৱন শিক্ষা, আন্তঃবিষয়ক অধ্যয়ন আৰু স্থানীয়ৰ পৰা বিশ্বব্যাপী দৃষ্টিভংগী অন্তৰ্ভুক্ত। ইয়াত প্ৰাকৃতিক, মানৱীয়, প্ৰতিষ্ঠানিক, সংবাদ মাধ্যম আৰু সামাজিক সম্পদ ব্যৱহাৰ কৰা হয়।",
+      enPoints: [
+        "Functions: Develops awareness, provides scientific knowledge, shapes attitudes, builds problem-solving skills, and promotes active participation.",
+        "Principles (H-L-I-P-P-L): Holistic approach, Lifelong learning, Interdisciplinary studies, Practical experience, Problem-solving, and Local-to-global perspective.",
+        "Curriculum: Focuses on ecosystems, natural resources, biodiversity, population impacts, and environmental protection laws.",
+        "Limitations: Lack of trained teachers, insufficient school resources, theoretical focus, and overloaded curriculum.",
+        "Teaching Methods: Lecture, discussion, project-based learning, field trips, demonstration, and observation.",
+        "Resources: Natural (forests, rivers), Human (teachers, experts), Institutional (NGOs, schools), and Media (TV, internet)."
+      ],
+      asPoints: [
+        "কাৰ্যাৱলী: পৰিৱেশ সজাগতা সৃষ্টি কৰা, বৈজ্ঞানিক জ্ঞান প্ৰদান কৰা, ইতিবাচক মনোভাৱ গঢ়া, সমস্যা সমাধানৰ দক্ষতা আৰু সক্ৰিয় অংশগ্ৰহণ বৃদ্ধি কৰা।",
+        "নীতিসমূহ: সামগ্ৰিক দৃষ্টিভংগী, আজীৱন শিক্ষা, আন্তঃবিষয়ক অধ্যয়ন, ব্যৱহাৰিক শিক্ষা, সমস্যা সমাধান আৰু স্থানীয়ৰ পৰা বিশ্বব্যাপী অধ্যয়ন।",
+        "পাঠ্যক্ৰম: পৰিৱেশ তন্ত্ৰ, প্ৰাকৃতিক সম্পদ, জীৱবৈচিত্ৰ্য, জনসংখ্যা আৰু পৰিৱেশৰ সম্বন্ধ আৰু পৰিৱেশ সংৰক্ষণ আইন।",
+        "সীমাবদ্ধতা: প্ৰশিক্ষণপ্ৰাপ্ত শিক্ষকৰ অভাৱ, শিক্ষণ সামগ্ৰীৰ নাটনি, ব্যৱহাৰিক কাৰ্যকলাপৰ অভাৱ আৰু অতিৰিক্ত পাঠ্যভাৰ।",
+        "শিক্ষণ পদ্ধতি: বক্তৃতা পদ্ধতি, আলোচনা পদ্ধতি, প্ৰকল্প পদ্ধতি, শিক্ষামূলক ভ্ৰমণ (ক্ষেত্ৰ ভ্ৰমণ), প্ৰদৰ্শন আৰু পৰ্যবেক্ষণ পদ্ধতি।",
+        "সম্পদসমূহ: প্ৰাকৃতিক (বনাঞ্চল, নদী), মানৱ সম্পদ (শিক্ষক, বিশেষজ্ঞ), প্ৰতিষ্ঠানিক (NGO, বিদ্যালয়) আৰু সংবাদ মাধ্যম (দূৰদৰ্শন, ইণ্টাৰনেট)।"
+      ],
+      enTip: "Be ready to list the 6 core principles of Environmental Education (use the mnemonic H-L-I-P-P-L). They are Holistic, Lifelong, Interdisciplinary, Practical, Problem-solving, and Local-to-global.",
+      asTip: "পৰিৱেশ শিক্ষাৰ ৬টা মূল নীতি লিখিবলৈ সাজু থাকক (H-L-I-P-P-L মনত ৰাখিব): সামগ্ৰিক, আজীৱন, আন্তঃবিষয়ক, ব্যৱহাৰিক, সমস্যা সমাধান আৰু স্থানীয়ৰ পৰা বিশ্বব্যাপী অধ্যয়ন।",
+      enQuestions: [
+        "State two principles of Environmental Education.",
+        "Mention two methods of teaching Environmental Education.",
+        "Identify two resources used in Environmental Education."
+      ],
+      asQuestions: [
+        "পৰিৱেশ শিক্ষাৰ দুটা নীতি উল্লেখ কৰা।",
+        "পৰিৱেশ শিক্ষা প্ৰদানৰ দুটা শিক্ষণ পদ্ধতি উল্লেখ কৰা।",
+        "পৰিৱেশ শিক্ষাত ব্যৱহৃত দুটা সম্পদ চিনাক্ত কৰা।"
+      ]
+    },
+    3: {
+      enTitle: "Environmental Education (Part-3) - In Schools & Colleges",
+      asTitle: "পৰিৱেশ শিক্ষা (খণ্ড-৩) - বিদ্যালয় আৰু মহাবিদ্যালয়ত পৰিৱেশ শিক্ষা",
+      enConcept: "Explore the status of environmental education in schools and colleges, highlighting co-curricular activities, Eco-Clubs, and campaigns.",
+      asConcept: "বিদ্যালয় আৰু মহাবিদ্যালয়সমূহত পৰিৱেশ শিক্ষাৰ স্থিতি বুজি লোৱা, লগতে সহ-পাঠ্যক্ৰম কাৰ্যসূচী, ইকো-ক্লাব আৰু সজাগতা অভিযানসমূহ আলোচনা কৰা।",
+      enExplanation: "Environmental Education is integrated into curriculum streams through school textbooks, Environmental Studies (EVS), and undergraduate college courses. Co-curricular platforms like Eco-Clubs, tree plantation drives, and cleanliness campaigns reinforce practical conservation. Under the UNESCO framework, educational institutions help students acquire values and skills to solve local ecological issues.",
+      asExplanation: "পৰিৱেশ শিক্ষাক বিদ্যালয়ৰ পাঠ্যপুথি, ইভিয়েছ (EVS) আৰু মহাবিদ্যালয় পৰ্যায়ত স্নাতক কোৰ্চৰ জৰিয়তে পাঠ্যক্ৰমত অন্তৰ্ভুক্ত কৰা হৈছে। সহ-পাঠ্যক্ৰমমূলক সঁজুলি যেনে ইকো-ক্লাব, বৃক্ষৰোপণ কাৰ্যসূচী আৰু পৰিষ্কাৰ-পৰিচ্ছন্নতা অভিযানে ব্যৱহাৰিক সংৰক্ষণক শক্তিশালী কৰে। ইউনেস্কোৰ পৰামৰ্শ অনুসৰি, শিক্ষানুষ্ঠানসমূহে শিক্ষাৰ্থীসকলক পৰিৱেশীয় মূল্যবোধ আৰু দক্ষতা অৰ্জন কৰাত সহায় কৰে।",
+      enPoints: [
+        "Curriculum Integration: Compulsory EVS at the school stage and specific environment modules at the university level.",
+        "Eco-Clubs: Student-led environmental awareness groups active in planting, maintaining gardens, and conserving school energy.",
+        "Campaigns: Cleanliness drives, environmental projects, nature camps, and celebrating World Environment Day (5th June).",
+        "Institutional Role: Schools serve as centers for practicing sustainable habits like waste sorting and water conservation."
+      ],
+      asPoints: [
+        "পাঠ্যক্ৰমৰ অন্তৰ্ভুক্তি: বিদ্যালয় পৰ্যায়ত বাধ্যতামূলক EVS আৰু মহাবিদ্যালয় পৰ্যায়ত নিৰ্দিষ্ট পৰিৱেশ মডিউল।",
+        "ইকো-ক্লাব: শিক্ষাৰ্থীৰ নেতৃত্বত গঠিত পৰিৱেশ সজাগতা গোট, যিয়ে বৃক্ষৰোপণ আৰু ইন্ধন ৰাহিৰ বাবে কাম কৰে।",
+        "অভিযানসমূহ: পৰিচ্ছন্নতা অভিযান, বৃক্ষৰোপণ কাৰ্যসূচী, প্ৰকৃতি শিবিৰ আৰু বিশ্ব পৰিৱেশ দিৱস (৫ জুন) পালন।",
+        "প্ৰতিষ্ঠানিক ভূমিকা: বিদ্যালয়সমূহ বৰ্জ্য পদাৰ্থ পৃথকীকৰণ আৰু জল সংৰক্ষণ আদি অভ্যাস কৰাৰ মূল কেন্দ্ৰ হিচাপে কাম কৰে।"
+      ],
+      enTip: "Explain Eco-Clubs. They are student-driven forums in schools designed specifically to build environmental values and action.",
+      asTip: "ইকো-ক্লাবৰ ব্যাখ্যা কৰক: এইসমূহ হৈছে বিদ্যালয়ত শিক্ষাৰ্থীৰ দ্বাৰা পৰিচালিত মঞ্চ, যিবোৰ বিশেষকei পৰিৱেশীয় মূল্যবোধ আৰু কাৰ্যক্ষমতা গঢ়ি তোলাৰ বাবে ডিজাইন কৰা হৈছে।",
+      enQuestions: [
+        "What is an Eco-Club?",
+        "How is Environmental Education promoted in colleges?",
+        "When is World Environment Day observed?"
+      ],
+      asQuestions: [
+        "ইকো-ক্লাব কি?",
+        "মহাবিদ্যালয়সমূহত পৰিৱেশ শিক্ষা কেনেদৰে প্ৰসাৰ কৰা হয়?",
+        "বিশ্ব পৰিৱেশ দিৱস কেতিয়া পালন কৰা হয়?"
+      ]
+    },
+    4: {
+      enTitle: "Population Education (Part-1) - Meaning, Definitions, Characteristics, Objectives, Need and Importance",
+      asTitle: "জনসংখ্যা শিক্ষা (খণ্ড-১) - অৰ্থ, সংজ্ঞা, বৈশিষ্ট্য, উদ্দেশ্য, প্ৰয়োজনীয়তা আৰু গুৰুত্ব",
+      enConcept: "Understand the meaning, standard definitions, objectives, and need for Population Education in modern society.",
+      asConcept: "জনসংখ্যা শিক্ষাৰ অৰ্থ, মানক সংজ্ঞা, উদ্দেশ্য আৰু আধুনিক সমাজত ইয়াৰ প্ৰয়োজনীয়তা বুজি লোৱা।",
+      enExplanation: "Population Education is an educational process that helps individuals understand population growth and its impact on the family, community, nation, and quality of life. UNESCO defines it as an educational programme providing a study of population situations. It is problem-centred, interdisciplinary, value-oriented, and future-oriented.",
+      asExplanation: "জনসংখ্যা শিক্ষা হ'ল এনে এক শিক্ষণ প্ৰক্ৰিয়া যিয়ে ব্যক্তিক জনসংখ্যা বৃদ্ধি আৰু ইয়াৰ ফলত পৰিয়াল, সমাজ, ৰাষ্ট্ৰ তথা জীৱনৰ মানদণ্ডের ওপৰত পৰা প্ৰভাৱ বুজি পোৱাত সহায় কৰে। ইউনেস্কোৰ মতে, ই হ'ল এটা শৈক্ষিক কাৰ্যসূচী যিয়ে জনসংখ্যাগত স্থিতি অধ্যয়নৰ সুযোগ দিয়ে। ই সমস্যা-কেন্দ্ৰিক, আন্তঃবিষয়ক, মূল্যবোধ-ভিত্তিক আৰু ভৱিষ্যমুখী।",
+      enPoints: [
+        "Meaning: Focuses on the relation between population dynamics, resource balance, and family/social well-being.",
+        "Characteristics: Problem-centred, interdisciplinary (draws from sociology, geography, science), value-oriented, and decision-oriented.",
+        "Objectives: Create awareness of growth trends, promote a small family norm, improve quality of life, and support national development.",
+        "Need: Crucial due to rapid population growth, resource scarcity, poverty, unemployment, and environmental degradation."
+      ],
+      asPoints: [
+        "অৰ্থ: জনসংখ্যাৰ গতিশীলতা, সম্পদৰ ভাৰসাম্য আৰু পাৰিবাৰিক/সামাজিক কল্যাণৰ সম্পৰ্কৰ ওপৰত গুৰুত্ব দিয়ে।",
+        "বৈশিষ্ট্যসমূহ: সমস্যা-কেন্দ্ৰিক, আন্তঃবিষয়ক (সমাজবিদ্যা, ভূগোল, বিজ্ঞান আদিৰ পৰা সহায় লয়), মূল্যবোধ-ভিত্তিক আৰু সিদ্ধান্ত-মুখী।",
+        "উদ্দেশ্যসমূহ: জনসংখ্যা বৃদ্ধিৰ ধাৰা সম্পৰ্কে সজাগতা অনা, ক্ষুদ্ৰ পৰিয়ালৰ ধাৰণা প্ৰসাৰ কৰা, জীৱনৰ মান উন্নত কৰা আৰু ৰাষ্ট্ৰীয় উন্নয়নত সহায় কৰা।",
+        "প্ৰয়োজনীয়তা: দ্ৰুত জনসংখ্যা বৃদ্ধি, সম্পদৰ নাটনি, দৰিদ্ৰতা, নিবনুৱা সমস্যা আৰু পৰিৱেশৰ ক্ষতিৰ বাবে অত্যন্ত প্ৰয়োজনীয়।"
+      ],
+      enTip: "Remember the 7 key characteristics of Population Education (use the mnemonic PIVPFSD): Problem-centred, Interdisciplinary, Value-oriented, Practical, Future-oriented, Socially relevant, and Decision-oriented.",
+      asTip: "জনসংখ্যা শিক্ষাৰ ৭টা মূল বৈশিষ্ট্য মনত ৰাখক (PIVPFSD মনত ৰাখিব): সমস্যা-কেন্দ্ৰিক, আন্তঃবিষয়ক, মূল্যবোধ-ভিত্তিক, ব্যৱহাৰিক, ভৱিষ্যমুখী, যাৰ সঁচা সামাজিক প্ৰাসংগিকতা আছে আৰু সিদ্ধান্ত-মুখী।",
+      enQuestions: [
+        "Define Population Education according to UNESCO.",
+        "State two characteristics of Population Education.",
+        "Explain the need for Population Education."
+      ],
+      asQuestions: [
+        "ইউনেস্কোৰ মতে জনসংখ্যা শিক্ষাৰ সংজ্ঞা দিয়া।",
+        "জনসংখ্যা শিক্ষাৰ দুটা বৈশিষ্ট্য উল্লেখ কৰা।",
+        "জনসংখ্যা শিক্ষাৰ প্ৰয়োজনীয়তা ব্যাখ্যা কৰা।"
+      ]
+    },
+    5: {
+      enTitle: "Population Education (Part-2) - Scope, In Schools, Population Explosion, Causes and Effects",
+      asTitle: "জনসংখ্যা শিক্ষা (খণ্ড-২) - পৰিসৰ, বিদ্যালয়ত শিক্ষা, জনসংখ্যা বিস্ফোৰণ, কাৰণ আৰু প্ৰভাৱসমূহ",
+      enConcept: "Analyze the scope of population education, its place in schools, and the causes and consequences of population explosion.",
+      asConcept: "জনসংখ্যা শিক্ষাৰ পৰিসৰ, বিদ্যালয়ত ইয়াৰ স্থান, আৰু জনসংখ্যা বিস্ফোৰণৰ কাৰণ আৰু পৰিণামসমূহ বিশ্লেষণ কৰা।",
+      enExplanation: "Population education covers population dynamics, family life, health, nutrition, and environmental relations. Population Explosion refers to the rapid and uncontrolled increase in population within a short period, going beyond resource capacity. Its main causes are high birth rates, declining death rates, early marriage, poverty, and illiteracy.",
+      asExplanation: "জনসংখ্যা শিক্ষাৰ পৰিসৰত জনসংখ্যা বৃদ্ধিৰ ধাৰা, পাৰিবাৰিক জীৱন শিক্ষা, স্বাস্থ্য আৰু পুষ্টি, পৰিৱেশ আৰু জনসংখ্যাৰ সম্পৰ্ক, সম্পদৰ ব্যৱস্থাপনা, জীৱনৰ মানদণ্ড আৰু স্থায়ী উন্নয়ন অন্তৰ্ভুক্ত। অতি কম সময়ৰ ভিতৰত জনসংখ্যাৰ দ্ৰুত আৰু অনিয়ন্ত্ৰিত বৃদ্ধিক জনসংখ্যা বিস্ফোৰণ বোলে। ইয়াৰ মূল কাৰণসমূহ হ'ল উচ্চ জন্মহাৰ, মৃত্যুহাৰ হ্ৰাস, বাল্যবিবাহ, দৰিদ্ৰতা আৰু নিৰক্ষৰতা।",
+      enPoints: [
+        "Scope (PFHERQS): Population growth, Family life education, Health & nutrition, Environmental relations, Resource management, Quality of life, and Sustainable development.",
+        "In Schools: Promoted through classroom teaching in social sciences and biology, debate clubs, projects, and awareness drives.",
+        "Population Explosion: Rapid growth beyond resource capacity. Mapped as: Population growth ↑, Resources ↓, Problems ↑.",
+        "Causes (HELP-LDS): High birth rate, Early marriage, Lack of family planning, Poverty, Low literacy, Decline in death rate, and Social beliefs.",
+        "Effects: Extreme poverty, high unemployment, food and housing shortages, environmental pollution, and pressure on resources."
+      ],
+      asPoints: [
+        "পৰিসৰ: জনসংখ্যা বৃদ্ধিৰ গতিশীলতা, পাৰিবাৰিক জীৱন শিক্ষা, স্বাস্থ্য আৰু পুষ্টি, পৰিৱেশ আৰু জনসংখ্যাৰ সম্পৰ্ক, সম্পদৰ ব্যৱস্থাপনা, জীৱনৰ মানদণ্ড আৰু স্থায়ী উন্নয়ন।",
+        "বিদ্যালয়ত শিক্ষা: সমাজ বিজ্ঞান আৰু জীৱবিজ্ঞানৰ শ্ৰেণীকোঠাত পাঠদান, আলোচনা সভা, প্ৰকল্প আৰু সজাগতা অভিযানৰ জৰিয়তে প্ৰসাৰ কৰা হয়।",
+        "জনসংখ্যা বিস্ফোৰণ: উপলব্ধ সম্পদৰ তুলনাত জনসংখ্যাৰ অস্বাভাৱিক হাৰত বৃদ্ধি। ইয়াক বুজা যায়: জনসংখ্যা বৃদ্ধি ↑, সম্পদ ↓, সমস্যা ↑।",
+        "কাৰণসমূহ: উচ্চ জন্মহাৰ, বাল্যবিবাহ, পৰিয়াল পৰিকল্পনাৰ অভาৱ, দৰিদ্ৰতা, নিৰক্ষৰতা, মৃত্যুহাৰ হ্ৰাস আৰু সামাজিক অন্ধবিশ্বাস।",
+        "প্ৰভাৱসমূহ: দৰিদ্ৰতা বৃদ্ধি, নিবনুৱা সমস্যা, খাদ্য আৰু বাসস্থানৰ নাটনি, পৰিৱেশ দূষণ আৰু সম্পদৰ ওপৰত অতিৰিক্ত চাপ।"
+      ],
+      enTip: "Write the definition of Population Explosion clearly: 'It refers to the rapid increase in population beyond the capacity of available natural and social resources.' Always use bullet points for its causes.",
+      asTip: "জনসংখ্যা বিস্ফোৰণৰ সংজ্ঞা স্পষ্টকৈ লিখক: 'উপলব্ধ প্ৰাকৃতিক আৰু সামাজিক সম্পদৰ ক্ষমতাৰ তুলনাত জনসংখ্যাৰ দ্ৰুত আৰু অস্বাভাৱিক বৃদ্ধিক জনসংখ্যা বিস্ফোৰণ বোলে।' ইয়াৰ কাৰণসমূহ পইণ্ট আকাৰে লিখিব।",
+      enQuestions: [
+        "Define Population Explosion.",
+        "State three causes of Population Explosion.",
+        "Mention three effects of overpopulation on society."
+      ],
+      asQuestions: [
+        "জনসংখ্যা বিস্ফোৰণৰ সংজ্ঞা দিয়া।",
+        "জনসংখ্যা বিস্ফোৰণৰ তিনিটা কাৰণ উল্লেখ কৰা।",
+        "সমাজত অতিজনসংখ্যাৰ তিনিটা প্ৰভাৱ উল্লেখ কৰা।"
+      ]
+    },
+    6: {
+      enTitle: "Physical Education - Meaning, Aims, Objectives, Importance and In Schools",
+      asTitle: "শাৰীৰিক শিক্ষা - অৰ্থ, লক্ষ্য, উদ্দেশ্য, গুৰুত্ব আৰু বিদ্যালয়ত শাৰীৰিক শিক্ষা",
+      enConcept: "Understand the meaning, aims, objectives, and importance of Physical Education, including its execution in schools.",
+      asConcept: "শাৰীৰিক শিক্ষাৰ অৰ্থ, লক্ষ্য, উদ্দেশ্য আৰু গুৰুত্ব বুজি লোৱা, লগতে বিদ্যালয়সমূহত ইয়াৰ প্ৰয়োগ অধ্যয়ন কৰা।",
+      enExplanation: "Physical Education is an integral part of the total education process that develops physical fitness, health, strength, and overall personality through physical activities. Nixon and Cozens define it as the phase dealing with large muscle activities. Its ultimate aim is the all-round development of the individual (physical, mental, social, emotional, and moral).",
+      asExplanation: "শাৰীৰিক শিক্ষা হ'ল সমগ্ৰ শিক্ষা ব্যৱস্থাৰ এক অপৰিহাৰ্য অংশ যিয়ে শাৰীৰিক ক্ৰিয়াকলাপৰ জৰিয়তে শাৰীৰিক সক্ষমতা, স্বাস্থ্য, শক্তি আৰু ব্যক্তিত্বৰ সামগ্ৰিক বিকাশ ঘটায়। থনক্সন আৰু ক'নেঞ্ছৰ মতে, ই হ'ল িৃৎ পেশীসমূহৰ কাৰ্যকলাপৰ সৈতে জড়িত পৰ্যায়। ইয়াৰ মূল লক্ষ্য হ'ল ব্যক্তিৰ সৰ্বাংগীণ বিকাশ (শাৰীৰিক, মানসিক, সামাজিক, আৱেগিক আৰু নৈতিক)।",
+      enPoints: [
+        "Meaning: Education of the body, through the body, for overall health and character.",
+        "Objectives (PMESM): Physical development, Mental development, Emotional stability, Social values (cooperation, teamwork), and Moral character.",
+        "Importance: Promotes good health, develops physical fitness, prevents diseases, builds discipline, and enhances social relations.",
+        "In Schools: Provided through sports and games, physical exercises, yoga sessions, health education, and recreational activities.",
+        "Value: Leadership quality, self-confidence, time management, and national integration."
+      ],
+      asPoints: [
+        "অৰ্থ: শাৰীৰিক ক্ৰিয়াকলাপৰ জৰিয়তে সুস্থ শৰীৰ, চৰিত্ৰ আৰু সামগ্ৰিক স্বাস্থ্য গঢ়াৰ শিক্ষা।",
+        "উদ্দেশ্যসমূহ: শাৰীৰিক বিকাশ, মানসিক বিকাশ, আৱেগিক সুস্থতা, সামাজিক দক্ষতা (সহযোগিতা, দলীয় মনোভাৱ) আৰু নৈতিক চৰিত্ৰ।",
+        "গুৰুত্ব: সুস্বাস্থ্য বজাই ৰখা, শাৰীৰিক সক্ষমতা বৃদ্ধি কৰা, ৰোগ প্ৰতিৰোধ কৰা, চৰিত্ৰ আৰু নেতৃত্বৰ গুণ গঢ়া আৰু সামাজিক সম্পৰ্ক উন্নত কৰা।",
+        "বিদ্যালয়ত শিক্ষা: ক্ৰীড়া আৰু খেল-ধেমালি, ব্যায়াম, যোগ কাৰ্যসূচী, স্বাস্থ্য শিক্ষা আৰু বিনোদনমূলক কাৰ্যকলাপৰ জৰিয়তে প্ৰদান কৰা হয়।",
+        "মূল্যবোধ: নেতৃত্বৰ গুণ, আত্মবিশ্বাস, নিয়মানুৱৰ্তিতা, সময় ব্যৱস্থাপনা আৰু জাতীয় সংহতি বৃদ্ধি কৰে।"
+      ],
+      enTip: "A sound mind lives in a sound body. Memorize the objectives formula PMESM (Physical, Mental, Emotional, Social, Moral). Citing this combination secures full marks.",
+      asTip: "'সুস্থ দেহতহে সুস্থ মন থাকে।' ইয়াৰ উদ্দেশ্যৰ সূত্ৰ PMESM (শাৰীৰিক, মানসিক, আৱেগিক, সামাজিক, নৈতিক) মনত ৰাখিব। এই জোঁটটো লিখিলে সম্পূৰ্ণ নম্বৰ পোৱা যায়।",
+      enQuestions: [
+        "Define Physical Education according to Nixon and Cozens.",
+        "Explain three objectives of Physical Education.",
+        "State three educational values of Physical Education."
+      ],
+      asQuestions: [
+        "নিক্সন আৰু ক'নেঞ্ছৰ মতে শাৰীৰিক শিক্ষাৰ সংজ্ঞা দিয়া।",
+        "শাৰীৰিক শিক্ষাৰ তিনিটা উদ্দেশ্য ব্যাখ্যা কৰা।",
+        "শাৰীৰিক শিক্ষাৰ তিনিটা শৈক্ষিক মূল্য উল্লেখ কৰা।"
+      ]
+    },
+    7: {
+      enTitle: "Value Education (Part-1) - Meaning, Definitions, Types and Characteristics",
+      asTitle: "মূল্যবোধ শিক্ষা (খণ্ড-১) - অৰ্থ, সংজ্ঞা, প্ৰকাৰ আৰু বৈশিষ্ট্যসমূহ",
+      enConcept: "Understand the concept of values, definition of Value Education, and classification of different values.",
+      asConcept: "মূল্যবোধৰ ধাৰণা, মূল্যবোধ শিক্ষাৰ সংজ্ঞা আৰু ইয়াৰ বিভিন্ন প্ৰকাৰৰ শ্ৰেণীবিভাজন বুজি লোৱা।",
+      enExplanation: "A value is a belief, principle, or standard that guides human behavior and decision-making. Value Education refers to the process of developing desirable values, attitudes, and ethical behavior among learners. Kluckhohn defines value as a conception of the desirable which influences action.",
+      asExplanation: "মূল্যবোধ হ'ল এক বিশ্বাস, নীতি বা মানদণ্ড যিয়ে মানুহৰ আচৰণ আৰু সিদ্ধান্ত গ্ৰহণক পথপ্ৰদৰ্শন কৰে। মূল্যবোধ শিক্ষা হ'ল শিক্ষাৰ্থীৰ মাজত কাম্য মূল্যবোধ, মনোভাৱ আৰু নৈতিক আচৰণ গঢ়ি তোলাৰ প্ৰক্ৰিয়া। ক্লুকহনৰ মতে, মূল্যবোধ হ'ল কাম্য ধাৰণা যিয়ে কৰ্মক প্ৰভাৱিত কৰে।",
+      enPoints: [
+        "Value: Standards that distinguish right from wrong, good from bad.",
+        "Types of Values (MSDCPP): Moral (honesty, truthfulness), Social (cooperation, respect), Spiritual (faith, compassion), Democratic (equality, justice, freedom), Cultural (traditions, heritage), and Personal (self-discipline, responsibility).",
+        "Characteristics: Value-oriented, holistic personality development, continuous lifelong process, practical in nature, and behavior-centred."
+      ],
+      asPoints: [
+        "মূল্যবোধ: উচিত-অনুচিত, ভাল-বেয়া নিৰূপণ কৰাৰ এক সামাজিক মানদণ্ড বা বিশ্বাস।",
+        "মূল্যবোধৰ প্ৰকাৰসমূহ: নৈতিক (সততা, সত্যবাদিতা), সামাজিক (সহযোগিতা, সন্মান), আধ্যাত্মিক (বিশ্বাস, দয়া), গণতান্ত্ৰিক (সমতা, ন্যায়, স্বাধীনতা), সাংস্কৃতিক (ঐতিহ্য, ৰীতি-নীতি) আৰু ব্যক্তিগত (আত্ম-নিয়ন্ত্ৰণ, দায়িত্ববোধ)।",
+        "বৈশিষ্ট্যসমূহ: মূল্যবোধ-ভিত্তিক, সৰ্বাংগীণ ব্যক্তিত্ব বিকাশ, এক নিৰন্তৰ আজীৱন প্ৰক্ৰিয়া, ব্যৱহাৰিক প্ৰকৃতিৰ আৰু আচৰণ-কেন্ৰিক।"
+      ],
+      enTip: "Make sure you can list and define the major types of values using the formula MSDCPP: Moral, Social, Democratic, Cultural, Personal, and Spiritual.",
+      asTip: "MSDCPP সূত্ৰ ব্যৱহাৰ কৰি মূল্যবোধৰ প্ৰধান প্ৰকাৰসমূহ লিখিবলৈ শিকক: নৈতিক, সামাজিক, গণতান্ত্ৰিক, সাংস্কৃতিক, ব্যক্তিগত আৰু আধ্যাত্মিক।",
+      enQuestions: [
+        "What is a Value?",
+        "Define Value Education.",
+        "Name four types of values with examples."
+      ],
+      asQuestions: [
+        "মূল্যবোধ কি?",
+        "মূল্যবোধ শিক্ষাৰ সংজ্ঞা দিয়া।",
+        "উদাহৰণসহ মূল্যবোধৰ চাৰিটা প্ৰকাৰ উল্লেখ কৰা।"
+      ]
+    },
+    8: {
+      enTitle: "Value Education (Part-2) - Objectives, Sources, Importance, Ways and Barriers",
+      asTitle: "মূল্যবোধ শিক্ষা (খণ্ড-২) - উদ্দেশ্য, উৎস, গুৰুত্ব, উপায় আৰু বাধাসমূহ",
+      enConcept: "Study the objectives, sources of values in India, importance of Value Education, methods of imparting it, and barriers.",
+      asConcept: "মূল্যবোধ শিক্ষাৰ উদ্দেশ্য, ভাৰতত মূল্যবোধৰ উৎসসমূহ, ইয়াৰ গুৰুত্ব, প্ৰদান কৰাৰ উপায় আৰু অন্তৰায়সমূহ অধ্যয়ন কৰা।",
+      enExplanation: "The primary objectives of Value Education are character formation, moral growth, and national integration. Values in India originate from the family, religion, educational institutions, society, literature, and the Constitution of India. It can be imparted through classroom teaching, teachers' examples, morning assemblies, and storytelling, though it faces barriers like materialism and family disintegration.",
+      asExplanation: "মূল্যবোধ শিক্ষাৰ মূল উদ্দেশ্য হ'ল চৰিত্ৰ গঠন, নৈতিক বিকাশ আৰু ৰাষ্ট্ৰীয় সংহতি। ভাৰতত মূল্যবোধৰ উৎসসমূহ হ'ল পৰিয়াল, ধৰ্ম, শিক্ষানুষ্ঠান, সমাজ, সাহিত্য আৰু ভাৰতীয় সংবিধান। ইয়াক শ্ৰেণীকোঠাৰ পাঠদান, শিক্ষকৰ আদৰ্শ, প্ৰাৰ্থনা সভা আৰু সাধুকথাৰ জৰিয়তে প্ৰদান কৰিব পাৰি, যদিও ই বস্তুবাদী চিন্তা আৰু পৰিয়াল ভাঙনৰ দৰে বাধাৰ সন্মুখীন হয়।",
+      enPoints: [
+        "Objectives (CMSENDS): Character formation, Moral development, Social responsibility, Emotional development, National integration, Democratic citizenship, and Spiritual development.",
+        "Sources in India: Family (first school), Religion (morality, compassion), Educational institutions, Society, Culture, Literature, and Constitution (justice, liberty, equality).",
+        "Importance: Builds good habits, promotes social harmony, creates responsible citizens, strengthens democracy, and ensures national development.",
+        "Ways of Imparting: Classroom teaching, teacher's model behavior, co-curricular activities, morning assembly, community service, and reading biographies.",
+        "Barriers: Materialistic outlook, family disintegration, negative media influence, lack of role models, social problems, and examination-oriented education."
+      ],
+      asPoints: [
+        "উদ্দেশ্যসমূহ: চৰিত্ৰ গঠন, নৈতিক বিকাশ, সামাজিক দায়িত্ববোধ, আৱেগিক বিকাশ, ৰাষ্ট্ৰীয় সংহতি, গণতান্ত্ৰিক নাগৰিকত্ব আৰু আধ্যাত্মিক বিকাশ।",
+        "উৎসসমূহ: পৰিয়াল (প্ৰথম পাঠশালা), ধৰ্ম (নৈতিকতা, দয়া), শিক্ষানুষ্ঠান, সমাজ, সংস্কৃতি, সাহিত্য আৰু সংবিধান (ন্যায়, স্বাধীনতা, সমতা)।",
+        "গুৰুত্ব: ভাল অভ্যাস আৰু চৰিত্ৰ গঠন কৰে, সামাজিক সম্প্ৰীতি বঢ়ায়, দায়িত্বশীল নাগৰিক গঢ়ে, গণতন্ত্ৰ শক্তিশালী কৰে আৰু ৰাষ্ট্ৰীয় উন্নয়ন ত্বৰান্বিত কৰে।",
+        "প্ৰদান কৰাৰ উপায়: শ্ৰেণীকোঠাত পাঠদান, শিক্ষকৰ আদৰ্শ আচৰণ, সহ-পাঠ্যক্ৰম কাৰ্যসূচী, প্ৰাৰ্থনা সভা, সমাজসেৱা আৰু মহৎ ব্যক্তিৰ জীৱনী পাঠ।",
+        "বাধাসমূহ: বস্তুবাদী চিন্তাধাৰা, পৰিয়াল ভাঙন, সংবাদ মাধ্যমৰ ঋণাত্মক প্ৰভাৱ, উপযুক্ত আদৰ্শ ব্যক্তিৰ অভাৱ, সামাজিক সমস্যা আৰু পৰীক্ষামুখী শিক্ষা।"
+      ],
+      enTip: "Sources of values is a highly expected long question. Present them in the logical flow: Family → Religion → School → Society → Culture → Literature → Constitution. Underline all headings.",
+      asTip: "মূল্যবোধৰ উৎসসমূহ পৰীক্ষাৰ বাবে অত্যন্ত গুৰুত্বপূৰ্ণ প্ৰশ্ন। ইয়াক ক্ৰমানুসাৰে সজাব: পৰিয়াল → ধৰ্ম → বিদ্যালয় → সমাজ → সংস্কৃতি → সাহিত্য → সংবিধান। শিৰোনামসমূহৰ তলত আঁচ টানিব।",
+      enQuestions: [
+        "State four sources of values in India.",
+        "Explain three barriers to Value Education.",
+        "Mention three methods to impart Value Education in schools."
+      ],
+      asQuestions: [
+        "ভাৰতত মূল্যবোধৰ চাৰিটা উৎস উল্লেখ কৰা।",
+        "মূল্যবোধ শিক্ষা প্ৰদানৰ তিনিটা বাধা ব্যাখ্যা কৰা।",
+        "বিদ্যালয়ত মূল্যবোধ শিক্ষা প্ৰদানৰ তিনিটা পদ্ধতি উল্লেখ কৰা।"
+      ]
+    },
+    9: {
+      enTitle: "Education for Women Empowerment - Meaning, Objectives, Importance, Role of Education, Problems and Suggestions",
+      asTitle: "মহিলা সবলীকৰণৰ বাবে শিক্ষা - অৰ্থ, উদ্দেশ্য, গুৰুত্ব, শিক্ষাৰ ভূমিকা, সমস্যা আৰু সংস্কাৰমূলক পৰামৰ্শ",
+      enConcept: "Understand the concept of women empowerment, the role of education in empowering women, problems, and suggestions for improvement.",
+      asConcept: "মহিলা সবলীকৰণৰ ধাৰণা, সবলীকৰণত শিক্ষাৰ ভূমিকা, ইয়াৰ সমস্যা আৰু ইয়াৰ সৰ্বাঙ্গীন উন্নতিৰ বাবে পৰামৰ্শসমূহ বুজি লোৱা।",
+      enExplanation: "Women Empowerment is the process of enabling women to gain confidence, rights, opportunities, and decision-making power. Education is the most effective tool to achieve this by providing knowledge, ensuring economic independence, developing leadership, and protecting against exploitation. However, it faces barriers like poverty, gender discrimination, early marriage, and parent illiteracy.",
+      asExplanation: "মহিলা সবলীকৰণ হৈছে মহিলাসকলক আত্মবিশ্বাস, অধিকাৰ, সুযোগ আৰু সিদ্ধান্ত গ্ৰহণৰ ক্ষমতা লাভ কৰাত সহায় কৰাৰ প্ৰক্ৰিয়া। শিক্ষা হ'ল ইয়াৰ আটাইতকৈ কাৰ্যকৰী মাধ্যম যিয়ে জ্ঞান প্ৰদান কৰে, অৰ্থনৈতিক স্বাৱলম্বীতা দিয়ে, নেতৃত্বৰ গুণ বিকাশ কৰে আৰু শোষণৰ পৰা সুৰক্ষিত কৰে। কিন্তু ই দৰিদ্ৰতা, লিংগ বৈষম্য, বাল্যবিবাহ আৰু অভিভাৱকৰ নিৰক্ষৰতাৰ দৰে বাধাৰ সন্মুখীন হয়।",
+      enPoints: [
+        "Meaning: Enabling women to have control over their lives and participate equally in social, economic, and political systems.",
+        "Objectives (SEELRQP): Self-confidence, Equality, Economic independence, Leadership, Rights awareness, Quality of life, and Social participation.",
+        "Importance: Promotes gender equality, improves family welfare, supports economic growth, strengthens democracy, and reduces social evils (child marriage, dowry).",
+        "Role of Education: Provides knowledge & awareness, creates job opportunities (economic independence), builds personality & leadership, and prevents exploitation.",
+        "Problems: Poverty, gender bias, early marriage, parent illiteracy, lack of safe schools, and conservative social customs.",
+        "Suggestions: Free and compulsory education for girls, increasing scholarships, improving school facilities & safety, social awareness campaigns, and community involvement."
+      ],
+      asPoints: [
+        "অৰ্থ: মহিলাসকলক নিজৰ জীৱন নিয়ন্ত্ৰণ কৰাৰ ক্ষমতা দিয়া আৰু সামাজিক, অৰ্থনৈতিক আৰু ৰাজনৈতিক ব্যৱস্থাত সমান অংশগ্ৰহণ নিশ্চিত কৰা।",
+        "উদ্দেশ্যসমূহ: আত্মবিশ্বাস বৃদ্ধি, সমতা নিশ্চিত কৰা, অৰ্থনৈতিক স্বাৱলম্বীতা, নেতৃত্বৰ বিকাশ, অধিকাৰৰ সজাগতা, জীৱনৰ মানদণ্ড আৰু সামাজিক অংশগ্ৰহণ।",
+        "গুৰুত্ব: লিংগ সমতা স্থাপন কৰে, পাৰিবৰিক কল্যাণ সাধন কৰে, অৰ্থনৈতিক উন্নয়নত সহায় কৰে, গণতন্ত্ৰ শক্তিশালী কৰে আৰু কু-প্ৰথা (বাল্যবিবাহ, যৌতুক) হ্ৰাস কৰে।",
+        "শিক্ষাৰ ভূমিকা: জ্ঞান আৰু সজাগতা দিয়ে, কৰ্মসংস্থাপনৰ সুবিধা দিয়ে (অৰ্থনৈতিক স্বাধীনতা), চৰিত্ৰ আৰু নেতৃত্ব গঢ়ে আৰু শোষণ প্ৰতিৰোধ কৰে।",
+        "সমস্যাসমূহ: দৰিদ্ৰতা, লিংগ বৈষম্য, বাল্যবিবাহ, অভিভাৱকৰ নিৰক্ষৰতা, নিৰাপদ বিদ্যালয়ৰ অভাৱ আৰু সংকীৰ্ণ সামাজিক ৰীতি-নীতি।",
+        "পৰামৰ্শসমূহ: ছোৱালীৰ বাবে বিনামূলীয়া আৰু বাধ্যতামূলক শিক্ষা, বৃত্তিৰ সুবিধা বৃদ্ধি কৰা, বিদ্যালয়ৰ পৰিৱেশ আৰু নিৰাপত্তা উন্নত কৰা, সামাজিক সজাগতা বৃদ্ধি কৰা আৰু সমাজক জড়িত কৰা।"
+      ],
+      enTip: "The role of education in women empowerment is a high-frequency board question. Structure your answer using the sub-headings: Awareness, Economic Independence, Leadership, Social Participation, and Legal Protection. Underline keywords.",
+      asTip: "মহিলা সবলীকৰণত শিক্ষাৰ ভূমিকা বোৰ্ড পৰীক্ষাৰ বাবে অত্যন্ত গুৰুত্বপূৰ্ণ প্ৰশ্ন। উত্তৰটো শিৰোনাম দি লিখিব: সজাগতা, অৰ্থনৈতিক স্বাৱলম্বীতা, নেতৃত্বৰ গুণ, সামাজিক অংশগ্ৰহণ আৰু আইনী সুৰক্ষা।",
+      enQuestions: [
+        "Explain the meaning of Women Empowerment.",
+        "State four problems of Women Education in India.",
+        "Mention three suggestions for improving Women Education."
+      ],
+      asQuestions: [
+        "মহিলা সবলীকৰণৰ অৰ্থ ব্যাখ্যা কৰা।",
+        "ভাৰতত মহিলা শিক্ষাৰ চাৰিটা সমস্যা উল্লেখ কৰা।",
+        "মহিলা শিক্ষাৰ মান উন্নত কৰাৰ বাবে তিনিটা পৰামৰ্শ উল্লেখ কৰা।"
       ]
     }
   },

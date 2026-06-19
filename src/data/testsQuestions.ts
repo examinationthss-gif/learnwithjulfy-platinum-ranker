@@ -13,56 +13,108 @@ export const testsQuestions: Record<number, TestQuestion[]> = {
   // Test Paper 1: Unit I & II Diagnostic Test Paper
   1: [
     {
-      id: 1,
-      qEn: "Who was the Chairman of the Secondary Education Commission appointed in 1952?",
-      qAs: "১৯৫২ চনত নিযুক্তি দিয়া মাধ্যমিক শিক্ষা আয়োগৰ সভাপতি কোন আছিল?",
-      optsEn: ["Dr. D.S. Kothari", "Dr. A. Lakshmanaswami Mudaliar", "Dr. S. Radhakrishnan", "Dr. Zakir Husain"],
-      optsAs: ["ড° ডি.এছ. কোঠাৰী", "ড° এ লক্ষ্মণস্বামী মুডালিয়াৰ", "ড° এছ ৰাধাকৃষ্ণণ", "ড° জাকিৰ হুছেইন"],
-      correct: 1,
-      expEn: "The Secondary Education Commission (1952-53) was appointed under the chairmanship of Dr. A. Lakshmanaswami Mudaliar, hence it is also called Mudaliar Commission.",
-      expAs: "১৯৫২ চনত ড° এ লক্ষ্মণস্বামী মুডালিয়াৰৰ সভাপতিত্বত মাধ্যমিক শিক্ষা আয়োগ নিযুক্তি দিয়া হৈছিল, সেয়ে ইয়াক মুডালিয়াৰ আয়োগ বুলিও কোৱা হয়।"
+        "id": 1,
+        "qEn": "In which year was the Secondary Education Commission appointed?",
+        "qAs": "মাধ্যমমক মিক্ষা আয াগ ককান বছৰত মনযুক্ত কৰা হৈমছল ?",
+        "optsEn": [
+            "1948",
+            "1952",
+            "1964",
+            "1986"
+        ],
+        "optsAs": [
+            "১৯৪৮",
+            "১৯৫২",
+            "১৯৬৪",
+            "১৯৮৬"
+        ],
+        "correct": 1,
+        "expEn": "The Secondary Education Commission was appointed by the Government of India in 1952.",
+        "expAs": "ভাৰত চৰকাযৰ ১৯৫২ চনত মাধ্যমমক মিক্ষা আয াগ মনযুক্ত কমৰমছল।"
     },
     {
-      id: 2,
-      qEn: "What structural system of national education was first recommended by the Kothari Commission?",
-      qAs: "কোঠাৰী আয়োগে পোনপ্ৰথমে ৰাষ্ট্ৰীয় শিক্ষাৰ কি গাঁথনিগত আৰ্হিৰ চুপাৰিছ কৰিছিল?",
-      optsEn: ["10+2+3 structure", "5+3+2 structure", "8+4+3 structure", "10+2+2 structure"],
-      optsAs: ["১০+২+৩ গাঁথনি", "৫+৩+২ গাঁথনি", "৮+৪+৩ গাঁথনি", "১০+২+২ গাঁথনি"],
-      correct: 0,
-      expEn: "The Education Commission of 1964-66 (Kothari Commission) recommended a standardized 10+2+3 structure for education across India.",
-      expAs: "১৯৬৪-৬৬ চনৰ শিক্ষা আয়োগে (কোঠাৰী আয়োগ) সমগ্ৰ ভাৰততে শিক্ষাৰ বাবে এক মানক ১০+২+৩ গাঁথনিৰ চুপাৰিছ কৰিছিল।"
+        "id": 2,
+        "qEn": "Who was the Chairman of the Secondary Education Commission?",
+        "qAs": "মাধ্যমমক মিক্ষা আয াগৰ সভাপমত ককান আমছল ?",
+        "optsEn": [
+            "D. S. Kothari",
+            "A. Lakshmanaswami Mudaliar",
+            "J. P. Naik",
+            "Zakir Hussain"
+        ],
+        "optsAs": [
+            "মি. এছ. ককাঠাৰী",
+            "এ. লক্ষ্মণস্বামী মুদামল াৰ",
+            "কে. মপ. না ক",
+            "োমকৰ হু যছইন"
+        ],
+        "correct": 1,
+        "expEn": "The Commission was chaired by Dr. A. Lakshmanaswami Mudaliar.",
+        "expAs": "ি° এ. লক্ষ্মণস্বামী মুদামল াৰ এই আয াগৰ সভাপমত আমছল।"
     },
     {
-      id: 3,
-      qEn: "Which of the following is a key characteristic of Non-formal Education?",
-      qAs: "তলৰ কোনটো অনানুষ্ঠানিক শিক্ষাৰ এক প্ৰধান বৈশিষ্ট্য?",
-      optsEn: ["Rigid admission age limits", "Strict classroom-only instruction", "Flexibility in curriculum and class timing", "No predefined syllabus or goals"],
-      optsAs: ["কঠোৰ নামভৰ্তিৰ বয়সৰ সীমা", "কেৱল শ্ৰেণীকোঠাতে সীমাবদ্ধ শিক্ষা", "পাঠ্যক্ৰম আৰু শ্ৰেণীৰ সময়ত নমনীয়তা", "কোনো পূৰ্ব-নিৰ্ধাৰিত পাঠ্যক্ৰম বা লক্ষ্য নাথকে"],
-      correct: 2,
-      expEn: "Non-formal education is characterized by flexibility in terms of entry rules, class timing, curriculum design, and evaluation methods to benefit dropouts and adults.",
-      expAs: "অনানুষ্ঠানিক শিক্ষাৰ মূল বৈশিষ্ট্য হ'ল নামভৰ্তি, সময়সূচী, পাঠ্যক্ৰম আৰু মূল্যায়ন পদ্ধতিৰ নমনীয়তা।"
+        "id": 3,
+        "qEn": "Which defect of secondary education was strongly criticized by the Mudaliar Commission?",
+        "qAs": "মুদামল াৰ আয াযগ মাধ্যমমক মিক্ষাৰ ককান ত্ৰু টিয াক তীব্ৰভাযে সমাযলাচনা কমৰমছল ?",
+        "optsEn": [
+            "Excessive practical work",
+            "Bookish and examination-oriented education",
+            "Excessive sports activities",
+            "Lack of libraries"
+        ],
+        "optsAs": [
+            "অতযামধ্ক বযেৈামৰক কাম",
+            "পুমথগত আৰু পৰীক্ষাযকমিক মিক্ষা",
+            "অতযামধ্ক ক্ৰ ীডা কাযযসূচী",
+            "পুমথভঁৰালৰ অভাে"
+        ],
+        "correct": 1,
+        "expEn": "The Commission believed that education had become too book-centered and examination-driven.",
+        "expAs": "আয াগৰ মযত মিক্ষা অতযামধ্ক পুমথগত আৰু পৰীক্ষামুখী হৈ পমৰমছল।"
     },
     {
-      id: 4,
-      qEn: "In which year was the National Policy on Education (NPE) launched to introduce the 'Common Core Curriculum'?",
-      qAs: "কোন চনত উমৈহতীয়া মূল পাঠ্যক্ৰম প্ৰৱৰ্তনৰ বাবে ৰাষ্ট্ৰীয় শিক্ষানীতি (NPE) গ্ৰহণ কৰা হৈছিল?",
-      optsEn: ["1952", "1964", "1986", "1992"],
-      optsAs: ["১৯৫২", "১৯৬৪", "১৯৮৬", "১৯৯২"],
-      correct: 2,
-      expEn: "The National Policy on Education of 1986 recommended a common core curriculum to consolidate national integration.",
-      expAs: "ৰাষ্ট্ৰীয় সংহতি সুদৃঢ় কৰিবলৈ ১৯৮৬ চনৰ ৰাষ্ট্ৰীয় শিক্ষানীতিয়ে এক উমৈহতীয়া মূল পাঠ্যক্ৰমৰ চুপাৰিছ কৰিছিল।"
+        "id": 4,
+        "qEn": "According to the Mudaliar Commission, the curriculum of secondary education failed mainly because it—",
+        "qAs": "মুদামল াৰ আয াগৰ মযত মাধ্যমমক মিক্ষাৰ পাঠযক্ৰমৰ মুখয ত্ৰু টি মক আমছল ?",
+        "optsEn": [
+            "Was too vocational",
+            "Ignored individual differences and practical needs",
+            "Focused excessively on arts",
+            "Included too many co-curricular activities"
+        ],
+        "optsAs": [
+            "অতযামধ্ ক বৃমিমূলক আমছল",
+            "বযমক্তগত পাথযকয আৰু বযেৈামৰক প্ৰ য ােন উযপক্ষা কমৰমছল",
+            "কলা মবষ ত অতযামধ্ক গু ৰুত্ব মদমছল",
+            "সৈ-পাঠযক্ৰম কাযযসূচী কবমছ আমছল"
+        ],
+        "correct": 1,
+        "expEn": "The Commission felt that the curriculum did not adequately address students' varied interests, abilities and\npractical life needs.",
+        "expAs": "আয াগৰ মযত পাঠযক্ৰযম মিক্ষাথীৰ মভন্ন আগ্ৰৈ , সামথযয আৰু েীেনমুখী প্ৰ য ােনসমূৈ যযথষ্ট গু ৰুত্ব মদ া নামছল।"
     },
     {
-      id: 5,
-      qEn: "Which agency is considered an active mass medium of non-formal education?",
-      qAs: "অনানুষ্ঠানিক শিক্ষাৰ এক সক্ৰিয় গণমাধ্যম হিচাপে কোনটোক গণ্য কৰা হয়?",
-      optsEn: ["Traditional textbooks", "Educational Television (Gyan Darshan)", "Personal diaries", "Private school classrooms"],
-      optsAs: ["পৰম্পৰাগত পাঠ্যপুথি", "শৈক্ষিক দূৰদৰ্শন (জ্ঞান দৰ্শন)", "ব্যক্তিগত ডায়েৰী", "ব্যক্তিগত বিদ্যালয়ৰ শ্ৰেণীকোঠা"],
-      correct: 1,
-      expEn: "Educational Television, specifically channels like Gyan Darshan, serves as an active media agency of non-formal distance learning.",
-      expAs: "শৈক্ষিক দূৰদৰ্শন, বিশেষকৈ জ্ঞান দৰ্শনৰ দৰে চেনেলসমূহে অনানুষ্ঠানিক দূৰ শিক্ষাৰ এক সক্ৰিয় মাধ্যম হিচাপে কাম কৰে।"
+        "id": 5,
+        "qEn": "A school evaluates students only through annual written examinations. According to the Mudaliar\nCommission, what is the major drawback of this practice?",
+        "qAs": "এখন বিদ্যালয়ে কেৱল িাবষিে বলবখত পৰীক্ষাৰ জবৰ়েযত বিক্ষাৰ্থীৰ মূলযা়েন েৰা হ়ে। মুদ্াবল়োৰ আয়োগৰ মযত ই়োৰ মুখয অসুবিধা বে?",
+        "optsEn": [
+            "It increases vocational efficiency",
+            "It ignores all-round development",
+            "It promotes co-curricular activities",
+            "It improves guidance services"
+        ],
+        "optsAs": [
+            "ই িৃবিমূলে দ্ক্ষ তা িৃবি েযৰ",
+            "ই বিক্ষাৰ্থীৰ সিিাঙ্গীন বিোি উযপক্ষা েযৰ",
+            "ই সহ-পাঠ্যক্ৰম োৰ্িসূচী উন্নত েযৰ",
+            "ই বনযদ্িিনা কসৱা উন্নত েযৰ"
+        ],
+        "correct": 1,
+        "expEn": "The Commission criticized examination-centered education because it neglected students' overall\ndevelopment and practical abilities.",
+        "expAs": "আয়োযগ পৰীক্ষাযেবিে বিক্ষাৰ সমাযলাচনা েবৰবিল, োৰণ ই়োত বিক্ষাৰ্থীৰ সিিাঙ্গীন বিোি আৰু িযৱহাবৰে দ্ক্ষ তা উযপবক্ষত হহবিল।"
     }
-  ],
+],
+
+
 
   // Test Paper 2: Unit III & IV Mid-Term Review
   2: [
