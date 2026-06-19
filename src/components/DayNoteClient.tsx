@@ -21,20 +21,23 @@ interface MCQ {
 
 interface LanguageBranch {
   title: string;
-  concept: string;
-  explanation: string;
-  points: string[];
-  boardFocus: string;
-  memoryEngine: string;
-  rapidRevision: string;
-  examTip: string;
-  questions: string[];
-  mcqs: MCQ[];
+  concept?: string;
+  explanation?: string;
+  points?: string[];
+  boardFocus?: string;
+  memoryEngine?: string;
+  rapidRevision?: string;
+  examTip?: string;
+  questions?: string[];
+  mcqs?: MCQ[];
+  content?: string;
 }
 
 interface DayContent {
   english: LanguageBranch;
   assamese: LanguageBranch;
+  mcqs?: MCQ[];
+  asMcqs?: MCQ[];
 }
 
 interface DayNoteClientProps {
@@ -65,8 +68,45 @@ export default function DayNoteClient({
   const [mounted, setMounted] = useState(false);
   const [activeTab, setActiveTab] = useState("notes");
 
-  // Load appropriate language branch
-  const activeBranch = language === "en" ? dayContent.english : dayContent.assamese;
+  // Load appropriate language branch safely, parsing combined v3.0 text content fields
+  const rawBranch = language === "en" ? dayContent.english : dayContent.assamese;
+  
+  // Extract concept and explanation from content
+  const contentStr = rawBranch?.content || "";
+  const explanation = rawBranch?.explanation || contentStr.split("\n\n")[0] || "";
+  
+  let points: string[] = [];
+  const pointsHeader = language === "en" ? "Key Points:" : "মূল পইণ্টসমূহ:";
+  const pointsParts = contentStr.split(pointsHeader);
+  if (pointsParts.length > 1) {
+    const pointsBlock = pointsParts[1].split("\n\n")[0];
+    points = pointsBlock.split("\n").map(line => line.trim().replace(/^•\s*/, "")).filter(Boolean);
+  }
+  
+  let examTip = rawBranch?.examTip || "";
+  const tipHeader = language === "en" ? "Exam Tip:" : "পৰীক্ষাৰ টিপছ:";
+  const tipParts = contentStr.split(tipHeader);
+  if (tipParts.length > 1) {
+    examTip = tipParts[1].split("\n\n")[0].trim();
+  }
+  
+  let questions: string[] = [];
+  const questionsHeader = language === "en" ? "Typical Questions:" : "আৰ্হি প্ৰশ্ন:";
+  const qParts = contentStr.split(questionsHeader);
+  if (qParts.length > 1) {
+    const qBlock = qParts[1];
+    questions = qBlock.split("\n").map(line => line.trim().replace(/^- \s*/, "")).filter(Boolean);
+  }
+  
+  const activeBranch = {
+    ...rawBranch,
+    concept: rawBranch?.concept || rawBranch?.boardFocus || "",
+    explanation,
+    points,
+    examTip,
+    questions,
+    mcqs: language === "en" ? (dayContent.mcqs || []) : (dayContent.asMcqs || dayContent.mcqs || [])
+  };
 
   // Student completion state
   const [completed, setCompleted] = useState(false);

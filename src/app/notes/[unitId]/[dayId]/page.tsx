@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
 import DayNoteClient from "@/components/DayNoteClient";
+import ErrorBoundary from "@/components/ErrorBoundary";
 
 interface PageProps {
   params: {
@@ -96,16 +97,18 @@ export default function DayNote({ params }: PageProps) {
   const nextDay = dayNumber < 20 ? `day${dayNumber + 1}` : null;
 
   return (
-    <DayNoteClient
-      dayContent={dayContent}
-      unitId={unitId}
-      dayId={dayId}
-      prevDay={prevDay}
-      nextDay={nextDay}
-      dayNumber={dayNumber}
-      unitNumberKey={unitInfo.numberKey}
-      unitTitleEn={unitInfo.enTitle}
-      unitTitleAs={unitInfo.asTitle}
-    />
+    <ErrorBoundary>
+      <DayNoteClient
+        dayContent={dayContent}
+        unitId={unitId}
+        dayId={dayId}
+        prevDay={prevDay}
+        nextDay={nextDay}
+        dayNumber={dayNumber}
+        unitNumberKey={unitInfo.numberKey}
+        unitTitleEn={unitInfo.enTitle}
+        unitTitleAs={unitInfo.asTitle}
+      />
+    </ErrorBoundary>
   );
 }
