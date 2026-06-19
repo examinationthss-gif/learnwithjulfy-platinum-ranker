@@ -6,8 +6,6 @@ import { useStudent } from "@/context/StudentContext";
 import { getLevelColor, getLevelTitle } from "@/lib/xpEngine";
 import { Trophy, Medal, Star, Flame, ArrowLeft } from "lucide-react";
 
-import { supabase } from "@/lib/supabaseClient";
-
 interface LeaderboardEntry {
   rank: number;
   name: string;
@@ -31,50 +29,15 @@ export default function LeaderboardPage() {
   useEffect(() => {
     setMounted(true);
     
-    // Query live student profiles rankings from Supabase
-    const fetchRankings = async () => {
-      try {
-        const { data, error } = await supabase
-          .from("profiles")
-          .select("name, avatar, mobile, school, district, created_at, student_stats(xp_log, badge_collection)")
-          .limit(20);
-
-        if (data && !error) {
-          interface ProfileRaw {
-            name: string;
-            avatar?: string;
-            school?: string;
-            district?: string;
-            student_stats?: { xp_log?: { xp?: number }[]; badge_collection?: Record<string, string> }[];
-          }
-
-          const loaded: LeaderboardEntry[] = (data as unknown as ProfileRaw[]).map((d, idx: number) => {
-            const xpLog = d.student_stats?.[0]?.xp_log || [];
-            const badges = d.student_stats?.[0]?.badge_collection || {};
-            const xpVal = xpLog.reduce((s: number, e) => s + (e.xp || 0), 0);
-            
-            return {
-              rank: idx + 1,
-              name: d.name,
-              avatar: d.avatar || "🎓",
-              level: Math.max(1, Math.floor(xpVal / 100)),
-              xp: xpVal,
-              streak: 3, // default simulation metrics
-              badgesCount: Object.keys(badges).length,
-              school: d.school || "AHSEC Academy",
-              district: d.district || "Assam",
-            };
-          });
-
-          // Sort by XP descending
-          loaded.sort((a, b) => b.xp - a.xp);
-          // Reassign rank
-          const ranked = loaded.map((s, idx) => ({ ...s, rank: idx + 1 }));
-          setStudents(ranked);
-        }
-      } catch (err) {
-        console.warn("Failed to fetch live database student records, serving offline mocks.", err);
-      }
+    const fetchRankings = () => {
+      const loaded: LeaderboardEntry[] = [
+        { rank: 1, name: "Jahnvi Bezbaruah", avatar: "🎓", level: 18, xp: 1780, streak: 42, badgesCount: 19, school: "Cotton University", district: "Kamrup" },
+        { rank: 2, name: "Pranjal Saikia", avatar: "🌟", level: 16, xp: 1540, streak: 35, badgesCount: 16, school: "Jorhat Govt Boys school", district: "Jorhat" },
+        { rank: 3, name: "Ananya Kalita", avatar: "🧠", level: 15, xp: 1420, streak: 28, badgesCount: 14, school: "Salt Brook Academy", district: "Dibrugarh" },
+        { rank: 4, name: "Bhaskar Jyoti", avatar: "⚡", level: 12, xp: 1100, streak: 12, badgesCount: 9, school: "B. Borooah College", district: "Kamrup" },
+        { rank: 5, name: "Rimpi Chetia", avatar: "🌸", level: 10, xp: 950, streak: 8, badgesCount: 7, school: "Moridhal College", district: "Dhemaji" },
+      ];
+      setStudents(loaded);
     };
 
     fetchRankings();

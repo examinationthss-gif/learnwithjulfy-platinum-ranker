@@ -2,23 +2,20 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
 import { Sun, Moon, Menu, X, GraduationCap, Languages, Search, Zap } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { useStudent } from "@/context/StudentContext";
-import { useAuth } from "@/context/AuthContext";
 import { getLevelColor } from "@/lib/xpEngine";
 import { awardBadge, hasBadge } from "@/lib/localStorage";
 import GlobalSearch from "@/components/GlobalSearch";
 
 export default function Navbar() {
   const pathname = usePathname();
-  const router = useRouter();
   const { theme, setTheme } = useTheme();
   const { language, setLanguage, t } = useLanguage();
   const { profile, level, levelProgress, totalXP, checkAndAwardBadges, refreshStats } = useStudent();
-  const { user, signOut } = useAuth();
 
   const [mounted, setMounted] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -64,10 +61,6 @@ export default function Navbar() {
     { name: t("mcqBank"), href: "/mcq" },
     { name: t("videoClasses"), href: "/videos" },
     { name: t("tests"), href: "/tests" },
-    ...(hasProfile ? [
-      { name: "Dashboard", href: "/dashboard" },
-      { name: "Leaderboard", href: "/leaderboard" }
-    ] : []),
     { name: t("about"), href: "/about" },
   ];
 
@@ -148,33 +141,6 @@ export default function Navbar() {
                 </div>
               </Link>
             )}
-
-             {/* Authentication CTA Widget */}
-             {mounted && (
-               user ? (
-                 <button
-                   onClick={() => signOut().then(() => router.replace("/"))}
-                   className="hidden sm:flex items-center gap-1 bg-red-600 hover:bg-red-700 text-white text-xs font-bold px-3 py-2 rounded-lg transition-colors"
-                 >
-                   Sign Out
-                 </button>
-               ) : (
-                 <div className="hidden sm:flex items-center gap-1.5">
-                   <Link
-                     href="/login"
-                     className="flex items-center gap-1 rounded-lg border border-border bg-muted/40 text-foreground hover:bg-muted text-xs font-bold px-3 py-2 transition-colors"
-                   >
-                     Login
-                   </Link>
-                   <Link
-                     href="/signup"
-                     className="flex items-center gap-1 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold px-3 py-2 transition-colors"
-                   >
-                     Register
-                   </Link>
-                 </div>
-               )
-             )}
 
             {/* Language Toggle */}
             {mounted && (

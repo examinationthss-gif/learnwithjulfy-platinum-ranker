@@ -29,8 +29,6 @@ import {
 import { XP_RULES, getLevel, getLevelProgress } from "@/lib/xpEngine";
 import { Badge, BADGE_MAP } from "@/lib/badgeEngine";
 
-import { useAuth } from "./AuthContext";
-
 interface StudentState {
   profile: StudentProfile | null;
   totalXP: number;
@@ -84,7 +82,7 @@ function loadState(): StudentState {
 }
 
 export function StudentProvider({ children }: { children: React.ReactNode }) {
-  const { user, syncLocalToCloud } = useAuth();
+  const syncLocalToCloud = useCallback(() => {}, []);
   const [state, setState] = useState<StudentState>(() => ({
     profile: null,
     totalXP: 0,
@@ -131,16 +129,14 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const createProfile = useCallback((name: string, avatar: string) => {
-    // Attempt to pull mobile, school, and district metadata from Supabase user session data
-    const meta = user?.user_metadata || {};
     const profile: StudentProfile = {
       name,
       avatar,
       joinDate: new Date().toISOString(),
       hasOnboarded: true,
-      mobile: meta.mobile || "",
-      school: meta.school || "",
-      district: meta.district || "",
+      mobile: "",
+      school: "",
+      district: "",
     };
     setStudentProfile(profile);
     markTodayActive();
@@ -149,7 +145,7 @@ export function StudentProvider({ children }: { children: React.ReactNode }) {
     if (lang === "as") awardBadge("bilingual_scholar");
     refreshStats();
     syncLocalToCloud();
-  }, [refreshStats, syncLocalToCloud, user]);
+  }, [refreshStats, syncLocalToCloud]);
 
   const awardXP = useCallback((action: keyof typeof XP_RULES, meta?: string) => {
     const xp = XP_RULES[action];

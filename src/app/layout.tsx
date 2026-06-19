@@ -51,8 +51,6 @@ export const metadata: Metadata = {
   },
 };
 
-import { AuthProvider } from "@/context/AuthContext";
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -70,14 +68,12 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <LanguageProvider>
-            <AuthProvider>
-              <StudentProvider>
-                <Navbar />
-                <main className="flex-grow">{children}</main>
-                <Footer />
-                <BadgeToast />
-              </StudentProvider>
-            </AuthProvider>
+            <StudentProvider>
+              <Navbar />
+              <main className="flex-grow">{children}</main>
+              <Footer />
+              <BadgeToast />
+            </StudentProvider>
           </LanguageProvider>
         </ThemeProvider>
       </body>
